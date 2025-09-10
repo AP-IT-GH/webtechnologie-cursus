@@ -11,7 +11,7 @@
   * [4. Contact page](projectopdracht/deelopdracht-4-contact-page.md)
   * [5. Winkelmandje & wishlist](projectopdracht/deelopdracht-5-winkelmandje-wishlist.md)
   * [6. Dynamische content](projectopdracht/deelopdracht-6-dynamische-content.md)
-* Oefeningen
+* Labo's
   * [Hoe begin je aan de labo's](labo-howto.md)
   * [Labo 1](oefeningen/labo1/oefeningen.md)
   * [Labo 2](oefeningen/labo2/oefeningen.md)
@@ -84,19 +84,16 @@
   * [transities](css/animaties/transities.md)
 * [Extra's](css/intro-4/README.md)
   * [reset.css](css/intro-4/reset/README.md)
-    * [oefening](css/intro-4/reset/oefening.md)
   * [variabelen](css/intro-4/variabelen.md)
   * [BEM-notatie](css/intro-4/bem.md)
   * [preprocessors](css/intro-4/preprocessors.md)
   * [frameworks](css/intro-4/frameworks.md)
+  * [serverbeheer](serverbeheer/intro/README.md)
+    * [bestandstructuur](serverbeheer/intro/bestanden.md)
+    * [FTP](serverbeheer/intro/ftp.md)
+    * [SSH](serverbeheer/intro/ssh.md)
+    * [devcontainers](serverbeheer/intro/devcontainers.md)
 
-## Serverbeheer
-
-* [serverbeheer](serverbeheer/intro/README.md)
-  * [bestandstructuur](serverbeheer/intro/bestanden.md)
-  * [FTP](serverbeheer/intro/ftp.md)
-  * [SSH](serverbeheer/intro/ssh.md)
-  * [devcontainers](serverbeheer/intro/devcontainers.md)
 
 ## JavaScript
 
@@ -140,18 +137,15 @@
   * [objecten en functies](javascript/objecten/objecten-en-functies.md)
   * [JSON](javascript/objecten/json.md)
   * [JSON en arrays](javascript/objecten/json-en-arrays.md)
-
-## asynchroon programmeren
-
 * [Callbacks](asynchroon-programmeren/callbacks/README.md)
-  * [array functies](asynchroon-programmeren/callbacks/array-functies.md)
+    * [array functies](asynchroon-programmeren/callbacks/array-functies.md)
 * [Promises](asynchroon-programmeren/promises/README.md)
-  * [async/await](asynchroon-programmeren/promises/async-await.md)
+    * [async/await](asynchroon-programmeren/promises/async-await.md)
 * [HTTP request methoden](asynchroon-programmeren/intro/README.md)
-  * [POST](asynchroon-programmeren/intro/post.md)
-  * [GET](asynchroon-programmeren/intro/get.md)
+    * [POST](asynchroon-programmeren/intro/post.md)
+    * [GET](asynchroon-programmeren/intro/get.md)
 * [API's](asynchroon-programmeren/wat-is-een-api/README.md)
-  * [wat is een API](asynchroon-programmeren/wat-is-een-api/README.md)
-  * [Postman](asynchroon-programmeren/wat-is-een-api/postman.md)
-  * [API aanroepen](asynchroon-programmeren/wat-is-een-api/api-aanroepen.md)
+    * [wat is een API](asynchroon-programmeren/wat-is-een-api/README.md)
+    * [Postman](asynchroon-programmeren/wat-is-een-api/postman.md)
+    * [API aanroepen](asynchroon-programmeren/wat-is-een-api/api-aanroepen.md)
 * [bronnen](asynchroon-programmeren/bronnen.md)
