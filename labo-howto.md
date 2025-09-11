@@ -2,13 +2,7 @@
 
 ## Stap 1: Start via GitHub Classroom
 Voor elk labo krijg je een **GitHub Classroom-link**. Deze zijn terug te vinden in de labo-pagina's (bv. [Labo 1](oefeningen/labo1/oefeningen.md), [Labo 2](oefeningen/labo2/oefeningen.md), ...).
-Klik op de link van het labo dat je wil starten. Hiermee maak je een **eigen repository** aan met daarin de startbestanden van het labo.
-
-👉 Deze repo is **privé**: enkel jij en de lectoren hebben toegang.  
-👉 We hebben de repo al **voorbereid met startbestanden**, zodat jij meteen kan beginnen.
-
-Klik op de link en volg de stappen om je repo aan te maken.  
-Na afloop krijg je een scherm zoals hieronder:
+Klik op de link van het labo dat je wil starten. Hiermee maak je een **eigen repository** aan met daarin de opgaven en startbestanden van de oefeningen van het labo. Deze repo is **privé**: enkel jij en de lectoren hebben toegang.
 
 ![GitHub Classroom](./.gitbook/assets/gh-classroom.png)  
 *GitHub Classroom nadat je jouw repo hebt aangemaakt. Kopieer de URL om jouw repository te clonen.*
