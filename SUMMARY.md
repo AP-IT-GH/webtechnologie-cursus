@@ -8,9 +8,9 @@
   * [1. Concept & content](projectopdracht/deelopdracht-1-concept-content.md)
   * [2. Development mobiele website met HTML en CSS](projectopdracht/deelopdracht-2-opbouw-html-css.md)
   * [3. Development responsive webshop](projectopdracht/deelopdracht-3-development-responsive.md)
-  * [4. Contact page](projectopdracht/deelopdracht-4-contact-page.md)
+  * [4. Contact page](projectopdracht/deelopdracht-4-contact-page-formulier.md)
   * [5. Winkelmandje & wishlist](projectopdracht/deelopdracht-5-winkelmandje-wishlist.md)
-  * [6. Dynamische content](projectopdracht/deelopdracht-6-dynamische-content.md)
+  * [6. Dynamische content](projectopdracht/deelopdracht-7-dynamische-content.md)
 * Labo's
   * [Hoe begin je aan de labo's](labo-howto.md)
   * [Labo 1](oefeningen/labo1/oefeningen.md)

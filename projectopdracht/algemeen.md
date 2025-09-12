@@ -4,24 +4,24 @@
 
 ## Algemene Info
 
-Je opdracht bestaat uit het maken van een **fictieve webshop** met minstens 6 producten of diensten die binnen jouw interesseveld vallen. De webshop moet worden geschreven in **HTML5**, **CSS3** en **JavaScript**.
+Je opdracht bestaat uit het maken van een (fictieve) webshop met minstens 6 producten of diensten die binnen jouw interesseveld vallen. De webshop moet worden geschreven in **HTML5**, **CSS3** en **JavaScript**.
 
 De opdracht is opgedeeld in **6 deelopdrachten**:
 
 1. [Concept & content](deelopdracht-1-concept-content.md)
 2. [Development mobiele website met HTML en CSS](./deelopdracht-2-opbouw-html-css.md)
 3. [Development responsive webshop](./deelopdracht-3-development-responsive.md)
-4. [Contact page (met Leaflet en formulier)](./deelopdracht-4-contact-page.md)
+4. [Contact page formulier](deelopdracht-4-contact-page-formulier.md)
 5. [Winkelmandje & wishlist](./deelopdracht-5-winkelmandje-wishlist.md)
-6. [Dynamische content](./deelopdracht-6-dynamische-content.md)
+6. [Contact page kaartje]()
+7. [Dynamische content](deelopdracht-7-dynamische-content.md)
 
-Tijdens de laatste 2 labo's kom je je webshop die je doorheen het semester gebouwd hebt presenteren voor de klas. Deelopdracht 6 is dus je finale inzending.
 
-## Inzending via Digitap
+## Planning
+Na deelopdracht 2 en deelopdracht 5 krijg je feedback van de lector. Je kan deze feedback gebruiken om je webshop te verbeteren voor de volgende deelopdracht. 
+Om je webshop te laten beoordelen, moet je alle deelopdrachten indienen via DigitAP.
 
-Vòòr het verstrijken van iedere deadline lever je elke deelopdracht in via Digitap onder het hoofdstuk projectopdracht. Voor deadlines: check Digitap.
-
-![digitap-projectopdracht.png](../.gitbook/assets/digitap-projectopdracht.png)
+Tijdens de laatste week van het semester kom je je webshop presenteren. Je zal hier ook technische vragen moeten beantwoorden. Deelopdracht 6 is je finale inzending.
 
 ## Wireframes
 
@@ -40,7 +40,7 @@ Bekijk de wireframes steeds op Figma, gezien ze nog geüpdatet kunnen worden doo
 
 We werken volgens het **mobile-first** principe. Dit betekent dat je de website in eerste instantie optimaliseert voor **smartphones**. In een latere fase (deelopdracht 3) zal je ook optimalisaties toevoegen voor **tablets, laptops en desktops**.
 
-## Copywriting Tips
+## Copywriting
 
 - Alle teksten voor je webshop moeten **in het Nederlands** worden geschreven.
 - Vermijd schrijffouten. Gebruik spellingscorrectie.
@@ -49,7 +49,7 @@ We werken volgens het **mobile-first** principe. Dit betekent dat je de website 
 - Houdt teksten beknopt en helder.
 - Laat je tekst op het laatste eens nalezen door een andere persoon.
 
-## Afbeelding Tips
+## Afbeeldingen
 
 ### Rechtenvrije Afbeeldingen
 
@@ -63,7 +63,7 @@ We werken volgens het **mobile-first** principe. Dit betekent dat je de website 
 
 ### Bronvermelding
 
-- Voeg altijd een **bronvermelding** toe bij rechtenvrije afbeeldingen, bijvoorbeeld in de `figcaption` van de afbeelding. Dit is een vriendelijke geste naar de fotograaf en maakt het gemakkelijk voor de lectoren om de bron te verifiëren.
+- **Voeg altijd een bronvermelding toe** bij rechtenvrije afbeeldingen in de `figcaption` van de afbeelding. Dit is een vriendelijke geste naar de fotograaf en maakt het gemakkelijk voor de lectoren om de bron te verifiëren, en stelt ons in staat om te controleren waar jij je afbeeldingen vandaan hebt gehaald.
 - Zorg ervoor dat elke afbeelding een **duidelijke bestandsnaam** heeft, bijv. `product-zaadjes-lavendel.jpg`.
 - Zorg voor een goede organisatie van foto's in een mappenstructuur.
 
@@ -71,6 +71,7 @@ We werken volgens het **mobile-first** principe. Dit betekent dat je de website 
 
 - Gebruik gratis tools zoals:
 
+  - [⭐️ Photopea](https://www.photopea.com/)
   - [Canva](https://www.canva.com/nl_nl/)
   - [Adobe Express](https://www.adobe.com/express/feature/image/resize)
   - [Imagy.app](https://imagy.app/)

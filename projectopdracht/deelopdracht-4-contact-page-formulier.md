@@ -1,4 +1,4 @@
-# Deelopdracht 4 - Contact page
+# Deelopdracht 4 - Contact page formulier
 
 Tot nu toe hebben we de contactpagina leeg gelaten omdat we nog niet voldoende leerstof gezien hadden om deze te kunnen bouwen.
 Intussen hebben jullie alle tools in handen om de contactpagina responsive uit te werken.
@@ -23,7 +23,4 @@ Zorg dat elke input voorzien wordt van een label, en zorg dat de labels op een g
 
 ## Kaart
 
-Om het gebruikers gemakkelijk te maken om de fysieke locatie van onze shop te vinden gaan we ook een kaartje insluiten. We gebruiken daarvoor Leaflet.
-Het kaartje moet aan de volgende zaken voldoen:
-- Minstens 2 locatie pointers op 2 fictieve locaties naar keuze
-- Een locatie pointer in de vorm van je webshop logo
+Tijdens deelopdracht 6 gaan we een kaart toevoegen aan de contactpagina met de locatie van het bedrijf. Voor nu kan je een afbeelding of gekleurde div gebruiken als tijdelijke oplossing.
