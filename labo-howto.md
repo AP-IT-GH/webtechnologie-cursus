@@ -11,7 +11,7 @@ Klik op de link van het labo dat je wil starten. Aanvaard de opdracht voor dat l
 
 ## Stap 2: IDE in orde brengen (éénmalig)
 - Installeer **Visual Studio Code** en de nodige extensies (zie hoofdstuk [IDE](/ide.md)).
-- Maak op je computer een mapje (bv. `webtechnologie`).
+- Maak op je computer een mapje voor het vak (bv. `webtechnologie`).
 ---
 
 ## Stap 3: Git installeren (éénmalig)
@@ -45,7 +45,7 @@ Hiervoor doe je het volgende:
 
 ## Stap 5: Je repository clonen 
 
-- Ga in Git Bash naar een mapje specifiek voor Webtechnologie. Je kan dit bijvoorbeeld als volgt doen: `cd ~; mkdir Webtechnologie; cd Webtechnologie`. Zo komt ze in je gebruikersmap. Indien je wenst, kan je achteraf deze map nog verplaatsen. Je hoeft `mkdir` niet elke keer uit te voeren, je moet de map `Webtechnologie` maar één keer maken.
+- Ga in Git Bash naar je mapje voor het vak Webtechnologie. Je kan dit bijvoorbeeld doen door in je Windows Verkenner in dat mapje te gaan staan en in de witruimte naast de adresbalk te klikken. Kopieer dan die tekst. Dat zal dan bijvoorbeeld "C:/Users/mijnnaam/School/2025-2026/Webtechnologie" zijn (afhankelijk van waar je het gezet hebt). Typ in Git bash de letters `cd` gevolgd door wat je gekopieerd hebt, tussen aanhalingstekens. Bijvoorbeeld `cd "C:/Users/mijnnaam/School/2025-2026/Webtechnologie"`. Duw op Enter.
 - Bezoek nu je Github Classroom link
 - Je zal iets zien zoals dit: ![je repository](./.gitbook/assets/je-repository.png)
 - Klik op de groene knop "Code", let erop dat de optie "SSH" aangeduid is en kopieer dan via de knop de URI: ![knop om te clonen](./.gitbook/assets/clonen-met-ssh.png)
