@@ -96,6 +96,5 @@ Je mag ook altijd zelf bonusfunctionaliteit verzinnen!
 
 ## Tips
 
-- Zet je project op GitHub als je dat nog niet gedaan hebt. Zo kun je terugkeren naar eerdere versies als het fout loopt.
 - Zorg dat je project **werkt** bij het indienen. Een stabiel werkend project is beter dan een project met veel features dat crasht.
 - Dien je project **tijdig** in. Je zal het eindresultaat moeten presenteren op het einde van het semester.

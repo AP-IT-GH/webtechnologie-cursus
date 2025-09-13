@@ -4,40 +4,22 @@
 
 ## Algemene Info
 
-Je opdracht bestaat uit het maken van een (fictieve) webshop met minstens 6 producten of diensten die binnen jouw interesseveld vallen. De webshop moet worden geschreven in **HTML5**, **CSS3** en **JavaScript**.
+Op deze pagina vind je alle informatie over de projectopdracht die je gedurende het semester zal uitvoeren. De projectopdracht bestaat uit verschillende deelopdrachten die je stap voor stap zal uitvoeren.
+Je zal een volledige, responsieve webshop bouwen voor een fictief bedrijf. De webshop zal verschillende pagina's bevatten, waaronder een homepage, productpagina's, een contactpagina, en een werkend winkelmandje.
 
-De opdracht is opgedeeld in **6 deelopdrachten**:
+## Deelopdrachten
+
+De projectopdracht is opgedeeld in **7 deelopdrachten**:
 
 1. [Concept & content](deelopdracht-1-concept-content.md)
 2. [Development mobiele website met HTML en CSS](./deelopdracht-2-opbouw-html-css.md)
 3. [Development responsive webshop](./deelopdracht-3-development-responsive.md)
 4. [Contact page formulier](deelopdracht-4-contact-page-formulier.md)
 5. [Winkelmandje & wishlist](./deelopdracht-5-winkelmandje-wishlist.md)
-6. [Contact page kaartje]()
+6. [Contact page kaartje](deelopdracht-6-contact-page-kaart.md)
 7. [Dynamische content](deelopdracht-7-dynamische-content.md)
 
-
-## Feedback
-
-Na **deelopdracht 3** en **deelopdracht 5** kun je feedback krijgen van de lector op voorwaarde dat je je werk tijdig indient via Digitap. De deadlines voor deze deelopdrachten vind je in de [planning](./algemeen.md#planning).
-
-
-## Planning
-
-| Deelopdracht | Leerstof week | Deadline               | Tussentijdse feedback mogelijk? | Indienen via Digitap? |
-|--------------|------------|------------------------|---------------------------------|-----------------------|
-| 1. Concept & content | LW1 | 21/09/2025 (suggestie) | ❌                               | ❌                     |
-| 2. Development mobiele website met HTML en CSS | LW2        | 5/10/2025 (suggestie)  | ❌                               | ❌                     |
-| 3. Development responsive webshop | LW4        | 19/10/2025             | ✅                               | ✅                     |
-| 4. Contact page formulier | LW5        | 26/10/2025 (suggestie) | ❌                               | ❌                     |
-| 5. Winkelmandje & wishlist | LW9        | 30/11/2025             | ✅                               | ✅                     |
-| 6. Contact page kaartje | LW10       | 7/12/2025 (suggestie)  | ❌                               | ❌                     |
-| 7. Dynamische content (finale) | LW11       | 14/12/2025             | ❌                               | ✅                     |
-
-
-## Presentatie en verdediging
-
-Tijdens de laatste week van het semester kom je je webshop presenteren. Je zal hier ook technische vragen moeten beantwoorden. Deelopdracht 7 is je finale inzending. Zorg dat je deze inzending zeker niet mist! Geen inzending = geen punten.
+Elke deelopdracht bouwt voort op de vorige. Zorg ervoor dat je elke deelopdracht grondig doorneemt en uitvoert.
 
 ## Wireframes
 

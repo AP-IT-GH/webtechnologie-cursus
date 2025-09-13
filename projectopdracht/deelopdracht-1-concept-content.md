@@ -13,7 +13,7 @@ Kies een onderwerp dat jou interesseert en waar je voldoende over kunt vertellen
 - **Verzin een naam** voor je webshop.
 - Schrijf een **beknopte, wervende omschrijving** van je webshop. Deze tekst moet bezoekers informeren over het doel van je website en hen overtuigen om bij jou iets te kopen.
 
-> **Tip:** Dit is je kans om echt creatief te zijn! Zorg ervoor dat je omschrijving de toon en sfeer van je webshop goed weergeeft.
+> **Tip:** Dit is je kans om creatief te zijn! Zorg ervoor dat je omschrijving de toon en sfeer van je webshop goed weergeeft.
 
 De tekst die je schrijft, zal later op de **homepage** van je webshop worden geplaatst.
 
@@ -95,13 +95,15 @@ Wil je werken met een tweede lettertype (bijvoorbeeld voor een ondertiteltje)? Z
 
 ## Deliverables
 
-Je moet deze deelopdracht uploaden naar **Digitap**. Zorg ervoor dat je de volgende bestanden verzamelt en deze samenvoegt in één zip-bestand voordat je het uploadt:
+Je moet deze deelopdracht plaatsen in je **GitHub Classroom repository**. Zorg ervoor dat je de volgende bestanden en mappen opneemt en correct structureert:
 
-- Een document (**.md** of **.docx** bestand) met de volgende secties:
-  - Situering - de omschrijving van je webshop
-  - Producten - beschrijvingen van de producten of diensten + bronvermelding
-  - Auteur - een korte professionele bio
-  - Styleguide - de kleuren en het lettertype dat je gekozen hebt
-- Een **folder** genaamd "assets", met daarin je bijgesneden productafbeeldingen
-- Een **logo** voor je webshop.
-- Een **professionele foto van jezelf** voor op de homepage.
+- Een markdown document met de volgende secties:
+    - **Situering** – de omschrijving van je webshop
+    - **Producten** – beschrijvingen van de producten of diensten + bronvermelding
+    - **Auteur** – een korte professionele bio
+    - **Styleguide** – het gekozen kleurenpalet en lettertype
+- Een **map** genaamd `assets/` met daarin de bijgesneden productafbeeldingen
+- Een **logo** voor je webshop
+- Een **professionele foto van jezelf** (voor op de homepage)
+
+---

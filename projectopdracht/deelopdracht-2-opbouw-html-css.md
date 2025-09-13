@@ -58,7 +58,7 @@ Elke pagina moet de volgende elementen bevatten, die op elke pagina hetzelfde zi
 
 \* negeer het inputveldje in de navigatie, deze maakt deel uit van deelopdracht 4. 
 
-Volg hierbij het ontwerp op Figma, maar pas deze aan aan jou eigen styleguide uit deelopdracht 1.
+Volg hierbij het ontwerp op Figma, maar pas deze aan aan jouw eigen styleguide uit deelopdracht 1.
 
 > **TIP**: 
 > - Bouw de algemene features eerst op één pagina (bijvoorbeeld `index.html`). Wanneer deze klaar zijn kopieer je de HTML naar de andere .html-bestanden. Door `general.css` in elk .html-bestanden te linken, zal de styling overal hetzelfde zijn, wat veel tijd bespaart en zorgt voor uniformiteit.
