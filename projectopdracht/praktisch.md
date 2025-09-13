@@ -1,14 +1,12 @@
 # Projectopdracht: practische info
 
-
-
 ## Feedback momenten
 
 Je kan tussentijdse feedback krijgen van de lector na:
 
-* Deelopdracht 3
+* Deelopdracht 3: volledige responsive webshop
 
-* Deelopdracht 5
+* Deelopdracht 5: winkelmandje & wishlist
 
 Voorwaarde: je moet je werk tijdig indienen via Digitap.
 
@@ -29,4 +27,8 @@ Voorwaarde: je moet je werk tijdig indienen via Digitap.
 
 ## Presentatie en verdediging
 
-Na je finale inzending kom je tijdens de laatste week van het semester je webshop presenteren. Na je presentatie zul je ook technische vragen over je werk moeten beantwoorden. Deelopdracht 7 vormt je finale inzending. Zorg dat je deze inzending zeker niet mist! 
+Na je finale inzending kom je tijdens de laatste week van het semester je webshop presenteren. Na je presentatie zul je ook technische vragen over je werk moeten beantwoorden. Deelopdracht 7 vormt je finale inzending. Zorg dat je deze inzending zeker niet mist!
+
+## Github Classroom
+
+Je voert je projectopdracht uit in een repository die je aanmaakt via [deze Github Classroom](https://classroom.github.com/a/sHB9sPmb). Je kan de repository aanmaken en commits pushen tot en met 14 december 2025 16u. Daarna wordt de repository afgesloten en kan je geen wijzigingen meer aanbrengen.
