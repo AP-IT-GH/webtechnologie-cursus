@@ -10,7 +10,7 @@ Baseer je op de designs (aangepast aan jouw eigen huisstijl) in de Figma Communi
 
 ## Formulier
 
-We gaan een contactformulier toevoegen aan de contact pagina zodat klanten eenvoudig contact kunnen opnemen.
+We gaan een contactformulier toevoegen aan de contactpagina zodat klanten eenvoudig contact kunnen opnemen.
 
 Bouw een formulier dat **minstens** de volgende elementen bevat:
 - Naam van de verzender

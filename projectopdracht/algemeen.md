@@ -17,11 +17,27 @@ De opdracht is opgedeeld in **6 deelopdrachten**:
 7. [Dynamische content](deelopdracht-7-dynamische-content.md)
 
 
-## Planning
-Na deelopdracht 2 en deelopdracht 5 krijg je feedback van de lector. Je kan deze feedback gebruiken om je webshop te verbeteren voor de volgende deelopdracht. 
-Om je webshop te laten beoordelen, moet je alle deelopdrachten indienen via DigitAP.
+## Feedback
 
-Tijdens de laatste week van het semester kom je je webshop presenteren. Je zal hier ook technische vragen moeten beantwoorden. Deelopdracht 6 is je finale inzending.
+Na **deelopdracht 3** en **deelopdracht 5** kun je feedback krijgen van de lector op voorwaarde dat je je werk tijdig indient via Digitap. De deadlines voor deze deelopdrachten vind je in de [planning](./algemeen.md#planning).
+
+
+## Planning
+
+| Deelopdracht | Leerstof week | Deadline               | Tussentijdse feedback mogelijk? | Indienen via Digitap? |
+|--------------|------------|------------------------|---------------------------------|-----------------------|
+| 1. Concept & content | LW1 | 21/09/2025 (suggestie) | ❌                               | ❌                     |
+| 2. Development mobiele website met HTML en CSS | LW2        | 5/10/2025 (suggestie)  | ❌                               | ❌                     |
+| 3. Development responsive webshop | LW4        | 19/10/2025             | ✅                               | ✅                     |
+| 4. Contact page formulier | LW5        | 26/10/2025 (suggestie) | ❌                               | ❌                     |
+| 5. Winkelmandje & wishlist | LW9        | 30/11/2025             | ✅                               | ✅                     |
+| 6. Contact page kaartje | LW10       | 7/12/2025 (suggestie)  | ❌                               | ❌                     |
+| 7. Dynamische content (finale) | LW11       | 14/12/2025             | ❌                               | ✅                     |
+
+
+## Presentatie en verdediging
+
+Tijdens de laatste week van het semester kom je je webshop presenteren. Je zal hier ook technische vragen moeten beantwoorden. Deelopdracht 7 is je finale inzending. Zorg dat je deze inzending zeker niet mist! Geen inzending = geen punten.
 
 ## Wireframes
 
@@ -34,7 +50,7 @@ De wireframes van de webshop zijn terug te vinden op [deze Figma Community Page]
   - Desktop
   - ~~Components~~ (enkel nuttig voor de ontwerper aka. de lector)
 
-Bekijk de wireframes steeds op Figma, gezien ze nog geüpdatet kunnen worden doorheen het semester.
+Bekijk de wireframes steeds op Figma, gezien ze nog geüpdatet kunnen worden doorheen het semester. De wireframes zijn een hulpmiddel, geen strikte regel. De geschreven opdracht in dit document is steeds leidend.
 
 ## Mobile-First
 
