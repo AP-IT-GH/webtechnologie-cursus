@@ -6,12 +6,19 @@ Voorbeelden van block-elementen:
 
 * `<p>`
 * `<h1>`
+* `<div>`
+* `<section>`
+* `<article>`
 
 Voorbeelden van inline-elementen:
 
 * `<a>`
 * `<img>`
 * `<input>`
+* `<span>`
+* `<strong>`
+* `<em>`
+* `<br>`
 
 ## elementen in blok groeperen
 
