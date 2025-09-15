@@ -17,3 +17,5 @@
 ## GitHub Classroom link
 
 * [Labo 1](https://classroom.github.com/a/djenOf3r)
+
+Labo 1 alternatief: https://classroom.github.com/a/ojqVbAyw
