@@ -48,6 +48,10 @@ Installeer de Prettier-extensie in VS Code.
 ### **HTMLHint: fouten in html zichtbaar maken**
 * Installeer de HTMLHint extensie VS Code om fouten in HTML zichtbaar te maken.
 
+### **Github Pull Requests: git commando's uitvoeren vanuit VSCode**
+* Installeer de GitHub Pull Requests extensie in VS Code.
+* Log in met je GitHub-account (klik op het account-icoontje links onderaan boven het tandwiel en kies "Sign in with Github to use GitHub Pull Requests").
+
 ## 4. **Configuratie VSCode**
 
 * Druk op `Ctrl+Shift+P` (of `Cmd+Shift+P` op macOS) om het Command Palette te openen.
