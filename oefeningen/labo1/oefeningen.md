@@ -9,6 +9,7 @@
 * [elementen](https://apwt.gitbook.io/webtechnologie/html/intro/elementen)
 * [block vs. inline](https://apwt.gitbook.io/webtechnologie/html/intro/block-vs-inline)
 * [semantiek](https://apwt.gitbook.io/webtechnologie/html/intro/semantiek)
+* [teksten](https://apwt.gitbook.io/webtechnologie/html/intro-1)
 
 ## Aanvullende bronnen
 

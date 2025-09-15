@@ -2,7 +2,6 @@
 
 ## HTML basis
 
-* [Teksten](https://apwt.gitbook.io/webtechnologie/html/intro-1)
 * [Verwijzingen](https://apwt.gitbook.io/webtechnologie/html/intro-1/verwijzingen)
 * [Lijsten](https://apwt.gitbook.io/webtechnologie/html/intro-1/lijsten)
 * [Speciale tekens](https://apwt.gitbook.io/webtechnologie/html/intro-1/speciale-tekens)
