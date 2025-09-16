@@ -63,7 +63,8 @@ Installeer de Prettier-extensie in VS Code.
 {
   "files.autoSave": "afterDelay",
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "explorer.compactFolders": false
 }
 ```
 
