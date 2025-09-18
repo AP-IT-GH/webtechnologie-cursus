@@ -1,3 +1,7 @@
+---
+icon: js
+---
+
 # Labo 17
 
 ## Herhaling - geïntegreerde oefening

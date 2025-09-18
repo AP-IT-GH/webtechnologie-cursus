@@ -13,7 +13,7 @@
   * [5. Winkelmandje & wishlist](projectopdracht/deelopdracht-5-winkelmandje-wishlist.md)
   * [6. Contact page - kaartje](projectopdracht/deelopdracht-6-contact-page-kaart.md)
   * [7. Dynamische content](projectopdracht/deelopdracht-7-dynamische-content.md)
-* Labo's
+* [Labo's](labos/README.md)
   * [Hoe begin je aan de labo's](labo-howto.md)
   * [Labo 1](oefeningen/labo1/oefeningen.md)
   * [Labo 2](oefeningen/labo2/oefeningen.md)
@@ -96,7 +96,6 @@
     * [SSH](serverbeheer/intro/ssh.md)
     * [devcontainers](serverbeheer/intro/devcontainers.md)
 
-
 ## JavaScript
 
 * [Wat is JavaScript](javascript/wat-is-js/README.md)
@@ -140,14 +139,14 @@
   * [JSON](javascript/objecten/json.md)
   * [JSON en arrays](javascript/objecten/json-en-arrays.md)
 * [Callbacks](asynchroon-programmeren/callbacks/README.md)
-    * [array functies](asynchroon-programmeren/callbacks/array-functies.md)
+  * [array functies](asynchroon-programmeren/callbacks/array-functies.md)
 * [Promises](asynchroon-programmeren/promises/README.md)
-    * [async/await](asynchroon-programmeren/promises/async-await.md)
+  * [async/await](asynchroon-programmeren/promises/async-await.md)
 * [HTTP request methoden](asynchroon-programmeren/intro/README.md)
-    * [POST](asynchroon-programmeren/intro/post.md)
-    * [GET](asynchroon-programmeren/intro/get.md)
+  * [POST](asynchroon-programmeren/intro/post.md)
+  * [GET](asynchroon-programmeren/intro/get.md)
 * [API's](asynchroon-programmeren/wat-is-een-api/README.md)
-    * [wat is een API](asynchroon-programmeren/wat-is-een-api/README.md)
-    * [Postman](asynchroon-programmeren/wat-is-een-api/postman.md)
-    * [API aanroepen](asynchroon-programmeren/wat-is-een-api/api-aanroepen.md)
+  * [wat is een API](asynchroon-programmeren/wat-is-een-api/README.md)
+  * [Postman](asynchroon-programmeren/wat-is-een-api/postman.md)
+  * [API aanroepen](asynchroon-programmeren/wat-is-een-api/api-aanroepen.md)
 * [bronnen](asynchroon-programmeren/bronnen.md)

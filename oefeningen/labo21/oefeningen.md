@@ -1,3 +1,7 @@
+---
+icon: js
+---
+
 # Labo 21
 
 ## Asynchroon programmeren (deel 2)

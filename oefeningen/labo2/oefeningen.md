@@ -1,4 +1,8 @@
-# Labo 2 
+---
+icon: html5
+---
+
+# Labo 2
 
 ## HTML basis
 
@@ -7,7 +11,7 @@
 * [Speciale tekens](https://apwt.gitbook.io/webtechnologie/html/intro-1/speciale-tekens)
 * [Afbeeldingen](https://apwt.gitbook.io/webtechnologie/html/media/afbeeldingen)
 * [Video](https://apwt.gitbook.io/webtechnologie/html/media/video)
-* [Audio](https://apwt.gitbook.io/webtechnologie/html/media/audio) 
+* [Audio](https://apwt.gitbook.io/webtechnologie/html/media/audio)
 
 ## GitHub Classroom link
 

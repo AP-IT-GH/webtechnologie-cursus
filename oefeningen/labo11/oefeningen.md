@@ -1,9 +1,13 @@
+---
+icon: css3-alt
+---
+
 # Labo 11
 
 ## Herhaling - geïntegreerde oefening
 
 ## Aanvullende bronnen
- 
+
 * [Dev tools: Lighthouse](https://developer.chrome.com/docs/devtools/lighthouse/)
 * [Dev tools: CSS Overview](https://developer.chrome.com/docs/devtools/css-overview/)
 

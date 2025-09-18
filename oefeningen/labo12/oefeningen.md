@@ -1,3 +1,7 @@
+---
+icon: js
+---
+
 # Labo 12
 
 ## Javascript Basis

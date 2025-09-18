@@ -1,3 +1,7 @@
+---
+icon: js
+---
+
 # Labo 19
 
 ## Asynchroon programmeren (deel 1)

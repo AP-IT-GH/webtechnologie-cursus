@@ -1,3 +1,7 @@
+---
+icon: css3-alt
+---
+
 # Labo 4
 
 ## CSS basis

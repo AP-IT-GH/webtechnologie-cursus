@@ -1,3 +1,7 @@
+---
+icon: js
+---
+
 # Labo 18
 
 ## JS Bibliotheken
