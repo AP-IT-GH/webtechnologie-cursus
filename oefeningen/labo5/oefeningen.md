@@ -7,15 +7,15 @@ coverY: 0
 
 # Labo 5
 
-## Grid
+## <img src="../../.gitbook/assets/github.png" alt="GitHub Classroom logo" data-size="line"> Oefeningen
+
+[Oefeningen van labo 5 op Github](https://classroom.github.com/a/fElzpxvH)
+
+## 💻 Theorie
 
 * [Display properties: block, inline, inline-block](https://apwt.gitbook.io/webtechnologie/css/natuurlijke-volgorde/positionering#display)
 * [⭐️ Display property: grid](https://apwt.gitbook.io/webtechnologie/css/natuurlijke-volgorde/grid)
 
-## Aanvullende bronnen
+## 🔗 Aanvullende bronnen
 
 * [⭐️ Josh Comeau's interactive Guide to CSS Grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)
-
-## GitHub Classroom link
-
-[Labo 5](https://classroom.github.com/a/fElzpxvH)
