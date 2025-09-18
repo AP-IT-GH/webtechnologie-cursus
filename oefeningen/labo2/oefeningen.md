@@ -7,15 +7,21 @@ coverY: 0
 
 # Labo 2
 
-## HTML basis
+## <img src="../../.gitbook/assets/github.png" alt="GitHub Classroom logo" data-size="line"> Oefeningen
+
+[Oefeningen labo 2 op GitHub](https://classroom.github.com/a/ZW4mMmGE)
+
+## 💻 Theorie
 
 * [Verwijzingen](https://apwt.gitbook.io/webtechnologie/html/intro-1/verwijzingen)
-* [Lijsten](https://apwt.gitbook.io/webtechnologie/html/intro-1/lijsten)
+* &#x20;[Lijsten](https://apwt.gitbook.io/webtechnologie/html/intro-1/lijsten)
 * [Speciale tekens](https://apwt.gitbook.io/webtechnologie/html/intro-1/speciale-tekens)
 * [Afbeeldingen](https://apwt.gitbook.io/webtechnologie/html/media/afbeeldingen)
 * [Video](https://apwt.gitbook.io/webtechnologie/html/media/video)
 * [Audio](https://apwt.gitbook.io/webtechnologie/html/media/audio)
 
-## GitHub Classroom link
+## 🔗 Aanvullende bronnen
 
-* [Labo 2](https://classroom.github.com/a/ZW4mMmGE)
+* [Browser Market Share](https://gs.statcounter.com/browser-market-share) - laat zien welke webbrowsers het populairst zijn
+* [Can I Use...](https://caniuse.com/) - Zoek op welke nieuwe features ondersteund worden door welke browser.
+* [MDN Web docs](https://app.gitbook.com/u/ZirE2v7NWHgKIS4XzbuueUVaYVm2) - uitgebreide documentatie over webtechnologieën zoals HTML, CSS, JavaScript en Web APIs
