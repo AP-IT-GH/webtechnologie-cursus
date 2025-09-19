@@ -1,11 +1,14 @@
-# Projectopdracht: practische info
+---
+icon: calendar-day
+---
+
+# Praktische info
 
 ## Feedback momenten
 
 Je kan tussentijdse feedback krijgen van de lector na:
 
 * Deelopdracht 3: volledige responsive webshop
-
 * Deelopdracht 5: winkelmandje & wishlist
 
 Voorwaarde: je moet je werk tijdig indienen via Digitap.
@@ -14,16 +17,15 @@ Voorwaarde: je moet je werk tijdig indienen via Digitap.
 
 ## Planning
 
-| Deel | Onderdeel                                                                                              | Leerstof uit week | Deadline | Tussentijdse feedback mogelijk?               | Indienen via Digitap? |
-|---|--------------------------------------------------------------------------------------------------------|--------|----------|-----------------------------------------------|-----------------------|
-| 1 | [Concept & content](deelopdracht-1-concept-content.md)                                                 | LW1 | 21/09/2025 (aanbevolen timing) | ❌                                             | ❌                     |
-| 2 | [Development mobiele website met HTML en CSS](./deelopdracht-2-opbouw-html-css.md)                     | LW2        | 5/10/2025 (aanbevolen timing)  | ❌                                             | ❌                     |
-| 3 | [Development responsive webshop](./deelopdracht-3-development-responsive.md)                           | LW4        | 19/10/2025             | ✅                                             | ✅                     |
-| 4 | [Contact page formulier](deelopdracht-4-contact-page-formulier.md)                                     | LW5        | 26/10/2025 (aanbevolen timing) | ❌                                             | ❌                     |
-| 5 | [Winkelmandje & wishlist](./deelopdracht-5-winkelmandje-wishlist.md)                                   | LW9        | 30/11/2025             | ✅                                             | ✅                     |
-| 6 | [Contact page kaartje](deelopdracht-6-contact-page-kaart.md)                                           | LW10       | 7/12/2025 (aanbevolen timing)  | ❌                                             | ❌                     |
-| 7 | [Dynamische content](deelopdracht-7-dynamische-content.md)                                             | LW11       | 14/12/2025             | ❌                                             | ✅                     |
-
+| Deel | Onderdeel                                                                        | Leerstof uit week | Deadline                       | Tussentijdse feedback mogelijk? | Indienen via Digitap? |
+| ---- | -------------------------------------------------------------------------------- | ----------------- | ------------------------------ | ------------------------------- | --------------------- |
+| 1    | [Concept & content](deelopdracht-1-concept-content.md)                           | LW1               | 21/09/2025 (aanbevolen timing) | ❌                               | ❌                     |
+| 2    | [Development mobiele website met HTML en CSS](deelopdracht-2-opbouw-html-css.md) | LW2               | 5/10/2025 (aanbevolen timing)  | ❌                               | ❌                     |
+| 3    | [Development responsive webshop](deelopdracht-3-development-responsive.md)       | LW4               | 19/10/2025                     | ✅                               | ✅                     |
+| 4    | [Contact page formulier](deelopdracht-4-contact-page-formulier.md)               | LW5               | 26/10/2025 (aanbevolen timing) | ❌                               | ❌                     |
+| 5    | [Winkelmandje & wishlist](deelopdracht-5-winkelmandje-wishlist.md)               | LW9               | 30/11/2025                     | ✅                               | ✅                     |
+| 6    | [Contact page kaartje](deelopdracht-6-contact-page-kaart.md)                     | LW10              | 7/12/2025 (aanbevolen timing)  | ❌                               | ❌                     |
+| 7    | [Dynamische content](deelopdracht-7-dynamische-content.md)                       | LW11              | 14/12/2025                     | ❌                               | ✅                     |
 
 ## Presentatie en verdediging
 
