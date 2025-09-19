@@ -1,4 +1,4 @@
-# Hoe werken we in de labo's?
+# Startgids labo’s
 
 ## Stap 1: Git installeren (éénmalig)
 Indien je Git nog niet op je systeem hebt, ga je naar [git-scm.org](https://git-scm.com/) en download je daar Git. De installatieprocedure wordt [hier](https://mrcloudbook.com/1932-2/) omschreven, onder "Install Git on Windows via GUI". **Kies bij stap 7 Visual Studio Code als text editor.** Je hoeft het niet opnieuw te installeren via CMD!
@@ -40,7 +40,7 @@ Klik op de link van het labo dat je wil starten. Aanvaard de opdracht voor dat l
 ---
 
 
-## Stap 6: Tijdens het labo
+## Stap 5: Tijdens het labo
 Open je labo en volg dit stappenplan:
 
 1. Open **Visual Studio Code** en selecteer de map van het labo (de map die je gecloned hebt).

@@ -14,7 +14,7 @@
   * [6. Contact page - kaartje](projectopdracht/deelopdracht-6-contact-page-kaart.md)
   * [7. Dynamische content](projectopdracht/deelopdracht-7-dynamische-content.md)
 * [Labo's](labos/README.md)
-  * [Hoe begin je aan de labo's](labo-howto.md)
+  * [Startgids labo’s](labo-howto.md)
   * [Labo 1](oefeningen/labo1/oefeningen.md)
   * [Labo 2](oefeningen/labo2/oefeningen.md)
   * [Labo 3](oefeningen/labo3/oefeningen.md)
