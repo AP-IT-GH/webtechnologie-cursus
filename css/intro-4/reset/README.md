@@ -45,7 +45,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 ### Normalize.css
 
-{% embed url="https://necolas.github.io/normalize.css/" %}
+{% embed url="https://github.com/sindresorhus/modern-normalize" %}
 
 Later werd Normalize.css geïntroduceerd door Nicolas Gallagher. In tegenstelling tot een reset, behoudt Normalize.css bepaalde nuttige standaardstijlen, terwijl het nog steeds normaliseert over verschillende browsers.
 
