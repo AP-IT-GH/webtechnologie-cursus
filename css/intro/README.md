@@ -108,7 +108,7 @@ De koppeling vanuit een HTML-document naar een stijlblad gebeurt door het `link`
 <html>
     <head>
         <title>externe CSS</title> 
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
     </head>
     <body>
         <h1>Dit is een titel.</h1>

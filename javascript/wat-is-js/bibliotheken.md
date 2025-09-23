@@ -203,7 +203,7 @@ Er bestaan dan ook tientallen van interessante bibliotheken die voor jou zo'n ca
     <title>Flickity demo</title>
 
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js" defer></script>
     <script src="js/script.js" defer></script>
