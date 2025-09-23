@@ -17,6 +17,10 @@ coverY: 0
 * [⭐️ Box Model](https://apwt.gitbook.io/webtechnologie/css/intro/box-model)
 * [Randen en spaties](https://apwt.gitbook.io/webtechnologie/css/intro/randen-en-spaties) (Outline niet)
 * [⭐️ Selectors](https://apwt.gitbook.io/webtechnologie/css/intro-1)
+  * [Overerving](https://apwt.gitbook.io/webtechnologie/css/intro-1/overerving)
+  * [Class & ID](https://apwt.gitbook.io/webtechnologie/css/intro-1/class-en-id)
+  * [Attributen](https://apwt.gitbook.io/webtechnologie/css/intro-1/attributen)
+  * [Voorrangsregels](https://apwt.gitbook.io/webtechnologie/css/intro-1/voorrangsregels)
 * [Kleuren](https://apwt.gitbook.io/webtechnologie/css/intro-2/kleur)
 * [Lettertypen](https://apwt.gitbook.io/webtechnologie/css/intro-2/lettertype)
 * [Lijsten](https://apwt.gitbook.io/webtechnologie/css/intro-2/lijsten)
@@ -24,3 +28,4 @@ coverY: 0
 ## 🔗 Aanvullende bronnen
 
 * [CSS nesting](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting)
+* [CSS Dinner](https://flukeout.github.io/) (level 1 t/m 11)
