@@ -6,6 +6,7 @@
 * [Projectopdracht](projectopdracht/README.md)
   * [Algemene info](projectopdracht/algemeen.md)
   * [Praktische info](projectopdracht/praktisch.md)
+  * [Evaluatie](projectopdracht/evaluatie.md)
   * [1. Concept & content](projectopdracht/deelopdracht-1-concept-content.md)
   * [2. Development mobiele website met HTML en CSS](projectopdracht/deelopdracht-2-opbouw-html-css.md)
   * [3. Development responsive webshop](projectopdracht/deelopdracht-3-development-responsive.md)
