@@ -16,7 +16,7 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
 
 ### Boeteblad
 
-<table data-full-width="false"><thead><tr><th width="609.3515625">Overtreding</th><th width="100">Strafpunten</th></tr></thead><tbody><tr><td>HTML bevat te weinig inhoud om de structuur/semantiek zinvol te beoordelen.</td><td>-2</td></tr><tr><td>CSS bevat te weinig regels om vormgeving of layout zinvol te beoordelen.</td><td>-2</td></tr><tr><td>JS bevat te weinig code om interactiviteit zinvol te beoordelen</td><td>-2</td></tr><tr><td>Gebruik van inline CSS of inline JS waar externe bestanden gevraagd zijn.</td><td>-1</td></tr><tr><td>Project bevat dode code of ongebruikte bestanden (bv. niet-gelinkte CSS/JS, lege bestanden).</td><td>-1</td></tr><tr><td>Geen README of slechts minimale projectdocumentatie aanwezig.</td><td>-1</td></tr><tr><td>Code bevat overduidelijke copy-paste zonder integratie of begrip.</td><td>-2</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="609.3515625">Overtreding</th><th width="100">Strafpunten</th></tr></thead><tbody><tr><td>HTML bevat te weinig inhoud om de structuur/semantiek zinvol te beoordelen.</td><td>-2</td></tr><tr><td>CSS bevat te weinig regels om vormgeving of layout zinvol te beoordelen.</td><td>-2</td></tr><tr><td>JS bevat te weinig code om interactiviteit zinvol te beoordelen</td><td>-2</td></tr><tr><td>Gebruik van inline CSS of inline JS waar externe bestanden gevraagd zijn.</td><td>-1</td></tr><tr><td>Project bevat dode code of ongebruikte bestanden (bv. niet-gelinkte CSS/JS, lege bestanden).</td><td>-1</td></tr><tr><td>Code bevat overduidelijke copy-paste zonder integratie of begrip.</td><td>-2</td></tr></tbody></table>
 
 ### Rubrik
 
