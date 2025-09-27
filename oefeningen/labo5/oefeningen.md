@@ -18,4 +18,5 @@ coverY: 0
 
 ## 🔗 Aanvullende bronnen
 
+* [Grid Garden](https://cssgridgarden.com)
 * [⭐️ Josh Comeau's interactive Guide to CSS Grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)
