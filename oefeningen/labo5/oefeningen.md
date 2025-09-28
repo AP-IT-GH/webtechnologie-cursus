@@ -13,6 +13,7 @@ coverY: 0
 
 ## 💻 Theorie
 
+* [Units](https://apwt.gitbook.io/webtechnologie/css/natuurlijke-volgorde/units)
 * [Display properties: block, inline, inline-block](https://apwt.gitbook.io/webtechnologie/css/natuurlijke-volgorde/positionering#display)
 * [⭐️ Display property: grid](https://apwt.gitbook.io/webtechnologie/css/natuurlijke-volgorde/grid)
 
