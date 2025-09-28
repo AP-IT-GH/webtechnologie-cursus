@@ -1,6 +1,5 @@
 ---
 description: Projectopdracht Evaluatie
-hidden: true
 icon: star
 ---
 
