@@ -6,7 +6,6 @@ icon: css3-alt
 
 ## CSS Variables & Formulieren
 
-* [CSS Variabelen](https://apwt.gitbook.io/webtechnologie/css/intro-4/variabelen)
 * [⭐️ Formulieren](https://apwt.gitbook.io/webtechnologie/html/intro-2) & [⭐️ invoervelden](https://apwt.gitbook.io/webtechnologie/html/intro-2/invoervelden)
 * [Pseudo-selectors voor formulieren](https://apwt.gitbook.io/webtechnologie/css/intro-1/pseudo-selectors#input-pseudo-klassen)
 

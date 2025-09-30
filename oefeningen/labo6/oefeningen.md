@@ -13,4 +13,5 @@ coverY: 0
 
 ## 💻 Theorie
 
+* [CSS Variabelen](https://apwt.gitbook.io/webtechnologie/css/intro-4/variabelen))
 * [Position](https://apwt.gitbook.io/webtechnologie/css/natuurlijke-volgorde/positionering#positionering)
