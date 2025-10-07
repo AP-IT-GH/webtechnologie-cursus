@@ -7,7 +7,14 @@ coverY: 133.85250737463127
 
 # Startgids labo’s
 
-## Stap 1: Git installeren (éénmalig)
+## Stap 1: IDE in orde brengen (éénmalig)
+
+* Installeer **Visual Studio Code** en de nodige extensies (zie hoofdstuk [IDE](ide.md)).
+* Maak op je computer een mapje voor het vak (bv. `webtechnologie`).
+
+***
+
+## Stap 2: Git installeren (éénmalig)
 
 Indien je Git nog niet op je systeem hebt, ga je naar [git-scm.org](https://git-scm.com/) en download je daar Git. De installatieprocedure wordt [hier](https://mrcloudbook.com/1932-2/) omschreven, onder "Install Git on Windows via GUI". **Kies bij stap 7 Visual Studio Code als text editor.** Je hoeft het niet opnieuw te installeren via CMD!
 
@@ -22,13 +29,6 @@ Heb je een fout gemaakt? Dan mag je deze regels gewoon opnieuw invoeren.
 
 ***
 
-## Stap 2: IDE in orde brengen (éénmalig)
-
-* Installeer **Visual Studio Code** en de nodige extensies (zie hoofdstuk [IDE](ide.md)).
-* Maak op je computer een mapje voor het vak (bv. `webtechnologie`).
-
-***
-
 ## Stap 3: GitHub Classroom repository aanmaken
 
 Voor elk labo krijg je een **GitHub Classroom-link**. Deze zijn terug te vinden in de labo-pagina's (bv. [Labo 1](oefeningen/labo1/oefeningen.md), [Labo 2](oefeningen/labo2/oefeningen.md), ...). Klik op de link van het labo dat je wil starten. Aanvaard de opdracht voor dat labo. Het kan zijn dat je eerst een Github account moet aanmaken.
@@ -38,7 +38,7 @@ Voor elk labo krijg je een **GitHub Classroom-link**. Deze zijn terug te vinden 
 
 ***
 
-## Stap 4: Je repository clonen
+## Stap 4: Je repository lokaal clonen
 
 * Open de command palette in Visual Studio Code met `Ctrl+Shift+P` (of `Cmd+Shift+P` op macOS) en typ `Git: Clone`. Kopieer en plak de URL van je repository die je kreeg van GitHub Classroom.
 * Kies de map die je eerder aangemaakt hebt voor het vak Webtechnologie.
