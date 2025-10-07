@@ -1,12 +1,8 @@
 /*--- algemeen ---*/
 html,
 body {
-  /*border-box vertelt de browser rekening te houden met eventuele marging en padding in de waarden die opgegeven worden omtrent de breedte en hoogte van een element. Als je de breedte van een element instelt op 100 pixels, omvat die 100 pixels de eventuele marging of padding die aan het element werd toegevoegd, en wordt het inhoudsvak kleiner om die extra breedte mee in te calculeren.*/
-  box-sizing: border-box;
-  background-color: #fff;
   font-family: Arial, Helvetica, sans-serif;
-  height: 100vh;
-  width: 100vw;
+  height: 100dvh;
 }
 
 body {
@@ -273,6 +269,10 @@ span{
 aside {
   grid-area: aside;
   padding: 2rem 1rem;
+}
+
+aside p {
+    padding: 0;
 }
 
 aside img a {
