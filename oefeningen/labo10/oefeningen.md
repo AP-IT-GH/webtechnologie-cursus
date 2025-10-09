@@ -19,4 +19,4 @@ icon: css3-alt
 
 ## GitHub Classroom link
 
-[Labo 10](https://classroom.github.com/a/IA1dgIwQ)
+[Labo 10](https://classroom.github.com/a/IbkV2Tr6)
