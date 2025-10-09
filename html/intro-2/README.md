@@ -30,7 +30,7 @@ Het `<input>`-element wordt gebruikt om verschillende soorten invoer te voorzien
 <input type="text" name="username">
 ```
 
-Meer informatie over alle soorten invoervelden staat op [de volgende pagina](https://github.com/barbaralettany/webtech-js/blob/main/html/3-formulieren/html/3_formulieren/invoervelden.md).
+Meer informatie over alle soorten invoervelden staat op [de volgende pagina](https://apwt.gitbook.io/webtechnologie/html/intro-2/invoervelden).
 
 ### labels
 
