@@ -1,3 +1,9 @@
+---
+cover: >-
+  https://images.unsplash.com/photo-1581166397057-235af2b3c6dd?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw1fHx0b29sc3xlbnwwfHx8fDE3NjAwOTIxMzl8MA&ixlib=rb-4.1.0&q=85
+coverY: -658.7386424371996
+---
+
 # IDE
 
 Visual Studio Code (VSCode) is een populaire en krachtige geïntegreerde ontwikkelomgeving (IDE) die veel wordt gebruikt in de webontwikkelingsgemeenschap. Het biedt een gebruiksvriendelijke interface en een uitgebreide set functies. Laten we enkele belangrijke aspecten van het gebruik van VS Code in het kader van webtechnologie verkennen.
@@ -48,7 +54,7 @@ In VSCode heb je de mogelijkheid om extensies te installeren.
 
 ### [HTMLHint](https://marketplace.visualstudio.com/items?itemName=HTMLHint.vscode-htmlhint)
 
-* Installeer de HTMLHint extensie VS Code. 
+* Installeer de HTMLHint extensie VS Code.
 * Deze plugin maakt eventuele fouten in HTML zichtbaarder in je IDE.
 
 ### [Github Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
@@ -81,4 +87,3 @@ In VSCode worden instellingen bewaard in een `settings.json` bestand. We gaan en
 ```
 
 De instellingen zorgen ervoor dat Visual Studio Code automatisch je bestanden opslaat na een korte vertraging met "files.autoSave": "afterDelay", automatisch de code formatteert bij het opslaan met "editor.formatOnSave": true, en Prettier instelt als de standaard formatter voor al je codebestanden met "editor.defaultFormatter": "esbenp.prettier-vscode". Hierdoor wordt je code consistent geformatteerd en hoef je je geen zorgen te maken over handmatig opslaan of formatteren.
-
