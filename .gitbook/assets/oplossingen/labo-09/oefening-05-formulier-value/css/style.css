@@ -24,10 +24,12 @@ body {
 }
 
 h2 {
+    all: revert;
     margin: 0;
 }
 
 fieldset {
+    all: revert;
     margin-bottom: 1rem;
 }
 
@@ -36,6 +38,7 @@ label {
     margin-bottom: 0.5rem
 }
 select {
+    all: revert;
     padding: 0.5rem
 }
 

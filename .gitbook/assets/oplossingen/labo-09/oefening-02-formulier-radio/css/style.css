@@ -23,16 +23,22 @@ body {
     margin-bottom: 2rem;
 }
 
+p {
+    all: revert;
+}
+
 h2 {
+    all: revert;
     margin: 0;
 }
 
 fieldset {
+    all: revert;
     margin-bottom: 1rem;
 }
 
-
 input {
+    all: revert;
     padding: 0.5rem
 }
 

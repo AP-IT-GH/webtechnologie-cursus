@@ -24,16 +24,19 @@ body {
 }
 
 h2 {
+    all: revert;
     margin: 0;
 }
 
 fieldset {
+    all: revert;
     margin-bottom: 1rem;
 }
 
 
 input {
-    padding: 0.5rem
+    padding: 0.5rem;
+    all: revert;
 }
 
 

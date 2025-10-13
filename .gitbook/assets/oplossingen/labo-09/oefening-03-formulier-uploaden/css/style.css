@@ -24,10 +24,12 @@ body {
 }
 
 h2 {
+    all: revert;
     margin: 0;
 }
 
 fieldset {
+    all: revert;
     margin-bottom: 1rem;
 }
 
