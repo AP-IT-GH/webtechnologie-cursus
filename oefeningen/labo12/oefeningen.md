@@ -1,7 +1,7 @@
 ---
-icon: css3-alt
-cover: >
-  -https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxjc3N8ZW58MHx8fHwxNzU4MTg1MTY5fDA&ixlib=rb-4.1.0&q=85
+icon: js
+cover: >-
+  https://images.unsplash.com/photo-1627398242454-45a1465c2479?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwyfHxqYXZhc2NyaXB0fGVufDB8fHx8MTc2MDM0MTA0NXww&ixlib=rb-4.1.0&q=85
 coverY: 0
 ---
 
