@@ -15,3 +15,7 @@ coverY: 0
 
 * [CSS Variabelen](https://apwt.gitbook.io/webtechnologie/css/intro-4/variabelen)
 * [Position](https://apwt.gitbook.io/webtechnologie/css/natuurlijke-volgorde/positionering#positionering)
+
+## 🔗 Aanvullende bronnen
+
+* [Gebruik CSS variabelen om PX naar REM values om te zetten](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/#bonus-rem-quality-of-life-12)
