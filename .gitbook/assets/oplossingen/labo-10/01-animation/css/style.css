@@ -3,26 +3,23 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
 }
-  
-  /* Decorative styles */
-  #shape {
+
+#shape {
     width: 200px;
     height: 80px;
     background: lightseagreen;
-    position: relative;
     animation-name: grow;
     animation-duration: 1s;
     animation-iteration-count: 5;
     animation-timing-function: ease;
-  }
+}
 
-  @keyframes grow {
+@keyframes grow {
     0% {
-      transform: scaleX(1.1);
+        transform: scaleX(1.1);
     }
     50% {
-      transform: scaleX(1.8);
+        transform: scaleX(1.8);
     }
-  }
+}

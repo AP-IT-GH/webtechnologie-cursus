@@ -1,10 +1,8 @@
 body {
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
     background-color: black;
 }
 
@@ -12,18 +10,17 @@ body {
 #slide-in {
     text-align: center;
     color: #fff;
-    position: relative;
     animation: slide-in 2s ease-out infinite;
-  }
+}
 
 @keyframes slide-in {
     0% {
-      opacity: 0;
-      left: -700px;
+        opacity: 0;
+        transform: translateX(-700px);
     }
 
     100% {
-      opacity: 1;
-      left: 0;
+        opacity: 1;
+        transform: translateY(0);
     }
-  }
+}

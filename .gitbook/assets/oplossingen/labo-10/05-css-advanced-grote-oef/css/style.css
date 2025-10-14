@@ -1,81 +1,76 @@
 :root {
-  --bg-color-primary: rgb(96, 143, 255);
-  --bg-color-secondary: rgb(32, 32, 32);
-  --bg-color-white: rgb(253, 251, 244);
+    --bg-color-primary: rgb(96, 143, 255);
+    --bg-color-secondary: rgb(32, 32, 32);
+    --bg-color-white: rgb(253, 251, 244);
+}
+
+input, textarea {
+    all: revert;
 }
 
 body {
-  display: grid;
-  grid-template-areas:
+    display: grid;
+    grid-template-areas:
     "header"
     "main"
     "footer";
-  grid-template-rows: 60px auto 100px;
-  min-height: 100vh;
+    grid-template-rows: 60px auto 100px;
+    min-height: 100vh;
 }
 
 /* ------- HEADER ------- */
 
 header {
-  background-color: var(--bg-color-primary);
-  padding: 20px 0;
-  grid-area: header;
+    background-color: var(--bg-color-primary);
+    padding: 20px 50px;
+    grid-area: header;
 }
 
 nav ul {
-  display: flex;
-  justify-content: space-around;
-  width: 400px;
-  max-width: 100%;
-  padding: 0;
-  margin-left: auto;
-}
-
-nav ul li {
-  list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
 }
 
 nav ul li a {
-  color: var(--bg-color-white);
-  text-transform: uppercase;
-  text-decoration: none;
-  transition: color 0.4s;
+    color: var(--bg-color-white);
+    text-transform: uppercase;
+    transition: color 0.4s;
 }
 
 nav ul li a:hover {
-  color: var(--bg-color-secondary);
+    color: var(--bg-color-secondary);
 }
 
 /* ------- MAIN ------- */
 
 main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--bg-color-white);
-  grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color-white);
+    grid-area: main;
 }
 
 main img {
-  width: 300px;
-  margin-right: 30px;
-  animation: rotate 15s linear infinite;
+    width: 300px;
+    margin-right: 30px;
+    animation: rotate 15s linear infinite;
 }
 
 @keyframes rotate {
-  0% {
-    transform: rotate(0)
-  }
+    0% {
+        transform: rotate(0)
+    }
 
-  100% {
-    transform: rotate(360deg)
+    100% {
+        transform: rotate(360deg)
 
-  }
+    }
 }
 
 form {
     width: 500px;
-    max-width: 90%; 
 }
 
 form input, form textarea {
@@ -99,23 +94,23 @@ form input, form textarea {
 .submit-button:hover {
     background-color: var(--bg-color-primary);
     border-radius: 0;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .submit-button:active {
     color: var(--bg-color-secondary);
     border-radius: 0;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 /* ------- FOOTER ------- */
 
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  color: var(--bg-color-white);
-  background-color: var(--bg-color-primary);
-  grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: var(--bg-color-white);
+    background-color: var(--bg-color-primary);
+    grid-area: footer;
 }
