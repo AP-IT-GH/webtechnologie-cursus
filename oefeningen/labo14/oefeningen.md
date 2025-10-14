@@ -11,4 +11,4 @@ icon: js
 
 ## GitHub Classroom link
 
-[Labo 14](https://classroom.github.com/a/fVUQs3DY)
+[Labo 14](https://classroom.github.com/a/BJLi8Vmp)
