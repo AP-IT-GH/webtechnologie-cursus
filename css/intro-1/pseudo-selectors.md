@@ -98,12 +98,14 @@ De [:checked](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked) CSS-pse
 
 ```css
 input:checked{
-  color: red;
+  accent-color: red;
 }
 option:checked {
-  color: red;
+  accent-color: red;
 }
 ```
+
+> TIP: De `accent-color` eigenschap stelt de kleur in van de accentuering van een formulier element, zoals de kleur van een geselecteerde checkbox of radio button.
 
 **:required**
 
