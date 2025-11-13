@@ -1,6 +1,6 @@
 # Starten met JavaScript in de browser
 
-Om JavaScript in je browser uit te voeren, moet je eerst een .js-bestand koppelen aan een HTML-pagina. Dat doe je met het <script>-element binnen het <head>-gedeelte van je HTML.
+Om JavaScript in je browser uit te voeren, moet je eerst een .js-bestand koppelen aan een HTML-pagina. Dat doe je met het `<script>`-element binnen het `<head>`-gedeelte van je HTML.
 
 Bv.
 ```html
@@ -20,8 +20,8 @@ Bv.
 </html>
 ```
 
-In dit voorbeeld linken we een bestand script.js dat zich in een map js bevindt.
-Het attribuut type="module" zorgt ervoor dat we gebruik kunnen maken van ES6 modules — een moderne manier om JavaScript-bestanden te structureren en functies, variabelen of objecten te delen tussen bestanden.
+In dit voorbeeld linken we een bestand script.js dat zich in de submap `js` bevindt.
+Het attribuut `type="module"` zorgt ervoor dat we gebruik kunnen maken van ES6 modules — een moderne manier om JavaScript-bestanden te structureren en functies, variabelen of objecten te delen tussen bestanden.
 
 ## Javascript modules
 
