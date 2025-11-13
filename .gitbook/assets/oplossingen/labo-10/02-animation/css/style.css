@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+
+#slide-in {
+    text-align: center;
+    color: #fff;
+    animation: slide-in 2s ease-out infinite;
+}
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(-700px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

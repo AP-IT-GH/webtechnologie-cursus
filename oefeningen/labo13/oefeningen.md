@@ -14,4 +14,4 @@ coverY: 0
 ## 💻 Theorie
 
 * [Conditionals](https://apwt.gitbook.io/webtechnologie/javascript/vergelijkingsoperatoren)
-* [Loops](https://apwt.gitbook.io/webtechnologie/javascript/for)
+* [Loops](https://apwt.gitbook.io/webtechnologie/javascript/lussen)
