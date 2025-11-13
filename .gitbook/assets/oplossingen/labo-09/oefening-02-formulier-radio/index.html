@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oefening formulier radio</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="login">
+    <div class="header">
+        <img src="./assets/logo.png" width="50" alt="">
+        <h2>Keuzestress</h2>
+    </div>
+
+    <p>Maak een keuze.</p>
+
+    <form action="#" method="GET">
+        <fieldset>
+            <legend>Favoriete programmeertaal</legend>
+            <input type="radio" name="programming-language" value="c-sharp" id="c-sharp" checked>
+            <label for="c-sharp">C#</label>
+
+            <input type="radio" name="programming-language" value="javascript" id="js">
+            <label for="js">JavaScript</label>
+
+            <input type="radio" name="programming-language" value="ts" id="ts">
+            <label for="ts">TypeScript</label>
+
+            <input type="radio" name="programming-language" value="php" id="php">
+            <label for="php">PHP</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Favoriete IDE</legend>
+            <input type="radio" name="ide" value="vs-code" id="vs-code" checked>
+            <label for="vs-code">Visual Studio Code</label>
+
+            <input type="radio" name="ide" value="WebStorm" id="webstorm">
+            <label for="webstorm">WebStorm</label>
+
+            <input type="radio" name="ide" value="vim" id=vim>
+            <label for="vim">Vim</label>
+
+            <input type="radio" name="ide" value="phpstorm" id="phpstorm">
+            <label for="phpstorm">PHPStorm</label>
+        </fieldset>
+
+        <button>bevestig je keuze</button>
+
+    </form></div>
+</body>
+</html>
