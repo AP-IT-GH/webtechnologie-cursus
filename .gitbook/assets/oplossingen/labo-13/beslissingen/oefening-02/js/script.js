@@ -1,20 +1,12 @@
-const form = document.getElementById('yearForm')
-const yearInputField = document.getElementById('yearInput');
-const resultField = document.getElementById('result');
+let yearInput = prompt('Enter year');
+let year = parseInt(yearInput, 10);
 
-form.addEventListener('submit', function(e) {
-    e.preventDefault();
+// Controleren of het een schrikkeljaar is
+let isLeapYear = false;
+if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+    isLeapYear = true;
+}
 
-    // Haal het jaartal op uit het formulier
-    let year = yearInputField.value;
-
-    // Controleren of het een schrikkeljaar is
-    let isLeapYear = false;
-    if ( (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0) ) {
-        isLeapYear = true;
-    }
-
-    // Toon het resultaat aan de gebruiker
-    let resultMessage = isLeapYear ? `${year} is een schrikkeljaar!` : `${year} is geen schrikkeljaar.`;
-    resultField.textContent = resultMessage;
-});
+// Toon het resultaat aan de gebruiker
+let resultMessage = isLeapYear ? `${year} is een schrikkeljaar!` : `${year} is geen schrikkeljaar.`;
+console.log(resultMessage);

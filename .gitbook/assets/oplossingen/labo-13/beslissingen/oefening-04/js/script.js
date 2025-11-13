@@ -1,23 +1,17 @@
-const num1Field = document.getElementById('number1');
-const num2Field = document.getElementById('number2');
-const operatorField = document.getElementById('operator');
-const form = document.getElementsByTagName('form')[0];
-const resultField = document.getElementById('result');
+const num1 = parseInt(prompt("Geef getal 1 in"), 10);
+const num2 = parseInt(prompt("Geef getal 2 in"), 10);
+const operator = prompt("Geef de operator in (+, -, *, /)");
 
-form.addEventListener('submit', function(e) {
-    e.preventDefault();
+// Controleer of de ingevoerde operator geldig is
+if (operator === '+' || operator === '-' || operator === '*' || operator === '/') {
 
-    // Haal de waarden op uit de inputvelden
-    let num1 = parseInt(num1Field.value);
-    let num2 = parseInt(num2Field.value);
-    let operator = operatorField.value;
-        
     // Controleer of delen door 0 wordt geprobeerd
     if (operator === '/' && num2 === 0) {
-        result.textContent = "Fout: Delen door 0 is niet toegestaan.";
+        console.log("Fout: Delen door 0 is niet toegestaan.");
     } else {
         // Voer de berekening uit op basis van de ingevoerde operator
         let result;
+        // Voer de berekening uit op basis van de ingevoerde operator
         switch (operator) {
             case "+":
                 result = num1 + num2;
@@ -34,8 +28,11 @@ form.addEventListener('submit', function(e) {
             default:
                 result = "Fout: Ongeldige operator. Gebruik alleen +, -, * of /.";
         }
-        
+
         // Toon het resultaat aan de gebruiker
-        resultField.textContent = "Resultaat: " + result;
+        console.log(`Resultaat: ${result}`);
     }
-});
+} else {
+    // Toon foutmelding voor ongeldige operator
+    console.log("Fout: Ongeldige operator. Gebruik alleen +, -, * of /.");
+}
