@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+}
+
+table {
+    border: 1px solid black;
+}
+
+thead tr th,
+tbody tr th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-of-type(even) {
+    background-color: gray;
+}
+
+tr:nth-of-type(odd) {
+    background-color: lightgray;
+}
+
+td,
+th {
+    text-align: center;
+    padding: 20px;
+}
