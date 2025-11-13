@@ -104,6 +104,7 @@
   * [geschiedenis](javascript/wat-is-js/geschiedenis.md)
   * [JS bibliotheken](javascript/wat-is-js/bibliotheken.md)
 * [Basisconcepten](javascript/basisconcepten/README.md)
+  * [JS linken](javascript/basisconcepten/start.md)
   * [variabelen](javascript/basisconcepten/variabelen.md)
   * [naamgeving](javascript/basisconcepten/naamgeving.md)
   * [data types](javascript/basisconcepten/data-types.md)
