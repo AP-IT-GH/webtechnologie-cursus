@@ -16,11 +16,5 @@ if (firstNames.length !== lastNames.length) {
         fullNames.push(fullName);
     }
 
-    // Voeg de lijstitems toe aan de ul met id "namenLijst"
-    const namesList = document.getElementById("namesList");
-    for (let i=0; i<fullNames.length; i++) {
-        const listItem = document.createElement("li");
-        listItem.textContent = fullNames[i];
-        namesList.appendChild(listItem);
-    }
+    console.log(fullNames);
 }
