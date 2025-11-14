@@ -1,136 +1,200 @@
-# 7: arrays
+# 7: Arrays
 
-Tijdens het onderdeel van datatypes hebben we heel kort het concept `array` laten vallen. In JavaScript is een array een lijst van waarden. Elke waarde kan aangesproken worden aan de hand van een index.
+Tijdens het onderdeel over datatypes hebben we al kort het concept array
+vermeld. Een array is een geordende lijst van waarden. Elke waarde in
+een array heeft een vaste plaats, aangeduid met een index, en die index
+begint altijd bij 0.
 
-## gebruik
+Arrays zijn handig wanneer je meerdere gerelateerde gegevens onder één
+variabele wilt opslaan.
 
-Net zoals bij andere variabelen moeten we in JavaScript bij het maken van een variabele voor een array geen type geven.
+## Een array maken
 
-De declaratie van de variabele zal er als volgt uit zien:
+In JavaScript hoef je geen type of vaste lengte op te geven. Arrays
+kunnen automatisch groeien wanneer je er elementen aan toevoegt.
+
+### Lege array
+```js
+    let numbers = [];
+    // of
+    let numbers = new Array();
+```
+
+### Array met beginwaarden
+```js
+    let numbers = [1, 2, 3, 4, 5];
+```
+
+In talen zoals Java en C# moet je vooraf de lengte bepalen. In
+JavaScript is dat niet nodig: arrays zijn dynamisch.
+
+------------------------------------------------------------------------
+
+## Elementen opvragen met een index
+
+Met vierkante haakjes `[]` kun je een element opvragen op een bepaalde
+positie.
 
 ```js
-let numbers = new Array();
+    let fruits = ["Banana", "Apple", "Orange"];
+    console.log(fruits[0]); // Banana
+    console.log(fruits[1]); // Apple
+    console.log(fruits[2]); // Orange
 ```
 
-We kunnen ook als beginwaarde een lege array meegeven. Er zitten dus op dat moment nog geen waarden in. We kunnen een lege array toekennen aan de variabele op de volgende manier:
+### Index buiten bereik
+
+Als je een index opvraagt die niet bestaat, krijg je undefined.
 
 ```js
-let numbers = [];
+    console.log(fruits[3]); // undefined
 ```
+    
 
-{% hint style="info" %}
-In andere talen zoals Java en C# moet je de lengte van de array meegeven. In JavaScript is dat niet zo. De array zal groeien met het aantal elementen er in geplaatst worden.
-{% endhint %}
+------------------------------------------------------------------------
 
-Je kan ook op voorhand al een aantal elementen meegeven:
+### Elementen aanpassen en toevoegen
+
+Een element vervangen
 
 ```js
-let numbers = [1,2,3,4,5];
+    fruits[2] = "Pear";
 ```
 
-Om een element op te vragen van een array kan je dat doen aan de hand van vierkante haakjes met daarin een getal. Dit getal komt overeen met de positie van het element dat je wil opvragen. Let op: ook in JavaScript begint het eerste element bij 0.
+### Een element toevoegen via index
+```js
+    fruits[3] = "Kiwi";
+```
+    
+Als de index nog niet bestond, wordt het element toegevoegd. Ontstaan er
+gaten in de index (bijvoorbeeld door index 10 te vullen terwijl 1–9 leeg
+zijn), dan worden die lege plaatsen gevuld met empty-items. Dit probeer
+je best te vermijden.
+
+------------------------------------------------------------------------
+
+### De lengte van een array
+
+length geeft het aantal elementen terug:
 
 ```js
-let fruits = ["Banana", "Apple", "Orange"];
+    let fruits = ["Banana", "Apple", "Orange"];
 
-console.log(fruits[0]); // Banana
-console.log(fruits[1]); // Apple
-console.log(fruits[2]); // Orange
+    console.log(fruits.length); // 3
+
 ```
 
-Vraag je een element voor een index op die niet bestaat dan krijg je undefined
+De lengte is altijd de hoogste index + 1, ook als er lege plaatsen in
+de array zitten.
+
+------------------------------------------------------------------------
+
+### Debuggen: array tonen in de console
 
 ```js
-console.log(fruits[3]); // undefined
+    console.log(fruits);
+    // bijvoorbeeld: [ 'Banana', 'Apple', 'Orange' ]
 ```
+------------------------------------------------------------------------
 
-Als je een element wil vervangen kan je dit op de volgende manier doen:
+### Array manipulaties
+
+JavaScript biedt verschillende methoden om arrays aan te passen.
+
+#### Elementen toevoegen
+
+##### Achteraan toevoegen met push()
 
 ```js
-fruits[2] = "Pear";
+    fruits.push("Kiwi");
 ```
 
-Je kan ook elementen toevoegen nadat je de array hebt gedeclareerd:
+-   Voegt het nieuwe element achteraan toe.
+-   Past de array aan.
+-   Geeft de nieuwe lengte terug.
+
+------------------------------------------------------------------------
+
+##### Vooraan toevoegen met unshift()
 
 ```js
-fruits[3] = "Kiwi";
+    let fruits = ["Banana", "Apple", "Orange"];
+    fruits.unshift("Pear");
+
+    console.log(fruits);
+    // ["Pear", "Banana", "Apple", "Orange"]
 ```
 
-Soms is het nodig om te weten hoeveel elementen er in de array zitten. Dit kan je met `length` doen.
+-   Voegt vooraan toe.
+-   Alle bestaande elementen schuiven op.
+
+------------------------------------------------------------------------
+
+#### Elementen verwijderen
+
+##### Laatste element verwijderen met pop()
 
 ```js
-let fruits = ["Banana", "Apple", "Orange"];
-
-console.log(fruits.length); // 3
+    let lastFruit = fruits.pop();
+    console.log(lastFruit); // verwijderd element
 ```
 
-Je kan ook de array uitprinten in je console venster. Dit is vooral handig tijdens het debuggen
+-   Verwijdert het laatste element.
+-   Geeft dat verwijderde element terug.
+
+------------------------------------------------------------------------
+
+##### Eerste element verwijderen met shift()
 
 ```js
-let fruits = ["Banana", "Apple", "Orange"];
-
-console.log(fruits); // [ 'Banana', 'Apple', 'Orange' ]
+    let firstFruit = fruits.shift();
+    console.log(firstFruit); // verwijderd element
+    console.log(fruits);
 ```
 
-### push/pop
+-   Verwijdert het eerste element.
+-   De rest schuift naar links op.
 
-We hebben hiervoor een element toegevoegd aan de hand van een nieuwe index.
+------------------------------------------------------------------------
+
+##### Meerdere (of specifieke) elementen verwijderen met splice()
 
 ```js
-fruits[3] = "Kiwi";
+splice(startIndex, aantalTeVerwijderen)
 ```
-
-Je kan dit ook doen aan de hand van de `push` methode op de array aan te roepen. Je hoeft hier geen index van de array mee te geven. Het element wordt achteraan de array toegevoegd:
 
 ```js
-fruits.push("Kiwi");
+    let fruits = ["Banana", "Apple", "Orange", "Kiwi", "Pear"];
+
+    let removedFruits = fruits.splice(1, 2);
+
+    console.log(removedFruits); // ["Apple", "Orange"]
+    console.log(fruits);        // ["Banana", "Kiwi", "Pear"]
 ```
 
-Wil je het laatste element verwijderen van de array dan gebruik je de `pop` methode.
+-   Verwijdert één of meerdere elementen.
+-   Past de array blijvend aan.
+-   Geeft een array met verwijderde elementen terug.
+
+------------------------------------------------------------------------
+
+## De join() methode
+
+De `.join()` methode zet alle elementen van een array om in één string,
+met een gekozen separator ertussen.
 
 ```js
-fruits.pop();
+    const words = ['Dit', 'is', 'een', 'zin'];
+    const result = words.join(' ');
+
+    console.log(result); // "Dit is een zin"
 ```
 
-Handig hierbij is dat de `pop()` methode het element zelf teruggeeft. Zo kan je dit toekennen aan een variabele en ermee werken
+Belangrijk:
 
+-   `.join()` verandert de originele array niet.
+-   Als je geen separator opgeeft, gebruikt JavaScript standaard een
+    komma:
 ```js
-let lastFruit = fruits.pop();
-console.log(lastFruit); // Kiwi
+    console.log([1, 2, 3].join()); // "1,2,3"
 ```
-
-### shift/unshift
-
-We hebben al elementen toegevoegd en verwijderd van de achterkant van een array. Maar je kan hetzelfde doen aan de voorzijde van de array.
-
-We kunnen een element vooraan de array toevoegen met de `unshift` methode:
-
-```js
-let fruits = ["Banana","Apple","Orange"];
-
-fruits.unshift("Pear");
-
-console.log(fruits[0]); // Pear
-```
-
-Wil je het eerste element uit de array halen dan doe je dit met `shift` methode:
-
-```js
-let fruits = ["Banana","Apple","Orange"];
-
-console.log(fruits.shift()); // Banana
-console.log(fruits);
-```
-
-### join
-
-De .join() methode wordt gebruikt op arrays en plaatst een separator (scheidingsteken) tussen de elementen om één grote string te vormen.
-```javascript
-const words = ['Dit', 'is', 'een', 'zin'];
-const result = woorden.join(' ');
-console.log(resultaat); // Output: Dit is een zin 
-```
-
-.join() verandert de originele array niet, maar retourneert een nieuwe string.
-
-Je kunt ook .join() gebruiken op arrays met getallen of gemengde types – ze worden automatisch omgezet naar strings.
