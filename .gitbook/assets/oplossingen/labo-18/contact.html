@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="description" content="AP-Hogeschool, studeren in Antwerpen"/>
+    <meta name="keywords" content="AP-Hogeschool"/>
+    <meta name="author" content="student AP"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>AP intro</title>
+
+    <link rel="stylesheet" href="./css/reset.css"/>
+
+    <!-- LEAFLET -->
+    <!-- voeg het leaflet css-bestand toe om de kaart van standaard opmaak te voorzien -->
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+            integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+            crossorigin=""
+    />
+
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/map.css"/>
+
+    <!-- voeg de leaflet.js javascript toe aan de pagina en check de integriteit ervan -->
+    <script
+            src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""
+    ></script>
+    <!-- voeg het mapScript.js script toe aan de pagina en laad het als de pagina geladen is. -->
+    <script src="./js/mapScript.js" defer></script>
+</head>
+<body>
+<header>
+    <a href="index.html"
+    ><img
+            src="./assets/ap-logo.png"
+            width="200"
+            alt="logo AP-Hogeschool"
+            id="logo"
+    /></a>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="studenten.html">studenten</a></li>
+        <li><a href="contact.html" class="active">contact</a></li>
+        <li>
+            <search>
+                <form action="#">
+                    <label for="zoek"
+                    >zoeken
+                        <img
+                                src="./assets/searchblack.png"
+                                width="130px"
+                                height="130px"
+                        /></label>
+                    <input
+                            type="search"
+                            name="zoeken"
+                            id="zoek"
+                            placeholder="zoeken"
+                    />
+                </form>
+            </search>
+        </li>
+    </ul>
+</nav>
+
+<main>
+    <section id="contact">
+        <h1>contact</h1>
+        <p>Hier komt het contactformulier (volgend labo)</p>
+    </section>
+</main>
+
+<aside>
+    <h2>Contact</h2>
+    <p>
+        Ellermanstraat 33, Antwerpen<br/>
+        <a href="mailto:onthaal.ell@ap.be"> onthaal.ell@ap.be</a><br/>+32 3 220
+        33 00
+    </p>
+    <h2>op de kaart</h2>
+    <div id="apMap"></div>
+    <h2>Volg ons</h2>
+    <div>
+        <a href="https://www.instagram.com/" target="_blank"><img src="./assets/iconinstagram.png" width="30px"
+                                                                  height="30px"/></a>
+        <a href="https://www.facebook.com/" target="_blank"><img src="./assets/iconfacebook.png" width="30px"
+                                                                 height="30px"/></a>
+        <a href="https://twitter.com/" target="_blank"><img src="./assets/icontwitter.png" width="30px" height="30px"/></a>
+    </div>
+    <div>
+        <a href="https://www.ap.be/ik-schrijf-me-in" target="_blank">
+            <button class="button" type="button">inschrijven</button>
+        </a>
+    </div>
+</aside>
+
+<footer>
+    <p>
+        <a href="https://www.ap.be" target="_blank">&copy; AP-Hogeschool - All rights reserved.</a>
+        | <a href="#logo">Terug naar boven</a>
+    </p>
+</footer>
+</body>
+</html>

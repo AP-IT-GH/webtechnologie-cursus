@@ -1,0 +1,52 @@
+html {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+nav li {
+  display: flex;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-image: url("../images/bg.jpg");
+  background-color: lightgrey;
+}
+
+.item {
+  flex: 1 1 50%; /* Each child will take up 50% of the parent container's width */
+  padding: 10px;
+
+}
+
+.item:nth-child(3n) {
+  width: 100%;
+  background-color: rgba(139, 211, 146, 0.5);
+  padding: 2rem;
+}
+
+.item:nth-child(3n):first-letter {
+  font-size: 200%;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  text-transform:lowercase;
+  color:grey;
+  padding: 1rem;
+}

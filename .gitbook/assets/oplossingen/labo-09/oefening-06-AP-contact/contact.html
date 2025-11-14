@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="AP-Hogeschool, studeren in Antwerpen" />
+  <meta name="keywords" content="AP-Hogeschool" />
+  <meta name="author" content="student AP" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AP intro</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header>
+    <a href="index.html"><img src="assets/ap-logo.png" width="200" alt="logo AP-Hogeschool" id="logo" /></a>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="contact.html" class="active">contact</a></li>
+      <li>
+        <search>
+          <form action="#">
+            <label for="zoek">
+              <img src="assets/searchblack.png" width="130px" height="130px"></label>
+            <input type="search" name="zoeken" id="zoek" placeholder="zoeken" />
+          </form>
+        </search>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="contact">
+      <h2>contact</h2>
+      <form action="#" method="post" class="contactform">
+        <fieldset>
+          <legend>gegevens</legend>
+          <label for="name">voor- en achternaam<span>*</span></label>
+          <input type="text" name="name" placeholder="voor- en achternaam" required><br>
+          <label for="email">e-mail<span>*</span></label>
+          <input type="email" name="email" placeholder="e-mail" required><br>
+        </fieldset>
+        <fieldset>
+          <legend>vraag</legend>
+          <label for="contactperson">vraag is gericht aan<span>*</span></label>
+          <select name="contactperson" id="contactperson" required>
+            <option value="">-- maak hier een keuze --</option>
+            <option value="secretariaat">secretariaat</option>
+            <option value="graduaat-it">graduaat IT</option>
+            <option value="stuvo">stuvo</option>
+          </select>
+          <label for="message">bericht<span>*</span></label>
+          <textarea name="message" id="message" placeholder="bericht" rows="6" required></textarea><br>
+        </fieldset>
+        <button type="submit" value="verzenden" class="button">verzenden</button>
+      </form>
+      <p><span>*</span> zijn verplicht in te vullen velden.</p>
+    </section>
+  </main>
+
+  <aside>
+    <h2>Contact</h2>
+    <p>
+      Ellermanstraat 33, Antwerpen<br />
+      <a href="mailto:onthaal.ell@ap.be"> onthaal.ell@ap.be</a><br />+32 3 220 33 00
+    </p>
+    <h2>Volg ons</h2>
+    <a href="https://www.instagram.com/" target="_blank"><img src="assets/iconinstagram.png" width="30px"
+        height="30px" /></a>
+    <a href="https://www.facebook.com/" target="_blank"><img src="assets/iconfacebook.png" width="30px"
+        height="30px" /></a>
+    <a href="https://twitter.com/" target="_blank"><img src="assets/icontwitter.png" width="30px" height="30px" /></a>
+    <br>
+    <a href="https://www.ap.be/ik-schrijf-me-in" target="_blank"><button class="button"
+        type="button">inschrijven</button></a>
+  </aside>
+
+  <footer>
+    <p>
+      <a href="https://www.ap.be" target="_blank">&copy; AP-Hogeschool - All rights reserved.</a> | <a
+        href="#logo">Terug naar boven</a>
+    </p>
+  </footer>
+</body>
+
+</html>

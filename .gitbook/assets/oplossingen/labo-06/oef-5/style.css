@@ -1,0 +1,39 @@
+html {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.laag-1 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  top: calc(50% - 200px);
+  left: calc(50% - 200px);
+  background-color: #ffb703;
+  padding: 10px;
+  z-index: 300;
+}
+
+.laag-2 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+  background-color: #219ebc;
+  padding: 10px;
+  z-index: 200;
+}
+
+.laag-3 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  background-color: #023047;
+  color: #ffffff;
+  padding: 10px;
+  z-index: 100;
+}

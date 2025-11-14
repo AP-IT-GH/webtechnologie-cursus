@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1
+{
+  font-size: 2rem;
+}
+h2
+{
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+p{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Flexbox-rasterstijlen */
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+li {
+  width: 100%;
+  max-width: 100%;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+  text-align: center;
+}
+
+.lijst-1 {
+  flex-direction: row;
+  flex-basis: 1;
+}
+.lijst-1 li {
+  min-width: 0; /* Voorkom dat de kolommen breder worden dan hun inhoud */
+}
+
+/* kleuren */
+.kleur-1 {
+  color: #0d6efd;
+}
+.kleur-2 {
+  color: #198754;
+}
+.kleur-3 {
+  color: #0dcaf0;
+}
+.kleur-4 {
+  color: #ffc107;
+}
+.kleur-5 {
+  color: #dc3545;
+}
+.kleur-6 {
+  color: #ffffff;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .lijst-2 {
+    flex-direction: row;
+    flex-basis: 1;
+  }
+  .lijst-2 li {
+    min-width: 0; /* Voorkom dat de kolommen breder worden dan hun inhoud */
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .lijst-3 {
+    flex-direction: row;
+    flex-basis: 1;
+  }
+  .lijst-3 li {
+    min-width: 0; /* Voorkom dat de kolommen breder worden dan hun inhoud */
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .lijst-4 {
+    flex-direction: row;
+    flex-basis: 1;
+  }
+  .lijst-4 li {
+    min-width: 0; /* Voorkom dat de kolommen breder worden dan hun inhoud */
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .lijst-5 {
+    flex-direction: row;
+    flex-basis: 1;
+  }
+  .lijst-5 li {
+    min-width: 0; /* Voorkom dat de kolommen breder worden dan hun inhoud */
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+  .lijst-6 {
+    flex-direction: row;
+    flex-basis: 1;
+  }
+  .lijst-6 li {
+    min-width: 0; /* Voorkom dat de kolommen breder worden dan hun inhoud */
+  }
+  .kleur-xxl {
+    background-color: #cf04beb4;
+  }
+}
