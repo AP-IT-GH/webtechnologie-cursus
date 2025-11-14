@@ -14,7 +14,7 @@ Visual Studio Code (VSCode) is een populaire en krachtige geïntegreerde ontwikk
 * Download de versie die compatibel is met je besturingssysteem.
 * Volg de installatie-instructies.
 
-![installatie-instructies vs code](.gitbook/assets/install-vscode.png)
+![installatie-instructies vs code](<.gitbook/assets/image (19) (1).png>)
 
 ### Projectmappen in VS Code:
 
@@ -24,7 +24,7 @@ Visual Studio Code (VSCode) is een populaire en krachtige geïntegreerde ontwikk
   * In 1 VS Code-venster heb je dus maximaal 1 project/oefening gelijktijdig openstaan.
 
 {% hint style="info" %}
-In Windows kan je een map openen met VS Code via rechtermuisklik. ![open map with VS Code in Windows](.gitbook/assets/open-with-code.png)
+In Windows kan je een map openen met VS Code via rechtermuisklik. ![open map with VS Code in Windows](<.gitbook/assets/image (30) (1).png>)
 
 In MacOS kan je de map naar het symbool van VS Code in jouw lint slepen.
 {% endhint %}
