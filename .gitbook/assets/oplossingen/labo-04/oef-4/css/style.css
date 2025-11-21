@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+table {
+    border: 1px solid black;
+}
+
+thead tr th,
+tbody tr th {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    text-align: center;
+    padding: 10px;
+}
+
+.red {
+    color: white;
+    background-color: red;
+}
+
+.blue {
+    color: white;
+    background-color: blue;
+}
+
+.purple {
+    color: white;
+    background-color: purple;
+}
+
+.pink {
+    color: black;
+    background-color: pink;
+}

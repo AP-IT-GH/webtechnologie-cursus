@@ -1,0 +1,48 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav li {
+  display: inline;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+nav li a{
+  text-decoration: none;
+  color: darkgray;
+  text-transform: uppercase;
+}
+
+section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 20px;
+
+  background-color: rgb(240, 240, 240);
+  padding: 20px;
+}
+
+article {
+  flex: 1 1 300px;
+  margin-bottom: 2rem;
+}
+
+article img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
