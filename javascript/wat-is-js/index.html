@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Leaflet.js Voorbeeld</title>
+
+  <!-- Leaflet CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet/dist/leaflet.css"
+  />
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <style>
+    #map {
+      height: 400px;
+    }
+  </style>
+</head>
+
+<body style="font-family: Arial; padding: 20px;">
+
+  <h1>Kaart met Leaflet.js</h1>
+
+  <div id="map"></div>
+
+  <script>
+    const map = L.map('map').setView([51.2194, 4.4025], 13); // Antwerpen
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '© OpenStreetMap'
+    }).addTo(map);
+
+    const marker = L.marker([51.2194, 4.4025]).addTo(map);
+
+    marker.bindPopup("Welkom in Antwerpen!").openPopup();
+  </script>
+
+</body>
+</html>

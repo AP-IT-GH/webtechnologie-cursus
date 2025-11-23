@@ -38,6 +38,8 @@ Daarna kun je de functies van de library meteen in je eigen JavaScript gebruiken
 ### Tailwind CSS 
 Tailwind maakt het heel makkelijk om snel nette layouts te bouwen met alleen class-namen.
 
+![voorbeeld tailwind.js](../../.gitbook/assets/js-libraries-tailwind.png)
+
 ##### Voorbeeld
 ```HTML
 <!DOCTYPE html>
@@ -87,6 +89,8 @@ Bijvoorbeeld:
 
 ### Chart.js
 Met Chart.js creëer je met enkele regels code een volledige, professionele grafiek.
+
+![voorbeeld Chart.js](../../.gitbook/assets/js-libraries-chart.png)
 
 ##### Voorbeeld
 ```HTML
@@ -150,6 +154,8 @@ Geen wiskunde, geen tekenlogica — Chart.js doet al het werk.
 
 ### Grid.js
 Met Grid.js maak je met een klein stukje JavaScript een complete interactieve tabel.
+
+![voorbeeld Grid.js](../../.gitbook/assets/js-libraries-grid.png)
 
 ##### Voorbeeld
 ```HTML
@@ -236,6 +242,8 @@ Dit zorgt automatisch voor:
 
 ### Leaflet
 Leaflet.js maakt het makkelijk om een interactieve kaart toe te voegen aan je website.
+
+![voorbeeld leaflet.js](../../.gitbook/assets/js-libraries-leaflet.png)
 
 ##### Voorbeeld
 ```HTML
