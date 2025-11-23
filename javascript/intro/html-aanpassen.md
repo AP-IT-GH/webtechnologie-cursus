@@ -80,7 +80,7 @@ We selecteren eerst het element waar we het onder willen plaatsen en we voegen h
 
 ```js
 let container = document.querySelector("#result");
-container.appendChild(nieuwElement);
+container.appendChild(newElement);
 ```
 
 Je kunt ook een element toevoegen vòòr een bestaand element met `insertBefore()`:
@@ -90,5 +90,5 @@ let list = document.querySelector("ul");
 let newItem = document.createElement("li");
 newItem.textContent = "Nieuw bovenaan!";
 
-list.insertBefore(nieuwItem, lijst.firstChild);
+list.insertBefore(newItem, list.firstChild);
 ```
