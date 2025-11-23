@@ -22,7 +22,7 @@ Met de innerHTML-eigenschap kan je de volledige inhoud (incl. markup) van een no
 
 ## element.textContent = ""
 
-Met `textContent` kunnen we tekstuele inhoud van een HTML-element lezen en aanpassen. Deze gaan we regelamtig gebruiken in onze oefeningen!
+Met `textContent` kunnen we tekstuele inhoud van een HTML-element lezen en aanpassen. Deze gaan we regelmatig gebruiken in onze oefeningen!
 
 ```js
 let element = document.querySelector('#result');
@@ -34,19 +34,61 @@ element.textContent = "Nieuwe tekst";
 We kunnen ook alle eigenschappen van een HTML-element wijzigen. Denk hierbij bijvoorbeeld aan de `src` van een afbeelding.
 
 ```javascript
-document.querySelector('#myImage").src = "landscape.jpg";
+document.querySelector("#myImage").src = "landscape.jpg";
 ```
 
 {% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp0AjbkgCe+7boBM6gFIMAbgwDKsAE5kADvGUAJaQFkAGWUJf0EAeixrCzJcAHNlMiQAXk0QWIY4iDTlMFdYVJAceA8wVHDw1wYAdww4sngsAFcDJsh83n54DB5ccIBBeQBaAElpIYBxH3CGMEh4MCGkCFxuReqIA0RYLEqIEjBIiAYkQ9wGMjpw2LiAfXhXCAgMDzo4nOqkxsKARgA2AAMOSwEDIcRwv0sQJA5h0YDcnng+iQ3FgTWYfDqEHgihgGPgACETCMkAAKNIZLJpACUGDysGUyWUaWKpXKlRqdQazVa7R4fAgmN6A2GY0m01m80Wy1W602212jwORxOZwuVw8l2OHg8MAwACsPO8QABuCzheHuLywwQedTSEHKbjueqMKCJc5ZZTVWYeu4PJ4vN6EZStbyNCC5BFeZQ7BhvZCJcPcZSauja3XPQ1xCJ27TmoymfQRPTaTiQGAIMi8KjoH4AVlQAJAAF9CPQmCx0AaqMR+V1WK32yBGMxWD05px+4L4IOWwBdFtAA" %}
 
-## HTML toevoegen
+## Een HTML element toevoegen
 
-`appendChild()` voegt een node toe als child (laatste onderliggende object) van een node.
+Soms wil je niet enkel bestaande HTML aanpassen, maar volledig nieuwe elementen maken en toevoegen aan de pagina. Hiervoor maak je eerst een nieuw element aan, voeg je er inhoud aan toe en plaats je het element op de juiste plaats in de DOM.
 
-Als u een nieuwe alinea met tekst wilt maken, vergeet dan niet om de tekst te maken als een node die u aan de alinea toevoegt en voeg dan die alinea vervolgens aan het document toe.
+### Een nieuw element maken
+Met `document.createElement()` maak je een nieuw (leeg!) HTML-element.
 
-U kunt deze methode ook gebruiken om een ​​element van het ene naar het andere element te verplaatsen.
+```js
+let newElement = document.createElement("p");
+```
 
-Gebruik insertBefore () om een ​​nieuw child-node in te voegen in een reeds bestaande, onderliggende node.
+Hiermee krijg je een nieuwe `<p>`-tag, maar die staat nog nergens in de DOM.
 
-meer info: [link](https://www.w3schools.com/jsref/met_node_appendchild.asp) {% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp0AjbkgCe+3QEZ10rBGWKYzPsvEGAVnHiCA9FivbdACZrW2UGAAdwiDokSSwKJAAKAEplAFkIeCxjHyxg7QCAVyhlMiQAXk0QXBMAGTIweCr9ZWVBKDJ1SW4SEggIHw6WtqHpCAZBzoDvYv0A8K6O2ABrZSqAQUjopCrleG4wrZiwulLEXD2DrLtt5R690I7G1B8FgsNC+H3T3lgl5cq1RMADFCnQEGReClmpsojEfAZPt85jowLAAE5kcLwfQkMEQ3jKGqg8HwSF0FLKYDvbzeZSSdHjRAnNYgDq7OjGCCobQ8OiNZScpB2crKJDcWCFJzwDAYpkQBwQaWJKrskDJADcNLpDPlYT2EAAHvBBVyeeDeALEMahSKxRKpdEZXKGIgxsaAHJclUgADqrog6Kqmu1ylht2uBuNpuFlwedlVZA5Zu0towEThsXiUCS1vgtpDdG0tLDRyQ8dZapjdn2Fae8HN4sl0owAHNMorpQAhEwASSSVRq9UawfTZbiCUSBa1dAAvtM0ZjsSiEcYzNM9NpOJAYAT+awAMwAFlQAAYQLPCPQmCx0Bg3FRiHz+PBWBeryBGMxWLKwI+uLwL5vrOAC6s5AA %}
+### Inhoud toevoegen aan het nieuwe element
+
+Je kan de inhoud op verschillende manieren toevoegen:
+
+**Tekst toevoegen met textContent**
+
+Gebruik deze methode om platte tekst toe te voegen aan een element.
+
+```js
+newElement.textContent = "Dit is een nieuwe paragraaf.";
+```
+
+**HTML toevoegen met innerHTML**
+
+Gebruik deze methode om HTML-inhoud toe te voegen aan een element.
+
+```js
+newElement.innerHTML = "<strong>Dit is een nieuwe paragraaf.</strong>";
+```
+
+### Het nieuwe element toevoegen aan de DOM
+
+Nu het element klaar is, moeten we het nog toevoegen aan de pagina.
+
+We selecteren eerst het element waar we het onder willen plaatsen en we voegen het toe als laatste child:
+
+```js
+let container = document.querySelector("#result");
+container.appendChild(nieuwElement);
+```
+
+Je kunt ook een element toevoegen vòòr een bestaand element met `insertBefore()`:
+
+```js
+let list = document.querySelector("ul");
+let newItem = document.createElement("li");
+newItem.textContent = "Nieuw bovenaan!";
+
+list.insertBefore(nieuwItem, lijst.firstChild);
+```
