@@ -10,4 +10,4 @@ icon: js
 
 ## GitHub Classroom link
 
-[Labo 18](https://classroom.github.com/a/GplVfc7-)
+[Labo 18](https://classroom.github.com/a/mpICsqj2)

@@ -8,4 +8,4 @@ icon: js
 
 ## GitHub Classroom link
 
-[Labo 17](https://classroom.github.com/a/alaEw4Mp)
+[Labo 17](https://classroom.github.com/a/DfifQL3p)
