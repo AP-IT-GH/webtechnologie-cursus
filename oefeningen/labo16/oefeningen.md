@@ -7,7 +7,7 @@ icon: js
 ## JavaScript basis (deel 4)
 
 * [Document Object Model (DOM)](https://apwt.gitbook.io/webtechnologie/javascript/intro)
-* [Events](https://apwt.gitbook.io/webtechnologie/javascript/intro-1)
+* [Events](https://apwt.gitbook.io/webtechnologie/javascript/events)
 
 ## GitHub Classroom link
 
