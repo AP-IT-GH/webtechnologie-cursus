@@ -12,7 +12,7 @@ Dit is echter een manier van werken die we zelden zullen adviseren. Je kan hierm
 
 ## element.innerHTML = "";
 
-Met de innerHTML-eigenschap kan je de volledige inhoud (incl. markup) van een node verkrijgen en aanpassen als een string.
+Met de innerHTML-eigenschap kan je de volledige inhoud (incl. markup) van een node verkrijgen en aanpassen als een string. Dit kan echter voor onveilige situaties zorgen.
 
 {% hint style="warning" %}
 **XSS** Cross-site scripting attacks zijn manieren om bepaalde data toe te voegen aan een website die daar niet thuis hoort. (video: https://youtu.be/zv0kZKC6GAM )
@@ -20,14 +20,39 @@ Met de innerHTML-eigenschap kan je de volledige inhoud (incl. markup) van een no
 
 {% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp0AjbkgCe+7boBM6gLInlAMTIAnMPGUB1CAeXyGAcwhBAHosawsAB1t7J1d3P2cAxIisDBCo7UjlMiQAXk0QJAhcbgL1dPMdMFhnMgj4fSRuWABXZj4MQPhFGHb4ACETAEkkAAoCopKCgEoMMjo6CGcACWkbABllXOUAVmUAamUANgBuC2Dq2vrKkKNTfRC9ZW1OSBgEMl4qdABGHdQAAwgAC+hHoTBY6AwACsqMQeHwIAJ0CCwSBGMxWBhYGA4VxePx4KwQQBdYFAA %}
 
+## `element.insertAdjacentHTML(location, HTMLstring)`
+
+Als alternatief voor innerHTML is er de `insertAdjacentHTML` functie. Daarmee geef je aan *waar* je een element wilt invoegen, en kan je vervolgens in een string meegeven welke HTML code je daar wilt plaatsen.
+
+Je kan HTML invoegen rond een element op 4 plaatsen:
+- `beforeBegin`: vlak *voor* de openingstag (dus als sibling voor het element)
+- `afterBegin`: vlak *na* de openingstag (dus als eerste child)
+- `beforeEnd`: vlak *voor* de sluitingstag (dus als laatste child)
+- `afterEnd`: vlak *na* de sluitingstag (dus als sibling na het element)
+
+```html
+<!-- beforeBegin -->
+<div id="result">
+    <!-- afterBegin -->
+    We gaan rond dit element HTML invoegen!
+    <!-- beforeEnd -->
+</div>
+<!-- afterEnd -->
+
+```
+
 ## element.textContent = ""
 
-Met `textContent` kunnen we tekstuele inhoud van een HTML-element lezen en aanpassen. Deze gaan we regelmatig gebruiken in onze oefeningen!
+Met `textContent` kunnen we tekstuele inhoud van een HTML-element lezen en aanpassen. Dit zorgt op zich niet voor veiligheidsproblemen, maar kan wel voor rommelige code zorgen. Omdat het geen andere problemen met zich meebrengt, gaan we deze toch regelmatig gebruiken in onze oefeningen!
 
 ```js
 let element = document.querySelector('#result');
 element.textContent = "Nieuwe tekst";
 ```
+
+## `element.insertAdjacentText(location, textString)`
+
+Net als insertAdjacentHTML een alternatief is voor innerHTML, is inserAdjacentHTML een alternatief voor textContent en innerText. De functie werkt op dezelfde manier, maar zal alle tekst in de `textString` letterlijk als tekst tonen (zelfs html-elementen).
 
 ## eigenschappen
 
@@ -56,20 +81,24 @@ Hiermee krijg je een nieuwe `<p>`-tag, maar die staat nog nergens in de DOM.
 
 Je kan de inhoud op verschillende manieren toevoegen:
 
-**Tekst toevoegen met textContent**
+**Tekst toevoegen met textContent en insertInnerText**
 
 Gebruik deze methode om platte tekst toe te voegen aan een element.
 
 ```js
 newElement.textContent = "Dit is een nieuwe paragraaf.";
+// OF
+newElement.insertAdjacentText("beforeEnd", `Dit is een nieuwe paragraaf.`);
 ```
 
-**HTML toevoegen met innerHTML**
+**HTML toevoegen met innerHTML en insertAdjacentHTML**
 
 Gebruik deze methode om HTML-inhoud toe te voegen aan een element.
 
 ```js
 newElement.innerHTML = "<strong>Dit is een nieuwe paragraaf.</strong>";
+// OF
+newElement.insertAdjacentHTML("beforeEnd", `<strong>Dit is een nieuwe paragraaf.</strong>`);
 ```
 
 ### Het nieuwe element toevoegen aan de DOM
@@ -91,4 +120,16 @@ let newItem = document.createElement("li");
 newItem.textContent = "Nieuw bovenaan!";
 
 list.insertBefore(newItem, list.firstChild);
+```
+
+Als alternatief kan je vanaf het begin werken met insertAdjacentHTML:
+
+```js
+let container = document.querySelector("#result");
+
+container.insertAdjacentHTML("beforeEnd", "<ul></ul>");
+
+container.lastChild.insertAdjacentHTML("beforeEnd", "<li>item 1</li>");
+container.lastChild.insertAdjacentHTML("beforeEnd", "<li>item 2</li>");
+container.lastChild.insertAdjacentHTML("beforeEnd", "<li>item 3</li>");
 ```
