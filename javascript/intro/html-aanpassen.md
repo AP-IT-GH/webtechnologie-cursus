@@ -81,7 +81,7 @@ Hiermee krijg je een nieuwe `<p>`-tag, maar die staat nog nergens in de DOM.
 
 Je kan de inhoud op verschillende manieren toevoegen:
 
-**Tekst toevoegen met textContent en insertInnerText**
+**Tekst toevoegen met textContent en insertAdjacentText**
 
 Gebruik deze methode om platte tekst toe te voegen aan een element.
 
