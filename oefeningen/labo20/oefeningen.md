@@ -10,4 +10,4 @@ icon: js
 
 ## GitHub Classroom link
 
-[Labo 20](https://classroom.github.com/a/eDcvbFZD)
+[Labo 20](https://classroom.github.com/a/o147tRKR)
