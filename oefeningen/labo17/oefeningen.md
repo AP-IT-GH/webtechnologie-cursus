@@ -1,11 +1,16 @@
 ---
 icon: js
+cover: >- 
+  https://images.unsplash.com/photo-1627398242454-45a1465c2479?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwyfHxqYXZhc2NyaXB0fGVufDB8fHx8MTc2MDM0MTA0NXww&ixlib=rb-4.1.0&q=85
+coverY: 0
 ---
 
-# Labo 17
+# Labo 13
 
-## Herhaling - geïntegreerde oefening
+## <img src="../../.gitbook/assets/github.png" alt="GitHub Classroom logo" data-size="line"> Oefeningen
 
-## GitHub Classroom link
+[Oefeningen van labo 17 op GitHub](https://classroom.github.com/a/DfifQL3p)
 
-[Labo 17](https://classroom.github.com/a/DfifQL3p)
+## 💻 Theorie
+
+/
