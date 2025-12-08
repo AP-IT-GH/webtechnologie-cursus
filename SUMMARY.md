@@ -37,6 +37,7 @@
   * [Labo 19](oefeningen/labo19/oefeningen.md)
   * [Labo 20](oefeningen/labo20/oefeningen.md)
   * [Labo 21](oefeningen/labo21/oefeningen.md)
+  * [Labo 22](oefeningen/labo22/oefeningen.md)
   * [Oplossingen](oefeningen/oplossingen.md)
 
 ## HTML
