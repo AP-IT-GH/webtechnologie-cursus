@@ -22,23 +22,14 @@ Gebruik altijd relatieve paden (_paths_) om te linken naar bestanden en afbeeldi
 
 ## JavaScript
 
-- **Strict Mode**: Begin elke JavaScript-file met de volgende statement om "strict mode" in te schakelen:
+- **Javascript Modules**: Modules helpen om globale variabelen te vermijden en maakt je code beter organiseerbaar. Bovendien plaatst het JavaScript automatisch in **strict mode** en zorgt het ervoor dat je scripts pas worden uitgevoerd nadat de HTML is geladen.
 
-    ```javascript
-    "use strict";
+    ```html
+    <script type="module" src="js/main.js"></script>
     ```
-
-  **Waarom?**: Dit helpt om veel voorkomende fouten te voorkomen, doordat JavaScript strikter met variabelen en functies omgaat. Lees meer over het verschil tussen **strict mode** en **sloppy mode** op [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode).
-
-- **Vermijd Globale Variabelen**: Beperk de _scope_ van je variabelen tot de file zelf. Zorg voor een duidelijke **main functie** en roep deze onmiddellijk aan:
-
-    ```javascript
-    function main() {
-        // je code hier
-    }
-
-    main();
-    ```
+  
+  - Meer informatie over JavaScript modules vind je op: [MDN Web Docs - JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules).
+  - Meer informatie over JavaScript strict mode vind je op: [MDN Web Docs - Strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode).
 
 - **Variabelen in CamelCase**: Gebruik **camelCase** voor variabele- en functienamen. Dit betekent dat je begint met een kleine letter en de eerste letter van elke nieuwe woord in hoofdletters schrijft, bijvoorbeeld: `userName`, `totalPrice`, `fetchData`.
 
