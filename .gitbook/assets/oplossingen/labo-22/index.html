@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="nl-be">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandwich Club</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&display=swap"
+          rel="stylesheet">
+
+    <!-- Styling -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- JavaScript -->
+    <script type="module" src="./js/index.js"></script>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li class="nav__item nav__item-home">
+                <a href="index.html">
+                    <svg width="44" height="46" viewBox="0 0 44 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="icon icon__home nav__item-active"
+                              d="M28.2639 43V26.1574C28.2639 25.5991 28.042 25.0636 27.6472 24.6687C27.2524 24.2739 26.7169 24.0521 26.1585 24.0521H17.7372C17.1789 24.0521 16.6434 24.2739 16.2486 24.6687C15.8537 25.0636 15.6319 25.5991 15.6319 26.1574V43M3 19.8415C2.99985 19.229 3.13334 18.6238 3.39114 18.0682C3.64895 17.5126 4.02487 17.0199 4.49267 16.6245L19.2299 3.99472C19.9899 3.35241 20.9528 3 21.9479 3C22.943 3 23.9059 3.35241 24.6659 3.99472L39.4031 16.6245C39.8709 17.0199 40.2468 17.5126 40.5046 18.0682C40.7624 18.6238 40.8959 19.229 40.8958 19.8415V38.7894C40.8958 39.9061 40.4522 40.9771 39.6625 41.7667C38.8729 42.5564 37.8019 43 36.6851 43H7.21064C6.09391 43 5.02292 42.5564 4.23327 41.7667C3.44362 40.9771 3 39.9061 3 38.7894V19.8415Z"
+                              stroke="#521514" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </li>
+            <li class="nav__item nav__item-contact">
+                <a href="contact.html">Contact</a>
+            </li>
+            <li class="nav__item nav__item-basket">
+                <svg width="56" height="46" viewBox="0 0 56 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="icon icon__basket"
+                          d="M35.4992 20.4996L32.9992 42.999M45.4989 20.4996L35.4992 3M3 20.4996H52.9987M6.7499 20.4996L10.7498 38.9991C10.9836 40.1454 11.6119 41.1735 12.5255 41.9044C13.439 42.6352 14.58 43.0226 15.7497 42.999H40.2491C41.4188 43.0226 42.5597 42.6352 43.4733 41.9044C44.3868 41.1735 45.0152 40.1454 45.2489 38.9991L49.4988 20.4996M9.24984 31.7493H46.7489M10.4998 20.4996L20.4996 3M20.4996 20.4996L22.9995 42.999"
+                          stroke="#521514" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="home">
+        <div class="home__welcome">
+            <div class="welcome__text">
+                <h1 class="welcome__title">De Sandwich Club</h1>
+                <p class="welcome__subtitle">Toon je innerlijke sandwichkunstenaar. Kies uit verschillende verse
+                    ingrediënten en talloze combinaties.</p>
+                <button class="welcome__btn cta"><a href="#order">Start je creatie</a></button>
+            </div>
+            <img src="./assets/images/img__landing.jpg" alt="Animatiefiguur van een gelukkige sandwich."
+                 class="welcome__img">
+        </div>
+        <div class="home__steps">
+            <article class="card">
+                <img src="./assets/images/icon__Heart.svg" alt="Icon hartje" class="card__img">
+                <p class="card__title">Creër</p>
+                <p class="card__text">Stel je eigen sandwich samen met al wat je lekker vindt.</p>
+            </article>
+            <article class="card">
+                <img src="./assets/images/icon__Store.svg" alt="Icon winkel" class="card__img">
+                <p class="card__title">Bestel</p>
+                <p class="card__text">Bestel vlug en eenvoudig online en haal af in het afhaalpunt.</p>
+            </article>
+            <article class="card">
+                <img src="./assets/images/icon__Sandwich.svg" alt="Icon sandwich" class="card__img">
+                <p class="card__title">Geniet</p>
+                <p class="card__text">Geniet van je lunch en kom snel terug voor meer lekkers!</p>
+            </article>
+        </div>
+    </section>
+    <section id="order">
+        <section class="order__section section__broodje">
+            <div class="section__title">
+                <img src="./assets/images/blob-1.svg" alt="Stap 1">
+                <p>Kies je broodje</p>
+            </div>
+            <div class="order__cards">
+                <button class="order__card card__broodje">
+                    <img src="./assets/images/broodje__wit.jpg" alt="wit broodje" class="card__img">
+                    <span class="card__text">Wit</span>
+                </button>
+                <button class="order__card card__broodje">
+                    <img src="./assets/images/broodje__fitness.jpg" alt="fitness broodje" class="card__img">
+                    <span class="card__text">Fitness</span>
+                </button>
+                <button class="order__card card__broodje">
+                    <img src="./assets/images/broodje__boekweit.jpg" alt="boekweit broodje" class="card__img">
+                    <span class="card__text">Boekweit</span>
+                </button>
+            </div>
+        </section>
+        <section class="order__section section__saus">
+            <div class="section__title">
+                <img src="./assets/images/blob-2.svg" alt="Stap 2">
+                <p>Kies je saus</p>
+            </div>
+            <div class="order__cards">
+                <button class="order__card card__saus">
+                    <img src="./assets/images/saus__mayo.webp" alt="mayonaise" class="card__img">
+                    <span class="card__text">Mayonaise</span>
+                </button>
+                <button class="order__card card__saus">
+                    <img src="./assets/images/saus__cocktail.webp" alt="cocktail" class="card__img">
+                    <span class="card__text">Cocktail</span>
+                </button>
+                <button class="order__card card__saus">
+                    <img src="./assets/images/saus__andalouse.webp" alt="andalouse" class="card__img">
+                    <span class="card__text">Andalouse</span>
+                </button>
+            </div>
+        </section>
+        <section class="order__section section__beleg">
+            <div class="section__title">
+                <img src="./assets/images/blob-3.svg" alt="Stap 3">
+                <p>Kies je beleg</p>
+            </div>
+            <div class="order__cards">
+                <button class="order__card card__beleg">
+                    <img src="./assets/images/beleg__ham.webp" alt="ham" class="card__img">
+                    <span class="card__text">Ham</span>
+                </button>
+                <button class="order__card card__beleg">
+                    <img src="./assets/images/beleg__kaas.webp" alt="kaas" class="card__img">
+                    <span class="card__text">Kaas</span>
+                </button>
+                <button class="order__card card__beleg">
+                    <img src="./assets/images/beleg__prepare.webp" alt="prepare" class="card__img">
+                    <span class="card__text">Préparé</span>
+                </button>
+            </div>
+        </section>
+        <button class="order__btn cta">Bestel</button>
+    </section>
+    <section id="cooking">
+        <div class="cooking__message cooking__message-waiting">
+            <h3 class="cooking__title">Plaats je bestelling!</h3>
+            <p class="cooking__text">Twijfel niet te lang. Dan kan ik meteen voor je aan de slag.</p>
+        </div>
+        <div class="cooking__message cooking__message-done">
+            <h3 class="cooking__title">We gaan voor je aan de slag!</h3>
+            <p class="cooking__text">Je <span class="cooking__span-broodje">wit</span> broodje met <span
+                    class="cooking__span-saus">mayonaise</span> en <span class="cooking__span-beleg">ham</span> kan
+                binnen <span class="cooking__span-timer">20</span> minuten afgehaald worden.</p>
+        </div>
+        <img src="./assets/images/img__chef.jpg" alt="Animatiefiguur van een sandwich chef kok" class="cooking__img">
+    </section>
+</main>
+<footer>
+    <p>&copy; De Sandwich Club</p>
+</footer>
+</body>
+</html>
