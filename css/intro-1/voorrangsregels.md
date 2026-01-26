@@ -39,14 +39,14 @@ Laten we enkele voorbeelden bekijken:
 
 In dit geval zal de derde regel (`#main p.article`) de voorkeur hebben boven de eerste twee vanwege de hogere specificiteit.
 
-## visualisatie in VS Code
+## Visualisatie
 
-Een handige functie van Visual Studio Code is dat het de specificiteit van CSS-selectors kan weergeven wanneer je met de muis over de selector zweeft. Dit is vooral nuttig bij het snel begrijpen van de specificiteit van een bepaalde regel tijdens het schrijven van code.
+Een handige functie van Codium is dat het de specificiteit van CSS-selectors kan weergeven wanneer je met de muis over de selector zweeft. Dit is vooral nuttig bij het snel begrijpen van de specificiteit van een bepaalde regel tijdens het schrijven van code.
 
-![VS Code Hover Specificity](../../.gitbook/assets/css-02-voorrangsregels.jpg)
+![Specificity visualisatie](../../.gitbook/assets/css-02-voorrangsregels.jpg)
 
 ## tips voor praktisch gebruik
 
 1. **Wees specifiek indien Nodig:** Gebruik specifieke selectors wanneer je ervoor wilt zorgen dat een bepaalde stijl wordt toegepast, maar vermijd overmatige specificiteit als het niet nodig is.
-2. **vermijd !important:** Het gebruik van `!important` maakt stijlen moeilijk te overschrijven en kan leiden tot problemen met onderhoud.
+2. **vermijd `!important`:** Het gebruik van `!important` maakt stijlen moeilijk te overschrijven en kan leiden tot problemen met onderhoud.
 3. **erfenis en onderhoud:** Begrijp de erfenis van specificiteit en houd hier rekening mee bij het onderhouden van een codebase.

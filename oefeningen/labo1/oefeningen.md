@@ -18,7 +18,6 @@ coverY: 0
 * [Chrome Dev tools](https://developer.chrome.com/docs/devtools/overview)
 * [Structuur](https://apwt.gitbook.io/webtechnologie/html/intro)
 * [Elementen](https://apwt.gitbook.io/webtechnologie/html/intro/elementen)
-* [Block vs. inline](https://apwt.gitbook.io/webtechnologie/html/intro/block-vs-inline)
 * [Semantiek](https://apwt.gitbook.io/webtechnologie/html/intro/semantiek)
 * [Teksten](https://apwt.gitbook.io/webtechnologie/html/intro-1)
 

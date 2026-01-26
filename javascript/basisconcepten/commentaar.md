@@ -40,4 +40,4 @@ console.log('World');
 
 ### hotkeys
 
-In visual studio code kan je eenvoudig commentaar aanzetten en afzetten voor een bepaalde lijn code. Je kan bijvoorbeeld `CTRL-/` gebruiken om je huidige selectie in commentaar te zetten. Of `SHIFT-ALT-A` voor multi line comments.
+In je IDE kan je eenvoudig commentaar aanzetten en afzetten voor een bepaalde lijn code. Je kan bijvoorbeeld `CTRL-/` gebruiken om je huidige selectie in commentaar te zetten. Of `SHIFT-ALT-A` voor multi line comments.

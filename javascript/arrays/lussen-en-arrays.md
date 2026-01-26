@@ -49,7 +49,7 @@ for (let i=0; i<fruits.length; i++) {
 }
 ```
 
-Je hebt in visual studio code een aantal handige auto complete functies voor snel deze syntax te genereren.
+Je hebt in je IDE een aantal handige autocomplete functies voor snel deze syntax te genereren.
 
 ![](<../../.gitbook/assets/forloopgenerate (1).gif>)
 
