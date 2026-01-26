@@ -13,8 +13,8 @@ coverY: 0
 
 ## 💻 Theorie
 
+* [Tabellen](https://apwt.gitbook.io/webtechnologie/html/intro-3)
 * [CSS Variabelen](https://apwt.gitbook.io/webtechnologie/css/intro-4/variabelen)
-* [Position](https://apwt.gitbook.io/webtechnologie/css/natuurlijke-volgorde/positionering#positionering)
 
 ## 🔗 Aanvullende bronnen
 

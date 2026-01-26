@@ -1,5 +1,0 @@
-# audio
-
-Audio kan worden toegevoegd met het `<audio>`-element. Binnen dit element kunnen door het `<source>`-element en het `src`- en `type`-attribuut, 1 of meerdere bronbestanden van verschillende types worden toegevoegd. De tekst in het `<audio>`-element zal alleen maar worden getoond in browsers die dit element niet ondersteunen.
-
-{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp0AjbkgCe+7boCM66VgjKGAVyRluy6BGZ9BAeizXtCwAHdUkoMlgAa2VeZXg7ZSCoBhNlA0d4eFisxOTUhmUwbkc6JFRfEMCdJxc3Hj4AJ24oMH1lZUEixwbYezAegF5NEBx4ILBUHx8AczJ4xwMMHlwfAEF5AFoASWkNgHEACR8GMEh4MA2kT24LgHcIA0RYLB8GhlufADYGAGYADgA7JYDAYIJZPgAmMFQkgkX4ABgYf0sAE5PrAUQAWdHw+GwTE-TF-T4GPzcBqQDDcabTYZxExBCBDEA1Vw+am0kBtDpdHp9QbDUbjSYzOZYBZLbgrdbbXaHY6nCDnS7XO4PJ4vN4fb7-IEgsGQ6EQWEIpGo9FYnF4glEklkikQDC4II-OnwBlM4as7g+Z0QTnc2TFBppJq3SAhpDcCBgZR0bjwQqOIJBcmJ+L2b3uGBeeAYCzHZyucw6HxGUz6Xx6bScSAwBCuOhUdAo1CWSx-EAAX0I9CYLHQGAAVlRiPV+PBWN3eyBGMxWEtTpxxxABOhuwBdLtAA" %}

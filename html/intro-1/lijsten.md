@@ -29,16 +29,3 @@ We gaan gebruik maken van het `<ol>`element wanneer de volgorde of waarde van de
    <li>Dit is het derde item van de geordende lijst</li>
 </ol>
 ```
-
-## definitielijst
-
-Een definitielijst is een lijst, welke bestaat uit termen en bijbehorende beschrijvingen. Het `<dl>`-element bepaalt het begin en einde van een definitielijst en de elementen `<dt>` en `<dd>` definiëren respectievelijk de term en de beschrijving.
-
-```html
-<dl>
-   <dt>Term 1</dt>
-   <dd>Hier staat de definitie van term 1</dd>
-   <dt>Term 2</dt>
-   <dd>Hier staat de definitie van term 2</dd>
-</dl>
-```

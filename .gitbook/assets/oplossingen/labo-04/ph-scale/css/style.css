@@ -1,6 +1,7 @@
 body {
     background-color: silver;
     color: white;
+    padding: 20px;
     font-family: Arial, Verdana, sans-serif;
 }
 
@@ -8,6 +9,12 @@ h1 {
     background-color: #ffffff;
     background-color: hsla(0,100%,100%,0.5);
     color: #64645A;
+    padding: inherit;
+}
+
+p {
+    padding: 5px;
+    margin: 0px;
 }
 
 p.zero {

@@ -14,7 +14,6 @@ coverY: 0
 ## 💻 Theorie
 
 * [Syntax](https://apwt.gitbook.io/webtechnologie/css/intro)
-* [⭐️ Box Model](https://apwt.gitbook.io/webtechnologie/css/intro/box-model)
 * [Randen en spaties](https://apwt.gitbook.io/webtechnologie/css/intro/randen-en-spaties) (Outline niet)
 * [⭐️ Selectors](https://apwt.gitbook.io/webtechnologie/css/intro-1)
   * [Overerving](https://apwt.gitbook.io/webtechnologie/css/intro-1/overerving)

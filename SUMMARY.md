@@ -53,10 +53,7 @@
 * [Formulieren](html/intro-2/README.md)
   * [invoervelden](html/intro-2/invoervelden.md)
 * [Tabellen](html/intro-3/README.md)
-* [Media](html/media/README.md)
-  * [afbeeldingen](html/media/afbeeldingen.md)
-  * [video](html/media/video.md)
-  * [audio](html/media/audio.md)
+* [Afbeeldingen](html/media/afbeeldingen.md)
 
 ## CSS
 

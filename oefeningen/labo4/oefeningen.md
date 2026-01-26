@@ -13,10 +13,9 @@ coverY: 0
 
 ## 💻 Theorie
 
+* [⭐️ Box Model](https://apwt.gitbook.io/webtechnologie/css/intro/box-model)
 * [CSS Reset](https://apwt.gitbook.io/webtechnologie/css/intro-4/reset)
 * [⭐️ Pseudo Selectors](https://apwt.gitbook.io/webtechnologie/css/intro-1/pseudo-selectors) (behalve die voor [formulieren](https://apwt.gitbook.io/webtechnologie/css/intro-1/pseudo-selectors#input-pseudo-klassen))
-* [Outline](https://apwt.gitbook.io/webtechnologie/css/intro/randen-en-spaties#outline)
-* [Tabellen](https://apwt.gitbook.io/webtechnologie/html/intro-3)
 
 ## 🔗 Aanvullende bronnen
 

@@ -14,11 +14,9 @@ coverY: 0
 ## 💻 Theorie
 
 * [Verwijzingen](https://apwt.gitbook.io/webtechnologie/html/intro-1/verwijzingen)
-* &#x20;[Lijsten](https://apwt.gitbook.io/webtechnologie/html/intro-1/lijsten)
+* [Lists](https://apwt.gitbook.io/webtechnologie/html/intro-1/lijsten)
 * [Speciale tekens](https://apwt.gitbook.io/webtechnologie/html/intro-1/speciale-tekens)
 * [Afbeeldingen](https://apwt.gitbook.io/webtechnologie/html/media/afbeeldingen)
-* [Video](https://apwt.gitbook.io/webtechnologie/html/media/video)
-* [Audio](https://apwt.gitbook.io/webtechnologie/html/media/audio)
 
 ## 🔗 Aanvullende bronnen
 
