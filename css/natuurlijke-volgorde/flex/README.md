@@ -127,14 +127,6 @@ In een één-lijn flex container worden alle kinderen gelay-out op één enkele 
 
 Een multi-lijn flex container breekt haar flex items over meerdere lijnen, vergelijkbaar met hoe de tekst wordt afgebroken op een nieuwe regel wanneer die te groot wordt om op één lijn te passen. Als er extra lijnen worden gemaakt, worden ze gestapeld in de flex container langs de dwarsas in overeenstemming met de waarde van de `flex-wrap` eigenschap. Elke lijn bevat ten minste één flex item, tenzij de flexibele container zelf geheel leeg is.
 
-## schrijfwijzen
-
-Bovenstaande illustratie gaat ervan uit dat de schrijfwijze van links naar rechts (LTR) is. De flex lijn volgt de richting van de tekst die in een links-naar-rechts modus, van links naar rechts en van boven naar beneden gaat.
-
-Als je de richting van de tekst met de eigenschap `writing-mode` wijzigt, zal de richting van de flex lijn ook veranderen.
-
-Bij het wijzigen van `writing-mode` zullen de richtingen van zowel de hoofdas en dwarsas ook veranderen. Bijvoorbeeld, in een Japanse taalindeling, loopt de hoofdas verticaal en de dwarsas horizontaal. In de de `flex-flow` sectie vind je een voorbeeld.
-
 ## flex container
 
 ### display: flex

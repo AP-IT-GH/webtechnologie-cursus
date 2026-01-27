@@ -12,10 +12,6 @@ coverY: 0
 [Oefeningen van labo 5 op Github](https://classroom.github.com/a/fElzpxvH)
 
 ## 💻 Theorie
-
-* [Block vs. inline](https://apwt.gitbook.io/webtechnologie/html/intro/block-vs-inline)
-* [Units](https://apwt.gitbook.io/webtechnologie/css/natuurlijke-volgorde/units)
-* [Display properties: block, inline, inline-block](https://apwt.gitbook.io/webtechnologie/css/natuurlijke-volgorde/positionering#display)
 * [⭐️ Display property: grid](https://apwt.gitbook.io/webtechnologie/css/natuurlijke-volgorde/grid)
 
 ## 🔗 Aanvullende bronnen

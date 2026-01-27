@@ -14,8 +14,11 @@ coverY: 0
 ## 💻 Theorie
 
 * [⭐️ Box Model](https://apwt.gitbook.io/webtechnologie/css/intro/box-model)
-* [CSS Reset](https://apwt.gitbook.io/webtechnologie/css/intro-4/reset)
+* [Block vs. inline](https://apwt.gitbook.io/webtechnologie/html/intro/block-vs-inline)
+* [Display properties: block, inline](https://apwt.gitbook.io/webtechnologie/css/natuurlijke-volgorde/positionering#display)
+* [Units](https://apwt.gitbook.io/webtechnologie/css/natuurlijke-volgorde/units)
 * [⭐️ Pseudo Selectors](https://apwt.gitbook.io/webtechnologie/css/intro-1/pseudo-selectors) (behalve die voor [formulieren](https://apwt.gitbook.io/webtechnologie/css/intro-1/pseudo-selectors#input-pseudo-klassen))
+* [CSS Reset](https://apwt.gitbook.io/webtechnologie/css/intro-4/reset)
 
 ## 🔗 Aanvullende bronnen
 
