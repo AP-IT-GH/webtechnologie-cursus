@@ -8,8 +8,6 @@ HTML beschrijft de structuur van webpagina's. HTML is de afkorting van **HyperTe
 
 Om een HTML-pagina te starten heb je enkele belangrijke basiselementen die steeds terugkomen.
 
-###
-
 De declaratie wordt helemaal bovenaan de pagina geplaatst. En is dus het eerste HTML-element dat je nodig hebt om een webpagina te maken. Dit element is uniek in zijn soort, want het was/is het enige element dat je in hoofdletters moe(s)t schrijven.
 
 De HTML5-versie is gemakkelijk te gebruiken:

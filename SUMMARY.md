@@ -42,16 +42,16 @@
 
 ## HTML
 
-* [Structuur](html/intro/README.md)
-  * [elementen](html/intro/elementen.md)
-  * [block vs. inline](html/intro/block-vs-inline.md)
-  * [semantiek](html/intro/semantiek.md)
-* [Teksten](html/intro-1/README.md)
-  * [verwijzingen](html/intro-1/verwijzingen.md)
-  * [lijsten](html/intro-1/lijsten.md)
-  * [speciale tekens](html/intro-1/speciale-tekens.md)
-* [Tabellen](html/intro-3/README.md)
-* [Afbeeldingen](html/media/afbeeldingen.md)
+* [Structuur](html/structuur.md)
+* [Elementen](html/elementen.md)
+* [Block vs. inline](html/block-vs-inline.md)
+* [Semantiek](html/semantiek.md)
+* [Teksten](html/teksten.md)
+* [Verwijzingen](html/verwijzingen.md)
+* [Lijsten](html/lijsten.md)
+* [Speciale tekens](html/speciale-tekens.md)
+* [Afbeeldingen](html/afbeeldingen.md)
+* [Tabellen](html/tabellen.md)
 * [Formulieren en invoervelden](html/forms.md)
 
 ## CSS
