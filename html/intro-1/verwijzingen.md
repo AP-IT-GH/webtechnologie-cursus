@@ -44,9 +44,19 @@ Wil je een verwijzing plaatsen naar een stuk tekst op dezelfde pagina, dan gebru
 
 ```html
 <h1 id="top">Film-Making Terms</h1>
-<a href="#arc_shot">Arc Shot</a><br>
-<a href="#interlude">Interlude</a><br>
-<a href="#prologue">Prologue</a><br><br>
+<nav>
+    <ul>
+        <li>
+            <a href="#arc_shot">Arc Shot</a>            
+        </li>
+        <li>
+            <a href="#interlude">Interlude</a>            
+        </li>
+        <li>
+            <a href="#prologue">Prologue</a>   
+        </li>
+    </ul>
+</nav>
 <h2 id="arc_shot">Arc Shot</h2>
 <p>A shot in which the subject is photographed by an
 encircling or moving camera</p>
