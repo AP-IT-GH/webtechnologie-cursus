@@ -41,7 +41,7 @@ Navigeer naar "**Workspaces**" en klik op "**My Workspace**". Laten we het staps
 ![](../../.gitbook/assets/postman-5.png)
 
 1. **New** – Hier maak je een nieuwe request, collectie of environment aan.
-2. **Import** – Dit wordt gebruikt om een ​​collectie of environment te importeren.
+2. **Import** – Dit wordt gebruikt om een  collectie of environment te importeren.
 3. **Open New Tab** – Open een nieuw tabblad voor een nieuwe request aan te maken door op deze knop te klikken.
 4. **Invite** – Werk samen aan een workspace door teamleden uit te nodigen.
 5. **History** - Eerdere requests die je hebt verzonden, worden weergegeven in History. Dit maakt het gemakkelijk om requests die je eerder hebt uitgevoerd te raadplegen.

@@ -2,7 +2,7 @@
 
 Het kleurenpallet is een belangrijk aspect binnen een digitaal ontwerp. Voor sommige ontwerpers wordt kleur beschouwd als een esthetische keuze, maar het is in feite een belangrijk onderdeel van de **psychologische impact van een ontwerp op gebruikers**, en dus ook op UX.
 
-Een goed doordacht kleurenpalet kan een ontwerp van "goed" naar "geweldig" verheffen, terwijl een slecht kleurenpalet afbreuk kan doen aan de **algehele ervaring** van een gebruiker. Het kan zelfs het vermogen van een gebruiker om een ​​site of app te gebruiken kan belemmeren, denk maar aan kleurenblinden.
+Een goed doordacht kleurenpalet kan een ontwerp van "goed" naar "geweldig" verheffen, terwijl een slecht kleurenpalet afbreuk kan doen aan de **algehele ervaring** van een gebruiker. Het kan zelfs het vermogen van een gebruiker om een  site of app te gebruiken kan belemmeren, denk maar aan kleurenblinden.
 
 ## kleurenpsychologie
 

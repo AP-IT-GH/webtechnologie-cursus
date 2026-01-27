@@ -365,7 +365,7 @@ order: <integer>
 
 {% embed url="https://youtu.be/-Wlt8NRtOpo" %}
 
-meer info: [https://www.w3schools.com/css/css3\_flexbox.asp](https://www.w3schools.com/css/css3_flexbox.asp)\
+meer info: [https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)\
 meer info: [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)\
 meer info: [https://freshman.tech/flexbox-navbar/](https://freshman.tech/flexbox-navbar/)
 

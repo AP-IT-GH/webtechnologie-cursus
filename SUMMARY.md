@@ -50,9 +50,9 @@
   * [verwijzingen](html/intro-1/verwijzingen.md)
   * [lijsten](html/intro-1/lijsten.md)
   * [speciale tekens](html/intro-1/speciale-tekens.md)
-* [Formulieren en invoervelden](html/forms.md)
 * [Tabellen](html/intro-3/README.md)
 * [Afbeeldingen](html/media/afbeeldingen.md)
+* [Formulieren en invoervelden](html/forms.md)
 
 ## CSS
 

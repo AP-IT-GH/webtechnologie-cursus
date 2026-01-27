@@ -23,13 +23,13 @@ elUsername.addEventListener('blur', checkUsername, false);
 // 'blur' is één van de vele DOM events die wordt aangeroepen
 ```
 
-meer info ivm onBlur event: [link](https://www.w3schools.com/jsref/event_onblur.asp) {% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp0AjbkgCe+3QEZ1ACWkBZADLKJd5YoBuEPmEEB6LFbaugBM6tJYEMoGUACuAE5unnx+WKHaQQAO6gCqkMrwEcoMSEgeXvAOZGD8EHEAFACUyswFxvncRfDwDLBYRcqaINHxg8oQSfDtRXTKZHQZMZPQEMx8GH5Z6TpZAOpxZIjKYNwtWHMA5rMzBZFzC5Pk0EiE00j5ETOwUGSwANbK3EWYDISEiN2Ujygb3gHSg3DyJG4sBiYGUdWGcQa618mzoQTui3yJgyEAAvINEAAPeCjEHk0iMZiDfRBMCwfYZeD6JBImKreAYc4QeCKGD8gBCJgAkkg6oMSIyIIMscVShNKtUvLU5UNYnFBi9cCYAGIxOgIMi8BoAbi2JDNFt4zRNDvglrojWUwG0yiKMDi8B1UvmhMhbzh1QhvLAGGVtroAF8gr42RyuVs-EZTOZ-HgNFtOJAYI66FR0MEAMyoAAMIAThHoTBY6AwACsqMQeHxyqw6w2QIrWBhYGAO1xePx4L2EwBdBNAA %}
+Meer info over het blur-event: [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/blur_event) %}
 
 ### addEventListener
 
-`addEventListener()` voegt een gebeurtenis toe aan het opgegeven element. Gebruik de methode `removeEventListener()` om een ​​gebeurtenis te verwijderen die is gekoppeld is met de methode addEventListener(). Gebruik de methode `element.addEventListener()` om een ​​gebeurtenis aan het opgegeven element te koppelen.
+`addEventListener()` voegt een gebeurtenis toe aan het opgegeven element. Gebruik de methode `removeEventListener()` om een  gebeurtenis te verwijderen die is gekoppeld is met de methode addEventListener(). Gebruik de methode `element.addEventListener()` om een gebeurtenis aan het opgegeven element te koppelen.
 
-meer info: [link](https://www.w3schools.com/jsref/met_element_addeventlistener.asp) {% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp0AjbkgCe+7boCM66VgjLFMZn2XiDAKzjxBAeizWLLAAmGztlBiQkRQA3CD4AGTIwfggAJwAKAEplAFkIeCxjX2DzHQAHdQBBeHgGWCxw5VgoMlgAa2UIWJd4bkaDAFca3lRfCu0LQeG6ZTIkAF5NEFwTACF4OiWbVJNZ7x8p3rpSwTLZhaWkCFxuLbGTsFhUsjL4fR46ZM6nOPhleeUSG4sAGzngGAA5vlHNdfqsTABJJDpJYrdabECZADc2mgsL4GAiUW68ESyTiaRRXBa7SWhGUJAGdAQZF4WWUwG0ykBwNBv0h0J+fHhSKpVxuS0yGDIdDoaQAEtIcvF-solvLoFA+gB1bipKBIJY4ugAX2xFh8j2erxOB2MZgtem0nEgMBZvCo6CCQVQAAYQCbCPQmCx0Bh3FRiB9+PBWAGgyBGMxWBhYGBI1xeDG4yaALomoA %}
+[Meer info op MDN](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) {% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp0AjbkgCe+7boCM66VgjLFMZn2XiDAKzjxBAeizWLLAAmGztlBiQkRQA3CD4AGTIwfggAJwAKAEplAFkIeCxjX2DzHQAHdQBBeHgGWCxw5VgoMlgAa2UIWJd4bkaDAFca3lRfCu0LQeG6ZTIkAF5NEFwTACF4OiWbVJNZ7x8p3rpSwTLZhaWkCFxuLbGTsFhUsjL4fR46ZM6nOPhleeUSG4sAGzngGAA5vlHNdfqsTABJJDpJYrdabECZADc2mgsL4GAiUW68ESyTiaRRXBa7SWhGUJAGdAQZF4WWUwG0ykBwNBv0h0J+fHhSKpVxuS0yGDIdDoaQAEtIcvF-solvLoFA+gB1bipKBIJY4ugAX2xFh8j2erxOB2MZgtem0nEgMBZvCo6CCQVQAAYQCbCPQmCx0Bh3FRiB9+PBWAGgyBGMxWBhYGBI1xeDG4yaALomoA %}
 
 ### preventDefault
 
@@ -38,7 +38,7 @@ De `preventDefault()` methode stopt de standaardactie van een element.
 * voorbeeld 1: Het voorkomt dat een verzendknop een formulier verzendt.
 * voorbeeld 2: Het voorkomt dat een link de URL volgt.
 
-meer info: [link](https://www.w3schools.com/jsref/event_defaultprevented.asp) {% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp0AjbkgCe+7YIbKySALyaQuEwEE6sLNwBOD1Z4gl7EBx4AAcwVAB6CIB3AGYwd25uKDAMHlwIh3UAcW5leDyAdViAZUTk1PTBCIZzHRD1aSwIZRC-ADcIPlF-BgBXKHgACgBKZWZ4DyRlaIooVo6u+Hzm5SgyOgBrZQYjTuUST25cA+Soblm6AHMVloBVACUAGQxqhu0LBsl12G3JlvWWx2dGm7jg2zIJFuyiQvQGywYCDIvGsYAWEE6fGQrwi7zoFgSnjIIXg+iQ3FgfWYfAwVwg8EUMGp8AAQiYAJJIIYOJyuRLeEAjDAMJBIRSY+BPMhgfgQTzcrg-TYOQgHPpueDIuhDDFLEbAbTKZS6mltE3wHokfqDUaGnYwTzDByFBhos0Sy3W4ZjWAMKAwJCoZQ+ADUxolGFhVvh8kWWKQIwA3NoAL5JiwRQnE0kfHQRIymfTVPTaTiQGBI3hUdAARgAnKgAAwgFOEehMFjoDAAKyoxB4WIE6BbbZAjGYrDSYD7XF4-HgrBbAF0U0A %}
+[Meer info op MDN](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault) {% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp0AjbkgCe+7YIbKySALyaQuEwEE6sLNwBOD1Z4gl7EBx4AAcwVAB6CIB3AGYwd25uKDAMHlwIh3UAcW5leDyAdViAZUTk1PTBCIZzHRD1aSwIZRC-ADcIPlF-BgBXKHgACgBKZWZ4DyRlaIooVo6u+Hzm5SgyOgBrZQYjTuUST25cA+Soblm6AHMVloBVACUAGQxqhu0LBsl12G3JlvWWx2dGm7jg2zIJFuyiQvQGywYCDIvGsYAWEE6fGQrwi7zoFgSnjIIXg+iQ3FgfWYfAwVwg8EUMGp8AAQiYAJJIIYOJyuRLeEAjDAMJBIRSY+BPMhgfgQTzcrg-TYOQgHPpueDIuhDDFLEbAbTKZS6mltE3wHokfqDUaGnYwTzDByFBhos0Sy3W4ZjWAMKAwJCoZQ+ADUxolGFhVvh8kWWKQIwA3NoAL5JiwRQnE0kfHQRIymfTVPTaTiQGBI3hUdAARgAnKgAAwgFOEehMFjoDAAKyoxB4WIE6BbbZAjGYrDSYD7XF4-HgrBbAF0U0A %}
 
 {% hint style="info" %}
 Hieronder volgt nog uitleg over de andere 2 types van event binders. We gaan deze niet meer gebruiken in moderne code. Je zal ze nog wel tegenkomen in oudere projecten of bij zoekresultaten op internet.

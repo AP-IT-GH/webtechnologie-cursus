@@ -6,13 +6,18 @@ Kleuren kunnen voor meerdere onderdelen van een HTML-document vastgelegd worden 
 
 ### kleurnaam
 
-De meest eenvoudige manier om een kleur vast te leggen is door middel van een naam, wat makkelijker te onthouden is dan een combinatie van cijfers en/of letters. CSS ondersteunt [140 standaard kleuren](https://www.w3schools.com/colors/colors_names.asp) op basis van de naam van de kleur zelf
+De meest eenvoudige manier om een kleur vast te leggen is door middel van een naam, wat makkelijker te onthouden is dan een combinatie van cijfers en/of letters. CSS ondersteunt [named colors](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/named-color) op basis van de naam van de kleur zelf.
 
 ```css
 /* kleurnaam */
 h1 {
-    color: yellow;}
+    color: yellow;
+}
 ```
+
+<% hint style="info" %>
+    In de laatste versie van CSS Colors (Level 4) werd een extra kleur, `rebeccapurple`, toegevoegd ter ere van webpionier [Eric Meyer](https://meyerweb.com/eric/thoughts/2014/06/19/rebeccapurple/).
+<% endhint>
 
 ### HEX-code
 
@@ -22,7 +27,8 @@ Deze code begint met een # en telt 6-elementen, waarbij de intensiteit van rood,
 /* hex-code */
 h2 {
     
-color: #ee3e80;}
+color: #ee3e80;
+}
 ```
 
 ### RGB en RGBA-waarde
@@ -32,7 +38,8 @@ Om een RGB-kleur te definiëren wordt de waarde van elk van de basiskleuren rood
 ```css
 /* rgb-waarde */
 p {
-    color: rgb(102,205,170);}
+    color: rgb(102,205,170);
+}
 ```
 
 Bij een RGBA-waarde wordt er tevens rekening gehouden met de transparantie of opacity van een kleur. Aangezien de rgba-notatie geïntroduceerd werd binnen CSS3, wordt deze dus niet ondersteund door oudere browsers en zal enkel de kleur weergegeven worden.
@@ -41,26 +48,6 @@ Bij een RGBA-waarde wordt er tevens rekening gehouden met de transparantie of op
 /* rgba-waarde met een transparantie (opacity) van 50%, dus 0.5 */
 p {
     color: rgba(102,205,170,0.5);} 
-```
-
-### HSL & HSLA-waarde
-
-CSS3 introduceert een nieuwe notatie om een kleur te benoemen met behulp van een tint, (**h**ue) verzadiging (**s**aturation) en lichtheid (**l**ightness).\
-**hue**: Tint is een graad op het kleurenwiel van 0 tot 360 graden. 0 is rood, 120 is groen en 240 is blauw.\
-**saturation**: Verzadiging is een procentuele waarde, 0% betekent een grijstint en 100% is de volledige kleur.\
-**lightness**: Lichtheid is ook een percentage, 0% is zwart, 50% is niet licht of donker, 100% is wit.\
-**alpha**: Transparantie wordt uitgedrukt als een getal tussen 0 en 1,0. 0,5 staat bijvoorbeeld voor 50% transparantie en 0,75 staat voor 75% transparantie.
-
-```css
-/* hsl-waarde */
-body {
-    background-color: #C8C8C8;
-    background-color: hsl(0,0%,78%);}
-    
-/* hsla-waarde met een transparantie (opacity) van 15%, dus 0.15 */
-p {
-    background-color: #ffffff;
-    background-color: hsla(0,100%,100%,0.15);}
 ```
 
 ## tekstkleur
@@ -134,10 +121,3 @@ body {
     background: #ffffff url("../images/tulp.gif") no-repeat top right;
 }
 ```
-
-### sprites
-
-Sprites zijn bestanden in het afbeeldingsformaat waar meerdere afbeeldingen in samen worden gezet. Door gebruik te maken van de eigenschappen van de achtergrondafbeelding kunnen we dan wisselen tussen de verschillende afbeeldingen in het bestand.
-
-{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCLAPYB2YpMaJ1UAhgA6QrEBmAljGGgNqhyDXBFrY8BYmXKIZtADwBCACIB5AMIAVAJoAFAKIACHPgB8AHXLyTUC1awQGSO-LDwAnjDsBiIQDcoTjdDYEtDQyZSME54TgpUQwAnaAZYvwgAbksAX0tLXwYAoPhDQJCww1wGRIBzTnIEgAYs8nCmJyR6mqaW8MC3AFo3TwgE8gpMisjo2PjDBgAjKigAV0Rew3hSJh6cvPICouDAwkND-pKGctbjCE4anASAFiemAA8NzrAmRncEhagpFgAGsWrlyPksKQRNc+hB2PAmu8NgB3ThIeBYZ4ANmRFQWDBBNUSpBW5CQCRWiSgAAoAOQ4eAsVAAehZiQYKIwdUxKwWK0giWksngGDIuBZAEFdAMAJKaAYAcQAEiyGGBIPAwAMkBBcFEBiiIAtELAsCyAOzYxoAJgYNoAnA7rQwLU8bQtsbBsewng6GOx2AAON2OJDsRoAZgtQYDNoArI0WZxcDUAPr+b6JGIQMDczjsOkASkMjVLYP23iYyT8sNK8MRhmxkbxNzRGKxhieLY++MJwOJpPJlOp9MZzLZHK5PKwfIFECFFBFYuhUpl8qVqvVmu1uv12qNJrg5qttvtTpdbo9Xp9foDwdDTgj0dj7ATSZT6cz1ZzebqhZLAYngtd5yz2CEDnICA3hKUIbhgBEEgARkdVtwnbTFnh7DYCSJEkyQpQwqVpBl4CZMBWXZTl815flBWFCAZBXCVpTlBUVTVDUIC1HU9QNQ9TRPa07UdZ1Gldd1PW9X1-UDEMnjDZ8YzjRNk1TDNCizX98wAwwBgdJDQOacD5BZYYvEsUyHCcFwFlIJB3DsSyVigQx0QAXnMEB-AuLy7HCeQyg8ryoREPz5CuLBknYTyQHHCi2RRJKMGYDAFggcK1VMUzAn8wxAs4NykFi6sID8cLIui2L4so5gUVFHk7NIYEMDiTKGGyllcoqAqitiqCYIq4wqpCsiJxZJKuQYGQjUSJhGLSjKQE6jqcs4FwWRcpyrBZOyHI2mxTCIcBoDgWZKFoRpUEaICHVQC0QGyQhBGEUR0AwAArXgpCXRj4FoR7nu816xFgDVjoYuR0EegBdbIgA" %}
-

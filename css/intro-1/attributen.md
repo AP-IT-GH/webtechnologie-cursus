@@ -22,4 +22,4 @@ input[type="email"] {
 }
 ```
 
-meer info: [https://www.w3schools.com/css/css\_attribute\_selectors.asp](https://www.w3schools.com/css/css_attribute_selectors.asp)
+meer info: [Attribute selectors op MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Attribute_selectors)

@@ -1,6 +1,6 @@
 # 2: teksten
 
-Een zeer belangrijk onderdeel van bijna elke webapplicatie is het voorzien van teksten op de webpagina. We gebruiken hiervoor specifieke HTML-elementen. Er bestaan véél meer HTML-elementen met betrekking tot het schrijven van teksten dan degene die we hier opsommen. Voor meer informatie verwijzen we naar [w3schools](https://www.w3schools.com/html/html_elements.asp).
+Een zeer belangrijk onderdeel van bijna elke webapplicatie is het voorzien van teksten op de webpagina. We gebruiken hiervoor specifieke HTML-elementen. Er bestaan véél meer HTML-elementen met betrekking tot het schrijven van teksten dan degene die we hier opsommen. Voor meer informatie verwijzen we naar [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML).
 
 ## titel
 

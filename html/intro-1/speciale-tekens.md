@@ -8,7 +8,7 @@ Bepaalde symbolen kunnen in HTML niet gewoon geplaatst worden als tekst, maar mo
 © = &copy;
 ```
 
-Meer voorbeelden: [https://www.w3schools.com/html/html\_symbols.asp](https://www.w3schools.com/html/html_symbols.asp)
+Meer voorbeelden: [zie MDN artikel](https://developer.mozilla.org/en-US/docs/Glossary/Character_reference)
 
 ## non-breaking space
 

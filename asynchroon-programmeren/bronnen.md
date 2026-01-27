@@ -6,7 +6,6 @@ Deze cursus is geïnspireerd op volgende bronnen:
 * [Duckett, J. (2014). JavaScript & jQuery: The Missing Manual. O'Reilly Media.](https://goodreads.com/author/show/135171.Jon_Duckett)
 * [The Modern JavaScript Tutorial](https://javascript.info/)
 * [ModernWays](https://modernways.be/)
-* [W3Schools](https://www.w3schools.com/)
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web)
   * [MDN - Code Style Guide - JS](https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Writing_style_guide/Code_style_guide/JavaScript)
 * [CSS Tricks](https://www.css-tricks.com)

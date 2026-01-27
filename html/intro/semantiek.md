@@ -38,4 +38,4 @@ HTML5 is voorzien van enkele elementen die kunnen gebruikt worden voor de opmaak
 </html>
 ```
 
-meer info: [semantische elementen](https://www.w3schools.com/html/html5_semantic_elements.asp)
+meer info: [Semantic Elements op MDN](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
