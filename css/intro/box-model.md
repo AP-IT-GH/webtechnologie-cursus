@@ -44,9 +44,9 @@ Deze is de meest intuïtieve manier om met boxen te werken.*/
 ```
 
 
-<% hint style="info" %>
+ {% hint style="info" %}
 Het is een industrie-standaard om altijd met border-box te werken! 
 
 Een goede CSS Reset of Normalize CSS file zet standaard alle boxen op `border-box`. Dit is de aanbevolen instelling voor moderne webontwikkeling.
 Voor meer informatie zie hoofdstuk [CSS Resets](../../css/intro-4/reset/README.md).
-<% endhint %>
+ {% endhint %}

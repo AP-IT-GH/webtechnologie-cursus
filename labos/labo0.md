@@ -9,7 +9,7 @@ coverY: 133.85250737463127
 
 ## Stap 1: IDE in orde brengen (éénmalig)
 
-* Installeer **Codium** en de nodige extensies (zie hoofdstuk [IDE](ide.md)).
+* Installeer **Codium** en de nodige extensies (zie hoofdstuk [IDE](../ide.md)).
 * Maak op je computer een mapje voor het vak (bv. `webtechnologie`).
 
 ***
@@ -31,9 +31,9 @@ Heb je een fout gemaakt? Dan mag je deze regels gewoon opnieuw invoeren.
 
 ## Stap 3: GitHub Classroom repository aanmaken
 
-Voor elk labo krijg je een **GitHub Classroom-link**. Deze zijn terug te vinden in de labo-pagina's (bv. [Labo 1](oefeningen/labo1/oefeningen.md), [Labo 2](oefeningen/labo2/oefeningen.md), ...). Klik op de link van het labo dat je wil starten. Aanvaard de opdracht voor dat labo. Het kan zijn dat je eerst een Github account moet aanmaken.
+Voor elk labo krijg je een **GitHub Classroom-link**. Deze zijn terug te vinden in de labo-pagina's (bv. [Labo 1](labo1.md), [Labo 2](labo2.md), ...). Klik op de link van het labo dat je wil starten. Aanvaard de opdracht voor dat labo. Het kan zijn dat je eerst een Github account moet aanmaken.
 
-![GitHub Classroom](.gitbook/assets/gh-classroom.png)\
+![GitHub Classroom](../.gitbook/assets/gh-classroom.png)\
 &#xNAN;_&#x47;itHub Classroom nadat je jouw repo hebt aangemaakt. Via de URL kom je op jouw persoonlijke repository._
 
 ***

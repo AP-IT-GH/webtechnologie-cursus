@@ -15,7 +15,7 @@ h1 {
 }
 ```
 
-<% hint style="info" %>
+ {% hint style="info" %}
     In de laatste versie van CSS Colors (Level 4) werd een extra kleur, `rebeccapurple`, toegevoegd ter ere van webpionier [Eric Meyer](https://meyerweb.com/eric/thoughts/2014/06/19/rebeccapurple/).
 <% endhint>
 

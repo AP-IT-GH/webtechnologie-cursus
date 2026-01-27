@@ -10,16 +10,6 @@ Inhoud
 - [Valideren](#valideren)
 - [Kort voorbeeldformulier](#kort-voorbeeldformulier)
 
-Korte, praktische gids voor het bouwen van HTML-formulieren: structuur, veelgebruikte invoerelementen, groeperen, validatie en toegankelijkheid.
-
-## Inleiding
-Formulieren zijn de manier waarop gebruikers data invoeren in een website (bijv. zoekvelden, registratie, uploads). Deze gids behandelt de belangrijkste HTML-elementen en best practices voor veilige en toegankelijke formulieren.
-
-## Structuur van een formulier
-Een formulier wordt gemaakt met het `<form>`-element (MDN: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form). De twee belangrijkste attributen zijn:
-
-- `action` — URL waar de formuliergegevens naartoe worden gestuurd.
-- `method` — HTTP-methode: meestal `GET` (gegevens in URL) of `POST` (gegevens in body).
 
 Standaard is `method="GET"` en `action` is de huidige pagina als je het niet instelt.
 
@@ -213,16 +203,6 @@ Belangrijk: vertrouw niet alleen op client-side validatie — controleer altijd 
   <button type="submit">Verstuur</button>
 </form>
 ```
-
-## Form review (kort)
-
-Gebruik deze checklist wanneer je een formulier controleert:
-
-- Heeft elk invoerveld een label (zichtbaar of toegankelijk verborgen)?
-- Zijn `id`-waarden uniek en zijn `for`-attributen correct gekoppeld?
-- Wordt `POST` + `enctype="multipart/form-data"` gebruikt bij bestanduploads?
-- Zijn vereiste velden (`required`) en relevante `type`-attributen ingesteld (email, url, tel, etc.)?
-- Zijn foutmeldingen en instructies dichtbij het veld en gekoppeld via `aria-describedby` waar nodig?
 
 ## Meer lezen
 - MDN HTML forms: https://developer.mozilla.org/en-US/docs/Learn/Forms
