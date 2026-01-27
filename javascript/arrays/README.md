@@ -1,5 +1,7 @@
 # 7: Arrays
 
+[MDN: Array - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
 Tijdens het onderdeel over datatypes hebben we al kort het concept **array** vermeld. Een array is een **geordende lijst van waarden**. Elke waarde in een array heeft een vaste plaats, aangeduid met een **index**, en die index begint altijd bij **0**.
 
 Arrays zijn handig wanneer je meerdere gerelateerde gegevens onder één variabele wilt opslaan.

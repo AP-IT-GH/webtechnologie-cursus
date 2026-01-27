@@ -20,7 +20,7 @@ while (condition) {
 6. ...
 7. Als de conditie `false` is dan stopt de lus.
 
-![](../../.gitbook/assets/code2flow_L78rnC.png)
+![Flowdiagram while-loop voorbeeld](../../.gitbook/assets/code2flow_L78rnC.png)
 
 **voorbeeld 1: 5 keer herhalen**
 

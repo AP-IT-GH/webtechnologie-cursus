@@ -54,12 +54,12 @@ Je kan uiteraard in een JSON bestand ook een array van objecten plaatsen. Je kan
 
 We visualiseren deze JSON als volgt:
 
-![](<../../.gitbook/assets/image (9).png>)
+![Visualisatie JSON array van objecten](../../.gitbook/assets/image%20(9).png)
 
 Het inlezen van deze JSON file gebeurd op identiek dezelfde manier als hiervoor, met het enige verschil dat we nu een array van `Dinosaur`-objecten hebben.
 
 ```js
-import dinosaurs from "../assets/json/dinosaurs.json" assert { type: 'json' };
+import dinosaurs from "../assets/json/dinosaurs.json" with { type: 'json' };
 ```
 
 Willen we nu alle namen van alle dinosaurussen afprinten op het scherm kunnen we dit als volgt doen:
@@ -167,16 +167,16 @@ Hier zie je een voorbeeld van zo'n json bestand:
 }
 ```
 
-![](<../../.gitbook/assets/image (15).png>)
+![Visualisatie van root object met dinosaurs property](../../.gitbook/assets/image%20(15).png)
 
 Je kan dit ook visualiseren aan de hand van de [https://jsonformatter.org/json-viewer](https://jsonformatter.org/json-viewer) tool:
 
-![](<../../.gitbook/assets/image (10).png>)
+![JSON viewer screenshot](../../.gitbook/assets/image%20(10).png)
 
 We kunnen ook dit JSON-bestand als volgt inlezen:
 
 ```js
-import rootObject from '../assets/json/dinosaurs-alt.json' assert { type: 'json' };
+import rootObject from '../assets/json/dinosaurs-alt.json' with { type: 'json' };
 ```
 
 We kunnen nu aan de hand van de dot-notatie via het rootObject aan de dinosaurs array geraken:

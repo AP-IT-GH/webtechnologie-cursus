@@ -51,7 +51,7 @@ for (let i=0; i<fruits.length; i++) {
 
 Je hebt in je IDE een aantal handige autocomplete functies voor snel deze syntax te genereren.
 
-![](<../../.gitbook/assets/forloopgenerate (1).gif>)
+![IDE snippet voor for-loop generatie](../../.gitbook/assets/forloopgenerate%20(1).gif)
 
 ### for ... of loop
 

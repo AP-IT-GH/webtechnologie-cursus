@@ -1,5 +1,7 @@
 # 1: wat is JavaScript
 
+[MDN: What is JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+
 JavaScript (vaak afgekort als JS) is een scriptingtaal die vroeger vooral werd gebruikt voor het interactief maken van web pagina's. Een voorbeeld van interactiviteit is het gebruik van animaties, foutmeldingen tonen bij formulieren en het uitvoeren van bepaalde code bij het klikken op een knop. Ondertussen gebruikt meer dan 97% van de websites die je online kan vinden wel iets van JavaScript en zijn volledig statische websites bijna nergens meer te vinden.
 
 ```markup

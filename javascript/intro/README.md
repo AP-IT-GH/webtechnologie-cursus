@@ -1,5 +1,7 @@
 # 3: document object model
 
+[MDN: Document Object Model (DOM)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+
 Het Document Object Model (of kortweg DOM) bepaalt hoe een browser de HTML-pagina moet opbouwen en hoe JavaScript deze kan lezen en aanpassen.
 
 Deze set van regels is onderverdeeld in 2 belangrijke onderdelen:

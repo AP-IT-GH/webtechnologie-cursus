@@ -8,7 +8,7 @@ Local scope zijn variabelen die gedeclareerd zijn binnen een een block. Een bloc
 
 Variabelen die binnen een bepaald blok zijn gedeclareerd kan je niet buiten dat blok aanspreken.
 
-![](../../.gitbook/assets/blockscope.gif)
+![Illustratie van block scope en zichtbaarheid van variabelen](../../.gitbook/assets/blockscope.gif)
 
 Het volgende is ook geldig voor
 

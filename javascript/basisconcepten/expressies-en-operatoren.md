@@ -68,7 +68,7 @@ De eerste vier zijn uiteraard vanzelfsprekend en zijn gewoon hetzelfde als diege
 
 De rest operator `%` heeft niets te maken met percentages. Het stelt een rest voor van een deling van twee getallen.
 
-```typescript
+```js
 console.log(5 % 2); // De rest van de deling van 5 en 2 is 1
 console.log(6 % 2); // De rest van de deling van 6 en 2 is 0
 ```
@@ -77,7 +77,7 @@ console.log(6 % 2); // De rest van de deling van 6 en 2 is 0
 
 Met de exponent operator `a ** b` ga je een macht berekenen van twee getallen.
 
-```typescript
+```js
 console.log(2 ** 2); // 2² = 4
 console.log(2 ** 3); // 2³ = 8
 console.log(2 ** 4); // 2⁴ = 16

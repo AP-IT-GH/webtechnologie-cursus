@@ -1,5 +1,15 @@
 # formulieren
 
+Inhoud
+
+- [Structuur van een formulier](#structuur-van-een-formulier)
+- [Labels](#labels)
+- [Veelgebruikte invoerelementen](#veelgebruikte-invoerelementen)
+- [Groeperen van velden](#groeperen-van-velden)
+- [Toegankelijkheid en best practices](#toegankelijkheid-en-best-practices)
+- [Valideren](#valideren)
+- [Kort voorbeeldformulier](#kort-voorbeeldformulier)
+
 Korte, praktische gids voor het bouwen van HTML-formulieren: structuur, veelgebruikte invoerelementen, groeperen, validatie en toegankelijkheid.
 
 ## Inleiding
@@ -203,6 +213,16 @@ Belangrijk: vertrouw niet alleen op client-side validatie — controleer altijd 
   <button type="submit">Verstuur</button>
 </form>
 ```
+
+## Form review (kort)
+
+Gebruik deze checklist wanneer je een formulier controleert:
+
+- Heeft elk invoerveld een label (zichtbaar of toegankelijk verborgen)?
+- Zijn `id`-waarden uniek en zijn `for`-attributen correct gekoppeld?
+- Wordt `POST` + `enctype="multipart/form-data"` gebruikt bij bestanduploads?
+- Zijn vereiste velden (`required`) en relevante `type`-attributen ingesteld (email, url, tel, etc.)?
+- Zijn foutmeldingen en instructies dichtbij het veld en gekoppeld via `aria-describedby` waar nodig?
 
 ## Meer lezen
 - MDN HTML forms: https://developer.mozilla.org/en-US/docs/Learn/Forms

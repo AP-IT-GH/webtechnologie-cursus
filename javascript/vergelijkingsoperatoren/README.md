@@ -1,5 +1,7 @@
 # 5: beslissingen
 
+[MDN: Comparison operators / Conditionals - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#comparison)
+
 We kennen veel vergelijkingsoperatoren vanuit de wiskunde.
 
 In JavaScript worden deze als volgt geschreven:

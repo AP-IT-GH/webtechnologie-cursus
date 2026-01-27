@@ -106,7 +106,7 @@ let str2 = "'Hello World'";
 
 Je kan de lengte van een string bepalen aan de hand van de `length` property:
 
-```typescript
+```js
 let str1 = "Hello";
 console.log(str1.length);
 ```

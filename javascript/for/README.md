@@ -1,123 +1,93 @@
 # 6: lussen
 
-Vaak moet een stuk programma meerdere keren achter elkaar worden uitgevoerd worden. Hiervoor worden lussen gebruikt. Een aantal voorbeelden van waar je best lussen voor gebruikt
+[MDN: for statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
 
-* Als je een bericht 100 keer op het scherm zou willen tonen
+Vaak moet een stuk programma meerdere keren achter elkaar worden uitgevoerd. Hiervoor worden lussen gebruikt. Een aantal voorbeelden van waar je best lussen voor gebruikt:
+
+* Als je een bericht 100 keer op het scherm wilt tonen
 * Als je alle getallen tussen 0 en 100 wilt optellen
 * ...
 
-Er zijn verschillende soorten lussen die je kan gebruiken. We beginnen in dit deel met de `for`loop.
+Er zijn verschillende soorten lussen die je kan gebruiken. We beginnen in dit deel met de `for`-lus.
 
-### de syntax
+### De syntax
 
-De syntax voor de `for` loop is:
+De syntax voor de `for`-lus is:
 
 ```js
-for(initialExpression; condition; updateExpression) {
-    // for loop body
+for (initialExpression; condition; updateExpression) {
+    // body van de lus
 }
 ```
 
-1. De **initialExpression** initialiseert en declareert variabelen. Wordt maar 1 keer uitgevoerd in het begin van de `for` lus.
-2. De **condition** wordt geëvalueerd.
-   * Als de conditie `false`is dan wordt de `for` lus beëindigd.
-   * Als de conditie `true`is dan wordt de code in de body van de `for` lus uitgevoerd
-3. De **updateExpression** past de waarde van de **initialExpression** aan als de conditie `true` is.
-4. De **condition** wordt opnieuw geëvalueerd. Dit proces gaat door totdat de conditie `false` is.
+Uitleg van de onderdelen:
 
-![](../../.gitbook/assets/code2flow_vJfm0V.png)
+1. De initialExpression initialiseert en declareert variabelen. Deze wordt maar één keer uitgevoerd, aan het begin van de lus.
+2. De condition wordt geëvalueerd:
+   - Als de condition `false` is, wordt de lus beëindigd.
+   - Als de condition `true` is, wordt de code in de body van de lus uitgevoerd.
+3. De updateExpression past de variabele aan (bijv. verhogen of verlagen).
+4. Daarna wordt de condition opnieuw geëvalueerd. Dit proces herhaalt zich totdat de condition `false` is.
 
-#### Voorbeeld 1: 5 keer herhalen
+---
 
-We zullen nu eens een concreet voorbeeld geven. We willen een stuk tekst 5 keer laten zien op het scherm. We zouden heel naïef de volgende oplossing kunnen voorstellen:
+### Voorbeeld 1: 5 keer herhalen
 
-```js
-console.log("Hello JavaScript!");
-console.log("Hello JavaScript!");
-console.log("Hello JavaScript!");
-console.log("Hello JavaScript!");
-console.log("Hello JavaScript!");
-```
-
-Uiteraard gaan we dit niet op die manier doen. Want stel je voor dat we dit 100 keer moeten doen! We gaan hier uiteraard de `for` lus voor gebruiken.
-
-We willen dus eigenlijk gaan tellen van 0 tot 5 en elke keer "Hello JavaScript!" op het scherm tonen. Eigenlijk hebben we nu de verschillende delen van de `for` lus al genoemd:
-
-* De `intialExpression` is hier een variabele die de waarde 0 krijgt. Dus bv. `let i=0`
-* De `condition` kunnen we afleiden van hoeveel keer de lus moet herhaald worden. Dit is 5 keer. Dus `i < 5`
-* Het stuk code dat moet uitgevoerd worden is `console.log("Hello TypeScript")` dus dat gaat in de body van de for lus
-* We willen uiteraard dat de variabele `i` wordt opgehoogd telkens de conditie nog `true` is. Dus we doen hier `i++` of `i=i+1`
-
-We komen nu op het volgende programma:
+We willen een stuk tekst 5 keer laten zien op het scherm. In plaats van hetzelfde statement vijf keer te schrijven gebruiken we een `for`-lus.
 
 ```js
-for (let i=0; i<5; i++) {
-    console.log('Hello JavaScript!');
+for (let i = 0; i < 5; i++) {
+  console.log('Hello JavaScript!');
 }
 ```
 
-![](../../.gitbook/assets/code2flow_Q294JK.png)
+Stap-voor-stap overzicht:
 
-Nog op eens stap per stap in een overzicht:
+| Iteratie | Variabele | Condition: i < 5 | Actie |
+| -------- | --------- | ---------------- | ----- |
+| 1        | `i = 0`   | `true`           | Hello JavaScript! wordt getoond; i wordt verhoogd naar 1 |
+| 2        | `i = 1`   | `true`           | Hello JavaScript! wordt getoond; i wordt verhoogd naar 2 |
+| 3        | `i = 2`   | `true`           | Hello JavaScript! wordt getoond; i wordt verhoogd naar 3 |
+| 4        | `i = 3`   | `true`           | Hello JavaScript! wordt getoond; i wordt verhoogd naar 4 |
+| 5        | `i = 4`   | `true`           | Hello JavaScript! wordt getoond; i wordt verhoogd naar 5 |
+| 6        | `i = 5`   | `false`          | De lus wordt stopgezet |
 
-| Iteratie | Variable | Condition: i < 5 | Actie                                                              |
-| -------- | -------- | ---------------- | ------------------------------------------------------------------ |
-| 1st      | `i = 0`  | `true`           | <p>Hello JavaScript! wordt getoond.<br>i wordt verhoogt naar 1</p> |
-| 2nd      | `i = 1`  | `true`           | <p>Hello JavaScript! wordt getoond.<br>i wordt verhoogt naar 2</p> |
-| 3rd      | `i = 2`  | `true`           | <p>Hello JavaScript! wordt getoond.<br>i wordt verhoogt naar 3</p> |
-| 4th      | `i = 3`  | `true`           | <p>Hello JavaScript! wordt getoond.<br>i wordt verhoogt naar 4</p> |
-| 5th      | `i = 4`  | `true`           | <p>Hello JavaScript! wordt getoond.<br>i wordt verhoogt naar 5</p> |
-| 6th      | `i = 5`  | `false`          | The loop wordt stopgezet                                           |
+---
 
-**voorbeeld 2: toon getallen van 1 tot en met 10**
-
-We beginnen weer met het probleem te ontleden:
-
-* De `intialExpression` is hier een variabele die de waarde 1 krijgt want we willen deze keer van 1 beginnen. Dus bv. `let i=1`
-* De `condition` kunnen we afleiden van het feit dat we tot 10 willen tellen. Dus i moet kleiner of gelijk zijn aan 10. Dus `i<=10`
-* Het stuk code dat moet uitgevoerd worden is `console.log(i)` want we willen het getal `i` aan de gebruiker tonen.
-* We willen uiterard dat de variabele `i` wordt opgehoogd telkens de conditie nog `true` is. Dus we doen hier `i++` of `i=i+1`
-
-De code hiervoor is zeer gelijkaardig aan het vorige programma
+### Voorbeeld 2: toon getallen van 1 tot en met 10
 
 ```js
-for (let i=1; i<=10; i++) {
-    console.log(i);
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
 }
 ```
 
-**voorbeeld 3: maak de som van alle getallen van 1 tot en met 10**
-
-Eigenlijk is deze code een variatie op het vorige voorbeeld. Nu willen we in plaats van iets af te printen gewoon een som maken van de getallen.
+### Voorbeeld 3: som van getallen 1 t/m 10
 
 ```js
 let sum = 0;
-for (let i=1; i<=10; i++) {
-    sum+=i;
+for (let i = 1; i <= 10; i++) {
+  sum += i;
 }
-console.log(sum);
+console.log(sum); // 55
 ```
 
-**voorbeeld 4: toon getallen van 10 tot en met 1**
-
-Voordat je denkt dat een `for` lus alleen maar naar boven kan gaan kunnen we voorbeeld 2 nu ook omdraaien
+### Voorbeeld 4: tel van 10 terug naar 1
 
 ```js
-for (let i=10; i>0; i--) {
-    console.log(i);
+for (let i = 10; i > 0; i--) {
+  console.log(i);
 }
 ```
 
-**voorbeeld 5: Geef de veelvouden van 2 tussen 0 en 10**
-
-Je kan ook kiezen om te verhogen met een ander getal en nietmeer met 1 te verhogen bij iedere iteratie.
+### Voorbeeld 5: veelvouden van 2 tussen 0 en 10
 
 ```js
-for (let i=0; i<10; i+=2) {
-    console.log(i);
+for (let i = 0; i <= 10; i += 2) {
+  console.log(i);
 }
 ```
 
 {% hint style="info" %}
-In JavaScript bestaan er nog speciale vormen van for-lussen. Zo leren we later nog `for ... in`, `for ... of` en `forEach` gebruiken.
+In JavaScript bestaan er nog speciale vormen van for-lussen. Later behandelen we `for...in`, `for...of` en methodes zoals `forEach`.
 {% endhint %}

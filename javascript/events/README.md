@@ -1,5 +1,7 @@
 # 4: events
 
+[MDN: Events - Web APIs (EventTarget / addEventListener)](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+
 Wanneer je het internet doorbladert, registreert je browser verschillende soorten gebeurtenissen. Het is de manier van de browser om te zeggen: "Hé, dit is net gebeurd." Je script kan vervolgens reageren op deze gebeurtenissen.
 
 Scripts reageren vaak op deze gebeurtenissen door de inhoud van de webpagina bij te werken (via het Document Object Model), waardoor de pagina interactiever aanvoelt. In dit hoofdstuk zul je leren hoe:

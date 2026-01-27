@@ -10,7 +10,7 @@ Soms is het nodig om bij je code extra commentaar bij te voegen zodat je weet wa
 
 Oneline comments starten altijd met `//` en alles wat daar achter komt wordt beschouwd als commentaar.
 
-```typescript
+```js
 // Deze lijn code is ook commentaar.
 console.log("Hello");
 
@@ -21,7 +21,7 @@ console.log("World"); // Dit is commentaar.
 
 Multiline comments starten met een `/*` en eindigen met een `*/` en laten toen om commentaar te schrijven op verschillende lijnen.
 
-```typescript
+```js
 /* Dit is een voorbeeld
 van commentaar die
 op meerdere lijnen

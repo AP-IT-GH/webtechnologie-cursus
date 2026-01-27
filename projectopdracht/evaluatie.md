@@ -13,13 +13,19 @@ Het **boeteblad** dient om oneerlijke of te minimale oplossingen tegen te gaan.
 
 We raden je dan ook aan om tijdens je project regelmatig na te kijken of je voldoet aan de verwachtingen aan de hand van deze hulpmiddelen.
 
+## Overzicht
+
+- [Boeteblad](#boeteblad)
+- [Rubrik](#rubrik)
+
 ### Boeteblad
 
-<table data-full-width="false">
+<table>
+  <caption>Boeteblad — overtredingen en strafpunten</caption>
   <thead>
     <tr>
-      <th width="609.3515625">Overtreding</th>
-      <th width="100">Strafpunten</th>
+      <th scope="col">Overtreding</th>
+      <th scope="col">Strafpunten</th>
     </tr>
   </thead>
   <tbody>
@@ -68,25 +74,27 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
 </table>
 
 
+<a id="rubrik"></a>
 ### Rubrik
 
-<table data-full-width="true">
+<table>
+  <caption>Rubrik — beoordelingscriteria en punten</caption>
     <thead>
     <tr>
-        <th align="right">doelstellingen</th>
-        <th> 18-20</th>
-        <th>14-17</th>
-        <th>10-13</th>
-        <th>0-9</th>
+        <th scope="col">doelstellingen</th>
+        <th scope="col"> 18-20</th>
+        <th scope="col">14-17</th>
+        <th scope="col">10-13</th>
+        <th scope="col">0-9</th>
     </tr>
     </thead>
     <tbody>
     <tr>
-        <td align="right">
-            <ol>
-                <li><strong>Codekwaliteit &#x26; Standaarden (5%)</strong></li>
-            </ol>
-        </td>
+        <td>
+             <ol>
+                 <li><strong>Codekwaliteit &#x26; Standaarden (5%)</strong></li>
+             </ol>
+         </td>
         <td>Code volgt volledig de afgesproken standaarden, naamgevingsregels en is goed gedocumenteerd. Duidelijke,
             onderhoudbare code.
         </td>
@@ -95,11 +103,11 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
         <td>Code volgt nauwelijks of geen standaarden. Documentatie ontbreekt grotendeels.</td>
     </tr>
     <tr>
-        <td align="right">
-            <ol start="2">
-                <li><strong>HTML Structuur &#x26; Semantiek (5%)</strong></li>
-            </ol>
-        </td>
+        <td>
+             <ol start="2">
+                 <li><strong>HTML Structuur &#x26; Semantiek (5%)</strong></li>
+             </ol>
+         </td>
         <td>HTML is volledig semantisch correct. Tekst- en media-elementen zijn correct gebruikt. Structuur ondersteunt
             inhoud en toegankelijkheid optimaal.
         </td>
@@ -112,11 +120,11 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
         </td>
     </tr>
     <tr>
-        <td align="right">
-            <ol start="3">
-                <li><strong>CSS &#x26; Vormgeving (10%)</strong></li>
-            </ol>
-        </td>
+        <td>
+             <ol start="3">
+                 <li><strong>CSS &#x26; Vormgeving (10%)</strong></li>
+             </ol>
+         </td>
         <td>CSS is overzichtelijk gestructureerd. Layout en stijlregels zijn correct, toegankelijk en sluiten aan bij
             best practices.
         </td>
@@ -128,11 +136,11 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
         <td>CSS is onoverzichtelijk, vaak foutief of ontbreekt.</td>
     </tr>
     <tr>
-        <td align="right">
-            <ol start="4">
-                <li><strong>Mobile First &#x26; Responsiviteit (10%)</strong></li>
-            </ol>
-        </td>
+        <td>
+             <ol start="4">
+                 <li><strong>Mobile First &#x26; Responsiviteit (10%)</strong></li>
+             </ol>
+         </td>
         <td>Website is volledig responsive volgens het Mobile First principe. Optimalisaties voor alle schermgroottes
             zijn voorzien en werken foutloos.
         </td>
@@ -143,11 +151,11 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
         <td>Website is niet responsive en Mobile First is genegeerd.</td>
     </tr>
     <tr>
-        <td align="right">
-            <ol start="5">
-                <li><strong>Interactiviteit (JS) (10%)</strong></li>
-            </ol>
-        </td>
+        <td>
+             <ol start="5">
+                 <li><strong>Interactiviteit (JS) (10%)</strong></li>
+             </ol>
+         </td>
         <td>Functioneel programmeren, controlestructuren, arrays en objecten worden correct gebruikt. DOM-manipulatie en
             events zijn efficiënt en foutloos toegepast.
         </td>
@@ -158,11 +166,11 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
         <td>Interactiviteit is minimaal, grotendeels foutief of ontbreekt volledig.</td>
     </tr>
     <tr>
-        <td align="right">
-            <ol start="6">
-                <li><strong>Asynchrone technieken &#x26; Data (5%)</strong></li>
-            </ol>
-        </td>
+        <td>
+             <ol start="6">
+                 <li><strong>Asynchrone technieken &#x26; Data (5%)</strong></li>
+             </ol>
+         </td>
         <td>Data wordt correct opgehaald met asynchrone code en geïntegreerd in de webshop. Loading states en
             foutafhandeling zijn voorzien.
         </td>
@@ -171,11 +179,11 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
         <td>Geen of foutief gebruik van asynchrone technieken of externe data.</td>
     </tr>
     <tr>
-        <td align="right">
-            <ol start="7">
-                <li><strong>Libraries (5%)</strong></li>
-            </ol>
-        </td>
+        <td>
+             <ol start="7">
+                 <li><strong>Libraries (5%)</strong></li>
+             </ol>
+         </td>
         <td>Bibliotheken worden correct en efficiënt gebruikt. Bestandsformaten zijn correct en projectstructuur is
             geschikt voor webserver.
         </td>
@@ -188,11 +196,11 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
         <td>Geen of foutief gebruik van bibliotheken of projectstructuur.</td>
     </tr>
     <tr>
-        <td align="right">
-            <ol start="8">
-                <li><strong>Projectwerk &#x26; features (50%)</strong></li>
-            </ol>
-        </td>
+        <td>
+             <ol start="8">
+                 <li><strong>Projectwerk &#x26; features (50%)</strong></li>
+             </ol>
+         </td>
         <td>Volledig, interactief webshopproject met alle gevraagde functionaliteit. Extra features en eigen inbreng
             tonen zelfstandige ontwikkeling.
         </td>

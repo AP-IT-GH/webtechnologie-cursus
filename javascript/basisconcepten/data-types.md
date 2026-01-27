@@ -36,7 +36,7 @@ De reden waarvoor dat ze gekozen hebben om deze getallen uit te drukken is vrij 
 
 Een string in JavaScript moet omringd zijn met quotes.
 
-```typescript
+```js
 let str = "Hello";
 let str2 = 'Single quotes are ok too';
 let phrase = `can embed another ${str}`;
