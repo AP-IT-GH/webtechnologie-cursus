@@ -50,8 +50,7 @@
   * [verwijzingen](html/intro-1/verwijzingen.md)
   * [lijsten](html/intro-1/lijsten.md)
   * [speciale tekens](html/intro-1/speciale-tekens.md)
-* [Formulieren](html/intro-2/README.md)
-  * [invoervelden](html/intro-2/invoervelden.md)
+* [Formulieren en invoervelden](html/forms.md)
 * [Tabellen](html/intro-3/README.md)
 * [Afbeeldingen](html/media/afbeeldingen.md)
 
