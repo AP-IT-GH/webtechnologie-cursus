@@ -14,3 +14,7 @@ coverY: 0
 ## 💻 Theorie
 
 * [⭐️ Media Queries](https://apwt.gitbook.io/webtechnologie/css/natuurlijke-volgorde/media-queries)
+
+## 🔗 Aanvullende bronnen
+
+* [Media Query Fundamentals op MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries)

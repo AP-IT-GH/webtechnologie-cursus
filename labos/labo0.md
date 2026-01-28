@@ -34,7 +34,7 @@ Heb je een fout gemaakt? Dan mag je deze regels gewoon opnieuw invoeren.
 Voor elk labo krijg je een **GitHub Classroom-link**. Deze zijn terug te vinden in de labo-pagina's (bv. [Labo 1](labo1.md), [Labo 2](labo2.md), ...). Klik op de link van het labo dat je wil starten. Aanvaard de opdracht voor dat labo. Het kan zijn dat je eerst een Github account moet aanmaken.
 
 ![GitHub Classroom](../.gitbook/assets/gh-classroom.png)\
-&#xNAN;_&#x47;itHub Classroom nadat je jouw repo hebt aangemaakt. Via de URL kom je op jouw persoonlijke repository._
+GitHub Classroom nadat je jouw repo hebt aangemaakt. Via de URL kom je op jouw persoonlijke repository._
 
 ***
 

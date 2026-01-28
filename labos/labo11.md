@@ -15,3 +15,9 @@ coverY: 0
 
 * [Dev tools: Lighthouse](https://developer.chrome.com/docs/devtools/lighthouse/)
 * [Dev tools: CSS Overview](https://developer.chrome.com/docs/devtools/css-overview/)
+
+Blijf op de hoogte van de laatste ontwikkelingen in CSS door regelmatig blogs en nieuwsbrieven te volgen, zoals:
+* [Smashing Magazine](https://www.smashingmagazine.com/)
+* [CSS-Tricks](https://css-tricks.com/)
+* [Lea Verou's blog](https://lea.verou.me/)
+* [Frontend Focus nieuwsbrief](https://frontendfoc.us/)

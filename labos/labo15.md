@@ -13,5 +13,5 @@ coverY: 0
 
 ## 💻 Theorie
 
-* [Objects](https://apwt.gitbook.io/webtechnologie/javascript/objecten)
-* [JSON](https://apwt.gitbook.io/webtechnologie/javascript/objecten/json)
+* [Callback functions](https://apwt.gitbook.io/webtechnologie/asynchroon-programmeren/callbacks)
+* [Array methods](https://apwt.gitbook.io/webtechnologie/asynchroon-programmeren/callbacks/array-functies)

@@ -13,8 +13,4 @@ coverY: 0
 
 ## 💻 Theorie
 
-* [Document Object Model (DOM)](https://apwt.gitbook.io/webtechnologie/javascript/intro)
-* [Events](https://apwt.gitbook.io/webtechnologie/javascript/events)
-
-## GitHub Classroom link
-
+* [Objects](https://apwt.gitbook.io/webtechnologie/javascript/objecten)
