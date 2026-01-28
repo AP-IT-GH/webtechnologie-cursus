@@ -13,5 +13,5 @@ coverY: 0
 
 ## 💻 Theorie
 
-* [Callback functions](https://apwt.gitbook.io/webtechnologie/asynchroon-programmeren/callbacks)
-* [Array methods](https://apwt.gitbook.io/webtechnologie/asynchroon-programmeren/callbacks/array-functies)
+* [Callback functions](../asynchroon-programmeren/callbacks/README.md)
+* [Array methods](../asynchroon-programmeren/callbacks/array-functies.md)
