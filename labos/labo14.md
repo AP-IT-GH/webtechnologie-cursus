@@ -14,4 +14,4 @@ coverY: 0
 ## 💻 Theorie
 
 * [Arrays](https://apwt.gitbook.io/webtechnologie/javascript/arrays)
-* [Functions](https://apwt.gitbook.io/webtechnologie/javascript/functies)
+* [Objects](https://apwt.gitbook.io/webtechnologie/javascript/objecten)
