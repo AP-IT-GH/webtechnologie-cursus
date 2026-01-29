@@ -5,7 +5,7 @@
 - **Correcte Indentatie**: Stuur enkel code in die correct geïndenteerd is. Foutieve indentatie maakt je code moeilijker te lezen en te onderhouden.
 
 ## Paths
-Gebruik altijd relatieve paden (_paths_) om te linken naar bestanden en afbeeldingen. Hou er rekening mee dat je website gehost (en beoordeeld) zal worden op UNIX-gebaseerde systemen. Als je je path met een ```/``` laat beginnen zal dit niet werken op Linux of Mac.
+Gebruik altijd **relatieve paden** (_paths_) om te linken naar bestanden en afbeeldingen. Hou er rekening mee dat je website gehost (en beoordeeld) zal worden op UNIX-gebaseerde systemen. Als je je path met een ```/``` laat beginnen zal dit niet werken op Linux of Mac.
 
 ## HTML
 
@@ -35,6 +35,6 @@ Gebruik altijd relatieve paden (_paths_) om te linken naar bestanden en afbeeldi
 
 - **Engelse variabelen**: Geef alle variabelen Engelse namen. Dit maakt je code internationaal leesbaar en voorkomt verwarring.
 
-## Extra Aanbevelingen
+## Extra aanbevelingen
 
 - **Gebruik van Commentaar**: Voeg **duidelijke commentaren** toe waar nodig om je code begrijpelijk te maken, vooral bij complexe logica.

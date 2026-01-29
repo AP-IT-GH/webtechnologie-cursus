@@ -5,7 +5,7 @@
   <figcaption>Tijdens deze deelopdracht werk je je webshop uit op een mobiel apparaat</figcaption>
 </figure>
 
-In deze deelopdracht ga je **mobiele** webpagina's bouwen. Zorg ervoor dat je browservenster is ingesteld als een gangbaar smartphone scherm en voer de stappen in dit document uit. Volg hierbij altijd de [wireframes](algemeen.md#wireframes), maar pas deze ontwerpen aan op basis van de styleguide die je hebt geschreven tijdens [deelopdracht 1](deelopdracht-1-concept-content.md).
+In deze deelopdracht ga je **mobiele** webpagina's bouwen. Zorg ervoor dat je browservenster is ingesteld als een gangbaar smartphone scherm en voer de stappen in dit document uit. Volg hierbij altijd de [designs](algemeen.md#wireframes), maar pas deze ontwerpen aan op basis van de styleguide die je hebt geschreven tijdens [deelopdracht 1](deelopdracht-1-concept-content.md).
 
 ## Mappenstructuur & bestanden
 

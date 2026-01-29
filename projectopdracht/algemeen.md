@@ -9,7 +9,7 @@ Je zal een volledige, responsieve webshop bouwen voor een fictief bedrijf. De we
 
 ## Deelopdrachten
 
-De projectopdracht is opgedeeld in **7 deelopdrachten**:
+De projectopdracht is opgedeeld in **7 deelopdrachten** en wordt afgesloten met een presentatie. De deelopdrachten zijn:
 
 1. [Concept & content](deelopdracht-1-concept-content.md)
 2. [Development mobiele website met HTML en CSS](./deelopdracht-2-opbouw-html-css.md)
@@ -21,24 +21,23 @@ De projectopdracht is opgedeeld in **7 deelopdrachten**:
 
 Elke deelopdracht bouwt voort op de vorige. Zorg ervoor dat je elke deelopdracht grondig doorneemt en uitvoert.
 
-## Wireframes
+## Designs
 
-De wireframes van de webshop zijn terug te vinden op [deze Figma Community Page](https://www.figma.com/community/file/1476954261247826487).
+Voor deze opdracht baseer je je op de volgende designs op de [Figma Community Page](https://www.figma.com/community/file/1476954261247826487).
+Deze designs pas je aan naar jouw kleuren en lettertypes. (Zie [Concept & content](deelopdracht-1-concept-content.md))
 
 - Klik "Open in Figma", en maak een account aan.
-- Deze Figma file bestaat uit 3 pagina's:
+- Deze Figma file bestaat uit 2 pagina's: de **mobile** en de **desktop** designs.
 
-  - Mobile
-  - Desktop
-  - ~~Components~~ (enkel nuttig voor de ontwerper aka. de lector)
-
-Bekijk de wireframes steeds op Figma, gezien ze nog geüpdatet kunnen worden doorheen het semester. De wireframes zijn een hulpmiddel, geen strikte regel. De geschreven opdracht in dit document is steeds leidend.
+> TIP: Bekijk de designs steeds op Figma, gezien ze nog geüpdatet kunnen worden doorheen het semester.
 
 ## Mobile-First
 
 We werken volgens het **mobile-first** principe. Dit betekent dat je de website in eerste instantie optimaliseert voor **smartphones**. In een latere fase (deelopdracht 3) zal je ook optimalisaties toevoegen voor **tablets, laptops en desktops**.
 
-## Copywriting
+## Tips
+
+### Copywriting
 
 - Alle teksten voor je webshop moeten **in het Nederlands** worden geschreven.
 - Vermijd schrijffouten. Gebruik spellingscorrectie.
@@ -47,9 +46,9 @@ We werken volgens het **mobile-first** principe. Dit betekent dat je de website 
 - Houdt teksten beknopt en helder.
 - Laat je tekst op het laatste eens nalezen door een andere persoon.
 
-## Afbeeldingen
+### Afbeeldingen
 
-### Rechtenvrije Afbeeldingen
+#### Rechtenvrije Afbeeldingen
 
 - Gebruik **enkel rechtenvrije afbeeldingen** die je zelf hebt gemaakt of die beschikbaar zijn via platforms met een vrije licentie, zoals:
 
@@ -59,13 +58,13 @@ We werken volgens het **mobile-first** principe. Dit betekent dat je de website 
 - **Tip:** Kun je geen perfecte afbeelding vinden voor je product? Kies dan voor een meer generieke afbeelding die het idee van je product goed weergeeft. Bijv. voor een webshop die voetbalschoenen verkoopt, kun je zoeken naar generieke, rechtenvrije foto's van voetbalschoenen.
 - Afbeeldingen gegenereerd met AI kunnen ook, maar probeer origineel te zijn.
 
-### Bronvermelding
+#### Bronvermelding
 
 - **Voeg altijd een bronvermelding toe** bij rechtenvrije afbeeldingen in de `figcaption` van de afbeelding. Dit is een vriendelijke geste naar de fotograaf en maakt het gemakkelijk voor de lectoren om de bron te verifiëren, en stelt ons in staat om te controleren waar jij je afbeeldingen vandaan hebt gehaald.
 - Zorg ervoor dat elke afbeelding een **duidelijke bestandsnaam** heeft, bijv. `product-zaadjes-lavendel.jpg`.
 - Zorg voor een goede organisatie van foto's in een mappenstructuur.
 
-### Afbeelding Resizing & Aspect-Ratio's
+#### Afbeelding resizing & aspect ratio's
 
 - Gebruik gratis tools zoals:
 
