@@ -1,4 +1,4 @@
-# 1: callbacks
+# Callbacks
 
 Functies kan je oproepen in andere functies:
 
@@ -6,11 +6,11 @@ Functies kan je oproepen in andere functies:
 let printOutput = (output) => {
 	console.log(output)
 };
-​
+
 let add = (a, b) => {
 	printOutput(a + b);
 }
-​
+
 add(1,2);
 ```
 
@@ -20,12 +20,12 @@ De functie `printOutput` is beschikbaar in de global scope en ook binnen de scop
 let printOutput = (output) => {
 	console.log(output)
 };
-​
+
 let add = (a, b, handleResult) => {
 	let c = a + b;
   handleResult(c);
 }
-​
+
 add(1,2,printOutput);
 ```
 
@@ -42,7 +42,7 @@ let add = (a, b, handleResult) => {
 	let c = a+b;
   handleResult(c);
 }
-​
+
 add(1, 2, (output) => {console.log(output)});
 ```
 
@@ -62,7 +62,7 @@ let multiplyOrDivide = (action) => {
 	}
   return (a, b) => {return -1};
 }
-​
+
 let multiply = multiplyOrDivide('multiply');
 let divide = multiplyOrDivide('divide');
 let a = multiply(2, 2);

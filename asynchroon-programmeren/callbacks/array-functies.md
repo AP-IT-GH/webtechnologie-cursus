@@ -2,47 +2,6 @@
 
 Bij de introductie van ES6 werden er ook een boel extra array functies toegegvoegd. Deze maken het werken met arrays nog interessanter. Hieronder zien we een paar veel voorkomende functies:
 
-## spread operator
-
-Een array is geen primitief object. Wanneer je een array kopieert, dan kopieer het het adres.
-
-```js
-let arr1 = [1,2,3,4];
-let arr2 = arr1;
-arr2[0] = 9;
-// arr2[0]) === 9
-// MAAR OOK arr1[0] === 9
-```
-
-Wanneer we de inhoud willen kopieren in een nieuwe array maken we gebruik van de spread operator:
-
-```js
-let arr1 = [1,2,3,4];
-let arr2 = [...arr1];
-arr2[0] = 9;
-console.log(arr1); // 1
-console.log(arr2); // 9
-```
-
-De spread operator wordt voorgesteld door 3 punten: `...`. Je plaatst de 3 punten voor de naam van een variabel die een array bevat. Dit vervangt bv. `...arr1` door `1,2,3,4`.
-
-Op deze manier kan je ook verschillende arrays samenvoegen:
-
-```js
-let arr1 = [1,2,3,4];
-let arr2 = [5,6,7,8];
-let arr3 = [...arr1,...arr2]
-console.log(arr3); // [1,2,3,4,5,6,7,8]
-```
-
-Of gewoon de elementen van een array tussen andere elementen plaatsen van een nieuwe array:
-
-```js
-let arr1 = [1,2,3,4];
-let arr2 = [2,3,4, ...arr1];
-let arr3 = [...arr1, 2,3,4];
-```
-
 ## loops
 
 ```js

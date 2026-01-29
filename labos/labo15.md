@@ -13,5 +13,6 @@ coverY: 0
 
 ## 💻 Theorie
 
+* [Spread operator](../javascript/spreads.md)
 * [Functions](https://apwt.gitbook.io/webtechnologie/javascript/functies)
 
