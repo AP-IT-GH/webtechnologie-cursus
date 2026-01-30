@@ -84,8 +84,7 @@ In Codium worden instellingen bewaard in een `settings.json` bestand. We gaan en
   "files.autoSave": "afterDelay",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "explorer.compactFolders": false
+  "explorer.compactFolders": false,
+  "window.restoreWindows": "none"
 }
 ```
-
-De instellingen zorgen ervoor dat Codium automatisch je bestanden opslaat na een korte vertraging met "files.autoSave": "afterDelay", automatisch de code formatteert bij het opslaan met "editor.formatOnSave": true, en Prettier instelt als de standaard formatter voor al je codebestanden met "editor.defaultFormatter": "esbenp.prettier-vscode". Hierdoor wordt je code consistent geformatteerd en hoef je je geen zorgen te maken over handmatig opslaan of formatteren.
