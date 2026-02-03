@@ -1,0 +1,36 @@
+
+.container {
+    min-height: 100vh;
+    width: 100vw;
+    font-family: Arial, sans-serif;
+    display: grid;
+    padding: 5rem;
+    gap: 5rem;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: "item1 item2 item3";
+}
+
+.item {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.item-1 {
+    background-color: darkturquoise;
+    grid-area: item1;
+}
+
+.item-2 {
+    background-color: darkviolet;
+    grid-area: item2;
+}
+
+.item-3 {
+    background-color: deepskyblue;
+    grid-area: item3;
+}

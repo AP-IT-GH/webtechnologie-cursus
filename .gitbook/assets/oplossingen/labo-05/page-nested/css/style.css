@@ -1,0 +1,37 @@
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-areas:
+    "header header header header"
+    "main   main   main   aside"
+    "footer footer footer footer";
+}
+
+header {
+    grid-area: header;
+    background-color: #91c8ff;
+
+    ul {
+        background-color: teal;
+        display: grid;
+        grid-template-columns: repeat(3, 70px);
+        gap: 3rem;
+        justify-content: flex-end;
+    }
+}
+
+main {
+    grid-area: main;
+    background-color: #7da9d5;
+}
+
+aside {
+    grid-area: aside;
+    background-color: #007fff;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #588ec3;
+}

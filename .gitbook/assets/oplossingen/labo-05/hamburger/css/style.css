@@ -1,0 +1,68 @@
+body {
+    background-color: #D3D5D8;
+    padding: 3rem;
+    min-height: 100vh;
+    display: grid;
+    gap: 3rem;
+    grid-template-rows: auto 1fr auto;
+    /* In deze oplossing geeft de content van de header (h1 / nav) en de footer (li) de hoogte aan. */
+}
+
+header {
+    background-color: #79A8CA;
+    padding: 3rem;
+    border-radius: 20px 20px 0 0;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0 black;
+
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+
+    h1, nav {
+        height: 3rem;
+        border: 1px solid black;
+        background-color: #4668A6;
+    }
+}
+
+main {
+    padding: 3rem;
+    background-color: #f7d964;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0 black;
+
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+
+    article {
+        border: 1px solid black;
+        background-color: #E3A757;
+    }
+
+    aside {
+        border: 1px solid black;
+        background-color: #D68452;
+    }
+}
+
+footer {
+    padding: 3rem;
+    background-color: #71B79F;
+    border-radius: 0 0 20px 20px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0 black;
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3rem;
+
+        li {
+            border: 1px solid black;
+            background-color: #63A389;
+            height: 3rem;
+        }
+    }
+}

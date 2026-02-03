@@ -1,0 +1,4 @@
+li:nth-of-type(4n + 2) {
+	color: green;
+	font-size: 32px;
+}
