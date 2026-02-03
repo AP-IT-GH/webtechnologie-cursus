@@ -9,7 +9,7 @@ coverY: 0
 
 ## <img src="../../.gitbook/assets/github.png" alt="GitHub Classroom logo" data-size="line"> Oefeningen
 
-[Oefeningen van labo 4 op GitHub](https://classroom.github.com/a/2iE9X8oz)
+[Oefeningen van labo 4 op GitHub](https://classroom.github.com/a/erbBhciQ)
 
 ## 💻 Theorie
 
