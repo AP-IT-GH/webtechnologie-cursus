@@ -12,16 +12,6 @@ De universele selector heeft betrekking op **alle elementen** binnen het documen
 }
 ```
 
-## root-selector
-
-Naast de universele selector is er ook de root-selector. Hiermee nemen we de 'wortel' van onze documentstructuur vast. In praktijk komt dit overeen met het `html`-element. De root-selector geniet echter de voorkeur omwille van de [voorrangsregels](voorrangsregels.md).
-
-```css
-:root {
-    /* ... */
-}
-```
-
 ## type-selector
 
 De type-selector heeft betrekking op element-namen. We kunnen een element gaan selecteren op basis van het type HTML-element. Alle elementen van hetzelfde type krijgen dan de stijlregels die we voor deze selector definiëren.
