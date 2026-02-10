@@ -28,3 +28,6 @@ coverY: 0
 
 * [CSS nesting](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting)
 * [CSS Dinner](https://flukeout.github.io/) (level 1 t/m 11)
+* Er bestaan veel verschillende manieren om CSS te schrijven en organiseren. Wil je graag meer structuur in je code brengen, dan kan je een van deze methodes overwegen:
+  * [BEM (Block Element Modifier)](https://en.bem.info/methodology/)
+  * [Cube CSS](https://cube.fyi/)
