@@ -60,7 +60,7 @@
   * [box model](css/box-model.md)
   * [randen en spaties](css/randen-en-spaties.md)
 * [Selectors](css/selectors.md)
-  * [overerving](css/overerving.md)
+  * [overerving](css/inheritance.md)
   * [class en id](css/class-en-id.md)
   * [attributen](css/attributen.md)
   * [pseudo selectors](css/pseudo-selectors.md)

@@ -15,7 +15,7 @@ coverY: 0
 
 * [CSS introductie](../css/intro.md)
 * [⭐️ Selectors](../css/selectors.md)
-  * [Overerving](../css/overerving.md)
+  * [Inheritance](../css/inheritance.md)
   * [Class & ID](../css/class-en-id.md)
   * [Attributen](../css/attributen.md)
   * [Voorrangsregels](../css/voorrangsregels.md)
