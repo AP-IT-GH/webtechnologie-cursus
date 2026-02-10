@@ -15,10 +15,10 @@ coverY: 0
 
 Vanaf dit labo zullen we regelmatig gebruik maken van file paths. Dit wordt uitgebreid behandeld in de les [IT Essentials](https://apwt.gitbook.io/it-essentials/folderstructuur-en-terminal). Zorg dat je dit goed snapt en kunt toepassen!
 
-* [Verwijzingen](https://apwt.gitbook.io/webtechnologie/html/intro-1/verwijzingen)
-* [Lists](https://apwt.gitbook.io/webtechnologie/html/intro-1/lijsten)
-* [Speciale tekens](https://apwt.gitbook.io/webtechnologie/html/intro-1/speciale-tekens)
-* [Afbeeldingen](https://apwt.gitbook.io/webtechnologie/html/media/afbeeldingen)
+* [Verwijzingen](../html/verwijzingen.md)
+* [Lists](../html/lijsten.md)
+* [Speciale tekens](../html/speciale-tekens.md)
+* [Afbeeldingen](../html/afbeeldingen.md)
 
 ## 🔗 Aanvullende bronnen
 

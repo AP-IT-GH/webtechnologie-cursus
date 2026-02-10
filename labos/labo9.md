@@ -13,6 +13,5 @@ coverY: 0
 
 ## 💻 Theorie
 
-* [⭐️ Formulieren](https://apwt.gitbook.io/webtechnologie/html/intro-2)
-* [⭐️ invoervelden](https://apwt.gitbook.io/webtechnologie/html/intro-2/invoervelden)
-* [Pseudo-selectors voor formulieren](https://apwt.gitbook.io/webtechnologie/css/intro-1/pseudo-selectors#input-pseudo-klassen)
+* [⭐️ Formulieren en invoervelden](../html/forms.md)
+* [Pseudo-selectors voor formulieren](../css/pseudo-selectors.md#input-pseudo-klassen)

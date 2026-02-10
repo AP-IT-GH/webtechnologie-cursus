@@ -1,6 +1,6 @@
 # randen en spaties
 
-![](../../.gitbook/assets/13-kaders-1.png)
+![](../.gitbook/assets/13-kaders-1.png)
 
 Met CSS kunnen we van elk element de afmetingen gaan aanpassen. Hiervoor gebruiken we de `width`- en `height`-eigenschappen. Pas wanneer een element een bepaalde afmeting heeft, kunnen we de randen en spaties rond het element gaan beïnvloeden. Het is dus belangrijk om een element altijd afmetingen te geven. Sommige elementen krijgen van de browser standaard een afmeting toegewezen.
 

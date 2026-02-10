@@ -106,7 +106,7 @@ In tegenstelling tot blok en inline opmaak, waarvan de lay-out is gebaseerd op b
 
 Het begrip flex richtingen is gebaseerd op het concept van assen die de richting waarlangs flex items worden gelay-out. De volgende afbeelding toont de assen die gedefinieerd kunnen worden op een flex container:
 
-![Flexbox concepts & teminology](../../../.gitbook/assets/css-flex-1.png)
+![Flexbox concepts & teminology](../.gitbook/assets/css-flex-1.png)
 
 Afhankelijk van de ingestelde waarden van de Flexbox eigenschappen worden de flex items in een flex container gelay-out volgens de hoofdas of de dwarsas. De items worden gelay-out afhankelijk van de gekozen as:
 
@@ -171,7 +171,7 @@ Elementen in een container kunnen in twee richtingen gelay-out worden, de zogena
 
 Standaard wordt de `flex-direction` eigenschap ingesteld op `row`. De flex-items worden horizontaal van links naar rechts op 1 **flex-rij** geplaatst.
 
-![flexbox - flex-direction row no overflow](../../../.gitbook/assets/css-flex-2.png)
+![flexbox - flex-direction row no overflow](../.gitbook/assets/css-flex-2.png)
 
 Als de overflow-eigenschap wordt ingesteld op auto, worden flex-items op één flexlijn getoond. De flex-items buiten de container worden zichtbaar gemaakt door horizontaal te scrollen.
 
@@ -186,7 +186,7 @@ Als de overflow-eigenschap wordt ingesteld op auto, worden flex-items op één f
 }
 ```
 
-![flexbox - flex-direction row with overflow auto](../../../.gitbook/assets/css-flex-3.png)
+![flexbox - flex-direction row with overflow auto](../.gitbook/assets/css-flex-3.png)
 
 #### flex-direction: column (= verticaal)
 
@@ -204,7 +204,7 @@ Als de `flex-direction` eigenschap wordt ingesteld op column, worden alle flex-i
 }
 ```
 
-![flexbox - flex-direction: column](../../../.gitbook/assets/css-flex-4.png)
+![flexbox - flex-direction: column](../.gitbook/assets/css-flex-4.png)
 
 ### flex-wrap
 
@@ -225,7 +225,7 @@ Als de **flex-items niet mogen doorlopen op 1 flexlijn buiten de container**, mo
 }
 ```
 
-![flexbox - flex-wrap wrap](../../../.gitbook/assets/css-flex-5.png)
+![flexbox - flex-wrap wrap](../.gitbook/assets/css-flex-5.png)
 
 #### flex-direction: column | flex-wrap: wrap
 
@@ -261,7 +261,7 @@ Aan de flex-container hierboven werd geen hoogte toegekend. Indien de **height**
 }
 ```
 
-![flexbox flex-direction: column flex-wrap: wrap](../../../.gitbook/assets/css-flex-6.png)
+![flexbox flex-direction: column flex-wrap: wrap](../.gitbook/assets/css-flex-6.png)
 
 ### flex-flow
 
@@ -297,7 +297,7 @@ De **`justify-content`** eigenschap lijnt flex-items uit \*\*langs de hoofdas \*
 justify-content: flex-start | flex-end | center | space-between | space-around
 ```
 
-![flexbox - justify-content](../../../.gitbook/assets/css-flex-7.png)
+![flexbox - justify-content](../.gitbook/assets/css-flex-7.png)
 
 #### witruimte > align-content
 
@@ -307,7 +307,7 @@ De `align-content` eigenschap lijnt de flexlijnen uit binnen de flex-container a
 align-content: flex-start | flex-end | center | space-between | space-around | stretch
 ```
 
-![flexbox - align-content](../../../.gitbook/assets/css-flex-8.png)
+![flexbox - align-content](../.gitbook/assets/css-flex-8.png)
 
 #### witruimte > align-items
 
@@ -317,7 +317,7 @@ De eigenschap `align-items` specificeert de standaarduitlijning voor items in de
 align-items: flex-start | flex-end | center | baseline | stretch
 ```
 
-![flexbox - align-items](../../../.gitbook/assets/css-flex-9.png)
+![flexbox - align-items](../.gitbook/assets/css-flex-9.png)
 
 ## flex-items
 
@@ -325,7 +325,7 @@ align-items: flex-start | flex-end | center | baseline | stretch
 
 Met de `flex-grow` eigenschap wordt de \_flex-groei-factor \_van een flex-item ingesteld. Een flex-groei-factor is een \<getal> dat bepaalt hoeveel het flex-item groter wordt ten opzichte van de rest van de flex-items in de flex-container wanneer **positieve vrije ruimte** wordt verdeeld.
 
-![flexbox - flex-grow](../../../.gitbook/assets/css-flex-10.png)
+![flexbox - flex-grow](../.gitbook/assets/css-flex-10.png)
 
 {% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8SMgDcABLCgMwYALwAdUjAAeAWh58GZOhABOS8WSSKuveNt0GQAPgV1x44WKMmlDQ1JnylZRLiUbAEFBAHoRUTsHJwjXUwAjT2lZUz8IANsAITCIqMdnCWNTWCTvVP9AgGEcsTyYlyKlJFKU3wrbABEayPt7bqi+8mgkSHg6gslkn1IyYcD7R3zpeOhxEm49U14IQKDUNdU1AHM9bgB3MOXoOvydAAcAV3hxeABPO4hTRBV4Q0ZmYrmU5QQyNEDbQy8ADWEFeDzupgYdzuUFeADFVABJfwACnEAHIGPjCC8sGQwBhRAwoA8IABKTxYOAwpDjcK1Bb1CReVozOa2TlLBgrKBrDZfM7cQKZfYkQ4nc6XYXXQVOe5PF7vT5Kb6-EDif7asx8YGgtwgeCSyF0GFwhHuZGojEQFTY9I4-HxYmk8mU6m0hkC6L9TkTHnTIZQZpBxZOK6i9abHVYPQQHa2Sqy+WnC6heM3NV0R7PN4fL4uvUGphGzTwU36sHwFNp622+GIx3orG4gmwb1N31Umn0+bB9k9YOxcOmSPRguCeNipOkbgPaw2DpZl3HHNKkXz9UlrXln5-auAk3cEEN83rNet2Hth0orsut24PH4pD9skUocBgBuUd8nHKIwlnUYbE4SAYAQMheCodAACYAFZUAARnQkAAF9CHoatWAwAArKhiFrCABHQGBniRF9nVdfxxDkNYHjoODeBxNJcBJf96XEYBOVCUJxGpfR4BxXi6SA6IhJEmA9HEripM5aiDjfRjmKQbhYAeZg+AwI4IHgABRGA9PgTJXkxJBOP8ZTojldT0gwMA3hgDBHJUABxHMmPEXjpMcTz3xctyIAwAB1CB4ihPx6J884-IC+xsOg6A4HgeC6EQkAADYMJwvCQENQjYFkThyMokB4m4JBXn4zl1j4NQwDIAAvCB9nQjB0PSQKxWakgmAoV59iUAAJaBRCMshYAYcQADkIFpJQSUmqBpsyuaSSCPQyGpEkwAYbKWv0MgSGk7DejoDzDlrSx9Aa6IzmMJt9hQgAGD67hUfqmTII4cC6z6fv6u4GCQEQ6COfYkO+37GqgbgGHgfYYBIeB+rUM5oti+A1BEMAUQYUbxGx3G-DUGqEeicmYspwnidJum8bUTz+sZ6RmZx+n8epjnySZ-Y1FwMA2dUfnOU5kmtxpxx4gYWAoQVVikA0K8NjRgGcB4PRqX66kAboNQuLAfZYAoxA9Eu66MC4p75cV5XTlV9Wkb0fYAGISB9-qXqQN7xAADnh-rcAYPQjh0WHQc5XU1ENo46HNy39H6pr8Zx7XUfEGqo3T8w2eG1F9iOk7ID2i7GsL1qOv2AAWPrOR4d2tcB+BIAYE40zoG26HsCCjId3OnZVug1ZbzXxDOMlED916sC6gB2UPOXByGdBh8Q4djhykZR-Y9vb-qar0JB9C6n7xDAK9jHET3IaQPuB9mKNRiMIsNQE56F4bpu6FSsQGCGUso5Xrh9Aq2EAC62EgA" %}
 
@@ -359,7 +359,7 @@ Flex-items worden standaard weergegeven in hun natuurlijke volgorde, namelijk in
 order: <integer>
 ```
 
-![](../../../.gitbook/assets/css-flex-11.png)
+![](../.gitbook/assets/css-flex-11.png)
 
 ## extra info
 

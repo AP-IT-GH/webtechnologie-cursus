@@ -43,7 +43,7 @@ In dit geval zal de derde regel (`#main p.article`) de voorkeur hebben boven de 
 
 Een handige functie van Codium is dat het de specificiteit van CSS-selectors kan weergeven wanneer je met de muis over de selector zweeft. Dit is vooral nuttig bij het snel begrijpen van de specificiteit van een bepaalde regel tijdens het schrijven van code.
 
-![Specificity visualisatie](../../.gitbook/assets/css-02-voorrangsregels.jpg)
+![Specificity visualisatie](../.gitbook/assets/css-02-voorrangsregels.jpg)
 
 ## tips voor praktisch gebruik
 

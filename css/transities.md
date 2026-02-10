@@ -26,7 +26,7 @@ Met behulp van CSS-transities kunnen we interpoleren tussen de beginstatus en de
 | Gemakkelijker in gebruik, zowel in CSS als in Javascript.                                                                       | Moeilijker in gebruik, zowel in CSS als in Javascript.                                                        |
 | Ideaal om een simpele animatie te tonen van één state naar een andere state.                                                    | Ideaal om een complexe serie van bewegingen weer te geven.                                                    |
 
-<img src="../../.gitbook/assets/file.excalidraw.svg" alt="Het verschil tussen CSS Transition en CSS Animation" class="gitbook-drawing">
+<img src="../.gitbook/assets/file.excalidraw.svg" alt="Het verschil tussen CSS Transition en CSS Animation" class="gitbook-drawing">
 
 ## transition properties
 

@@ -13,8 +13,8 @@ coverY: 0
 
 ## 💻 Theorie
 
-* [CSS Animations](https://apwt.gitbook.io/webtechnologie/css/animaties)
-* [Transitions](https://apwt.gitbook.io/webtechnologie/css/animaties/transities)
+* [CSS Animations](../css/animations.md)
+* [Transitions](../css/transities.md)
 
 ## 🔗 Aanvullende bronnen
 

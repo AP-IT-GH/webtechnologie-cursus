@@ -81,7 +81,7 @@ De functie die het vaakst gebruikt wordt om responsieve ontwerpen te maken (en m
 
 ### breakpoints en media-queries
 
-![](../../../.gitbook/assets/css-mediaqueries-1.png)
+![](../.gitbook/assets/css-mediaqueries-1.png)
 
 ## voorbeelden
 

@@ -13,7 +13,7 @@ coverY: 0
 
 ## 💻 Theorie
 
-* [⭐️ Media Queries](https://apwt.gitbook.io/webtechnologie/css/natuurlijke-volgorde/media-queries)
+* [⭐️ Media Queries](../css/media-queries.md)
 
 ## 🔗 Aanvullende bronnen
 

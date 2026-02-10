@@ -1,10 +1,10 @@
-# 1: syntax
+# CSS introductie
 
 Door gebruik te maken van CSS in combinatie met HTML kan je een webpagina visueel aanpassen. Concreet staat CSS toe om via code te bepalen hoe een element er op een pagina zal uitzien. Je kan bijvoorbeeld de achtergrondkleur van een webpagina bepalen, hoe de paragrafen er zullen gaan uitzien door te kiezen voor een bepaalde kleur en lettertype, of bijvoorbeeld dat alle `h1`-titels in een cursief blauwe Times-font staan van 16pt groot.
 
 Om CSS te begrijpen en te kunnen toepassen hoe je best in het achterhoofd dat rond elk element een onzichtbaar kader staat die de lay-out beperkt tot net dat element.
 
-![](../../.gitbook/assets/01-intro-b.png)
+![](../.gitbook/assets/01-intro-b.png)
 
 Door gebruik te maken van CSS kunnen zowel block- als inline-elementen binnen een webpagina er dus anders gaan uitzien. In de bovenstaande afbeelding worden de block-element, zoals `<body>`, `<h1>`, `<h2>` en `<p>` aangegeven door oranje kaders en rond de inline-elementen `<i>` en `<a>` staan groene kaders.
 
@@ -21,7 +21,7 @@ Een stijlregel bestaat uit 2 elementen: een **selector** en een **declaratie**, 
 
 ### selector
 
-![](../../.gitbook/assets/01-intro-2a.png)
+![](../.gitbook/assets/01-intro-2a.png)
 
 De selector selecteert dat element waarvoor de stijl geldt. Hier staat een voorbeeld van een **type-selector**.
 
@@ -29,7 +29,7 @@ Er zijn verschillende soorten selectoren die [later](https://github.com/barbaral
 
 ### css-declaratie
 
-![](../../.gitbook/assets/01-intro-2b.png)
+![](../.gitbook/assets/01-intro-2b.png)
 
 Een stijldeclaratie bestaat uit een eigenschap en een waarde voor die eigenschap. Concreet bestaat een CSS-declaratie uit 2 delen: een **eigenschap** (property) en een **waarde** (value), vervat binnen gekrulde haken. Er kunnen meerdere stijldeclaraties tegelijk worden opgenomen door ze naast of onder elkaar te plaatsen, gescheiden door een punt-komma.
 
@@ -117,7 +117,7 @@ De koppeling vanuit een HTML-document naar een stijlblad gebeurt door het `link`
 </html>
 ```
 
-![](../../.gitbook/assets/01-intro-3a.png)
+![](../.gitbook/assets/01-intro-3a.png)
 
 Het `link`-element mag een onbeperkt aantal malen opgenomen worden in een document.\
 Het `href`-attribuut specificeert welk stijlblad, waarvan de bestandsnaam de extensie css heeft, geopend moet worden. Het `rel`-attribuut geeft aan dat het bij het gerelateerde bestand gaat om een stylesheet en heeft dan ook als waarde "stylesheet". Het `type`-attribuut definieert het Internet Media (MIME) type van het bestand waarnaar verwezen wordt. Voor Cascading Style Sheets is dat "text/css".

@@ -12,7 +12,7 @@ coverY: 0
 [Oefeningen van labo 5 op Github](https://classroom.github.com/a/_lDnxmoE)
 
 ## 💻 Theorie
-* [⭐️ Display property: grid](https://apwt.gitbook.io/webtechnologie/css/natuurlijke-volgorde/grid)
+* [⭐️ Display property: grid](../css/grid.md)
 
 ## 🔗 Aanvullende bronnen
 

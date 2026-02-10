@@ -13,7 +13,7 @@ coverY: 0
 
 ## 💻 Theorie
 
-* [⭐️ Display property: flex](https://apwt.gitbook.io/webtechnologie/css/natuurlijke-volgorde/flex)
+* [⭐️ Display property: flex](../css/flex.md)
 
 ## 🔗 Aanvullende bronnen
 

@@ -13,12 +13,12 @@ coverY: 0
 
 ## 💻 Theorie
 
-* [⭐️ Box Model](https://apwt.gitbook.io/webtechnologie/css/intro/box-model)
-* [Block vs. inline](https://apwt.gitbook.io/webtechnologie/html/intro/block-vs-inline)
-* [Display properties: block, inline](https://apwt.gitbook.io/webtechnologie/css/natuurlijke-volgorde/positionering#display)
-* [Units](https://apwt.gitbook.io/webtechnologie/css/natuurlijke-volgorde/units)
-* [⭐️ Pseudo Selectors](https://apwt.gitbook.io/webtechnologie/css/intro-1/pseudo-selectors) (behalve die voor [formulieren](https://apwt.gitbook.io/webtechnologie/css/intro-1/pseudo-selectors#input-pseudo-klassen))
-* [CSS Reset](https://apwt.gitbook.io/webtechnologie/css/intro-4/reset)
+* [Block vs. inline](../html/block-vs-inline.md)
+* [⭐️ Box Model](../css/box-model.md)
+* [Randen en spaties](../css/randen-en-spaties.md) (Outline niet)
+* [Units](../css/units.md)
+* [⭐️ Pseudo Selectors](../css/pseudo-selectors.md) (behalve die voor [formulieren](https://apwt.gitbook.io/webtechnologie/css/intro-1/pseudo-selectors#input-pseudo-klassen))
+* [CSS Reset](../css/reset.md)
 
 ## 🔗 Aanvullende bronnen
 

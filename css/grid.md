@@ -37,19 +37,19 @@ Alle directe _children_ binnen een grid-container worden automatisch **grid-elem
 
 De **verticale lijnen** van de grid-elementen worden **kolommen** (grid columns) genoemd.
 
-![](../../.gitbook/assets/css-grid-1.png)
+![](../.gitbook/assets/css-grid-1.png)
 
 ### grid-rows
 
 De **horizontale lijnen** van de grid-elementen worden **rijen** (grid rows) genoemd.
 
-![](../../.gitbook/assets/css-grid-2.png)
+![](../.gitbook/assets/css-grid-2.png)
 
 ### grid-gaps
 
 De **spaties of witruimte** tussen elke kolom of rij worden **gaps** genoemd. Gebruik de CSS-eigenschap "gap" om dit aan te passen.
 
-![](../../.gitbook/assets/css-grid-3.png)
+![](../.gitbook/assets/css-grid-3.png)
 
 {% embed url="https://flems.io/#0=N4IgZglgNgpgziAXAbVAOwIYFsZJAOgAsAXLKEAGhAGMB7NYmBvAHgBMIA3AAmqgzhwAvAB0QAcwBOENgFo6DDBDQxJYgHwi03buy69+g0ROlyIjLBoCMLAPQdOm7bocGBwsVJmzzMLNzZaAFcAI1hJWgB3DQAmOwcnHT0ePndjLzMLDQBmeK51HS0k11SjT1MfLJB1ABY8xyKXfVKPE29ff0DQ2A0AVnrEppTDVozKvw0ANgHC52S3MrbMieqAdgHG+Zb0io6NAA4NuZKRnfaq9QBOGe4tAcoQOBhYamIIegREECsABkRJkAAXwo6GwuC++AAVggqApGMwvkCQSBMDg8PhqIIHnCmMQ8AAqbjAW7OEK0AAesjgEAAXspxIhuGTJGxVLIyeSANxaQFaLQkMgUJm0NgATyJjSwGEk4mUjJ+nJJOgADhg2Bw0AzuAqeXy0PgxnClCpJBLnJEZMRCIzfj9OJFuc4pTK5drHSq1RqtTFJH53UyMNQANZSYJoOR0KC0SSMqAQcQkOiSDBQf0cODK-iixkZf1jCyZjCMeS0KBBLBoOA2sCm7I17gxGt5ioF-jFiKRKvcX3KmBFgAUMSFv19-isvVH3FWo4AlM3vOIMMrGT6-bq0FoDbsLGadCFAyGIkFwyWozHuABiMDX-3O2VoeWKxqq9X0x+NdOF7PcMCwLmNFN4zQcYsC7ahcVUf1ISCOA3jAUUSwYXFGXApDJH9MB6GIWRIhgeMSEZMkoDYDCsNkMBsGgb84AwSsqVUCAwFIhgqVpGBGQnNdnEjaNY3w4gngwKQYCYf1mVZc84FLGRL0uDA5Lk7grGVf80F5Dd9S6MIYF3bhDVLcsHyU7hbG4DNaO4bJHXU-AtPCKJdLGDsbRMszVW0GJrIeJ4XjeD48GyS5ECsIEAF1ASAA" %}
 
@@ -59,7 +59,7 @@ De lijnen tussen kolommen worden **kolomlijnen** (column lines) genoemd.\
 De lijnen tussen rijen worden **rijlijnen** (row lines) genoemd.\
 Naar deze lijnen wordt verwezen bij het plaatsen van een grid-item binnen een grid-container.
 
-![](../../.gitbook/assets/css-grid-4.png)
+![](../.gitbook/assets/css-grid-4.png)
 
 {% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0sxhAGhADMBLGXVAbVADsBDAWwjUwAt56p8RYB7axfswA8SYgDcABLCi0cAXgA6IAOYAnYkgC0vfrWLUIqpQD4F1CRJHipM+UuKJ6ARhNOhAelFjT5y15uyYIogDhD0AEwm4R5ePhZWktKBwaH0AMwmaTHixhZm8f5JdiGOACwmpdne+X7WRUH2jgCsJk1VcbWJtg0lYQBsJn3tNQkBxakA7CYTw9TtXJAwCMR85CAAHKh9IAC+eDQMTOgYAFa4BDoC8My7+yB0jMxYOFyXEILoAFQSwBI1AEY8AAemjAxAAXvplKgJIDVEhDJpAUCANxmHZmMxsDh4WE8JAATx+NXotFUyn0MIADCi-r4AA60JCiajQiQ09FmDBqDTaPjwPQGVTE3yiMD0mQEmE8pBo3wyzSOCW0RB8qAAV3o1DAMNo6vgPAkeoNRv1PDlFgVylo9JhTip9NRNUZzKhdodTt8-1osAA1moeOrqFpeFAeKoYVBiMo2LxVLQoHKMdQuQrLoLDBJcv5gACff7VIHg2rwzCAMSESsWiSIIHwTQJ6PUGGwd6IVTVl0stnhD3s6uEfmgiEQGFpD0DocAdwg0bYMMBUFlNUH-E0hAYpClEjAtG1oMMxEIk7XYPBo4kTVUYWrodLEijMfgkFoagg72rcIREZ3PCjSAkMsAE5aBAkCJCcR0k0xagMFSJwRQkdxvgVVIdwFVR4FhYgTgkX0-x4ehr2UaAIIkd5yP0URlCw-4cLwgiiIgEioAkNIJE+dwajTP9NWoUEMPgO1qx4jUtU0d4kDHaCU1g1JSlzXwkJQ9QtDQsBBOw3D1BOYjSPCcjzFnYNo1o+idL01jSg4rj5VUzRCynASySEiRwhE+zHIk4MYVKJMFmgOB4BWbVmDSTYnF2ABdHYgA" %}
 

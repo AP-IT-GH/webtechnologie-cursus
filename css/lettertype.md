@@ -2,11 +2,11 @@
 
 ## lettertype terminologie
 
-![](../../.gitbook/assets/12-tekst-1a.png)
+![](../.gitbook/assets/12-tekst-1a.png)
 
-![](../../.gitbook/assets/12-tekst-1b.png)
+![](../.gitbook/assets/12-tekst-1b.png)
 
-![](../../.gitbook/assets/12-tekst-1c.png)
+![](../.gitbook/assets/12-tekst-1c.png)
 
 ## CSS & tekst
 
@@ -94,7 +94,7 @@ Als binnen het `<body>`-element van de website gekozen wordt voor een standaard 
 **rem**: Een rem staat gelijk aan de font grootte van het HTML-element (voor de meeste browsers veelal standaard 16px).\
 [https://www.sitepoint.com/understanding-and-using-rem-units-in-css/](https://www.sitepoint.com/understanding-and-using-rem-units-in-css/)
 
-![](../../.gitbook/assets/12-tekst-2.png)
+![](../.gitbook/assets/12-tekst-2.png)
 
 {% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp1YIDJPsFh4ATxj6kZAG4YGy4NuXKSveAFowZAF4QqMoAjACsAA4AHgDc2gC+2tq2DgBGzq7unj7+gcpQDABOAOYQsXQJdEn2GLDpdG4efNkBQWEADACkZRWCAPTmVhCmvYbGpincSBamWMHq0oaZTb4ByvIF3OEQBZZ9s-ragsnKsPlgYAC8miAM1-NYZGDKj8pg3MzKiJHwGH3JBzpjqcGOcriAUncFi8Xm8Pl8fn97ACjvYTmdLtdYJCHk8Ye8IJ8IN9fr1-okdL0JlNhnpOJAYAgyLwqOgAEwAdlQ7JAcUI9CYLHQGAAVlRiDw+BABOgeXyQIxmKwaudOBL+PBWDyALpxIA %}
 

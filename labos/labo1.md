@@ -14,12 +14,12 @@ coverY: 0
 ## 💻 Theorie
 
 * Introductie
-* [IDE installeren](https://apwt.gitbook.io/webtechnologie/ide)
+* [IDE installeren](../ide.md)
 * [Chrome Dev tools](https://developer.chrome.com/docs/devtools/overview)
-* [Structuur](https://apwt.gitbook.io/webtechnologie/html/intro)
-* [Elementen](https://apwt.gitbook.io/webtechnologie/html/intro/elementen)
-* [Semantiek](https://apwt.gitbook.io/webtechnologie/html/intro/semantiek)
-* [Teksten](https://apwt.gitbook.io/webtechnologie/html/intro-1)
+* [Structuur](../html/structuur.md)
+* [Elementen](../html/elementen.md)
+* [Semantiek](../html/semantiek.md)
+* [Teksten](../html/teksten.md)
 
 ## 🔗 Aanvullende bronnen
 

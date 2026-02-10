@@ -13,8 +13,8 @@ coverY: 0
 
 ## 💻 Theorie
 
-* [Tabellen](https://apwt.gitbook.io/webtechnologie/html/intro-3)
-* [CSS Variabelen](https://apwt.gitbook.io/webtechnologie/css/intro-4/variabelen)
+* [Tabellen](../html/tabellen.md)
+* [CSS Variabelen](../css/variabelen.md)
 
 ## 🔗 Aanvullende bronnen
 
