@@ -15,13 +15,13 @@ coverY: 0
 
 * [CSS introductie](../css/intro.md)
 * [⭐️ Selectors](../css/selectors.md)
-  * [Inheritance](../css/inheritance.md)
   * [Class & ID](../css/class-en-id.md)
   * [Attributen](../css/attributen.md)
   * [Voorrangsregels](../css/voorrangsregels.md)
 * [Kleuren](../css/kleur.md)
 * [Lettertypen](../css/lettertype.md)
 * [Lijsten](../css/lijsten.md)
+* [Inheritance](../css/inheritance.md)
 
 ## 🔗 Aanvullende bronnen
 
