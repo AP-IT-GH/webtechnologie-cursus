@@ -9,13 +9,13 @@ coverY: 0
 
 ## <img src="../../.gitbook/assets/github.png" alt="GitHub Classroom logo" data-size="line"> Oefeningen
 
-[Oefeningen van labo 5 op Github](https://classroom.github.com/a/_lDnxmoE)
+[Oefeningen van labo 5 op Github](https://classroom.github.com/a/xrgnSf-D)
 
 ## 💻 Theorie
-* [⭐️ Display property: grid](../css/grid.md)
+
+* [⭐️ Display property: flex](../css/flex.md)
 
 ## 🔗 Aanvullende bronnen
 
-* [Grid Garden](https://cssgridgarden.com)
-* [⭐️ Josh Comeau's interactive Guide to CSS Grid](https://www.joshwcomeau.com/css/interactive-guide-to-grid/)
-* [⭐ CSS Tricks - A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+* [⭐️ Josh Comeau's interactive Guide to CSS Flexbox](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
+* [Flexbox Froggy 🐸](https://flexboxfroggy.com/)
