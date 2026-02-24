@@ -25,6 +25,7 @@ main {
   flex-wrap: wrap;
   background-image: url("../images/bg.jpg");
   background-color: lightgrey;
+  padding: 10px;
 }
 
 .item {
@@ -34,7 +35,7 @@ main {
 }
 
 .item:nth-child(3n) {
-  width: 100%;
+  flex: 1 1 100%;
   background-color: rgba(139, 211, 146, 0.5);
   padding: 2rem;
 }

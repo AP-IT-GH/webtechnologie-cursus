@@ -1,0 +1,84 @@
+:root {
+  --brand-primary-color: #009F58;
+  --brand-secondary-color: #005CB0;
+  --product-color: #D97233;
+}
+
+html {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: papayawhip;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.label {
+  border-radius: 10px;
+  background-color: white;
+  padding: 1rem;
+  width: min(90%, 450px); /* Responsive width: 90% of the viewport or 450px, whichever is smaller */
+  /*width: 450px*/
+}
+
+.product {
+  background-color: var(--product-color);
+  color: white;
+  border-radius: 8px;
+  padding: 1.2rem;
+  margin-top: 1rem;
+
+  display: flex;
+  align-items: end;
+
+  .left {
+    flex: 0 0 80%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .right {
+    flex: 1 1 auto;
+  }
+}
+
+/* Typography */
+
+.title {
+  .pre {
+    font-size: 0.8rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+}
+
+
+.fragrance {
+  color: #585E57;
+
+  .fragrance-title {
+    font-size: 1.3rem;
+  }
+
+  .fragrance-text {
+    font-size: 0.9rem;
+  }
+}
+
+
+.sub {
+  color: var(--brand-primary-color);
+  margin-top: .5rem;
+  font-size: 1.8rem;
+  text-align: center;
+}

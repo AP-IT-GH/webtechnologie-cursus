@@ -1,0 +1,69 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 100vh;
+}
+
+li {
+
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 12.5vw; /* 100% / 8 items per row = 12.5% of the viewport width (vw) */
+  /* shorthand = flex: 0 0 12.5vw */
+
+  /* centreer het em-element door elke li op zijn beurt een flexbox parent te maken */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+em {
+  /* em is een inline element, maar omdat de li's flexbox parents zijn, worden rechtstreekse children "blockified" */
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+li:nth-child(1) em {background-color: #f30bbe;}
+li:nth-child(2) em {background-color: #0e5d3f;}
+li:nth-child(3) em, li:nth-child(6) em {background-color: #fff903;}
+li:nth-child(4) em {background-color: #11ebd6;}
+li:nth-child(5) em {background-color: #c60e08;}
+li:nth-child(7) em {background-color: #333474;}
+li:nth-child(8) em {background-color: #1143ba;}
+li:nth-child(9) em, li:nth-child(10) em {background-color: #dc0f22;}
+li:nth-child(11) em {background-color: #451208;}
+li:nth-child(12) em {background-color: #bb0d1e;}
+li:nth-child(13) em {background-color: #ded10a;}
+li:nth-child(14) em {background-color: #f925c0;}
+li:nth-child(15) em {background-color: #d8560a;}
+li:nth-child(16) em {background-color: #f2e803;}
+li:nth-child(17) em {background-color: #150f1d;}
+li:nth-child(18) em {background-color: #fff40e;}
+li:nth-child(19) em {background-color: #14e0f4;}
+li:nth-child(20) em {background-color: #009a02;}
+li:nth-child(21) em {background-color: #690822;}
+li:nth-child(22) em {background-color: #ffa207;}
+li:nth-child(23) em {background-color: #0b15b1;}
+li:nth-child(24) em {background-color: #672fc2;}
+li:nth-child(25) em {background-color: #df440d;}
+li:nth-child(26) em {background-color: #05dd07;}
+li:nth-child(27) em {background-color: #fee803;}
+li:nth-child(28) em {background-color: #e50f21;}
+li:nth-child(29) em {background-color: #0e9a0d;}
+li:nth-child(30) em {background-color: #ffe20e;}
+li:nth-child(31) em {background-color: #166cab;}
+li:nth-child(32) em {background-color: #ef0b5d;}
+li:nth-child(33) em {background-color: #10df09;}
+li:nth-child(34) em {background-color: #d50e1e;}
+li:nth-child(35) em {background-color: #0e4ddf;}
+li:nth-child(36) em {background-color: #f87f07;}
+li:nth-child(37) em {background-color: #871010;}
+li:nth-child(38) em {background-color: #c9b252;}
+li:nth-child(39) em {background-color: #b7f6e2;}
+li:nth-child(40) em {background-color: #e995e6;}
+
+
+
+
