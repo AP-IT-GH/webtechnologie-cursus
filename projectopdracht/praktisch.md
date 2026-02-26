@@ -9,7 +9,13 @@ metaLinks:
 
 ## <img src="../.gitbook/assets/github.png" alt="GitHub Classroom logo" data-size="line"> GitHub Classroom repository
 
+<<<<<<< Updated upstream
 Je voert je projectopdracht uit in een repository die je aanmaakt via [deze Github Classroom](https://classroom.github.com/a/sHB9sPmb). Je kan de repository aanmaken en commits pushen tot en met de finale deadline om 16u. Daarna wordt de repository afgesloten en kan je geen wijzigingen meer aanbrengen.
+=======
+Je voert je projectopdracht uit in een repository die je aanmaakt
+via [deze Github Classroom](https://classroom.github.com/a/uWEd5_9s). Je kan de repository aanmaken en commits pushen
+tot en met de finale deadline om 16u. Daarna wordt de repository afgesloten en kan je geen wijzigingen meer aanbrengen.
+>>>>>>> Stashed changes
 
 ## Planning
 
