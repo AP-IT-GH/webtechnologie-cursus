@@ -1,4 +1,10 @@
-# 2: selectors
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/css/intro-1
+---
+
+# Selectors
 
 Er bestaan in CSS verschillende manieren om HTML-elementen vast te nemen. Dit noemen we de verschillende CSS-selectoren.
 

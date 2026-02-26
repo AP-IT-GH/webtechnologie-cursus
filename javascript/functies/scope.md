@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/functies/scope
+---
+
 # scope
 
 De scope van een variabele is een belangrijk concept dat je moet begrijpen om goede code te kunnen schrijven in JavaScript. De scope van een variabele geeft aan voor welke stukken code die variabele toegankelijk is. Niet alle variabelen zijn overal beschikbaar, en hier moet je zeker van bewust zijn.

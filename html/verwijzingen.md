@@ -1,4 +1,10 @@
-# verwijzingen
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/html/intro-1/verwijzingen
+---
+
+# Verwijzingen
 
 Verwijzingen of hyperlinks maken het mogelijk om met een klik van de muis van de ene locatie naar de andere te surfen. Je kan naar een andere locatie op dezelfde pagina surfen of naar een andere webpagina. Deze pagina kan zich bevinden op de lokale server, maar ook op een server elders op de wereld. Naast pagina's kan het bovendien gaan om andere soorten bestanden, zoals afbeeldingen en geluidsfragmenten, of software die je wilt laten downloaden.
 

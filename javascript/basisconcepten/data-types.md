@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/basisconcepten/data-types
+---
+
 # data types
 
 Je hebt in het onderdeel variabelen al twee verschillende datatypes gezien die je in JavaScript kan gebruiken: `string` en `number`. We zien in dit onderdeel er nog een aantal en gaan we dieper in op het gebruik ervan.

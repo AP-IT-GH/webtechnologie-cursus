@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/arrays/zoeken-in-arrays
+---
+
 # zoeken in arrays
 
 Er zijn een aantal methoden die je kan gebruiken om na te gaan of een element in een array zit en waar deze zich bevindt. Er zijn er twee interessante:

@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/for/while
+---
+
 # while
 
 We hebben tot nu toe al een soort lus gezien en dat was de `for` lus. We gaan nu nog een andere soort lus zien genaamd de `while` lus. In essentie is er niet veel verschillend tussen de `for` lus en de `while`lus. Alles wat je met de ene kan, kan je ook met de andere verwezenlijken.

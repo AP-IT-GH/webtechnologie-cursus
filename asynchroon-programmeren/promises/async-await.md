@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/promises/async-await
+---
+
 # async/await
 
 Er bestaat ook een andere manier om met promises te werken. Dit is met behulp van async/await. Eigenlijk is dit gewoon 'syntax sugar' om het gebruik van promises wat overzichtelijker te maken. We hernemen de multiply functie.

@@ -1,4 +1,10 @@
-# afbeeldingen
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/html/media/afbeeldingen
+---
+
+# Afbeeldingen
 
 Afbeeldingen voeg je toe aan een webpagina met behulp van het `<img>`-element. Voor het `<img>`-element zijn er verschillende attributen beschikbaar om de weergave en toegankelijkheid van afbeeldingen te verbeteren.
 

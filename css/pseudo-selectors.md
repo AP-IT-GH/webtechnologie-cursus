@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/css/intro-1/pseudo-selectors
+---
+
 # pseudo selectors
 
 Er bestaan 2 soorten van pseudo-selectoren, nl.:
@@ -254,7 +261,7 @@ article:first-of-type {
 Er bestaan nog meer véél meer pseudo-classes. Bekijk ze [hier](https://developer.mozilla.org/en-US/docs/Web/CSS/pseudo-classes) allemaal!
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image%20(36).png" alt=""><figcaption><p>Het verschil tussen nth-child en nth-of-type pseudo class selectors gevisualiseerd</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption><p>Het verschil tussen nth-child en nth-of-type pseudo class selectors gevisualiseerd</p></figcaption></figure>
 
 ## pseudo-elementen
 

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/wat-is-een-api/api-aanroepen
+---
+
 # API aanroepen
 
 In dit onderdeel gaan we leren hoe we een API endpoint gaan aanspreken aan de hand van [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch).
@@ -68,7 +75,7 @@ fetch("https://reqres.in/api/users")
 
 1. We roepen de methode `fetch()` aan en geven deze de URL door van de bron die we willen ophalen.
 2. Vervolgens kan je de methode `.then()` zien vastgeketend aan het einde van `fetch()` - deze methode maakt deel uit van **Promises**, een moderne JavaScript-functie voor het uitvoeren van asynchrone bewerkingen.
-3. `fetch()` retourneert een promise, die wordt omgezet in het antwoord dat door de server is teruggestuurd. We gebruiken de `.then()`-functie om  de data dat we opvragen verder te verwerken nadat de promise is opgelost.
+3. `fetch()` retourneert een promise, die wordt omgezet in het antwoord dat door de server is teruggestuurd. We gebruiken de `.then()`-functie om de data dat we opvragen verder te verwerken nadat de promise is opgelost.
 4. De `.then()`-functie krijgt automatisch het antwoord van de server als parameter wanneer de `fetch()`-promise wordt opgelost. Binnen de `.then()`-functie pakken we het antwoord en voeren we daarop de methode `.json()` uit. `response.json()` zal de response van de server omzetten in JSON-formaat zodat we deze kunnen gebruiken in onze code.
 5. Je zult zien dat `.json()` ook een promise retourneert, dus we koppelen er nog een `.then()` aan vast, waarbinnen we een functie definiëren om de onbewerkte json response te ontvangen.
 6. Binnen de functie van de de laatste `.then()` gebruiken we een `console.log()` om de response weer te geven in de developer tools van onze browser.

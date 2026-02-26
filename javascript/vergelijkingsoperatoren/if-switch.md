@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/vergelijkingsoperatoren/if-switch
+---
+
 # if en switch
 
 Soms moeten we verschillende acties nemen in een programma, afhankelijk van verschillende condities.

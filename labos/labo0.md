@@ -3,6 +3,9 @@ icon: rocket-launch
 cover: >-
   https://images.unsplash.com/photo-1671437762079-3e9f59d736ef?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw1fHxzdGFydCUyMGhlcmV8ZW58MHx8fHwxNzU4MjY4MTcyfDA&ixlib=rb-4.1.0&q=85
 coverY: 133.85250737463127
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/labos/labo-howto
 ---
 
 # Startgids labo’s
@@ -34,7 +37,7 @@ Heb je een fout gemaakt? Dan mag je deze regels gewoon opnieuw invoeren.
 Voor elk labo krijg je een **GitHub Classroom-link**. Deze zijn terug te vinden in de labo-pagina's (bv. [Labo 1](labo1.md), [Labo 2](labo2.md), ...). Klik op de link van het labo dat je wil starten. Aanvaard de opdracht voor dat labo. Het kan zijn dat je eerst een Github account moet aanmaken.
 
 ![GitHub Classroom](../.gitbook/assets/gh-classroom.png)\
-GitHub Classroom nadat je jouw repo hebt aangemaakt. Via de URL kom je op jouw persoonlijke repository._
+GitHub Classroom nadat je jouw repo hebt aangemaakt. Via de URL kom je op jouw persoonlijke repository.\_
 
 ***
 
