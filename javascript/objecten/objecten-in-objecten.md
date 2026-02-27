@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/objecten/objecten-in-objecten
----
-
 # objecten in objecten
 
 Het is ook mogelijk om objecten in andere objecten te gaan steken. Bijvoorbeeld voor ons user-object zouden we kunnen kiezen om ook een adres toe te voegen. We zouden deze als aparte eigenschappen kunnen opgeven van het user object maar het is beter om dit in een apart object te steken.

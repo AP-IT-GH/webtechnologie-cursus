@@ -1,10 +1,4 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/html/intro/semantiek
----
-
-# Semantiek
+# semantiek
 
 De betekenis van een zin in een taal is de semantiek van de zin. De betekenis van de zin kan pas blijken als we alle woorden van de zin hebben gelezen of gehoord, en de structuur van de zin tot ons is doorgedrongen. Een syntactisch correcte zin als: 'Geef de naam van de achtste dag van de week.' heeft geen betekenis en is dus semantisch gezien fout want een week heeft slechts zeven dagen.
 

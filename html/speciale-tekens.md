@@ -1,11 +1,4 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/html/intro-1/speciale-tekens
----
-
-# Speciale tekens
+# speciale tekens
 
 Bepaalde symbolen kunnen in HTML niet gewoon geplaatst worden als tekst, maar moeten via een specifieke HTML-entiteit worden ingevoegd.
 

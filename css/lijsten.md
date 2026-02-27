@@ -1,9 +1,3 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/css/intro-2/lijsten
----
-
 # lijsten
 
 ## list-style-type

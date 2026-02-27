@@ -1,10 +1,4 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/arrays
----
-
-# Arrays
+# 7: Arrays
 
 [MDN: Array - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
@@ -32,7 +26,7 @@ let numbers = [1, 2, 3, 4, 5];
 
 > **Let op:** In talen zoals Java en C# moet je vooraf de lengte bepalen. In JavaScript is dat niet nodig: arrays zijn dynamisch.
 
-***
+---
 
 ## Elementen opvragen met een index
 
@@ -53,7 +47,7 @@ Als je een index opvraagt die niet bestaat, krijg je `undefined`.
 console.log(fruits[3]); // undefined
 ```
 
-***
+---
 
 ## Elementen aanpassen en toevoegen
 
@@ -73,7 +67,7 @@ Als de index nog niet bestond, wordt het element toegevoegd.
 
 > **Opgelet:** Ontstaan er gaten in de index (bijvoorbeeld door index 10 te vullen terwijl 1–9 leeg zijn), dan worden die lege plaatsen gevuld met `empty`-items. Dit probeer je best te vermijden.
 
-***
+---
 
 ## De lengte van een array
 
@@ -86,7 +80,7 @@ console.log(fruits.length); // 3
 
 De lengte is altijd de **hoogste index + 1**, ook als er lege plaatsen in de array zitten.
 
-***
+---
 
 ## Debuggen: array tonen in de console
 
@@ -95,7 +89,7 @@ console.log(fruits);
 // bijvoorbeeld: [ 'Banana', 'Apple', 'Orange' ]
 ```
 
-***
+---
 
 ## Array manipulaties
 
@@ -109,9 +103,9 @@ JavaScript biedt verschillende methoden om arrays aan te passen.
 fruits.push("Kiwi");
 ```
 
-* Voegt het nieuwe element achteraan toe
-* Past de array aan
-* Geeft de nieuwe lengte terug
+- Voegt het nieuwe element achteraan toe
+- Past de array aan
+- Geeft de nieuwe lengte terug
 
 #### Vooraan toevoegen met `unshift()`
 
@@ -123,10 +117,10 @@ console.log(fruits);
 // ["Pear", "Banana", "Apple", "Orange"]
 ```
 
-* Voegt vooraan toe
-* Alle bestaande elementen schuiven op
+- Voegt vooraan toe
+- Alle bestaande elementen schuiven op
 
-***
+---
 
 ### Elementen verwijderen
 
@@ -137,8 +131,8 @@ let lastFruit = fruits.pop();
 console.log(lastFruit); // verwijderd element
 ```
 
-* Verwijdert het laatste element
-* Geeft dat verwijderde element terug
+- Verwijdert het laatste element
+- Geeft dat verwijderde element terug
 
 #### Eerste element verwijderen met `shift()`
 
@@ -148,19 +142,17 @@ console.log(firstFruit); // verwijderd element
 console.log(fruits);
 ```
 
-* Verwijdert het eerste element
-* De rest schuift naar links op
+- Verwijdert het eerste element
+- De rest schuift naar links op
 
 #### Meerdere (of specifieke) elementen verwijderen met `splice()`
 
 **Syntax:**
-
 ```js
 splice(startIndex, aantalTeVerwijderen)
 ```
 
 **Voorbeeld:**
-
 ```js
 let fruits = ["Banana", "Apple", "Orange", "Kiwi", "Pear"];
 
@@ -170,11 +162,11 @@ console.log(removedFruits); // ["Apple", "Orange"]
 console.log(fruits);        // ["Banana", "Kiwi", "Pear"]
 ```
 
-* Verwijdert één of meerdere elementen
-* Past de array blijvend aan
-* Geeft een array met verwijderde elementen terug
+- Verwijdert één of meerdere elementen
+- Past de array blijvend aan
+- Geeft een array met verwijderde elementen terug
 
-***
+---
 
 ## De `join()` methode
 
@@ -189,14 +181,14 @@ console.log(result); // "Dit is een zin"
 
 **Belangrijk:**
 
-* `.join()` verandert de originele array niet
-* Als je geen separator opgeeft, gebruikt JavaScript standaard een komma:
+- `.join()` verandert de originele array niet
+- Als je geen separator opgeeft, gebruikt JavaScript standaard een komma:
 
 ```js
 console.log([1, 2, 3].join()); // "1,2,3"
 ```
 
-***
+---
 
 ## De `split()` methode
 
@@ -245,9 +237,9 @@ console.log(beperkt); // ["een", "twee"]
 
 **Belangrijk:**
 
-* `.split()` verandert de originele string niet
-* Het resultaat is altijd een array
-* Als de separator niet voorkomt in de string, krijg je een array met de hele string als enig element
+- `.split()` verandert de originele string niet
+- Het resultaat is altijd een array
+- Als de separator niet voorkomt in de string, krijg je een array met de hele string als enig element
 
 ### Combinatie van `split()` en `join()`
 

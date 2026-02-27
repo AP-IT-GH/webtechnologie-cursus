@@ -1,10 +1,4 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/html/intro-1/lijsten
----
-
-# Lijsten
+# lijsten
 
 Opsomminglijsten zijn een belangrijk element voor de indeling van een pagina. HTML beschikt over vijf verschillende soorten waarvan we er drie bespreken. Je kan lijsten altijd in elkaar verwerken en zo met sublijsten werken.
 

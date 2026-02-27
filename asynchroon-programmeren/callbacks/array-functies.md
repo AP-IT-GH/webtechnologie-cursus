@@ -1,11 +1,4 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/callbacks/array-functies
----
-
-# Array functies
+# array functies
 
 Bij de introductie van ES6 werden er ook een boel extra array functies toegegvoegd. Deze maken het werken met arrays nog interessanter. Hieronder zien we een paar veel voorkomende functies:
 
@@ -206,7 +199,6 @@ let doubledNumbers = numbers.map(e => 2 * e);
 Het resultaat is hetzelfde als het vorige voorbeeld. De map-functie verwacht een callback die weeral elk element aanspreekt van de array. De return waarde van map is een nieuwe array. De elementen van deze nieuwe array zijn het resultaat van elke oproep naar de callback. In het voorbeeld hierboven worden alle elementen maal 2 gedaan.
 
 ## find
-
 Soms willen we in een array één specifiek element zoeken dat voldoet aan een bepaalde voorwaarde. We zouden dit kunnen doen met een for-lus of forEach:
 
 ```js

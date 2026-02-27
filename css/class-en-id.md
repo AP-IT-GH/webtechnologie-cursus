@@ -1,9 +1,3 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/css/intro-1/class-en-id
----
-
 # class en id
 
 In HTML hebben we al gezien dat we klassen en id's kunnen toevoegen aan elementen. We kunnen deze elementen gaan selecteren vanuit CSS door gebruik te maken van specifieke selectoren.

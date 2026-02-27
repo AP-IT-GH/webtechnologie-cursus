@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/objecten/objecten-en-functies
----
-
 # objecten en functies
 
 Objecten kan je ook als parameter aan een functie meegeven. Stel dat we een functie willen aanmaken die voor een user-object de naam en de leeftijd zal tonen.

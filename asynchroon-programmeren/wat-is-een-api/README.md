@@ -1,10 +1,4 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/wat-is-een-api
----
-
-# API's
+# 4: API's
 
 API is de afkorting voor **Application Programming Interface**, een software-tussenpersoon waarmee twee applicaties met elkaar kunnen communiceren. Je kan een API zien als een medium waarmee de client, dit kan een browser zijn, en de server kunnen communiceren.
 
@@ -48,7 +42,8 @@ Een API bestaat uit endpoints. a.d.h.v. deze endpoints kan je specificeren welke
 
 * **De URL vormt de basis link van een API**. Voor elke endpoint binnen een bepaalde API zal de URL hetzelfde zijn. De URL van PokéAPI is [https://pokeapi.co/api/v2/](https://pokeapi.co/api/v2/)
 * **Met het pad kan je specificeren welke data je juist wilt opvragen van een API**. Het pad komt na de URL te staan. Neem als voorbeeld, [https://pokeapi.co/api/v2/pokemon](https://pokeapi.co/api/v2/pokemon), M.b.v. **/pokemon** vertel je aan de API dat je alle Pokémon wilt opvragen. Het laatste deel na de URL, **/pokemon**, vormt dus het pad van de endpoint. Andere voorbeelden van end-points van deze API zijn:
-  * `/location` - om info over de verschillende locaties in de games op te halen),
+
+  * `/location` - om info over de verschillende locaties in de games op te halen), 
   * `/move` - om info over de verschillende aanvallen van de pokémon op te halen
 
 **een endpoint = URL + pad**

@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/wat-is-js/geschiedenis
----
-
 # geschiedenis
 
 JavaScript is een programmeertaal die is ontstaan om interactiviteit aan webpagina's toe te voegen. Ze werd origineel bedacht en gemaakt door Brendan Eich in 1995 in opdracht van Netscape. Het was oorspronkelijk bedoeld als een eenvoudige scripttaal voor het manipuleren van webpagina's in de Netscape Navigator-browser.

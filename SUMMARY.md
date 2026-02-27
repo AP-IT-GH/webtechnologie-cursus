@@ -65,12 +65,12 @@
   * [attributen](css/attributen.md)
   * [pseudo selectors](css/pseudo-selectors.md)
   * [voorrangsregels](css/voorrangsregels.md)
-* [Teksten en kleuren](css/teksten-en-kleuren/README.md)
+* [Teksten en kleuren](css/intro-2/README.md)
   * [kleur](css/kleur.md)
   * [lettertype](css/lettertype.md)
   * [lijsten](css/lijsten.md)
-* [Lay-out](css/lay-out/README.md)
-  * [positionering](css/lay-out/positionering.md)
+* [Lay-out](css/natuurlijke-volgorde/README.md)
+  * [positionering](css/natuurlijke-volgorde/positionering/README.md)
   * [units](css/units.md)
   * [grid](css/grid.md)
   * [flex](css/flex.md)
@@ -79,7 +79,7 @@
   * [transities](css/transities.md)
 * [reset.css](css/reset.md)
 * [variabelen](css/variabelen.md)
-* [BEM-notatie](css/bem-notatie.md)
+* [BEM-notatie](css/intro-4/bem.md)
 
 ## JavaScript
 
@@ -116,7 +116,7 @@
   * [objecten en functies](javascript/objecten/objecten-en-functies.md)
   * [JSON](javascript/objecten/json.md)
   * [JSON en arrays](javascript/objecten/json-en-arrays.md)
-* [Spread operator](javascript/spreads.md)
+* [Spread operator](./javascript/spreads.md)
 * [Functies](javascript/functies/README.md)
   * [eigen functies schrijven](javascript/functies/eigen-functies-schrijven.md)
   * [scope](javascript/functies/scope.md)

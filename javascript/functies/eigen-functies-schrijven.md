@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/functies/eigen-functies-schrijven
----
-
 # eigen functies schrijven
 
 Tot nu toe hebben we de functies gebruikt die al in JavaScript aanwezig zijn. Dit zijn de ingebouwde functies. Maar de kracht van functies zit er vooral in dat je deze zelf kan gaan schrijven en gaan gebruiken.

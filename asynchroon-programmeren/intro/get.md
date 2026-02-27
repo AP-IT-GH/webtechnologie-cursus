@@ -1,9 +1,3 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/intro-1/get
----
-
 # GET
 
 De GET-methode wordt gebruikt om gegevens van de server op te halen. Wanneer een browser een webpagina opvraagt, wordt een GET-verzoek naar de server gestuurd. Dit verzoek bevat vaak parameters in de URL die de server helpen begrijpen welke specifieke gegevens moeten worden opgehaald.

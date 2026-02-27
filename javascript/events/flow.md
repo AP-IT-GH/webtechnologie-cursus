@@ -1,9 +1,3 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/events/flow
----
-
 # event flow
 
 Aangezien HTML-elementen in elkaar worden gestoken, zal je bij een event vaak ook hetzelfde event op het parent-element uitvoeren. Als je op een element klikt, klik je eigenlijk op elke parent van dat element, tot op het document zelf.

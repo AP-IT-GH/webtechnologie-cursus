@@ -2,9 +2,6 @@
 cover: >-
   https://images.unsplash.com/photo-1581166397057-235af2b3c6dd?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw1fHx0b29sc3xlbnwwfHx8fDE3NjAwOTIxMzl8MA&ixlib=rb-4.1.0&q=85
 coverY: -658.7386424371996
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/ide
 ---
 
 # IDE
@@ -25,8 +22,8 @@ Codium (ook wel VSCodium genoemd) is een populaire, privacygerichte build van Vi
   * In 1 Codium-venster heb je dus maximaal 1 project/oefening gelijktijdig openstaan.
 
 {% hint style="info" %}
-- In Windows kan je een map openen met Codium via rechtermuisklik.
-- In MacOS kan je de map naar het symbool van Codium in jouw lint slepen.
+* In Windows kan je een map openen met Codium via rechtermuisklik.
+* In MacOS kan je de map naar het symbool van Codium in jouw lint slepen.
 {% endhint %}
 
 ### Emmet: snel HTML en CSS typen
@@ -63,13 +60,15 @@ In Codium heb je de mogelijkheid om extensies te installeren. In deze sectie bes
 * Log in met je GitHub-account (klik op het account-icoontje links onderaan boven het tandwiel en kies "Sign in with Github to use GitHub Pull Requests").
 * Met deze plugin kun je git commando's op een visuele manier uitvoeren vanuit Codium
 
-### [~~CSS Nesting Syntax Highlighting~~](https://marketplace.visualstudio.com/items?itemName=jacobcassidy.css-nesting-syntax-highlighting)
+### ~~[CSS Nesting Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=jacobcassidy.css-nesting-syntax-highlighting)~~
 
-~~\* Installeer de extensie in Codium.~~ ~~\* Deze extensie zorgt ervoor dat je CSS-nesting syntax correct wordt gemarkeerd in je CSS-bestanden. Dit wordt ondersteund in moderne browsers maar zit nog niet standaard in Codium.~~
+~~* Installeer de extensie in Codium.~~
+~~* Deze extensie zorgt ervoor dat je CSS-nesting syntax correct wordt gemarkeerd in je CSS-bestanden. Dit wordt ondersteund in moderne browsers maar zit nog niet standaard in Codium.~~
 
 {% hint style="info" %}
 Zit intussen standaard in Codium, dus deze extensie is niet meer nodig.
 {% endhint %}
+
 
 ## Configuratie Codium
 

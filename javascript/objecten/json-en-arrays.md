@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/objecten/json-en-arrays
----
-
 # JSON en arrays
 
 Je kan uiteraard in een JSON bestand ook een array van objecten plaatsen. Je kan dit herkennen aan de vierkante haken vooraan in het bestand.
@@ -61,7 +54,7 @@ Je kan uiteraard in een JSON bestand ook een array van objecten plaatsen. Je kan
 
 We visualiseren deze JSON als volgt:
 
-![Visualisatie JSON array van objecten](<../../.gitbook/assets/image (9).png>)
+![Visualisatie JSON array van objecten](../../.gitbook/assets/image%20(9).png)
 
 Het inlezen van deze JSON file gebeurd op identiek dezelfde manier als hiervoor, met het enige verschil dat we nu een array van `Dinosaur`-objecten hebben.
 
@@ -174,11 +167,11 @@ Hier zie je een voorbeeld van zo'n json bestand:
 }
 ```
 
-![Visualisatie van root object met dinosaurs property](<../../.gitbook/assets/image (15).png>)
+![Visualisatie van root object met dinosaurs property](../../.gitbook/assets/image%20(15).png)
 
 Je kan dit ook visualiseren aan de hand van de [https://jsonformatter.org/json-viewer](https://jsonformatter.org/json-viewer) tool:
 
-![JSON viewer screenshot](<../../.gitbook/assets/image (10).png>)
+![JSON viewer screenshot](../../.gitbook/assets/image%20(10).png)
 
 We kunnen ook dit JSON-bestand als volgt inlezen:
 

@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/intro/html-aanpassen
----
-
 # HTML aanpassen
 
 Er bestaan verschillende manieren om HTML aan te passen vanuit JavaScript. Elk van deze manieren heeft voor- en nadelen. Het is dan ook belangrijk het verschil te kennen om goed te kunnen beslissen welke manier je wanneer gebruikt.
@@ -25,16 +18,17 @@ Met de innerHTML-eigenschap kan je de volledige inhoud (incl. markup) van een no
 **XSS** Cross-site scripting attacks zijn manieren om bepaalde data toe te voegen aan een website die daar niet thuis hoort. (video: https://youtu.be/zv0kZKC6GAM )
 {% endhint %}
 
+{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp0AjbkgCe+7boBM6gLInlAMTIAnMPGUB1CAeXyGAcwhBAHosawsAB1t7J1d3P2cAxIisDBCo7UjlMiQAXk0QJAhcbgL1dPMdMFhnMgj4fSRuWABXZj4MQPhFGHb4ACETAEkkAAoCopKCgEoMMjo6CGcACWkbABllXOUAVmUAamUANgBuC2Dq2vrKkKNTfRC9ZW1OSBgEMl4qdABGHdQAAwgAC+hHoTBY6AwACsqMQeHwIAJ0CCwSBGMxWBhYGA4VxePx4KwQQBdYFAA %}
+
 ## `element.insertAdjacentHTML(location, HTMLstring)`
 
-Als alternatief voor innerHTML is er de `insertAdjacentHTML` functie. Daarmee geef je aan _waar_ je een element wilt invoegen, en kan je vervolgens in een string meegeven welke HTML code je daar wilt plaatsen.
+Als alternatief voor innerHTML is er de `insertAdjacentHTML` functie. Daarmee geef je aan *waar* je een element wilt invoegen, en kan je vervolgens in een string meegeven welke HTML code je daar wilt plaatsen.
 
 Je kan HTML invoegen rond een element op 4 plaatsen:
-
-* `beforeBegin`: vlak _voor_ de openingstag (dus als sibling voor het element)
-* `afterBegin`: vlak _na_ de openingstag (dus als eerste child)
-* `beforeEnd`: vlak _voor_ de sluitingstag (dus als laatste child)
-* `afterEnd`: vlak _na_ de sluitingstag (dus als sibling na het element)
+- `beforeBegin`: vlak *voor* de openingstag (dus als sibling voor het element)
+- `afterBegin`: vlak *na* de openingstag (dus als eerste child)
+- `beforeEnd`: vlak *voor* de sluitingstag (dus als laatste child)
+- `afterEnd`: vlak *na* de sluitingstag (dus als sibling na het element)
 
 ```html
 <!-- beforeBegin -->
@@ -75,7 +69,6 @@ document.querySelector("#myImage").src = "landscape.jpg";
 Soms wil je niet enkel bestaande HTML aanpassen, maar volledig nieuwe elementen maken en toevoegen aan de pagina. Hiervoor maak je eerst een nieuw element aan, voeg je er inhoud aan toe en plaats je het element op de juiste plaats in de DOM.
 
 ### Een nieuw element maken
-
 Met `document.createElement()` maak je een nieuw (leeg!) HTML-element.
 
 ```js

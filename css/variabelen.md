@@ -1,10 +1,4 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/css/intro-4/variabelen
----
-
-# variabelen
+# CSS Variabelen
 
 CSS-variabelen (ook wel CSS Custom Properties genoemd) voegen flexibiliteit en herbruikbaarheid toe aan je stylesheets. Ze maken het mogelijk om waarden centraal te definiëren en op meerdere plaatsen te hergebruiken. In deze handleiding leggen we uit hoe je variabelen declareert, gebruikt, dynamisch bijwerkt met JavaScript en wat de beperkingen zijn.
 
@@ -25,11 +19,10 @@ CSS-variabelen beginnen met twee streepjes `--` en worden gedefinieerd binnen ee
 De `:root` selector is een pseudo-class die verwijst naar het root-element van het document (meestal het `<html>`-element). Het is de aanbevolen plek om globale CSS-variabelen te definiëren omdat die variabelen vervolgens beschikbaar zijn in het hele document via inheritance.
 
 Belangrijke punten:
-
-* `:root` verwijst naar het root-element (document root). In HTML is dat hetzelfde element als `html`.
-* `:root` heeft de specificiteit van een pseudo-class, wat betekent dat het iets meer gewicht heeft dan een gewone type-selector zoals `html` (dus `:root {}` kan soms `html {}` overschrijven wanneer beide in conflict zijn).
-* Aangezien variabelen erven, zijn variabelen gedefinieerd op `:root` beschikbaar in alle descendants tenzij ze lokaal overschreven worden.
-* `document.documentElement` in JavaScript verwijst naar hetzelfde element als `:root` (het `<html>`-element).
+- `:root` verwijst naar het root-element (document root). In HTML is dat hetzelfde element als `html`.
+- `:root` heeft de specificiteit van een pseudo-class, wat betekent dat het iets meer gewicht heeft dan een gewone type-selector zoals `html` (dus `:root {}` kan soms `html {}` overschrijven wanneer beide in conflict zijn).
+- Aangezien variabelen erven, zijn variabelen gedefinieerd op `:root` beschikbaar in alle descendants tenzij ze lokaal overschreven worden.
+- `document.documentElement` in JavaScript verwijst naar hetzelfde element als `:root` (het `<html>`-element).
 
 Voorbeeld — globale declaratie en lezing via JS:
 
@@ -166,7 +159,7 @@ document.documentElement.setAttribute('data-theme', 'dark');
 
 ## beperkingen en best practices
 
-* Custom properties zijn waarden, geen property-namen — je kunt ze niet gebruiken als CSS-eigenschapsnamen (bijv. `var(--some-property)` kan niet in plaats van `color:`).
-* Ze werken voor vrijwel alle CSS-eigenschappen, maar sommige eigenschappen (zoals `@keyframes`-namen) ondersteunen ze niet.
-* Gebruik fallbacks in kritieke paden zodat je stylesheet robuust blijft als variabelen ontbreken.
-* Houd naming consistent: gebruik een duidelijke prefix (bijv. `--theme-`, `--spacing-`) om verwarring te voorkomen.
+- Custom properties zijn waarden, geen property-namen — je kunt ze niet gebruiken als CSS-eigenschapsnamen (bijv. `var(--some-property)` kan niet in plaats van `color:`).
+- Ze werken voor vrijwel alle CSS-eigenschappen, maar sommige eigenschappen (zoals `@keyframes`-namen) ondersteunen ze niet.
+- Gebruik fallbacks in kritieke paden zodat je stylesheet robuust blijft als variabelen ontbreken.
+- Houd naming consistent: gebruik een duidelijke prefix (bijv. `--theme-`, `--spacing-`) om verwarring te voorkomen.
