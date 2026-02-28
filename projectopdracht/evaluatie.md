@@ -70,6 +70,10 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
       <td>Code bevat overduidelijke copy-paste zonder integratie of begrip.</td>
       <td>-2</td>
     </tr>
+    <tr>
+      <td>Ontbrekend of onvolledig concept-document (Styleguide) uit deelopdracht 1.</td>
+      <td>-1</td>
+    </tr>
   </tbody>
 </table>
 
@@ -108,15 +112,12 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
                  <li><strong>HTML Structuur &#x26; Semantiek (5%)</strong></li>
              </ol>
          </td>
-        <td>HTML is volledig semantisch correct. Tekst- en media-elementen zijn correct gebruikt. Structuur ondersteunt
-            inhoud en toegankelijkheid optimaal.
+        <td>HTML is volledig semantisch correct. Formulier-elementen (labels, inputs, etc.) zijn toegankelijk en correct gekoppeld. Tekst- en media-elementen ondersteunen de inhoud optimaal.
         </td>
-        <td>HTML is grotendeels semantisch correct. Tekst- en media-elementen zijn correct gebruikt, maar enkele
-            optimalisaties ontbreken.
+        <td>HTML is grotendeels semantisch correct. Formulieren zijn functioneel en meestal toegankelijk. Tekst- en media-elementen zijn correct gebruikt.
         </td>
-        <td>HTML-structuur bevat enkele fouten in semantiek of in gebruik van tekst-/media-elementen.</td>
-        <td>HTML is grotendeels niet-semantisch of onsamenhangend. Tekst en media worden vaak foutief of niet
-            gebruikt.
+        <td>HTML-structuur bevat enkele fouten in semantiek of in het gebruik van formulieren (bv. ontbrekende labels).</td>
+        <td>HTML is grotendeels niet-semantisch. Formulieren zijn slecht gestructureerd of niet toegankelijk.
         </td>
     </tr>
     <tr>
@@ -168,15 +169,17 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
     <tr>
         <td>
              <ol start="6">
-                 <li><strong>Asynchrone technieken &#x26; Data (5%)</strong></li>
+                 <li><strong>Dynamische content &#x26; Data (5%)</strong></li>
              </ol>
          </td>
-        <td>Data wordt correct opgehaald met asynchrone code en geïntegreerd in de webshop. Loading states en
-            foutafhandeling zijn voorzien.
+        <td>De shopitems worden correct beheerd in een array van objecten en dynamisch via JavaScript in de DOM getoond. De logica is robuust (gebruik van ID's en data-attributen) en efficiënt.
         </td>
-        <td>Data wordt correct opgehaald en geïntegreerd. Foutafhandeling of efficiëntie kan verbeterd worden.</td>
-        <td>Data wordt opgehaald, maar integratie bevat enkele fouten of is slechts beperkt bruikbaar.</td>
-        <td>Geen of foutief gebruik van asynchrone technieken of externe data.</td>
+        <td>De shopitems worden in een array van objecten beheerd en dynamisch getoond. Integratie met winkelmandje/wishlist werkt.
+        </td>
+        <td>Data wordt deels dynamisch getoond, maar bevat fouten in de logica of in de DOM-manipulatie.
+        </td>
+        <td>Geen of foutief gebruik van dynamische content; de items zijn nog steeds hardcoded in de HTML.
+        </td>
     </tr>
     <tr>
         <td>
