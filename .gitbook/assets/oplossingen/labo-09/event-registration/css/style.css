@@ -1,0 +1,148 @@
+:root {
+    --primary-color: #6a5acd;
+    --error-color: #ff4d4d;
+    --success-color: #2ecc71;
+    --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--bg-gradient);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+}
+
+.container {
+    background: white;
+    padding: 2rem 3rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    max-width: 800px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    height: 40px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+label {
+    font-weight: 600;
+}
+
+label span.required {
+    color: var(--error-color);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+textarea,
+input[type="file"] {
+    padding: 0.75rem;
+    border: 2px solid #ddd;
+    border-radius: 7px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+/* Herstel checkbox en radio button uiterlijk die door reset.css zijn gewist */
+input[type="checkbox"],
+input[type="radio"] {
+    all: revert;
+}
+
+/* Pseudo-class: Focus */
+input:focus, textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(106, 90, 205, 0.2);
+}
+
+/* Pseudo-class: Valid/Invalid */
+input:valid {
+    border-color: var(--success-color);
+}
+
+input:invalid {
+    border-color: var(--error-color);
+}
+
+fieldset {
+    border: 2px solid #eee;
+    padding: 1rem;
+    border-radius: 7px;
+    margin-bottom: 1.5rem;
+}
+
+legend {
+    padding: 0 0.5rem;
+    font-weight: bold;
+}
+
+.radio-group, .checkbox-group {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.checkbox-inline {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5a4db8;
+}
+
+/* Flexbox for responsiveness */
+@media (min-width: 600px) {
+    .form-row {
+        display: flex;
+        gap: 1.5rem;
+    }
+    
+    .form-row .form-group {
+        flex: 1;
+    }
+}
+
+small {
+    color: #666;
+    font-size: 0.8rem;
+}
