@@ -1,8 +1,8 @@
-# array functies
+# Array functies
 
-Bij de introductie van ES6 werden er ook een boel extra array functies toegegvoegd. Deze maken het werken met arrays nog interessanter. Hieronder zien we een paar veel voorkomende functies:
+Bij de introductie van ES6 werden er ook een boel extra array functies toegevoegd. Deze maken het werken met arrays nog interessanter. Hieronder zien we een paar veel voorkomende functies:
 
-## loops
+## loops — [MDN: Array.prototype.forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 
 ```js
 const numbers = [1,2,3,4];
@@ -22,9 +22,9 @@ numbers.forEach(e => console.log(e));
 
 `forEach()` verwacht een callback-functie met 1 parameter. Die parameter stelt elk element voor van de array. In het voorbeeld hierboven zal de callback functie `e => console.log(e)` dus voor elk element e uitgevoerd worden dat in de array numbers zit.
 
-## sort
+## sort — [MDN: Array.prototype.sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
-We kunnen de inhoud van een array ook sorteren:
+We kunnen de numbers in een array sorteren:
 
 ```js
 const numbers = [3,1,4,2]; 
@@ -32,23 +32,23 @@ numbers.sort();
 // numbers = [1,2,3,4]
 ```
 
-Sort past dus de inhoud van een array aan! Wanneer we de originele array niet willen aanpassen, kunnen we gebruik maken van een spread operator:
+Sort past dus de inhoud van een array zelf aan! Wanneer we de originele array niet willen aanpassen, kunnen we gebruik maken van de [toSorted](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted) functie.
 
 ```js
 const numbers = [3, 1, 4, 2]; 
-numbersSorted = [...numbers].sort(); 
-// numbersSorted = [1,2,3,4] 
-// numbers = [3,1,4,2]
+const numbersSorted = numbers.toSorted(); 
+// numbers = [3,1,4,2] (onveranderd)
+// numbersSorted = [1,2,3,4]  (gesorteerd)
 ```
 
-We moeten wel opletten met de default sort functie te gebruiken:
+We moeten wel opletten met de default sort functie te gebruiken. Javascript zet namelijk alle waarden om naar strings en vergelijkt die. Dat kan leiden tot onverwachte resultaten:
 
 ```js
 const arr = [3, 2, 12, 22, 4]; 
-arr.sort(); // arr = [ 12, 2, 22, 3, 4 ]
+arr.sort(); // Resultaat: [ 12, 2, 22, 3, 4 ]
 ```
 
-Waarden worden omgezet naar strings. Dit kan problemen geven wanneer we getallen willen sorteren. Wil je zeker zijn dat jouw sort correct wordt uitgevoerd, dan geef je een callback mee aan de sort functie die exact bepaalt hoe er moet gesorteerd worden:
+Wil je zeker zijn dat jouw sort correct wordt uitgevoerd, dan geef je een callback mee aan de sort functie die exact bepaalt hoe er moet gesorteerd worden:
 
 ```js
 function sortingNumbers (a, b) {
@@ -59,17 +59,16 @@ function sortingNumbers (a, b) {
 
 const arr = [3, 2, 12, 22, 4];
 arr.sort(sortingNumbers);
-// arr = [ 2, 3, 4, 12, 22 ]
+// Resultaat: [ 2, 3, 4, 12, 22 ]
 ```
 
-`sortingnumbers` bepaalt nu hoe we sorteren. De callback zal alle elementen met mekaar vergelijken a.d.h.v. deze functie: a en b zullen dus door alle waarden van de array gaan.
+`sortingnumbers` bepaalt nu hoe we sorteren. De callback zal alle elementen met elkaar vergelijken a.d.h.v. deze functie: a en b zullen door alle waarden van de array gaan.
 
 De regels voor de callback functie zijn als volgt:
 
-* neem variabele a en b
-* sorteerfunctie moet < 0 teruggeven als a < b
-* sorteerfunctie moet > 0 teruggeven als a > b
-* sorteerfunctie moet 0 teruggeven als a === b
+* sorteerfunctie moet een getal kleiner dan 0 teruggeven als `a < b`
+* sorteerfunctie moet een getal groter dan 0 teruggeven als `a > b`
+* sorteerfunctie moet 0 teruggeven als `a === b`
 
 Bovenstaand voorbeeld kunnen we ook verkorten als volgt:
 
@@ -80,20 +79,36 @@ arr.sort((a, b) => {
     if(a > b) return 1;
     return 0;
 });
-// arr = [ 2, 3, 4, 12, 22 ]
+// Resultaat: [ 2, 3, 4, 12, 22 ]
 ```
 
-Of nog korter (probeer zelf eens te zoeken waarom dit werkt):
+Of nog korter (dit werkt omdat de uitkomst van `a - b` negatief, positief of nul is, wat precies is wat `sort` verwacht):
 
 ```js
 const arr = [3, 2, 12, 22, 4];
 arr.sort((a, b) => {
     return a - b;
 });
-// arr = [ 2, 3, 4, 12, 22 ]
+// Resultaat: [ 2, 3, 4, 12, 22 ]
 ```
 
-We kunnen dus ook objecten sorteren!
+We kunnen string arrays alfabetisch sorteren. Standaard vergelijkt `sort()` strings op basis van hun Unicode-waarden. Dit geeft vaak niet het gewenste resultaat omdat hoofdletters (bv. 'Z') vóór kleine letters (bv. 'a') komen, en accenten (bv. 'é') helemaal achteraan de lijst belanden.
+
+Om strings correct alfabetisch te sorteren volgens de taalregels, gebruiken we [localeCompare](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare).
+
+Wat `localeCompare` teruggeeft:
+* Een negatieve waarde (< 0) wanneer de oproepende string vóór de vergelijking-string hoort.
+* Nul (=== 0) wanneer de strings als gelijk worden beschouwd volgens de gekozen opties.
+* Een positieve waarde (> 0) wanneer de oproepende string ná de vergelijking-string hoort.
+
+```js
+const adjectives = ['leuk', 'aardig', 'Zalig', 'Blij'];
+adjectives.sort((a, b) => a.localeCompare(b));
+
+// resultaat: ["aardig", "Blij", "leuk", "Zalig"] (alfabetische volgorde)
+```
+
+We kunnen ook objecten sorteren:
 
 ```js
 const arr = [
@@ -102,14 +117,7 @@ const arr = [
     {name: 'Mabel', age: 29}
 ];
 
-arr.sort((a, b)=>{
-    const name1 = a.name.toUpperCase();
-    const name2 = b.name.toUpperCase();
-    if(name1 < name2 ) return -1;
-    if(name1 > name2 ) return 1;
-    return 0;
-}
-);
+arr.sort((a, b) => a.name.localeCompare(b.name));
 
 /* 
 [
@@ -120,17 +128,12 @@ arr.sort((a, b)=>{
 */
 ```
 
-Hierboven sorteren we op de naam property van elk object. Let op dat we naar Uppercase omzetten om zodat bv. "Mabel" niet voor "abe" zou komen.
+Hierboven sorteren we op de naam property van elk object. `localeCompare` zorgt voor een correcte alfabetische volgorde.
 
-Willen we toch op leeftijd sorteren? Dan passen we de callback aan:
+Willen we de objecten oplopend op leeftijd sorteren? Dan passen we de callback aan:
 
 ```js
-arr.sort((a, b)=>{
-    if(a.age < b.age ) return -1;
-    if(a.age > b.age ) return 1;
-    return 0;
-}
-);
+arr.sort((a, b) => a.age - b.age);
 
 /*
 [
@@ -139,9 +142,10 @@ arr.sort((a, b)=>{
   { name: 'George', age: 33 }
 ]
 */
+
 ```
 
-## filter
+## filter — [MDN: Array.prototype.filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
 ```js
 const numbers = [1, 2, 3, 4];
@@ -175,7 +179,7 @@ let evenNumbers = numbers.filter(e => e % 2 === 0);
 // evenNumbers = [2,4]
 ```
 
-## map
+## map — [MDN: Array.prototype.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
 Soms willen we een bewerking doen op de elementen van een array. Door te lopen door een array kunnen we een nieuwe array maken met nieuwe elementen gebaseerd op een bewerking op de originelen:
 
@@ -198,7 +202,8 @@ let doubledNumbers = numbers.map(e => 2 * e);
 
 Het resultaat is hetzelfde als het vorige voorbeeld. De map-functie verwacht een callback die weeral elk element aanspreekt van de array. De return waarde van map is een nieuwe array. De elementen van deze nieuwe array zijn het resultaat van elke oproep naar de callback. In het voorbeeld hierboven worden alle elementen maal 2 gedaan.
 
-## find
+## find — [MDN: Array.prototype.find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
+
 Soms willen we in een array één specifiek element zoeken dat voldoet aan een bepaalde voorwaarde. We zouden dit kunnen doen met een for-lus of forEach:
 
 ```js
@@ -237,7 +242,7 @@ console.log(found); // undefined
 
 ## chains
 
-We kunnen de return waarden van array functies ook aan mekaar doorgeven. Dit doen we door "chains". Bv. wanneer we 2 maps na mekaar willen doen:
+We kunnen de return waarden van array functies ook aan elkaar doorgeven. Dit doen we door "chains". Bv. wanneer we 2 maps na elkaar willen doen:
 
 ```js
 let doublePlusOneNumbers = numbers.map(e => 2 * e).map(e => e + 1);
@@ -276,7 +281,7 @@ let doubleTheEven = numbers
 
 Er is dus geen limiet op het aantal methodes dat je zo aan mekaar kan hangen.
 
-## reduce
+## reduce — [MDN: Array.prototype.reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
 Stel we willen alle getallen van een array optellen. Een logische oplossing is de volgende:
 
