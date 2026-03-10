@@ -73,6 +73,10 @@ form {
     width: 500px;
 }
 
+form label {
+    display: block;
+}
+
 form input, form textarea {
     width: 100%;
     padding: 5px;

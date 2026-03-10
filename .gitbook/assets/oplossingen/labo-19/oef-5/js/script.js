@@ -1,34 +1,20 @@
 "use strict";
 
-// JavaScript-functie die objecten sorteert op basis van een attribuutnaam
-function sortByAttribute(objectArray, attributeName) {
-  // Gebruik de sort-functie met een aangepaste vergelijkingsfunctie
-  objectArray.sort(function(a, b) {
-    // Vergelijk objecten op basis van het opgegeven attribuut
-    if (a[attributeName] < b[attributeName]) {
-      return -1;
-    } else if (a[attributeName] > b[attributeName]) {
-      return 1;
-    } else {
-      return 0;
-    }
-  });
+function sortStrings(stringsArray) {
+  // Gebruik de ingebouwde sort() functie om alfabetisch te sorteren.
+  // De localeCompare functie zorgt ervoor dat we netjes alfabetisch
+  // sorteren (ook als er verschil in hoofdletters en kleine letters is).
+  stringsArray.sort((a, b) => a.localeCompare(b));
 
-  // Retourneer de gesorteerde array van objecten
-  return objectArray;
+  // Print het resultaat in de console
+  console.log("Gesorteerde strings:", stringsArray);
+
+  // Verder optioneel: retourneer de gesorteerde array
+  return stringsArray;
 }
 
-// Voorbeeldgebruik van sortByAttribute-functie
-const people = [
-  { name: 'Bob', age: 45 },
-  { name: 'Charlie', age: 35 },
-  { name: 'Alice', age: 30 }
-];
+// Voorbeeld van hoe studenten het kunnen aanroepen:
+const fruits = ["Banaan", "Appel", "druif", "Citroen", "aardbei"];
 
-console.log('Original Array:', people);
-
-// Sorteer objecten op basis van het attribuut 'age'
-const sortedPeople = sortByAttribute([...people], 'age');
-
-console.log('Sorted Array:', sortedPeople);
-
+sortStrings(fruits);
+// Output in console: Gesorteerde strings: [ 'aardbei', 'Appel', 'Banaan', 'Citroen', 'druif' ]
