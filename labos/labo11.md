@@ -7,9 +7,9 @@ coverY: 0
 
 # Labo 11
 
-## <img src="../../.gitbook/assets/github.png" alt="GitHub Classroom logo" data-size="line"> Oefeningen
+## <img src="../../.gitbook/assets/github.png" alt="fork on github" data-size="line"> Oefeningen
 
-[Oefeningen van labo 11 op Github](https://classroom.github.com/a/yrDyUKPq)
+[Oefeningen van labo 11 op Github](https://github.com/AP-IT-GH/webtechnologie-labo-11)
 
 ## 🔗 Aanvullende bronnen
 

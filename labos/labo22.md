@@ -7,6 +7,6 @@ coverY: 0
 
 # Labo 22
 
-## <img src="../../.gitbook/assets/github.png" alt="GitHub Classroom logo" data-size="line"> Oefeningen
+## <img src="../../.gitbook/assets/github.png" alt="fork on github" data-size="line"> Oefeningen
 
 [Geïntegreerde oefening / voorbeeldexamen](https://classroom.github.com/a/HvKS8Kv9)

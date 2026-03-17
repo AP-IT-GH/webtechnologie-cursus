@@ -29,18 +29,23 @@ Heb je een fout gemaakt? Dan mag je deze regels gewoon opnieuw invoeren.
 
 ***
 
-## Stap 3: GitHub Classroom repository aanmaken
+## Stap 3: Template repository forken
 
-Voor elk labo krijg je een **GitHub Classroom-link**. Deze zijn terug te vinden in de labo-pagina's (bv. [Labo 1](labo1.md), [Labo 2](labo2.md), ...). Klik op de link van het labo dat je wil starten. Aanvaard de opdracht voor dat labo. Het kan zijn dat je eerst een Github account moet aanmaken.
+Voor elk labo is er een **template repository** op GitHub. Deze zijn terug te vinden in de labo-pagina's (bv. [Labo 1](labo1.md), [Labo 2](labo2.md), ...). Het kan zijn dat je eerst een GitHub-account moet aanmaken.
 
-![GitHub Classroom](../.gitbook/assets/gh-classroom.png)\
-GitHub Classroom nadat je jouw repo hebt aangemaakt. Via de URL kom je op jouw persoonlijke repository._
+Navigeer naar de template repository van het labo dat je wil starten en klik op de groene knop **"Use this template"** en kies **"Create a new repository"**.
+
+* Geef je repository een duidelijke naam (bv. `webtechnologie-labo-01`).
+* Kies **Private** als zichtbaarheid.
+* Klik op **"Create repository"**.
+
+Je hebt nu je eigen kopie van de repository op je GitHub-account.
 
 ***
 
 ## Stap 4: Je repository lokaal clonen
 
-* Open de command palette in Codium met `Ctrl+Shift+P` (of `Cmd+Shift+P` op macOS) en typ `Git: Clone`. Kopieer en plak de URL van je repository die je kreeg van GitHub Classroom.
+* Open de command palette in Codium met `Ctrl+Shift+P` (of `Cmd+Shift+P` op macOS) en typ `Git: Clone`. Kopieer en plak de URL van jouw geforkte repository.
 * Kies de map die je eerder aangemaakt hebt voor het vak Webtechnologie.
 * Kies om de geclonede repository te openen in een nieuw venster
 
@@ -93,11 +98,3 @@ je kunt ook gebruik maken van de terminal in Codium om dezelfde acties uit te vo
 * Je vooruitgang is zichtbaar in de **commit history**.
 * Bij vragen of problemen: contacteer de lector of gebruik het afgesproken communicatiekanaal.
 
-***
-
-## Waarom werken we met GitHub Classroom?
-
-* Je leert al doende werken met **git**.
-* Je oefeningen staan veilig online als **back-up**.
-* De lectoren kunnen je werk makkelijk **nakijken** bij vragen of problemen.
-* Je ziet je **evolutie** in de commit history.

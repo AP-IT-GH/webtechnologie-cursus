@@ -7,9 +7,9 @@ coverY: 0
 
 # Labo 5
 
-## <img src="../../.gitbook/assets/github.png" alt="GitHub Classroom logo" data-size="line"> Oefeningen
+## <img src="../../.gitbook/assets/github.png" alt="fork on github" data-size="line"> Oefeningen
 
-[Oefeningen van labo 5 op Github](https://classroom.github.com/a/8j-oJl0q)
+[Oefeningen van labo 5 op Github](https://github.com/AP-IT-GH/webtechnologie-labo-05)
 
 ## 💻 Theorie
 
