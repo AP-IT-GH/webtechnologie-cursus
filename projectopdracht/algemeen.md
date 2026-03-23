@@ -51,10 +51,10 @@ We werken volgens het **mobile-first** principe. Dit betekent dat je de website 
 #### Rechtenvrije Afbeeldingen
 
 - Gebruik **enkel rechtenvrije afbeeldingen** die je zelf hebt gemaakt of die beschikbaar zijn via platforms met een vrije licentie, zoals:
-
   - [Unsplash](https://unsplash.com/)
   - [Pexels](https://www.pexels.com/)
   - [Pixabay](https://pixabay.com/)
+
 - **Tip:** Kun je geen perfecte afbeelding vinden voor je product? Kies dan voor een meer generieke afbeelding die het idee van je product goed weergeeft. Bijv. voor een webshop die voetbalschoenen verkoopt, kun je zoeken naar generieke, rechtenvrije foto's van voetbalschoenen.
 - Afbeeldingen gegenereerd met AI kunnen ook, maar probeer origineel te zijn.
 
@@ -67,17 +67,15 @@ We werken volgens het **mobile-first** principe. Dit betekent dat je de website 
 #### Afbeelding resizing & aspect ratio's
 
 - Gebruik gratis tools zoals:
-
   - [⭐️ Photopea](https://www.photopea.com/)
-  - [Canva](https://www.canva.com/nl_nl/)
+  - [Affinity](https://www.affinity.studio/photo-editing-software)
   - [Adobe Express](https://www.adobe.com/express/feature/image/resize)
   - [Imagy.app](https://imagy.app/)
 
   om je afbeeldingen bij te snijden naar de juiste afmetingen en **aspect-ratio's**.
-- Voor productfoto's: ga voor vierkante images van 500x500px.
 
+- Voor productfoto's: ga voor vierkante images van 500x500px.
 
 ## Coding Guidelines
 
 Zorg ervoor dat alle code die je schrijft voldoet aan de [Coding Guidelines](../coding-guidelines.md). Volg deze richtlijnen zorgvuldig om een consistente en professionele webshop te bouwen.
-
