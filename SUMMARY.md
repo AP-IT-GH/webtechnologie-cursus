@@ -59,19 +59,17 @@
 * [Syntax](css/intro.md)
   * [box model](css/box-model.md)
   * [randen en spaties](css/randen-en-spaties.md)
+  * [kleur](css/kleur.md)
+  * [lettertype](css/lettertype.md)
+  * [lijsten](css/lijsten.md)
+  * [units](css/units.md)
 * [Selectors](css/selectors.md)
   * [overerving](css/inheritance.md)
   * [class en id](css/class-en-id.md)
   * [attributen](css/attributen.md)
   * [pseudo selectors](css/pseudo-selectors.md)
   * [voorrangsregels](css/voorrangsregels.md)
-* [Teksten en kleuren](css/intro-2/README.md)
-  * [kleur](css/kleur.md)
-  * [lettertype](css/lettertype.md)
-  * [lijsten](css/lijsten.md)
-* [Lay-out](css/natuurlijke-volgorde/README.md)
-  * [positionering](css/natuurlijke-volgorde/positionering/README.md)
-  * [units](css/units.md)
+* Lay-out
   * [grid](css/grid.md)
   * [flex](css/flex.md)
   * [media queries](css/media-queries.md)
@@ -79,7 +77,6 @@
   * [transities](css/transities.md)
 * [reset.css](css/reset.md)
 * [variabelen](css/variabelen.md)
-* [BEM-notatie](css/intro-4/bem.md)
 
 ## JavaScript
 
