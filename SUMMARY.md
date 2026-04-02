@@ -93,15 +93,15 @@
 
 ## Asynchroon programmeren
 
-* [Promises](asynchroon-programmeren/promises/README.md)
-  * [async/await](asynchroon-programmeren/promises/async-await.md)
-* [HTTP request methoden](asynchroon-programmeren/intro/README.md)
-  * [POST](asynchroon-programmeren/intro/post.md)
-  * [GET](asynchroon-programmeren/intro/get.md)
-* [API's](asynchroon-programmeren/wat-is-een-api/README.md)
-  * [wat is een API](asynchroon-programmeren/wat-is-een-api/README.md)
-  * [Postman](asynchroon-programmeren/wat-is-een-api/postman.md)
-  * [API aanroepen](asynchroon-programmeren/wat-is-een-api/api-aanroepen.md)
+* [Promises](javascript/asynchroon-programmeren/promises/README.md)
+  * [async/await](javascript/asynchroon-programmeren/promises/async-await.md)
+* [HTTP request methoden](javascript/asynchroon-programmeren/intro/README.md)
+  * [POST](javascript/asynchroon-programmeren/intro/post.md)
+  * [GET](javascript/asynchroon-programmeren/intro/get.md)
+* [API's](javascript/asynchroon-programmeren/wat-is-een-api/README.md)
+  * [wat is een API](javascript/asynchroon-programmeren/wat-is-een-api/README.md)
+  * [Postman](javascript/asynchroon-programmeren/wat-is-een-api/postman.md)
+  * [API aanroepen](javascript/asynchroon-programmeren/wat-is-een-api/api-aanroepen.md)
 
 ## Labo's
 
@@ -147,4 +147,4 @@
 
 ## Bronnen
 
-* [Bronnen](asynchroon-programmeren/bronnen.md)
+* [Bronnen](javascript/asynchroon-programmeren/bronnen.md)

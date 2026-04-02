@@ -9,7 +9,7 @@ This is a **GitBook-based course** for web technology (HTML, CSS, JavaScript) ta
 ## Structure
 
 - `SUMMARY.md` — GitBook table of contents; must be updated when adding/removing pages
-- `html/`, `css/`, `javascript/`, `asynchroon-programmeren/` — course theory chapters
+- `html/`, `css/`, `javascript/` — course theory chapters (`javascript/` includes `asynchroon-programmeren/`)
 - `labos/` — lab assignment pages (labo1.md through labo22.md)
 - `projectopdracht/` — project assignment pages
 - `.gitbook/assets/oplossingen/` — reference solutions per lab (e.g. `labo-12/oefening-01/`)
