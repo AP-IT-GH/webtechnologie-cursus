@@ -41,12 +41,65 @@ let arr2 = [2,3,4, ...arr1];
 let arr3 = [...arr1, 2,3,4];
 ```
 
-De spread operator kan ook gebruikt worden bij objecten:
+## Spread bij objecten
+
+Hetzelfde referentieprobleem geldt voor objecten. Wanneer je een object toewijst aan een nieuwe variabele, wijzen beide naar hetzelfde object in het geheugen:
 
 ```js
-let obj1 = {a:1, b:2, c:3};
-let obj2 = {...obj1, d:4};
-console.log(obj2); // {a:1, b:2, c:3, d:4}
+let obj1 = { a: 1, b: 2, c: 3 };
+let obj2 = obj1;
+obj2.a = 99;
+console.log(obj1.a); // 99 — ook obj1 is aangepast!
+```
+
+Met de spread operator maak je een echte kopie van het object:
+
+```js
+let obj1 = { a: 1, b: 2, c: 3 };
+let obj2 = { ...obj1 };
+obj2.a = 99;
+console.log(obj1.a); // 1 — obj1 blijft ongewijzigd
+console.log(obj2.a); // 99
+```
+
+Je kan ook twee objecten samenvoegen:
+
+```js
+let persoon = { naam: "Jan", leeftijd: 25 };
+let adres = { stad: "Gent", land: "België" };
+let gecombineerd = { ...persoon, ...adres };
+console.log(gecombineerd);
+// { naam: "Jan", leeftijd: 25, stad: "Gent", land: "België" }
+```
+
+Een veelgebruikte toepassing is het overschrijven van specifieke eigenschappen. De volgorde is hierbij belangrijk: eigenschappen die later staan overschrijven eerdere:
+
+```js
+let standaardInstellingen = { thema: "licht", taal: "nl", meldingen: true };
+let gebruikerInstellingen = { thema: "donker" };
+let instellingen = { ...standaardInstellingen, ...gebruikerInstellingen };
+console.log(instellingen);
+// { thema: "donker", taal: "nl", meldingen: true }
+```
+
+### Ondiepe kopie (shallow copy)
+
+De spread operator maakt enkel een **ondiepe kopie**. Geneste objecten worden nog steeds als referentie gekopieerd:
+
+```js
+let obj1 = { a: 1, nested: { b: 2 } };
+let obj2 = { ...obj1 };
+obj2.nested.b = 99;
+console.log(obj1.nested.b); // 99 — nested object is nog steeds gedeeld!
+```
+
+Wil je een volledige diepe kopie, gebruik dan `structuredClone()`:
+
+```js
+let obj1 = { a: 1, nested: { b: 2 } };
+let obj2 = structuredClone(obj1);
+obj2.nested.b = 99;
+console.log(obj1.nested.b); // 2 — obj1 blijft ongewijzigd
 ```
 
 [Meer info over de spread operator op MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
