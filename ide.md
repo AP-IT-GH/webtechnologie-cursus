@@ -85,10 +85,6 @@ In Codium worden instellingen bewaard in een `settings.json` bestand. We gaan en
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "explorer.compactFolders": false,
-  "window.restoreWindows": "none",
-  "chat.agent.enabled": false,
-  "chat.disableAIFeatures": true,
-  "telemetry.feedback.enabled": false,
-  "telemetry.telemetryLevel": "off"
+  "window.restoreWindows": "none"
 }
 ```
