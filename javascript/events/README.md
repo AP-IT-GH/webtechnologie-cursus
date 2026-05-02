@@ -1,31 +1,22 @@
-# 4: events
+# Events
 
-[MDN: Events - Web APIs (EventTarget / addEventListener)](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+Terwijl je door een website navigeert, houdt je browser voortdurend bij wat er gebeurt: een muisklik, een toetsaanslag, een venster dat van grootte verandert. Zulke gebeurtenissen noemen we **events**. Ze zijn de manier waarop de browser aangeeft: *"Er is net iets gebeurd."*
 
-Wanneer je het internet doorbladert, registreert je browser verschillende soorten gebeurtenissen. Het is de manier van de browser om te zeggen: "Hé, dit is net gebeurd." Je script kan vervolgens reageren op deze gebeurtenissen.
+Als developer kan je op die events reageren met JavaScript. Dat is de kern van interactieve webpagina's: een gebruiker doet iets, een event wordt geactiveerd, en jouw code bepaalt wat er vervolgens gebeurt.
 
-Scripts reageren vaak op deze gebeurtenissen door de inhoud van de webpagina bij te werken (via het Document Object Model), waardoor de pagina interactiever aanvoelt. In dit hoofdstuk zul je leren hoe:
+## Hoe het werkt
 
-* interacties roepen events aan: Gebeurtenissen treden op wanneer gebruikers op een link klikken of tikken, zweven of vegen over een element, typen op het toetsenbord, het venster vergroten of verkleinen, of wanneer de door hen gevraagde pagina is geladen.
-* events roepen code aan: Wanneer een gebeurtenis plaatsvindt, kan deze worden gebruikt om een specifieke functie te activeren. Verschillende code kan worden geactiveerd wanneer gebruikers interageren met verschillende delen van de pagina.
-* code reageert op gebruiker: In het vorige hoofdstuk heb je gezien hoe het DOM kan worden gebruikt om een pagina bij te werken. De gebeurtenissen kunnen de soorten veranderingen activeren waar het DOM toe in staat is. Dit is hoe een webpagina reageert op gebruikers.
+Events werken volgens een eenvoudig principe:
 
-## terminologie
+- **Interacties veroorzaken events.** Klikken, typen, scrollen, het laden van een pagina — elk van die acties genereert een event in de browser.
+- **Events activeren code.** Je koppelt een functie aan een event. Zodra het event plaatsvindt, wordt die functie uitgevoerd.
+- **Code past de pagina aan.** Via het DOM kan je vervolgens de inhoud of stijl van de pagina aanpassen — zo reageert een pagina op de gebruiker.
 
-**events fire or are raised** Wanneer een gebeurtenis heeft plaatsgevonden, wordt deze vaak omschreven als **fired** of **raised**. Als de gebruiker op een koppeling tikt, zal er in de browser een klikgebeurtenis worden ge-**fired**.
+## Terminologie
 
-**events trigger scripts** Er wordt gezegd dat gebeurtenissen een functie of script **triggeren**. Wanneer de klikgebeurtenis plaatsvindt, kan dit een script **triggeren** dat bv. het geselecteerde item zal vergroot.
+In de documentatie en in gesprekken met andere developers zal je twee werkwoorden vaak tegenkomen:
 
-## event object
+- Een event wordt **fired** of **raised** — dat betekent simpelweg dat het event heeft plaatsgevonden. Als een gebruiker op een knop klikt, wordt er een klikgebeurtenis *gefired*.
+- Een event **triggert** een functie — dat wil zeggen dat het event de uitvoering van code in gang zet.
 
-Wanneer een event voorkomt, krijgt dit event een eigen object (zie later [objecten](https://apwt.gitbook.io/webtechnologie/javascript/objecten) ) dat informatie over het event bevat. Het event-object wordt vaak met de letter 'e' benoemd.
-
-```js
-function checkUsername(e) {
-    // code to check username
-    let target = e.target; // get target of event
-}
-
-let elUsername = document.querySelector('#username');
-elUsername.addEventListener('blur', checkUsername, false);
-```
+Deze termen zijn inwisselbaar en je zal ze allebei tegenkomen.
