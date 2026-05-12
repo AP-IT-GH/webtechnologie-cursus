@@ -3,7 +3,7 @@
 In de echte wereld beheren webshop-eigenaars hun items niet via HTML. Nieuwe items toevoegen, de voorraad aanpassen, beschrijvingen wijzigen, promo’s toevoegen... zou te veel tijd in beslag nemen en vereist telkens een developer. In plaats daarvan gebruiken ze vaak een Content Management Systeem (_CMS_) waarmee ze met enkele kliks aanpassingen kunnen doen die opgeslagen worden in een database. De HTML wordt dan automatisch gegenereerd op basis van deze data.
 
 In deze laatste opdracht ga je de bestaande _hardcoded_ shopitems vervangen door items die in JavaScript worden beheerd en dynamisch weergegeven worden.  
-Deze opdracht vereist enige herwerking (_refactoring_) van je bestaande project. Zorg voor een reservekopie, voor het geval er iets misgaat. Overweeg ook om je project op GitHub te plaatsen.
+Deze opdracht vereist enige herwerking (_refactoring_) van je bestaande project. Commit je werk voor je begint, zodat je altijd terug kunt naar een werkende versie als er iets misgaat.
 
 ---
 
@@ -78,7 +78,7 @@ button.addEventListener("click", (e) => {
 });
 ```
 
-> ⚠️ Gebruik bij voorkeur **geen `onClick`-attributen** in de HTML.
+> ⚠️ Volg de [coding guidelines](./../coding-guidelines.md): gebruik **geen `onClick`-attributen** in de HTML.
 
 ---
 

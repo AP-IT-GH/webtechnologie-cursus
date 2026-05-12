@@ -29,6 +29,11 @@ elUsername.addEventListener('blur', (event) => {
 
 [MDN: Events - Web APIs (EventTarget / addEventListener)](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 
+{% hint style="info" %}
+Wil je niet langer naar een event luisteren? Gebruik dan [removeEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener) om de listener te verwijderen.
+{% endhint %}
+
+
 ## Belangrijke eigenschappen van het event object
 
 ### `event.target`
@@ -183,10 +188,6 @@ button.addEventListener('click', (event) => {
     event.stopImmediatePropagation();
 });
 ```
-
-{% hint style="info" %}
-Wil je niet langer naar een event luisteren? Gebruik dan [removeEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener) om de listener te verwijderen.
-{% endhint %}
 
 ---
 
