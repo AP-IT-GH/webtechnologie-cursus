@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/basisconcepten/variabelen
+---
+
 # variabelen
 
 We gaan net zoals bij andere programmeertalen vaak werken met informatie of data. Deze data kan veranderen naarmate het programma uitgevoerd worden en moet ergens bijgehouden worden. Een voorbeeld van het werken met data kan

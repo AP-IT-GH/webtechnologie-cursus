@@ -1,5 +1,11 @@
-# CSS aanpassen met JavaScript
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/intro/css-aanpassen
+---
 
+# CSS aanpassen
 
 Naast het bewerken van de HTML, kunnen we met JavaScript ook CSS manipuleren.
 
@@ -10,7 +16,6 @@ Het is mogelijk om de CSS van een element direct aan te passen door de `style` p
 ```javascript
 document.querySelector('#p2').style.color = 'blue';
 ```
-
 
 {% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp0AjbkgCe+7boBM6gFIMAbgwDKsAE5kADvGUAJaQFkAGWUJf0EAeixrCw91SSwGOgBzMmTleCwIXwDgsHgTGFQI2O1SnQ9lMiQAXk0QDwBGOvUfaChuZQB1blcoJGFi-UEKqtr6y2bWqHaunr6B8JK6CzA3T3h9JG5YAFdmPgwkiHhFGH34ACETAEkkAAo6jwmQAEoMPIKIDB5212Vq5R1AxQHYQOoAbm0W1250Ox1OEHOV1uD3GdTeHxgGBIvHgADEmBQTP9ASAAILuBhQCFQ7Z7CAHI4nM4My43e6PZ4Y-JYnF8JxkABeWQBdSgDFcR1cNJ04VW7i85mWsqMpiGkTwGm0nEgMAQZF4VHQlgADKgTSAAL6EehMFjoDAAKyoxB4fFZrCtNpAjGYrG+YBdXFxHvQVoAupagA" %}
 

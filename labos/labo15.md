@@ -3,11 +3,14 @@ icon: js
 cover: >-
   https://images.unsplash.com/photo-1627398242454-45a1465c2479?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwyfHxqYXZhc2NyaXB0fGVufDB8fHx8MTc2MDM0MTA0NXww&ixlib=rb-4.1.0&q=85
 coverY: 0
+metaLinks:
+  alternates:
+    - /broken/spaces/CyMmymf8tiNQ4Ws9WmHV/pages/uMx3PwprqV5sf9UWRmaY
 ---
 
-# Labo 15
+# Labo 15 — JS: spread operator & functies
 
-## <img src="../../.gitbook/assets/github.png" alt="fork on github" data-size="line"> Oefeningen
+## <img src="../.gitbook/assets/github.png" alt="fork on github" data-size="line"> Oefeningen
 
 [Oefeningen van Labo 15 op GitHub](https://github.com/AP-IT-GH/webtechnologie-labo-15)
 
@@ -15,4 +18,3 @@ coverY: 0
 
 * [Spread operator](../javascript/spreads.md)
 * [Functions](https://apwt.gitbook.io/webtechnologie/javascript/functies)
-

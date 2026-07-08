@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/basisconcepten/naamgeving
+---
+
 # naamgeving
 
 ## regels naamgeving

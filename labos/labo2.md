@@ -3,11 +3,14 @@ icon: html5
 cover: >-
   https://images.unsplash.com/photo-1621839673705-6617adf9e890?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw0fHxodG1sfGVufDB8fHx8MTc1ODE4NTEzNnww&ixlib=rb-4.1.0&q=85
 coverY: 0
+metaLinks:
+  alternates:
+    - /broken/spaces/CyMmymf8tiNQ4Ws9WmHV/pages/n5Wup6FI5VSpVbPQAjfr
 ---
 
-# Labo 2
+# Labo 2 — HTML: verwijzingen, lijsten & afbeeldingen
 
-## <img src="../../.gitbook/assets/github.png" alt="fork on github" data-size="line"> Oefeningen
+## <img src="../.gitbook/assets/github.png" alt="fork on github" data-size="line"> Oefeningen
 
 [Oefeningen van labo 2 op GitHub](https://github.com/AP-IT-GH/webtechnologie-labo-02)
 

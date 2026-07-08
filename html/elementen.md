@@ -1,4 +1,10 @@
-# elementen
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/html/elementen
+---
+
+# Elementen
 
 Een klassiek HTML-element bestaat uit 3 belangrijke onderdelen: de opening, inhoud en sluiting. Zowel de opening als de sluiting beginnen met het teken `<` en eindigen met het teken `>`. Tussen deze tekens staat de naam van het element. De naam van het opening- en sluitingselement zijn altijd hetzelfde. Vóór de naam van de sluitingstag wordt een schuine streep geplaatst (/).
 

@@ -3,6 +3,9 @@ description: >-
   In dit hoofdstuk leer je hoe je overgangen tussen toestanden van een element
   kan definiëren. Transities verbeteren de gebruikerservaring en -interactie van
   je website.
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/css/animations/transities
 ---
 
 # transities

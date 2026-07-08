@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/asynchroon-programmeren/intro/post
+---
+
 # POST
 
 De POST-methode wordt gebruikt om gegevens naar de server te sturen, meestal wanneer we informatie willen toevoegen aan een database of **een formulier versturen**. Anders dan bij de GET-methode worden de gegevens niet in de URL opgenomen, maar in de aanvraagbody.

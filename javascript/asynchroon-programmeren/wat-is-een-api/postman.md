@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/asynchroon-programmeren/wat-is-een-api/postman
+---
+
 # Postman
 
 ## wat is Postman
@@ -12,15 +19,15 @@ Omdat het een Open Source-tool is, kan Postman eenvoudig worden gedownload. Dit 
 
 **Stap 1)** Ga naar [https://www.postman.com/downloads/](https://www.postman.com/downloads/) en kies uit Mac, Windows of Linux. Klik op Downloaden.
 
-![](../../.gitbook/assets/postman.png)
+![](../../../.gitbook/assets/postman.png)
 
 **Stap 2)** Wacht tot dat je Postman-download is voltooid. Voer vervolgens het installatieproces uit.
 
 \*\* Stap 3)\*\* Doorloop het installatieproces tot je het scherm hieronder te zien krijgt. Klik vervolgens op de knop "**Create Account**" in de linkerbovenhoek. Je zal doorverwezen worden naar de website van Postman. Doorloop het creatieproces van een account.
 
-![](../../.gitbook/assets/postman-2.png)
+![](../../../.gitbook/assets/postman-2.png)
 
-![](../../.gitbook/assets/postman-3.png)
+![](../../../.gitbook/assets/postman-3.png)
 
 {% hint style="info" %}
 **Opmerking** :eyes:: Er zijn twee manieren om je aan te melden voor een Postman-account. Een daarvan is om een eigen Postman-account aan te maken en de andere is om een Google-account te gebruiken. Hoewel Postman gebruikers in staat stelt de tool te gebruiken zonder in te loggen, zorgt het aanmelden ervoor dat je collecties worden opgeslagen en dusdanig toegankelijk zijn voor later gebruik.
@@ -28,7 +35,7 @@ Omdat het een Open Source-tool is, kan Postman eenvoudig worden gedownload. Dit 
 
 **Stap 4)** Eenmaal als je een account hebt aangemaakt, navigeer je terug naar de desktop applicatie van Postman. Log in met je account. Je zal het startscherm hieronder te zien krijgen.
 
-![](../../.gitbook/assets/postman-6.png)
+![](../../../.gitbook/assets/postman-6.png)
 
 Proficiat je hebt Postman correct geïnstalleerd! :tada:
 
@@ -36,12 +43,12 @@ Proficiat je hebt Postman correct geïnstalleerd! :tada:
 
 Navigeer naar "**Workspaces**" en klik op "**My Workspace**". Laten we het stapsgewijze proces bekijken voor het gebruik van Postman en de verschillende functies die Postman ons te bieden heeft voor het uittesten van API's!
 
-![](../../.gitbook/assets/postman-4.png)
+![](../../../.gitbook/assets/postman-4.png)
 
-![](../../.gitbook/assets/postman-5.png)
+![](../../../.gitbook/assets/postman-5.png)
 
 1. **New** – Hier maak je een nieuwe request, collectie of environment aan.
-2. **Import** – Dit wordt gebruikt om een  collectie of environment te importeren.
+2. **Import** – Dit wordt gebruikt om een collectie of environment te importeren.
 3. **Open New Tab** – Open een nieuw tabblad voor een nieuwe request aan te maken door op deze knop te klikken.
 4. **Invite** – Werk samen aan een workspace door teamleden uit te nodigen.
 5. **History** - Eerdere requests die je hebt verzonden, worden weergegeven in History. Dit maakt het gemakkelijk om requests die je eerder hebt uitgevoerd te raadplegen.

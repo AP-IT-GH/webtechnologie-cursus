@@ -3,9 +3,12 @@ description: >-
   We behandelen het creëren van interactieve en grafische websites met behulp
   van HTML, CSS en JavaScript en bereiden voor op het creëren van een volledige
   dynamische websites.
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/
 ---
 
-# inleiding
+# Inleiding
 
 ## doelstellingen
 

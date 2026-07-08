@@ -1,4 +1,11 @@
-# 3: HTTP request methoden
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/asynchroon-programmeren/intro
+---
+
+# HTTP request methoden
 
 In webtechnologie is communicatie tussen een webbrowser en een server een essentieel onderdeel. HTTP (Hypertext Transfer Protocol) is het protocol dat wordt gebruikt voor deze communicatie. Verschillende HTTP-methoden stellen ons in staat om verschillende soorten acties uit te voeren op de server. In dit hoofdstuk zullen we ons concentreren op de meest gebruikte HTTP-methoden: GET en POST.
 

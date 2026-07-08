@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/css/intro/box-model
+---
+
 # box model
 
 Elk HTML-element bevind zich in een **denkbeeldige doos**, [het CSS box model](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model). Die rechthoekige doos heeft een marge (**margin**), een rand (**border**) en een opvulling (**padding**). Voor zowel margin, border en padding kunnen telkens de vier zijden bepaald worden. Van binnen naar buiten bestaat de CSS-box uit:
@@ -43,10 +49,8 @@ Deze is de meest intuïtieve manier om met boxen te werken.*/
 }
 ```
 
+{% hint style="info" %}
+Het is een industrie-standaard om altijd met border-box te werken!
 
- {% hint style="info" %}
-Het is een industrie-standaard om altijd met border-box te werken! 
-
-Een goede CSS Reset of Normalize CSS file zet standaard alle boxen op `border-box`. Dit is de aanbevolen instelling voor moderne webontwikkeling.
-Voor meer informatie zie hoofdstuk [CSS Resets](reset.md).
- {% endhint %}
+Een goede CSS Reset of Normalize CSS file zet standaard alle boxen op `border-box`. Dit is de aanbevolen instelling voor moderne webontwikkeling. Voor meer informatie zie hoofdstuk [CSS Resets](reset.md).
+{% endhint %}

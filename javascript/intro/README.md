@@ -1,4 +1,10 @@
-# 3: document object model
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/intro
+---
+
+# Document Object Model
 
 [MDN: Document Object Model (DOM)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 

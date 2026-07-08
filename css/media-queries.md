@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/css/lay-out/media-queries
+---
+
 # media queries
 
 ## definitie
@@ -76,8 +82,6 @@ De functie die het vaakst gebruikt wordt om responsieve ontwerpen te maken (en m
     /* stijlregels voor schermen ≤ 320px breed */
 }
 ```
-
-{% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp1YIDJPsFh4ATxj6ARtyQXlwbcuU2GsANYBzAE7cAVzokAFoeKG5fVGV4BjoAbhdlcMjomygPT0S6AF9tbQB6ACplcTplMFhfCAg6MBisBnhlBmrlAE52gCYABwAPZQB3MiQIZUjlSjBCBrH3Lz9A4OTuCN9lMnr0gLGigu0AAWYkMgYKqpryuKRlAApcBj6Q4aR4LGjO3r6ASickuwcf3KrjcmUWQVCKSibigO2yIJWa2igywZEQ8OUeVy+ToxVK5Uq1Vq9TeTRabQAbAAGKn9IYjMYTKYzN5zMH+CGIiabcZQMgAN12+zoR2Qp3ORKuy3uj2eIze0WptJ+QNcAMczmBavZS0hq1SvIFEAxrihyNR6KSWKxggK5isEFMBUMxlM6v02l0AEZ1AAlCBgMgALzGrLc-kGkHWw2C3EGMW4FRqs2UEBIJDg8GEtqwPs9PXUACFHKMSAwAlB4CzDKCFhzllDxiQU0huLAAsw+Bt6poQLE6L2MMoAJLNsOEy4VYNjHmfOlMgPTFON4ZQKDJRp0byhxO97YQQcj5to7vKJXz9bMjbNVfr2Cb7cJ5S91ZGwe2gs423uz3OvAaHFtE4SAYAQMheCodAAGYAFZUCpEAckIegmBYdAMAAKyoYgeD4Wp4FYRDkJARhmFYDBYDAbCuF4fgCPQRCAF0ciAA %}
 
 ### breakpoints en media-queries
 

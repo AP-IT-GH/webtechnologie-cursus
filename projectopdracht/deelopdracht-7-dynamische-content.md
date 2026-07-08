@@ -1,11 +1,18 @@
-# Deelopdracht 6 - Dynamische content (finale)
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/projectopdracht/projectopdracht/deelopdracht-7-dynamische-content
+---
+
+# 7. Dynamische content
 
 In de echte wereld beheren webshop-eigenaars hun items niet via HTML. Nieuwe items toevoegen, de voorraad aanpassen, beschrijvingen wijzigen, promo’s toevoegen... zou te veel tijd in beslag nemen en vereist telkens een developer. In plaats daarvan gebruiken ze vaak een Content Management Systeem (_CMS_) waarmee ze met enkele kliks aanpassingen kunnen doen die opgeslagen worden in een database. De HTML wordt dan automatisch gegenereerd op basis van deze data.
 
-In deze laatste opdracht ga je de bestaande _hardcoded_ shopitems vervangen door items die in JavaScript worden beheerd en dynamisch weergegeven worden.  
+In deze laatste opdracht ga je de bestaande _hardcoded_ shopitems vervangen door items die in JavaScript worden beheerd en dynamisch weergegeven worden.\
 Deze opdracht vereist enige herwerking (_refactoring_) van je bestaande project. Commit je werk voor je begint, zodat je altijd terug kunt naar een werkende versie als er iets misgaat.
 
----
+***
 
 ## Wat moet je doen?
 
@@ -41,31 +48,31 @@ const shopItems = [
 ];
 ```
 
----
+***
 
 ### 2. **HTML voor shopitems opbouwen**
 
-Loop over de array van objecten en bouw voor elk item de HTML op. Je kunt hiervoor de HTML uit deelopdracht 2 hergebruiken.  
+Loop over de array van objecten en bouw voor elk item de HTML op. Je kunt hiervoor de HTML uit deelopdracht 2 hergebruiken.\
 In plaats van de gegevens _hardcoded_ in de HTML te zetten, bouw je nu dynamisch HTML op met JavaScript.
 
----
+***
 
 ### 3. **Shopitems toevoegen aan de DOM**
 
 Voeg de gegenereerde HTML van stap 2 toe aan het juiste DOM-element (bijvoorbeeld de `article-section`).
 
----
+***
 
 ### 4. **Zorg dat het winkelmandje en de wishlist opnieuw werken**
 
-De knoppen "voeg toe aan winkelmand" en "wishlist" zullen waarschijnlijk niet meer werken.  
+De knoppen "voeg toe aan winkelmand" en "wishlist" zullen waarschijnlijk niet meer werken.\
 Update de eventhandling zodat deze opnieuw functioneren.
 
-**Aanpakoptie 1**:  
+**Aanpakoptie 1**:\
 Haal in één keer alle buttons op via JavaScript, loop erover, en gebruik hun positie in de array om het juiste item op te zoeken in de `shopItems` array.
 
-**Aanpakoptie 2 (aanbevolen)**:  
-Voeg de item-ID toe aan de HTML via een [data-attribuut](https://developer.mozilla.org/en-US/docs/Web/HTML/How_to/Use_data_attributes).  
+**Aanpakoptie 2 (aanbevolen)**:\
+Voeg de item-ID toe aan de HTML via een [data-attribuut](https://developer.mozilla.org/en-US/docs/Web/HTML/How_to/Use_data_attributes).\
 Dat maakt je code robuuster, omdat de volgorde in de array dan geen invloed heeft op de logica.
 
 Voorbeeld:
@@ -78,23 +85,23 @@ button.addEventListener("click", (e) => {
 });
 ```
 
-> ⚠️ Volg de [coding guidelines](./../coding-guidelines.md): gebruik **geen `onClick`-attributen** in de HTML.
+> ⚠️ Volg de [coding guidelines](../coding-guidelines.md): gebruik **geen `onClick`-attributen** in de HTML.
 
----
+***
 
 ## Bonusopdrachten (voor gevorderden)
 
 Wil je jezelf extra uitdagen of indruk maken? Dan kun je deze extra features proberen:
 
-- **ShopItems opslaan in JSON**: sla je `shopItems` array op in een `.json`-bestand en importeer het in je JavaScript. Zo pas je _separation of concerns_ beter toe.
-- **ShopItems ophalen met `fetch`**: upload het JSON-bestand naar een publieke GitHub repository en haal het op via `fetch`. Zorg voor foutafhandeling.
-- **Detailpagina’s dynamisch opbouwen**: toon een detailpagina voor elk item door het ID in de URL mee te geven (`itemDetail.html?id=2`) en laad dan het juiste item in via JavaScript.
+* **ShopItems opslaan in JSON**: sla je `shopItems` array op in een `.json`-bestand en importeer het in je JavaScript. Zo pas je _separation of concerns_ beter toe.
+* **ShopItems ophalen met `fetch`**: upload het JSON-bestand naar een publieke GitHub repository en haal het op via `fetch`. Zorg voor foutafhandeling.
+* **Detailpagina’s dynamisch opbouwen**: toon een detailpagina voor elk item door het ID in de URL mee te geven (`itemDetail.html?id=2`) en laad dan het juiste item in via JavaScript.
 
 Je mag ook altijd zelf bonusfunctionaliteit verzinnen!
 
----
+***
 
 ## Tips
 
-- Zorg dat je project **werkt** bij het indienen. Een stabiel werkend project is beter dan een project met veel features dat crasht.
-- Dien je project **tijdig** in. Je zal het eindresultaat moeten presenteren op het einde van het semester.
+* Zorg dat je project **werkt** bij het indienen. Een stabiel werkend project is beter dan een project met veel features dat crasht.
+* Dien je project **tijdig** in. Je zal het eindresultaat moeten presenteren op het einde van het semester.

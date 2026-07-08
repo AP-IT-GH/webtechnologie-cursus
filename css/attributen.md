@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/css/selectors/attributen
+---
+
 # attributen
 
 Het is mogelijk om HTML-elementen op te maken die specifieke attributen of attribute-waarden hebben. De `[attribute]`-selector wordt gebruikt om elementen met een gespecificeerd attribuut te selecteren (text, radio, email, date,...).

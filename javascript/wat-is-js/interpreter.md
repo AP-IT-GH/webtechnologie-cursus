@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/wat-is-js/interpreter
+---
+
 # interpreter
 
 In de wereld van programmeren, zijn er twee belangrijke benaderingen om de code die we schrijven in een programmeertaal te vertalen naar instructies die de computer kan begrijpen: interpretatie en compilatie. JavaScript maakt gebruik van interpretatie, dus laten we eens kijken naar wat dit betekent en hoe het verschilt van een compiler.

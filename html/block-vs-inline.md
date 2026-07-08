@@ -1,4 +1,10 @@
-# block vs. inline
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/html/block-vs-inline
+---
+
+# Block vs. inline
 
 In HTML wordt er een onderscheid gemaakt tussen block- en inline-elementen. Een block-element neemt zonder opmaak de volledige breedte van de pagina in beslag. Block-elementen zullen dus steeds onder elkaar verschijnen. Hiertegenover staat inline-elementen die zoals tekst achter elkaar verschijnen.
 

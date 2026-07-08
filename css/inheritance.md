@@ -1,4 +1,10 @@
-# [Inheritance](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Inheritance)
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/css/selectors/inheritance
+---
+
+# overerving
 
 Inheritance (in het Nederlands vaak "overerving") is een mechanisme in CSS waarbij bepaalde CSS-eigenschappen van een parent-element automatisch worden doorgegeven aan zijn children. Het maakt het makkelijk om consistente typografie en kleuren door een hele sectie van de pagina heen toe te passen zonder elke keer dezelfde regels op elk element te schrijven.
 
@@ -8,39 +14,39 @@ Veel stijlen hebben logische standaardwaarden die voor alle of de meeste child-e
 
 ## Welke eigenschappen erven en welke niet
 
-- Meestal geërfde eigenschappen: typografische en tekst-gerelateerde eigenschappen zoals:
-  - `color`
-  - `font-family`, `font-size`, `font-style`, `font-weight`, `line-height`
-  - `text-align`, `text-transform`, `letter-spacing`
-  - `visibility`
-
-- Niet-geërfde eigenschappen (meestal): layout- en box-model eigenschappen zoals:
-  - `margin`, `padding`, `border`, `width`, `height`, `display`, `position`
-  - `background-*` eigenschappen (bijv. `background-color`) worden niet geërfd
+* Meestal geërfde eigenschappen: typografische en tekst-gerelateerde eigenschappen zoals:
+  * `color`
+  * `font-family`, `font-size`, `font-style`, `font-weight`, `line-height`
+  * `text-align`, `text-transform`, `letter-spacing`
+  * `visibility`
+* Niet-geërfde eigenschappen (meestal): layout- en box-model eigenschappen zoals:
+  * `margin`, `padding`, `border`, `width`, `height`, `display`, `position`
+  * `background-*` eigenschappen (bijv. `background-color`) worden niet geërfd
 
 Let op: er is geen complete lijst in deze handleiding — de officiële specificatie documenteert welke eigenschappen erfenis ondersteunen. Als vuistregel: typografische/text-eigenschappen erven meestal; box/layout eigenschappen meestal niet.
 
 ## De cascade, initial value en computed value
 
 Inheritance is één factor in de uiteindelijke (computed) stijl van een element. De cascade beslist welke regel wordt toegepast (specificiteit, ordening, !important), en als een eigenschap niet expliciet is ingesteld op een element, wordt de waarde afgeleid:
-- Als de eigenschap geërfd wordt, en er is geen expliciete waarde op het element zelf, dan neemt het element de gebruikte waarde (computed value) van zijn ouder over.
-- Als de eigenschap niet geërfd wordt en er is geen expliciete waarde, valt het element terug op de `initial`-waarde (zoals gedefinieerd in de CSS-specificatie).
+
+* Als de eigenschap geërfd wordt, en er is geen expliciete waarde op het element zelf, dan neemt het element de gebruikte waarde (computed value) van zijn ouder over.
+* Als de eigenschap niet geërfd wordt en er is geen expliciete waarde, valt het element terug op de `initial`-waarde (zoals gedefinieerd in de CSS-specificatie).
 
 ## Keywords: inherit, initial
 
 Je kunt de standaard gedrag beïnvloeden met enkele speciale sleutelwoorden:
 
-- `inherit`: forceert dat de eigenschap de waarde van de ouder overneemt, zelfs als het normaal niet geërfd zou worden.
-  - Bijvoorbeeld: `div { background-color: inherit; }`
+*   `inherit`: forceert dat de eigenschap de waarde van de ouder overneemt, zelfs als het normaal niet geërfd zou worden.
 
-  Gebruik dit als je een specifieke eigenschap altijd wilt laten overnemen van de ouder, ongeacht de standaardgedragingen van die eigenschap. Bijvoorbeeld, als je wilt dat alle elementen binnen een bepaalde sectie dezelfde tekstkleur hebben als hun ouder, ongeacht hun eigen specifieke stijlen.
+    * Bijvoorbeeld: `div { background-color: inherit; }`
 
-- `initial`: zet de eigenschap terug naar de standaard (initial) waarde uit de specificatie. Gebruik dit wanneer je een eigenschap wilt resetten naar de standaardwaarde, onafhankelijk van de waarden die mogelijk zijn geërfd van een ouder-element.
-  - Bijvoorbeeld: `p { color: initial; }` zorgt dat de paragraaf de browser-standaardkleur gebruikt, niet de geërfde kleur.
+    Gebruik dit als je een specifieke eigenschap altijd wilt laten overnemen van de ouder, ongeacht de standaardgedragingen van die eigenschap. Bijvoorbeeld, als je wilt dat alle elementen binnen een bepaalde sectie dezelfde tekstkleur hebben als hun ouder, ongeacht hun eigen specifieke stijlen.
+* `initial`: zet de eigenschap terug naar de standaard (initial) waarde uit de specificatie. Gebruik dit wanneer je een eigenschap wilt resetten naar de standaardwaarde, onafhankelijk van de waarden die mogelijk zijn geërfd van een ouder-element.
+  * Bijvoorbeeld: `p { color: initial; }` zorgt dat de paragraaf de browser-standaardkleur gebruikt, niet de geërfde kleur.
 
 ## Voorbeelden
 
-1) Basis inheritance voorbeeld
+1. Basis inheritance voorbeeld
 
 HTML:
 
@@ -62,7 +68,7 @@ CSS:
 /* h1 en p zullen automatisch dezelfde kleur en font erven */
 ```
 
-2) Forceren van inheritance voor een niet-geërfde eigenschap
+2. Forceren van inheritance voor een niet-geërfde eigenschap
 
 Stel dat je wilt dat een inline element de `background-color` van zijn ouder overneemt. Backgrounds erven niet automatisch, maar je kunt het forceren:
 
@@ -76,7 +82,7 @@ Stel dat je wilt dat een inline element de `background-color` van zijn ouder ove
 }
 ```
 
-3) Resetten naar de browser-standaard
+3. Resetten naar de browser-standaard
 
 ```css
 .button {
@@ -91,6 +97,6 @@ Stel dat je wilt dat een inline element de `background-color` van zijn ouder ove
 
 ## Praktische tips en valkuilen
 
-- Verwacht niet dat alle CSS overerft. Controleer of een eigenschap daadwerkelijk geërfd wordt (test dit in de browser).
-- Gebruik inheritance bewust om herhaling in je CSS te verminderen: zet de globale typografiestijlen op `body` of op een container zoals `.article`.
-- Pas op met `inherit` op eigenschappen als `display` of `position` — het kan onverwachte layout-effecten hebben.
+* Verwacht niet dat alle CSS overerft. Controleer of een eigenschap daadwerkelijk geërfd wordt (test dit in de browser).
+* Gebruik inheritance bewust om herhaling in je CSS te verminderen: zet de globale typografiestijlen op `body` of op een container zoals `.article`.
+* Pas op met `inherit` op eigenschappen als `display` of `position` — het kan onverwachte layout-effecten hebben.

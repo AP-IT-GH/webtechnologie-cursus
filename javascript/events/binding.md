@@ -1,4 +1,10 @@
-# Event Binding
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/events/binding
+---
+
+# event binding
 
 Een event aan een DOM-node koppelen noemen we **event binding**. Er zijn drie manieren om dit te doen, maar in de praktijk gebruiken we enkel **event listeners**. De andere methoden zijn verouderd.
 
@@ -32,7 +38,6 @@ elUsername.addEventListener('blur', (event) => {
 {% hint style="info" %}
 Wil je niet langer naar een event luisteren? Gebruik dan [removeEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener) om de listener te verwijderen.
 {% endhint %}
-
 
 ## Belangrijke eigenschappen van het event object
 
@@ -97,18 +102,18 @@ aElement.addEventListener('click', (event) => {
 
 Zie de sectie **Event bubbling en capturing** hieronder.
 
----
+***
 
 ## Properties per eventtype
 
 ### Muis-events (`click`, `mousemove`, `mouseenter`, …)
 
-| Property | Beschrijving |
-|---|---|
-| `event.clientX` / `event.clientY` | Coördinaten t.o.v. het browservenster |
-| `event.pageX` / `event.pageY` | Coördinaten t.o.v. de volledige pagina (inclusief scroll) |
-| `event.button` | Welke muisknop ingedrukt was: `0` = links, `1` = midden, `2` = rechts |
-| `event.altKey` / `event.ctrlKey` / `event.shiftKey` / `event.metaKey` | Waren deze toetsen ingedrukt tijdens het event? |
+| Property                                                              | Beschrijving                                                          |
+| --------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| `event.clientX` / `event.clientY`                                     | Coördinaten t.o.v. het browservenster                                 |
+| `event.pageX` / `event.pageY`                                         | Coördinaten t.o.v. de volledige pagina (inclusief scroll)             |
+| `event.button`                                                        | Welke muisknop ingedrukt was: `0` = links, `1` = midden, `2` = rechts |
+| `event.altKey` / `event.ctrlKey` / `event.shiftKey` / `event.metaKey` | Waren deze toetsen ingedrukt tijdens het event?                       |
 
 ```js
 document.addEventListener('click', (event) => {
@@ -121,10 +126,10 @@ document.addEventListener('click', (event) => {
 
 ### Toetsenbord-events (`keydown`, `keyup`)
 
-| Property | Beschrijving |
-|---|---|
-| `event.key` | De toets als leesbare string: `"Enter"`, `"ArrowUp"`, `"a"`, … |
-| `event.repeat` | `true` als de toets ingehouden wordt |
+| Property       | Beschrijving                                                   |
+| -------------- | -------------------------------------------------------------- |
+| `event.key`    | De toets als leesbare string: `"Enter"`, `"ArrowUp"`, `"a"`, … |
+| `event.repeat` | `true` als de toets ingehouden wordt                           |
 
 ```js
 document.addEventListener('keydown', (event) => {
@@ -141,11 +146,11 @@ document.addEventListener('keydown', (event) => {
 
 Bij formulier-events werk je vaak rechtstreeks op `event.target` om de waarde van een veld op te halen:
 
-| Property | Beschrijving |
-|---|---|
-| `event.target.value` | De huidige waarde van een `<input>` of `<textarea>` |
-| `event.target.checked` | De toestand van een checkbox of radio button (`true`/`false`) |
-| `event.target.elements` | Alle form-elementen, als het target een `<form>` is |
+| Property                | Beschrijving                                                  |
+| ----------------------- | ------------------------------------------------------------- |
+| `event.target.value`    | De huidige waarde van een `<input>` of `<textarea>`           |
+| `event.target.checked`  | De toestand van een checkbox of radio button (`true`/`false`) |
+| `event.target.elements` | Alle form-elementen, als het target een `<form>` is           |
 
 ```js
 let checkboxEl = document.querySelector('input[type="checkbox"]');
@@ -155,7 +160,7 @@ checkboxEl.addEventListener('change', (event) => {
 });
 ```
 
----
+***
 
 ## Event bubbling en capturing
 
@@ -189,7 +194,7 @@ button.addEventListener('click', (event) => {
 });
 ```
 
----
+***
 
 ## Verouderde methoden (niet meer gebruiken)
 

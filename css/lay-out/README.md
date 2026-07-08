@@ -1,0 +1,8 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/css/lay-out
+---
+
+# Lay-out
+

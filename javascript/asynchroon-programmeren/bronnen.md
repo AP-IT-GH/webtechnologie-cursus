@@ -1,4 +1,10 @@
-# bronnen
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/bronnen/bronnen
+---
+
+# Bronnen
 
 Deze cursus is geïnspireerd op volgende bronnen:
 

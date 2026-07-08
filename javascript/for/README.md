@@ -1,4 +1,10 @@
-# 6: lussen
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/for
+---
+
+# Lussen
 
 [MDN: for statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
 
@@ -24,12 +30,12 @@ Uitleg van de onderdelen:
 
 1. De initialExpression initialiseert en declareert variabelen. Deze wordt maar één keer uitgevoerd, aan het begin van de lus.
 2. De condition wordt geëvalueerd:
-   - Als de condition `false` is, wordt de lus beëindigd.
-   - Als de condition `true` is, wordt de code in de body van de lus uitgevoerd.
+   * Als de condition `false` is, wordt de lus beëindigd.
+   * Als de condition `true` is, wordt de code in de body van de lus uitgevoerd.
 3. De updateExpression past de variabele aan (bijv. verhogen of verlagen).
 4. Daarna wordt de condition opnieuw geëvalueerd. Dit proces herhaalt zich totdat de condition `false` is.
 
----
+***
 
 ### Voorbeeld 1: 5 keer herhalen
 
@@ -43,16 +49,16 @@ for (let i = 0; i < 5; i++) {
 
 Stap-voor-stap overzicht:
 
-| Iteratie | Variabele | Condition: i < 5 | Actie |
-| -------- | --------- | ---------------- | ----- |
+| Iteratie | Variabele | Condition: i < 5 | Actie                                                    |
+| -------- | --------- | ---------------- | -------------------------------------------------------- |
 | 1        | `i = 0`   | `true`           | Hello JavaScript! wordt getoond; i wordt verhoogd naar 1 |
 | 2        | `i = 1`   | `true`           | Hello JavaScript! wordt getoond; i wordt verhoogd naar 2 |
 | 3        | `i = 2`   | `true`           | Hello JavaScript! wordt getoond; i wordt verhoogd naar 3 |
 | 4        | `i = 3`   | `true`           | Hello JavaScript! wordt getoond; i wordt verhoogd naar 4 |
 | 5        | `i = 4`   | `true`           | Hello JavaScript! wordt getoond; i wordt verhoogd naar 5 |
-| 6        | `i = 5`   | `false`          | De lus wordt stopgezet |
+| 6        | `i = 5`   | `false`          | De lus wordt stopgezet                                   |
 
----
+***
 
 ### Voorbeeld 2: toon getallen van 1 tot en met 10
 
