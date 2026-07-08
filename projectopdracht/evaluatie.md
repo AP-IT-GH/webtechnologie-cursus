@@ -13,73 +13,7 @@ Het **boeteblad** dient om oneerlijke of te minimale oplossingen tegen te gaan.
 
 We raden je dan ook aan om tijdens je project regelmatig na te kijken of je voldoet aan de verwachtingen aan de hand van deze hulpmiddelen.
 
-## Overzicht
-
-- [Boeteblad](#boeteblad)
-- [Rubrik](#rubrik)
-
-### Boeteblad
-
-<table>
-  <caption>Boeteblad — overtredingen en strafpunten</caption>
-  <thead>
-    <tr>
-      <th scope="col">Overtreding</th>
-      <th scope="col">Strafpunten</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        HTML bevat te weinig inhoud om de structuur/semantiek zinvol te
-        beoordelen.
-      </td>
-      <td>-2</td>
-    </tr>
-    <tr>
-      <td>
-        CSS bevat te weinig regels om vormgeving of layout zinvol te beoordelen.
-      </td>
-      <td>-2</td>
-    </tr>
-    <tr>
-      <td>JS bevat te weinig code om interactiviteit zinvol te beoordelen</td>
-      <td>-2</td>
-    </tr>
-    <tr>
-      <td>
-        Gebruik van inline CSS of inline JS waar externe bestanden gevraagd
-        zijn.
-      </td>
-      <td>-1</td>
-    </tr>
-    <tr>
-      <td>
-        Project bevat dode code of ongebruikte bestanden (bv. niet-gelinkte
-        CSS/JS, lege bestanden).
-      </td>
-      <td>-1</td>
-    </tr>
-    <tr>
-        <td>
-            Geen of onvolledige bronvermelding van gebruikte afbeeldingen of andere media.
-        </td>
-        <td>-1</td>
-    </tr>
-    <tr>
-      <td>Code bevat overduidelijke copy-paste zonder integratie of begrip.</td>
-      <td>-2</td>
-    </tr>
-    <tr>
-      <td>Ontbrekend of onvolledig concept-document (Styleguide) uit deelopdracht 1.</td>
-      <td>-1</td>
-    </tr>
-  </tbody>
-</table>
-
-
-<a id="rubrik"></a>
-### Rubrik
+## Rubrik
 
 <table>
   <caption>Rubrik — beoordelingscriteria en punten</caption>
@@ -96,15 +30,14 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
     <tr>
         <td>
              <ol>
-                 <li><strong>Codekwaliteit &#x26; Standaarden (5%)</strong></li>
+                 <li><strong>Codekwaliteit HTML, CSS en JS (10%)</strong></li>
              </ol>
          </td>
-        <td>Code volgt volledig de afgesproken standaarden, naamgevingsregels en is goed gedocumenteerd. Duidelijke,
-            onderhoudbare code.
+        <td>Duidelijke, onderhoudbare code en self-documenting code die spaarzaam is voorzien van de nuttige commentaar. 
         </td>
-        <td>Code volgt grotendeels de standaarden. Documentatie is aanwezig maar kan consistenter.</td>
-        <td>Code bevat enkele afwijkingen van standaarden en naamgeving. Documentatie is summier.</td>
-        <td>Code volgt nauwelijks of geen standaarden. Documentatie ontbreekt grotendeels.</td>
+        <td>Code is leesbaar maar bevat dubbele logica of is moeilijk onderhoudbaar.</td>
+        <td>Code is moeilijk leesbaar of is voorzien van veel nutteloze commentaar</td>
+        <td>Code is onleesbaar. Geen of weinig gebruik van abstracties.</td>
     </tr>
     <tr>
         <td>
@@ -123,18 +56,16 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
     <tr>
         <td>
              <ol start="3">
-                 <li><strong>CSS &#x26; Vormgeving (10%)</strong></li>
+                 <li><strong>Vormgeving (10%)</strong></li>
              </ol>
          </td>
-        <td>CSS is overzichtelijk gestructureerd. Layout en stijlregels zijn correct, toegankelijk en sluiten aan bij
-            best practices.
+        <td>Design is foutloos geïmplementeerd en aangepast naar de juiste kleuren en lettertype gedefinieerd in deelopdracht 1. Mooie en originele content.
         </td>
-        <td>CSS is gestructureerd en grotendeels correct. Layout en stijlregels werken, maar optimalisaties ontbreken.
+        <td>Design is grotendeels correct geïmplementeerd. Content is oké, maar weinig origineel. 
         </td>
-        <td>CSS werkt maar bevat enkele fouten in structuur of consistentie. Stijlregels zijn soms inefficiënt of
-            foutief toegepast.
+        <td>Design bevat duidelijke fouten. Kleuren en lettertype wijken af van hoe ze in de deelopdracht 1 zijn gedefinieerd. Aspect ratio's van afbeeldingen niet gerespecteerd.
         </td>
-        <td>CSS is onoverzichtelijk, vaak foutief of ontbreekt.</td>
+        <td>Design is slordig of helemaal niet gevolgd.</td>
     </tr>
     <tr>
         <td>
@@ -184,32 +115,63 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
     <tr>
         <td>
              <ol start="7">
-                 <li><strong>Libraries (5%)</strong></li>
-             </ol>
-         </td>
-        <td>Bibliotheken worden correct en efficiënt gebruikt. Bestandsformaten zijn correct en projectstructuur is
-            geschikt voor webserver.
-        </td>
-        <td>Bibliotheken worden correct gebruikt, maar niet altijd efficiënt. Projectstructuur bevat kleine
-            onvolkomenheden.
-        </td>
-        <td> Bibliotheken zijn verkeerd of inefficiënt toegepast, maar tonen nog steeds resultaat. Projectstructuur is
-            rommelig.
-        </td>
-        <td>Geen of foutief gebruik van bibliotheken of projectstructuur.</td>
-    </tr>
-    <tr>
-        <td>
-             <ol start="8">
                  <li><strong>Projectwerk &#x26; features (50%)</strong></li>
              </ol>
          </td>
-        <td>Volledig, interactief webshopproject met alle gevraagde functionaliteit. Extra features en eigen inbreng
+        <td>Volledig, interactief webshopproject met alle gevraagde functionaliteit. Extra features en eigen inbreng zijn besproken en
             tonen zelfstandige ontwikkeling.
         </td>
-        <td>Volledig webshopproject met alle gevraagde functionaliteit. Extra features zijn beperkt.</td>
+        <td>Volledig webshopproject met alle gevraagde functionaliteit. Extra features zijn afwezig.</td>
         <td>Webshopproject bevat alle kernfunctionaliteit maar mist volledigheid of samenhang.</td>
         <td>Webshopproject is incompleet, bevat te veel fouten of ontbreekt volledig.</td>
     </tr>
     </tbody>
+</table>
+
+
+## Boeteblad
+
+<table>
+  <caption>Boeteblad — overtredingen en strafpunten</caption>
+  <thead>
+    <tr>
+      <th scope="col">Overtreding</th>
+      <th scope="col">Strafpunten</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        HTML bevat te weinig inhoud om de structuur/semantiek zinvol te
+        beoordelen.
+      </td>
+      <td>-2</td>
+    </tr>
+    <tr>
+      <td>
+        CSS bevat te weinig regels om vormgeving of layout zinvol te beoordelen.
+      </td>
+      <td>-2</td>
+    </tr>
+    <tr>
+      <td>JS bevat te weinig code om interactiviteit zinvol te beoordelen</td>
+      <td>-2</td>
+    </tr>
+    <tr>
+      <td>Ontbrekend of onvolledig concept-document uit deelopdracht 1.</td>
+      <td>-1</td>
+    </tr>
+    <tr>
+      <td><a href="../coding-guidelines.md">Coding guidelines</a> niet gevolgd</td>
+      <td>-1</td>
+    </tr>
+  <tr>
+      <td>Je project bevat features die niet besproken en goedgekeurd zijn tijdens de feedback sessies</td>
+      <td>-1</td>
+    </tr>
+    <tr>
+      <td>Code bevat overduidelijke copy-paste zonder integratie of begrip.</td>
+      <td>-3</td>
+    </tr>
+  </tbody>
 </table>
