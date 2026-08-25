@@ -134,8 +134,7 @@
 ## Projectopdracht
 
 * [Overzicht](projectopdracht/README.md)
-  * [Algemene info](projectopdracht/algemeen.md)
-  * [Praktische info](projectopdracht/praktisch.md)
+  * [Projectinformatie](projectopdracht/info.md)
   * [Evaluatie](projectopdracht/evaluatie.md)
   * [1. Concept & content](projectopdracht/deelopdracht-1-concept-content.md)
   * [2. Development mobiele website met HTML en CSS](projectopdracht/deelopdracht-2-opbouw-html-css.md)

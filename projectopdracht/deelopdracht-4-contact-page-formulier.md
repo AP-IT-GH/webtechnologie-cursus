@@ -6,7 +6,7 @@ Intussen hebben jullie alle tools in handen om de contactpagina responsive uit t
 ## Algemeen
 
 Ga responsive en mobile-first te werk: werk eerst het mobiele ontwerp uit en daarna pas de desktop versie. Gebruik een grid om de twee secties naast elkaar te plaatsen vanaf dat daar genoeg plaats voor is.
-Baseer je op de designs (aangepast aan jouw eigen huisstijl) in de Figma Community Page van onze les (check het hoofdstuk [Designs](./algemeen.md#designs) bij de algemene uitleg over het project)
+Baseer je op de designs (aangepast aan jouw eigen huisstijl) in de Figma Community Page van onze les (check het hoofdstuk [Designs](info.md#designs) bij de algemene uitleg over het project)
 
 ## Formulier
 

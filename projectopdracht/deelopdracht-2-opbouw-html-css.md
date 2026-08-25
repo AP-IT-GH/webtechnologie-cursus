@@ -1,98 +1,113 @@
-# Deelopdracht 2 - Opbouw mobiele website met HTML en CSS
+# Deelopdracht 2 - Mobiele website met HTML en CSS
 
 <figure>
   <img src="homepage-mobile.png" alt="homepage on mobile device" width="200"/>
   <figcaption>Tijdens deze deelopdracht werk je je webshop uit op een mobiel apparaat</figcaption>
 </figure>
 
-In deze deelopdracht ga je **mobiele** webpagina's bouwen. Zorg ervoor dat je browservenster is ingesteld als een gangbaar smartphone scherm en voer de stappen in dit document uit. Volg hierbij altijd de [designs](algemeen.md#wireframes), maar pas deze ontwerpen aan op basis van de styleguide die je hebt geschreven tijdens [deelopdracht 1](deelopdracht-1-concept-content.md).
+Lees voor je begint zeker de [algemene info](info.md) door. Hier vind je alle informatie over de projectopdracht, de deelopdrachten en de designs.
 
-## Mappenstructuur & bestanden
+In deze deelopdracht ga je de **mobiele** webpagina's van de webshop bouwen. Zorg ervoor dat je browservenster is ingesteld als een gangbaar smartphone scherm en voer de stappen in dit document uit. Volg hierbij altijd de [designs](info.md#designs), maar pas deze ontwerpen tijdens het implementeren aan op basis van de styleguide die je hebt geschreven tijdens [deelopdracht 1](deelopdracht-1-concept-content.md).
+
+---
+
+## 1. Mappenstructuur & bestanden
 
 Maak de volgende mappenstructuur aan:
 
 ```
-- projectopdracht-webtechnologie-\<je naam\>/
-  index.html
-  shop.html
-  contact.html
-  product-naam.html
-  - css/
-    general.css
-    home.css
-    reset.css
-    shop.css
-    product.css
-    contact.css
-  - assets/
-    - images/
-      foto-1.jpg
-      foto-2.jpg
-      foto-3.jpg
-  - js/
- ``` 
+projectopdracht-webtechnologie-<je naam>/
+├─ index.html
+├─ shop.html
+├─ contact.html
+├─ product-<naam>.html
+├─ css/
+│  ├─ general.css
+│  ├─ home.css
+│  ├─ normalize.css
+│  ├─ shop.css
+│  ├─ product.css
+│  └─ contact.css
+├─ assets/
+│  └─ images/
+│     ├─ foto-1.jpg
+│     ├─ foto-2.jpg
+│     └─ foto-3.jpg
+└─ js/
+```
+
+### HTML-pagina's
+
 Maak de volgende HTML-pagina's aan:
 
 - `index.html`
 - `shop.html`
-- `product-<naam>.html` (minimaal 6 pagina's)
+- `product-<naam>.html` (minimaal 6 pagina's, één per product)
 - `contact.html`
 
-Voorzie 1 CSS-bestand voor de algemene opmaak (`general.css`) en aparte CSS-bestanden voor pagina-specifieke opmaak (`home.css`, `shop.css`, `product.css`, `contact.css`).
+### CSS-bestanden
 
-Maak ook een `reset.css` aan, gebaseerd op [reset.css](https://github.com/elad2412/the-new-css-reset).
+- Eén CSS-bestand voor de algemene opmaak: `general.css`.
+- Een apart CSS-bestand per pagina voor pagina-specifieke opmaak: `home.css`, `shop.css`, `product.css`, `contact.css`.
+- Kies zelf of je `normalize.css` of `reset.css` gebruikt, en voeg dit bestand toe aan de map `css/`. Zorg dat je zeker het verschil tussen de twee kent, want je moet je keuze kunnen toelichten tijdens de mondelinge verdediging.
 
-Link elke HTML-pagina met de juiste CSS-bestanden. `index.html` zal bijvoorbeeld 3 `<link>`-tags hebben: `reset.css`, `general.css` en `home.css`.
+Link elke HTML-pagina met de juiste CSS-bestanden. `index.html` heeft bijvoorbeeld 3 `<link>`-tags: je reset/normalize-bestand, `general.css` en `home.css`.
 
-> **TIP**: Houd de volgorde van de CSS-bestanden aan: eerst `reset.css`, daarna `general.css` en vervolgens de pagina-specifieke CSS-bestanden.
+> **TIP**: Houd de volgorde van de CSS-bestanden aan: eerst de reset of normalize, daarna `general.css` en vervolgens de pagina-specifieke CSS.
 
-## Development algemene features
+---
 
-Elke pagina moet de volgende elementen bevatten, die op elke pagina hetzelfde zijn:
+## 2. Algemene features (op elke pagina)
 
-- Typografie: Lettertype, font-size, headings (h1, h2, h3, etc.)
+Elke pagina moet dezelfde algemene elementen bevatten:
+
+- Typografie: lettertype, font-size, headings (h1, h2, h3, ...)
 - Een header met een logo
-- Navigatie in de header met links naar de andere pagina's *
+- Navigatie in de header met links naar de andere pagina's
 - Een footer
-- ...
 
-\* negeer het inputveldje in de navigatie, deze maakt deel uit van deelopdracht 4. 
+> **TIPS**:
+> - Bouw de algemene features eerst op één pagina (bijvoorbeeld `index.html`). Kopieer deze HTML pas naar de andere pagina's wanneer ze klaar zijn. Omdat `general.css` op elke pagina gelinkt is, blijft de styling overal hetzelfde — dit bespaart tijd en zorgt voor uniformiteit.
+> - Gebruik op elke pagina de juiste semantische elementen (`header`, `nav`, `main`, `aside`, `section`, `article`, `footer`, ...) zoals gezien in de les.
 
-Volg hierbij het ontwerp op Figma, maar pas deze aan aan jouw eigen styleguide uit deelopdracht 1.
+---
 
-> **TIP**: 
-> - Bouw de algemene features eerst op één pagina (bijvoorbeeld `index.html`). Wanneer deze klaar zijn kopieer je de HTML naar de andere .html-bestanden. Door `general.css` in elk .html-bestanden te linken, zal de styling overal hetzelfde zijn, wat veel tijd bespaart en zorgt voor uniformiteit.
-> - Zorg ervoor dat je op elke pagina de juiste semantische elementen gebruikt (header, nav, main, aside, section, article, footer, ...) zoals we gezien hebben in de les.
+## 3. Pagina-specifieke features
 
-### Pagina-specifieke features
+### `index.html` — de homepage
 
-- **index.html**: De homepage van je webshop
-  - Naam van de webshop in een H1
-  - Algemene uitleg over je webshop zoals je die beschreven hebt in je styleguide document uit deelopdracht 1.
-  - Een CTA (call-to-action) knop die linkt naar de shop (tip: style met css de a-tag als een button)
-  - Kaartjes met de 3 best verkochte producten (gebruik een `<article>`):
-    - Gebruik de CSS property "background-image" om de foto op de achtergrond te plaatsen.
-    - Voeg mbhv. flexbox een kadertje toe in het kaartje met de titeltje (tip: gebruik een h2 en style deze als een h3) en de korte beschrijving.
-  - Een "bio"-kaartje met:
-    - Een professionele foto van jezelf (gebruik position om het cirkeltje wat naar boven te duwen)
-    - Een korte uitleg of bio van jezelf
+- Naam van de webshop in een `h1`.
+- Algemene uitleg over je webshop, zoals beschreven in je styleguide uit deelopdracht 1.
+- Een CTA (call-to-action) knop die linkt naar de shop (tip: style de `a`-tag met CSS als een button).
+- Kaartjes met de 3 best verkochte producten (gebruik een `article` per kaartje):
+  - Gebruik de CSS-property `background-image` om de foto op de achtergrond te plaatsen.
+  - Voeg met flexbox een kadertje toe in het kaartje met de titel en de korte beschrijving.
+- Een "bio"-kaartje met:
+  - Een professionele foto van jezelf (gebruik negatieve padding of margin om de foto wat naar boven te duwen zodat deze bovenaan uitsteekt).
+  - Een korte uitleg of bio van jezelf.
 
-- **shop.html**: De overzichtspagina van alle producten
-  - Voorzie een `<aside>` voor de wishlist en voor een shopping-cart. Deze mogen in deze fase wel nog leeg zijn.
-  - Een h2 titeltje
-  - Voorzie 6 product kaartjes (gebruik een `<article>`) onder elkaar met elk:
-    - Een titel (h3)
-    - Een korte beschrijving gebaseerd op de productbeschrijving uit deelopdracht 1
-    - Een foto van het product (gebruik background-image)
-    - Een button om het product toe te voegen aan je winkelmandje (moet nog niet werken) 
+### `shop.html` — het overzicht van alle producten
 
-- **6 detailpagina's**: Pagina's voor elk van de producten, met:
-  - Een titel
-  - Een beschrijving
-  - Afbeelding in een `figure` met de bronvermelding van de afbeelding in de `figcaption`
-  - Een opsomming met minstens 5 productspecificaties
-  - Een button om het product toe te voegen aan je wishlist.
+- Een `h2` titel.
+- Een `aside` voor de wishlist en voor de shopping cart. Deze mogen in deze fase nog leeg zijn.
+- 6 productkaartjes (gebruik een `article` per kaartje), onder elkaar geplaatst, met elk:
+  - Een titel (`h3`).
+  - Een korte beschrijving, gebaseerd op de productbeschrijving uit deelopdracht 1.
+  - Een foto van het product (gebruik `background-image`).
+  - Een button om het product toe te voegen aan je winkelmandje (moet nog niet werken).
 
-- **contact.html**: 
-  - Een pagina waar het contactformulier op komt, maar deze hoeft op dit moment nog niet uitgewerkt te worden.
-  - Voorzie de pagina met alle algemene features, maar laat de `<main>` voorlopig leeg.
+### 6 detailpagina's — één per product
+
+- Een titel.
+- Een beschrijving.
+- Een afbeelding in een `figure`, met de bronvermelding in de `figcaption`.
+- Een opsomming met minstens 5 productspecificaties.
+- Een button om het product toe te voegen aan je wishlist.
+
+> **TIP**:
+> Werk 1 detailpagina volledig uit, en kopieer deze naar de andere 5 detailpagina's als je helemaal klaar bent. Pas enkel de content aan (titel, beschrijving, afbeelding, specificaties).
+
+
+### `contact.html`
+
+Voorzie de pagina met alle algemene features, maar laat de `main` voorlopig leeg. Het contactformulier volgt in [deelopdracht 4](deelopdracht-4-contact-page-formulier.md).

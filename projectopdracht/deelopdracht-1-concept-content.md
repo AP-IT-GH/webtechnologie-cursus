@@ -1,6 +1,6 @@
 # Deelopdracht 1 - Webshop Concept & Content
 
-Begin met het lezen van de [algemene opzet](./algemeen.md) en de [praktische info](./praktisch.md).
+Begin met het lezen van de [algemene opzet](info.md) en de [praktische info](./praktisch.md).
 
 Voor deelopdracht 1 doe je al het voorbereidende werk voor de ontwikkeling van je webshop. Dit betekent dat je werkt aan het concept, de huisstijl en alle nodige _content_ (teksten oftewel _copy_, en afbeeldingen) voordat je daadwerkelijk begint met programmeren. Hoe beter je voorbereid bent, hoe vlotter het programmeren zal verlopen. De content die je maakt, zal bepalend zijn voor je eindresultaat, dus neem hier zeker voldoende tijd voor.
 
@@ -17,7 +17,7 @@ Kies een onderwerp dat jou interesseert en waar je voldoende over kunt vertellen
 
 De tekst die je schrijft, zal later op de **homepage** van je webshop worden geplaatst.
 
-**Let op:** Zorg ervoor dat je rekening houdt met de [copywriting tips](algemeen.md#copywriting-tips) voor het schrijven van heldere en overtuigende teksten!
+**Let op:** Zorg ervoor dat je rekening houdt met de [copywriting tips](info.md#copywriting-tips) voor het schrijven van heldere en overtuigende teksten!
 
 ---
 
@@ -31,7 +31,7 @@ Maak een nieuw hoofdstuk in je document met de titel **"Producten"**. Hier voeg 
 
 > **Tip:** Denk goed na over de voordelen van je producten/diensten en probeer deze duidelijk te maken in je omschrijving. Maak het de bezoeker makkelijk om te begrijpen waarom ze jouw product moeten kiezen.
 
-**Let op:** Zorg ervoor dat je rekening houdt met de [copywriting tips](algemeen.md#copywriting-tips) voor het schrijven van heldere en overtuigende teksten!
+**Let op:** Zorg ervoor dat je rekening houdt met de [copywriting tips](info.md#copywriting-tips) voor het schrijven van heldere en overtuigende teksten!
 
 ---
 
@@ -45,7 +45,7 @@ Verzamel afbeeldingen voor je 6 producten of diensten. Zorg ervoor dat:
 
 > **Tip:** Consistentie in de grootte en verhoudingen van je productafbeeldingen zorgt voor een nette en professionele uitstraling op je webshop.
 
-Bekijk zeker de [afbeeldingstips](algemeen.md#afbeelding-tips).
+Bekijk zeker de [afbeeldingstips](info.md#afbeelding-tips).
 
 ---
 
@@ -55,7 +55,7 @@ Ontwerp een eenvoudig logo dat goed past bij je webshop. Gebruik een tool zoals 
 
 > **Tip:** Denk bij het ontwerpen van je logo aan de identiteit van je webshop. Moet het bijvoorbeeld speels, strak, modern of klassiek zijn? Kies een stijl die aansluit bij het product dat je verkoopt.
 
-Denk aan de [afbeeldingstips](algemeen.md#afbeelding-tips) bij het ontwerp van je logo.
+Denk aan de [afbeeldingstips](info.md#afbeelding-tips) bij het ontwerp van je logo.
 
 ---
 
