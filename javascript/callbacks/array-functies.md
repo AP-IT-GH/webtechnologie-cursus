@@ -1,11 +1,4 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/callbacks/array-functies
----
-
-# array functies
+# Array functies
 
 Bij de introductie van ES6 werden er ook een boel extra array functies toegevoegd. Deze maken het werken met arrays nog interessanter. Hieronder zien we een paar veel voorkomende functies:
 
@@ -104,7 +97,6 @@ We kunnen string arrays alfabetisch sorteren. Standaard vergelijkt `sort()` stri
 Om strings correct alfabetisch te sorteren volgens de taalregels, gebruiken we [localeCompare](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare).
 
 Wat `localeCompare` teruggeeft:
-
 * Een negatieve waarde (< 0) wanneer de oproepende string vóór de vergelijking-string hoort.
 * Nul (=== 0) wanneer de strings als gelijk worden beschouwd volgens de gekozen opties.
 * Een positieve waarde (> 0) wanneer de oproepende string ná de vergelijking-string hoort.

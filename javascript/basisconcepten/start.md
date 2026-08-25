@@ -1,16 +1,8 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/basisconcepten/start
----
-
-# JS linken
+# Starten met JavaScript in de browser
 
 Om JavaScript in je browser uit te voeren, moet je eerst een .js-bestand koppelen aan een HTML-pagina. Dat doe je met het `<script>`-element binnen het `<head>`-gedeelte van je HTML.
 
 Bv.
-
 ```html
 <!doctype html>
 <html lang="en">
@@ -28,33 +20,41 @@ Bv.
 </html>
 ```
 
-In dit voorbeeld linken we een bestand script.js dat zich in de submap `js` bevindt. Het attribuut `type="module"` zorgt ervoor dat we gebruik kunnen maken van ES6 modules — een moderne manier om JavaScript-bestanden te structureren en functies, variabelen of objecten te delen tussen bestanden.
+In dit voorbeeld linken we een bestand script.js dat zich in de submap `js` bevindt.
+Het attribuut `type="module"` zorgt ervoor dat we gebruik kunnen maken van ES6 modules — een moderne manier om JavaScript-bestanden te structureren en functies, variabelen of objecten te delen tussen bestanden.
 
 ## Javascript modules
 
 ### Lokale vs globale variabelen
 
-Wanneer je JavaScript gebruikt zonder modules, zijn alle variabelen die je definieert globaal. Dat betekent dat ze toegankelijk zijn in alle andere scripts die aan dezelfde HTML-pagina zijn gekoppeld. Dit kan problemen veroorzaken als verschillende bestanden toevallig dezelfde variabelenaam gebruiken.
+Wanneer je JavaScript gebruikt zonder modules, zijn alle variabelen die je definieert globaal.
+Dat betekent dat ze toegankelijk zijn in alle andere scripts die aan dezelfde HTML-pagina zijn gekoppeld.
+Dit kan problemen veroorzaken als verschillende bestanden toevallig dezelfde variabelenaam gebruiken.
 
-Door modules te gebruiken (type="module"), worden variabelen en functies lokaal voor dat specifieke bestand. Zo vermijd je naamconflicten en blijft je code beter georganiseerd.
+Door modules te gebruiken (type="module"), worden variabelen en functies lokaal voor dat specifieke bestand.
+Zo vermijd je naamconflicten en blijft je code beter georganiseerd.
 
 ### Defer automatisch toegepast
 
-Een bijkomend voordeel van modules is dat ze automatisch worden uitgevoerd nadat de HTML-pagina volledig is geladen. Je hoeft dus geen defer-attribuut toe te voegen aan het-element wanneer je met modules werkt.
+Een bijkomend voordeel van modules is dat ze automatisch worden uitgevoerd nadat de HTML-pagina volledig is geladen.
+Je hoeft dus geen defer-attribuut toe te voegen aan het <script>-element wanneer je met modules werkt.
 
 ### Strict mode
 
-Modules draaien standaard in strict mode. Dat betekent dat je geen "use strict"; bovenaan je bestand hoeft te zetten. Strict mode helpt je om fouten sneller op te sporen en zorgt voor consistenter gedrag van je code.
+Modules draaien standaard in strict mode.
+Dat betekent dat je geen "use strict"; bovenaan je bestand hoeft te zetten. Strict mode helpt je om fouten sneller op te sporen en zorgt voor consistenter gedrag van je code.
 
 Meer informatie over strict mode vind je op [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
 
 ### Code importeren en exporteren
 
-Met modules kun je code — zoals functies, objecten of variabelen — exporteren uit het ene bestand en importeren in een ander. Zo kun je je code opdelen in logische onderdelen en eenvoudiger hergebruiken.
+Met modules kun je code — zoals functies, objecten of variabelen — exporteren uit het ene bestand en importeren in een ander.
+Zo kun je je code opdelen in logische onderdelen en eenvoudiger hergebruiken.
 
 Voorbeeld
 
 Bestand: utils.js
+
 
 ```js
 // Exporteer een functie

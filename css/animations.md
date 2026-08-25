@@ -3,12 +3,9 @@ description: >-
   Animatie is een geweldige manier om interactieve elementen te benadrukken. In
   dit hoofdstuk leer je hoe je animatie-effecten kunt toevoegen en beheren met
   CSS.
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/css/animations
 ---
 
-# Animaties
+# 6: animaties
 
 CSS-animaties maken het mogelijk om overgangen van de ene CSS-stijlconfiguratie naar de andere te animeren. CSS-animaties zijn als CSS-transities maar krachtiger. Animaties bestaan uit twee componenten:
 
@@ -115,7 +112,7 @@ De standaardwaarde is 0 seconden. Je kan geen negatieve tijdwaarden toevoegen.
 
 **animation-timing-function**
 
-Om natuurlijke bewegingen in animaties na te bootsen, kan je de `animation-timing-function` gebruiken.
+Om natuurlijke bewegingen in animaties na te bootsen, kan je de `animation-timing-function` gebruiken.&#x20;
 
 **Er zijn verschillende waarden beschikbaar als presets in CSS:**
 

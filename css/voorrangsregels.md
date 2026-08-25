@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/css/selectors/voorrangsregels
----
-
 # voorrangsregels
 
 CSS-specificiteit is een cruciaal concept bij het begrijpen van de voorrangsregels die bepalen welke stijlen op een bepaald element van toepassing zijn als er meerdere regels zijn gedefinieerd. De tool [Specificity Calculator](https://specificity.keegan.st) biedt een waardevol inzicht in de specificiteit van CSS-selectors.

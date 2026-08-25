@@ -1,11 +1,4 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/vergelijkingsoperatoren
----
-
-# Beslissingen
+# 5: beslissingen
 
 [MDN: Comparison operators / Conditionals - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#comparison)
 

@@ -1,9 +1,3 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/css/intro/kleur
----
-
 # kleur
 
 ## kleur
@@ -21,7 +15,9 @@ h1 {
 }
 ```
 
-In de laatste versie van CSS Colors (Level 4) werd een extra kleur, \`rebeccapurple\`, toegevoegd ter ere van webpionier \[Eric Meyer]\(https://meyerweb.com/eric/thoughts/2014/06/19/rebeccapurple/). \{% endhint}
+ {% hint style="info" %}
+    In de laatste versie van CSS Colors (Level 4) werd een extra kleur, `rebeccapurple`, toegevoegd ter ere van webpionier [Eric Meyer](https://meyerweb.com/eric/thoughts/2014/06/19/rebeccapurple/).
+{% endhint}
 
 ### HEX-code
 

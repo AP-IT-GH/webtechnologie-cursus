@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/basisconcepten/expressies-en-operatoren
----
-
 # expressies en operatoren
 
 Tot nu toe hebben we variabelen als een opzichzelfstaand concept beschouwd. We declareerden een variabele en daarna printen we deze uit op ons scherm. Het wordt pas interessant als we deze gaan combineren in expressies. De meest bekende expressies zijn uiteraard de wiskundige expressies. Het optellen van twee getallen kan je bijvoorbeeld op de volgende manier doen

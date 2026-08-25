@@ -3,12 +3,9 @@ icon: rocket-launch
 cover: >-
   https://images.unsplash.com/photo-1671437762079-3e9f59d736ef?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw1fHxzdGFydCUyMGhlcmV8ZW58MHx8fHwxNzU4MjY4MTcyfDA&ixlib=rb-4.1.0&q=85
 coverY: 133.85250737463127
-metaLinks:
-  alternates:
-    - /broken/spaces/CyMmymf8tiNQ4Ws9WmHV/pages/DIxXQXg3kT8qoABpmBTu
 ---
 
-# Startgids labo's
+# Startgids labo’s
 
 ## Stap 1: IDE in orde brengen (éénmalig)
 
@@ -100,3 +97,4 @@ je kunt ook gebruik maken van de terminal in Codium om dezelfde acties uit te vo
 * Je kan je repo altijd opnieuw **clonen** op een andere computer.
 * Je vooruitgang is zichtbaar in de **commit history**.
 * Bij vragen of problemen: contacteer de lector of gebruik het afgesproken communicatiekanaal.
+

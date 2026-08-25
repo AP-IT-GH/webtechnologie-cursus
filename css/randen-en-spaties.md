@@ -1,9 +1,3 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/css/intro/randen-en-spaties
----
-
 # randen en spaties
 
 ![](../.gitbook/assets/13-kaders-1.png)
@@ -52,7 +46,6 @@ p {
 `padding`: padding-top | padding-right | padding-bottom | padding-left;
 
 {% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp1YIDJPsFh4ATxj6kZAG7Lg25coAOx23QDmqZQHYABlcADwBuZ2UAI24AJyQIGN8ARhDlMG4oMiRlAGIAFkkAQQAxAFYA8LoAX21BAHpzKwhTOsNjU2ikC31arAAmdUkAZSHleQ8yb3r+01s7dWksMjBlaAhmPlUGFYY3Ce9lbhJ-IOCMermenTrO7trWvA1tZ7pOSBgEMl4qdCSATlQARAVUI9CYLHQGAAVlRiDw+BABOhgaCQIxmKwMLAwLCuLx+PBWMCALpVIA" %}
-
 {% embed url="https://flems.io/#0=N4IgzgpgNhDGAuEAmIBcIB0ALeBbKIANCAGYCWMYaA2qAHYCGuEamO+RIsA9nYn6wA8AQgAiAeQDCAFQCaABQCiAAnZQAfAB06gtVp1YIDJPsFh4ATxj6kZAG7Lg25coBG3AE5IIH1MoCMAA4AHspg3FBkSG5QDLAA1gDczm5x8QDmHtwArnRIALQ8UJ5+kek4rlDZEMl0LoHGtnTp+fDcgX4ArAAMIbX1jWTN+R5k5fB+AMy9wf3KDUhNLe7wbbhdM3MLS-kwJBPKAByb2gC+2oIA9OZWEKaXhsam7kgW+hdYAEzqAKpgQ+llENbHYotkGFB5oNmvMsoEfPAyBAwFcvu8dCD1NIsGQwMoQcpoBBmHxVAw8QxlG1AlDFgDlNwSMoeiFCMpKaNxrSlgymdNWey3NxVtxcNz6YzmTM2Qw8oK9vBxTDJccQhgrpjtBdLi83tq9Fq6NpOJAYAgyLwqOhPgAWVDdECnQj0JgsdAYABWVGIPD4EAE6EdzpAjGYrAwsDA3q4vH48FYjoAuqcgA" %}
 
 ## border

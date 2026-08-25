@@ -1,9 +1,3 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/events/types
----
-
 # event types
 
 Er bestaan verschillende soorten van events. Elk van deze events kan gebruikt worden om functies in JavaScript mee uit te voeren.

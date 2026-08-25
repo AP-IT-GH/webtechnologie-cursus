@@ -1,9 +1,3 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/objecten/json
----
-
 # JSON
 
 JSON is een afkorting voor `JavaScript Object Notation`. Dit is een tekst gebaseerd formaat om data te kunnen uitwisselen tussen programma's. Het voordeel van JSON is dat het ook heel eenvoudig is opgesteld zodat het ook leesbaar is voor mensen. Dit in tegenstelling tot bijvoorbeeld een binair formaat dat helemaal niet leesbaar is door mensen.
@@ -31,7 +25,7 @@ Hieronder een voorbeeld van een JSON-bestand met 1 object. We slagen dit bestand
 * Je merkt op dat het er iets anders uitziet als gewone JavaScript code. Zo worden de keys van de properties ook **tussen dubbele quotes** geplaatst.
 * In JSON bestanden mag je enkel gebruik maken van **dubbele** quotes. Om na te gaan of je JSON bestand valid is kan je bijvoorbeeld een online tool zoals [https://codebeautify.org/jsonviewer](https://codebeautify.org/jsonviewer) gebruiken.
 
-![JSON viewer screenshot](<../../.gitbook/assets/2021-11-23 11_23_16-Best JSON Viewer and JSON Beautifier Online.png>)
+![JSON viewer screenshot](../../.gitbook/assets/2021-11-23%2011_23_16-Best%20JSON%20Viewer%20and%20JSON%20Beautifier%20Online.png)
 
 Even een overzicht van wat dit JSON bestand bevat:
 
@@ -46,7 +40,7 @@ Even een overzicht van wat dit JSON bestand bevat:
 
 **We kunnen dit JSON object als volgt visualiseren:**
 
-![Visualisatie van JSON-object](<../../.gitbook/assets/image (25).png>)
+![Visualisatie van JSON-object](../../.gitbook/assets/image%20(25).png)
 
 ## inlezen van JSON
 

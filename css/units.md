@@ -1,9 +1,3 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/css/intro/units
----
-
 # units
 
 Lettergroottes, randdiktes, hoogte en breedte van elementen en witruimtes hebben allemaal een maat die benoemd moet kunnen worden. Ze worden onderverdeeld in twee soorten.
@@ -23,7 +17,9 @@ Als webmaster moet er rekening gehouden worden met het verschil in weergave tuss
 
 Tegenwoordig hebben veel browsers de mogelijkheid om de tekst te vergroten of te verkleinen. Dit is zeer handig voor slechtzienden. Dit heeft echter geen invloed op tekst, waarvan de grootte in pixels of millimeters is opgegeven. Om tekst te laten meegroeien of -krimpen, dient de grootte in punten of een percentage opgegeven te worden. Bijvoorbeeld 150% voor grote tekst of 80% voor kleine tekst.
 
-\{% hint style="info"} Om het gebruik van rem gemakkelijker te maken en te koppelen aan de standaard 16px voor de font-grootte van het HTML-element, wordt vaak de "rem 62.5 regel" toegepast. Door de font-size van het HTML-element in te stellen op 62.5%, wordt 1rem gelijk aan 10px (62.5% van 16px). Dit vergemakkelijkt het rekenen.
+{% hint style="info"}
+Om het gebruik van rem gemakkelijker te maken en te koppelen aan de standaard 16px voor de font-grootte van het HTML-element, wordt vaak de "rem 62.5 regel" toegepast. Door de font-size van het HTML-element in te stellen op 62.5%, wordt 1rem gelijk aan 10px (62.5% van 16px). Dit vergemakkelijkt het rekenen.
+{% endhint %}
 
 ## relatieve maten
 

@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/arrays/multidimensionele-arrays
----
-
 # multidimensionele arrays
 
 Je hebt al gezien dat arrays eender welk type van waarde kunnen bevatten. Als dat waar is dan kunnen we ook arrays in arrays opslagen? Dat kunnen we!

@@ -36,7 +36,7 @@
   * [attributen](css/attributen.md)
   * [pseudo selectors](css/pseudo-selectors.md)
   * [voorrangsregels](css/voorrangsregels.md)
-* [Lay-out](css/lay-out/README.md)
+* Lay-out
   * [grid](css/grid.md)
   * [flex](css/flex.md)
   * [media queries](css/media-queries.md)

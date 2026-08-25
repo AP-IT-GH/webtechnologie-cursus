@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/basisconcepten/strings
----
-
 # strings
 
 In JavaScript worden alle soorten tekst opgeslagen als strings. Er is geen apart type voor de aparte karakters.

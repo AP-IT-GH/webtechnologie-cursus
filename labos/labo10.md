@@ -3,14 +3,11 @@ icon: css3-alt
 cover: >-
   https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwxfHxjc3N8ZW58MHx8fHwxNzYwMzQxMDIyfDA&ixlib=rb-4.1.0&q=85
 coverY: 0
-metaLinks:
-  alternates:
-    - /broken/spaces/CyMmymf8tiNQ4Ws9WmHV/pages/2zlgBp2MvXPo3efR32iT
 ---
 
-# Labo 10 — CSS: animaties
+# Labo 10
 
-## <img src="../.gitbook/assets/github.png" alt="fork on github" data-size="line"> Oefeningen
+## <img src="../../.gitbook/assets/github.png" alt="fork on github" data-size="line"> Oefeningen
 
 [Oefeningen van labo 10 op Github](https://github.com/AP-IT-GH/webtechnologie-labo-10)
 

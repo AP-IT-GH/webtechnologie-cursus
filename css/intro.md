@@ -1,10 +1,4 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/css/intro
----
-
-# Syntax
+# CSS introductie
 
 Door gebruik te maken van CSS in combinatie met HTML kan je een webpagina visueel aanpassen. Concreet staat CSS toe om via code te bepalen hoe een element er op een pagina zal uitzien. Je kan bijvoorbeeld de achtergrondkleur van een webpagina bepalen, hoe de paragrafen er zullen gaan uitzien door te kiezen voor een bepaalde kleur en lettertype, of bijvoorbeeld dat alle `h1`-titels in een cursief blauwe Times-font staan van 16pt groot.
 

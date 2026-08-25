@@ -1,10 +1,3 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/functies/arrow-notatie
----
-
 # arrow notatie
 
 Een functie kan op deze manier geschreven worden:

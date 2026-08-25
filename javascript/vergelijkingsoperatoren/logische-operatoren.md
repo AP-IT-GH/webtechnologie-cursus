@@ -1,11 +1,4 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/vergelijkingsoperatoren/logische-operatoren
----
-
-# logische operatoren
+# logische Operatoren
 
 Er zijn vier logische operatoren in JavaScript: `||` (OR), `&&` (AND), `!` (NOT) en `??` (nullish coalescing). We zullen in dit onderdeel enkel de eerste drie behandelen.
 

@@ -1,10 +1,4 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/javascript/functies
----
-
-# Functies
+# 8: functies
 
 [MDN: Functions - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
@@ -38,7 +32,7 @@ Dit is bijvoorbeeld wat er gebeurt bij een `console.log`. Hoewel we de echte cod
 
 De meeste functies zien er als volgt uit:
 
-![Function diagram](<../../.gitbook/assets/Untitled Diagram.drawio.png>)
+![Function diagram](../../.gitbook/assets/Untitled%20Diagram.drawio.png)
 
 * Je steekt er een aantal input argumenten in
 * De functie doet iets met deze argumenten
@@ -50,7 +44,7 @@ Een leuke analogie is een functie beschouwen als een soort recept. Als je een re
 2. Je voert een aantal stappen uit met die ingredienten (de body van de functie)
 3. Je krijgt een gerecht als resultaat (return waarde)
 
-![Zo maak je een lekkere smos ham!](<../../.gitbook/assets/image (27).png>)
+![Zo maak je een lekkere smos ham!](../../.gitbook/assets/image%20(27).png)
 
 ## functies gebruiken
 

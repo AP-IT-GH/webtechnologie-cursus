@@ -1,10 +1,4 @@
----
-metaLinks:
-  alternates:
-    - https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/html/tabellen
----
-
-# Tabellen
+# 4: tabellen
 
 In HTML kan informatie getoond worden in tabellen. Tabellen maken het mogelijk om complexe data visueel overzichtelijk weer te geven. Je kan een tabel in HTML maken met het `<table>`-element. In deze tabel kan je dan rijen aanmaken met het `<tr>`-element (**t**able **r**ow) en kolommen in deze rijen met het `<td>`-element (**t**able **d**ata). De `<td>`-elementen definiëren dus de cellen van de tabel.
 

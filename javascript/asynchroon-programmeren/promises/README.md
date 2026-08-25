@@ -1,26 +1,20 @@
----
-metaLinks:
-  alternates:
-    - >-
-      https://app.gitbook.com/s/CyMmymf8tiNQ4Ws9WmHV/asynchroon-programmeren/promises
----
 
-# Promises
+# Hoofdstuk 2: Werken met Promises
 
 In dit hoofdstuk leer je werken met **Promises** in JavaScript. Je ontdekt wat een Promise is, hoe je ermee werkt, en hoe je fouten afhandelt.
 
-***
+---
 
 ## Wat is een Promise?
 
 Een **Promise** is een object dat de **toekomstige uitkomst** van een asynchrone operatie vertegenwoordigt. Die uitkomst kan:
 
-* **geslaagd** zijn (de Promise wordt _resolved_), of
-* **mislukken** (de Promise wordt _rejected_).
+- **geslaagd** zijn (de Promise wordt *resolved*), of
+- **mislukken** (de Promise wordt *rejected*).
 
 Je hoeft voorlopig zelf geen Promise te kunnen schrijven. In de praktijk gebruik je vooral functies die al een Promise teruggeven.
 
-> **Waarom Promises?**\
+> **Waarom Promises?**  
 > Wanneer we met asynchrone code werken (zoals het ophalen van gegevens van een server), kunnen we niet direct weten wanneer de operatie klaar is. Promises helpen om de uitkomst van deze toekomstige operatie te beheren, zodat we pas actie ondernemen wanneer de operatie is voltooid.
 
 ## Een Promise gebruiken
@@ -37,10 +31,10 @@ doeIetsAsynchroon()
   });
 ```
 
-* `.then()` wordt uitgevoerd wanneer de Promise geslaagd is. Dit ontvangt de **resultaten van de succesvolle Promise**.
-* `.catch()` wordt uitgevoerd als er iets misgaat en vangt **fouten op** die zich voordoen tijdens de asynchrone operatie.
+- `.then()` wordt uitgevoerd wanneer de Promise geslaagd is. Dit ontvangt de **resultaten van de succesvolle Promise**.
+- `.catch()` wordt uitgevoerd als er iets misgaat en vangt **fouten op** die zich voordoen tijdens de asynchrone operatie.
 
-***
+---
 
 ## Promise chaining
 
@@ -83,13 +77,13 @@ fetch("https://jsonplaceholder.typicode.com/todos/1")
   });
 ```
 
-***
+---
 
 ## Voorbeelden van browser-API’s die Promises gebruiken
 
 Veel moderne browserfuncties werken al met Promises. Hier zijn drie bekende voorbeelden:
 
-***
+---
 
 ### `fetch()`
 
@@ -104,7 +98,7 @@ fetch("https://jsonplaceholder.typicode.com/todos/1")
 
 > Let op: `response.json()` geeft **zelf ook een Promise** terug. Meer daarover in het fetch hoofdstuk.
 
-***
+---
 
 ### `navigator.clipboard.readText()`
 
@@ -121,7 +115,7 @@ navigator.clipboard
     });
 ```
 
-***
+---
 
 ### `Notification.requestPermission()`
 
@@ -138,7 +132,7 @@ Notification.requestPermission()
 
 > Tip: eenmaal gegeven (of geweigerde) toestemming wordt **onthouden door de browser**. Je kunt dit in Chromium-based browsers resetten bij de instellingen onder Privacy & Security > Site settings.
 
-***
+---
 
 ## (Optioneel) Zelf een Promise maken
 
@@ -168,7 +162,8 @@ wachtEven(1000)
 
 De functie wachtEven(ms) creëert een nieuwe Promise. Laten we de verschillende onderdelen ervan stap voor stap doornemen:
 
-**Functie wachtEven(ms):** Deze functie accepteert één argument: ms (milliseconden), wat de wachttijd bepaalt voordat de Promise zich als volbracht beschouwt.
+**Functie wachtEven(ms):**
+Deze functie accepteert één argument: ms (milliseconden), wat de wachttijd bepaalt voordat de Promise zich als volbracht beschouwt.
 
 ```javascript
 function wachtEven(ms) {
@@ -181,8 +176,8 @@ _resolve_: Dit wordt aangeroepen wanneer de bewerking succesvol is en de Promise
 
 _reject_: Dit wordt aangeroepen wanneer er een fout optreedt en de Promise wordt "afgewezen" (rejected).
 
-**Validatie van de tijd (ms < 0):**
 
+**Validatie van de tijd (ms < 0):**
 ```javascript
 if (ms < 0) {
     reject("Tijd mag niet negatief zijn");
@@ -205,7 +200,7 @@ Als de tijd positief is, wordt setTimeout gebruikt om een wachttijd van ms milli
 
 Na de wachttijd wordt de resolve-functie aangeroepen om de Promise te vervullen. De tekst "Klaar!" wordt meegegeven als resultaat van de Promise.
 
-***
+---
 
 ## (Optioneel) Meerdere Promises combineren
 
@@ -226,7 +221,7 @@ Promise.all([belofte1, belofte2])
     });
 ```
 
-***
+---
 
 ### `Promise.race()`
 
@@ -244,6 +239,6 @@ Promise.race([belofte1, belofte2])
     });
 ```
 
-***
+---
 
 > In het volgende hoofdstuk leer je hoe je `async` en `await` gebruikt om asynchrone code nog leesbaarder te maken.
