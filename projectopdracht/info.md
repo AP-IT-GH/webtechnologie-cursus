@@ -21,6 +21,16 @@ tot de finale deadline. Daarna wordt de repository afgesloten en kan je geen wij
 7. Kies een naam voor je repository. Gebruik de volgende naamgevingsconventie: `projectopdracht-webtechnologie-<je naam>`. Vervang `<je naam>` door je eigen naam.
 8. Kies voor een **Private** repository. De rest van de instellingen kan je op de standaardwaarden laten staan. Klik op **Create repository**.
 
+### Git-historiek
+
+We verwachten een **propere git-historiek**. Dit is een onderdeel van de beoordeling (zie [evaluatie](evaluatie.md)) en toont aan dat je gespreid en zelfstandig aan je project hebt gewerkt.
+
+- Werk **incrementeel**: commit telkens wanneer je een afgerond stuk werk hebt in plaats van alles in één grote commit op het einde.
+- Voorzie **minstens één commit per deelopdracht**. Meerdere kleinere commits per deelopdracht mag en wordt aangemoedigd.
+- Gebruik **duidelijke commit messages** die beschrijven wat je hebt aangepast (bv. `Contactformulier validatie toegevoegd` in plaats van `update` of `fix`).
+- Push je werk **regelmatig** naar GitHub, niet enkel vlak voor de deadline.
+- Commit **geen** overbodige bestanden (bv. `.DS_Store`, `node_modules`, editor-config); gebruik een `.gitignore`.
+
 ### Planning
 
 | Deel | Onderdeel                                                                         | Lesweek | Deadline                    | Feedback mogelijk? | Indienen via Digitap? |

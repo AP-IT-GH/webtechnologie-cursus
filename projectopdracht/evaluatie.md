@@ -23,7 +23,8 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
         <th scope="col"> 18-20</th>
         <th scope="col">14-17</th>
         <th scope="col">10-13</th>
-        <th scope="col">0-9</th>
+        <th scope="col">1-9</th>
+        <th scope="col">0</th>
     </tr>
     </thead>
     <tbody>
@@ -38,6 +39,7 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
         <td>Code is leesbaar maar bevat dubbele logica of is moeilijk onderhoudbaar.</td>
         <td>Code is moeilijk leesbaar of is voorzien van veel nutteloze commentaar</td>
         <td>Code is onleesbaar. Geen of weinig gebruik van abstracties.</td>
+        <td>De student kan geen vragen beantwoorden over de codekwaliteit of de gemaakte keuzes in HTML, CSS en JS.</td>
     </tr>
     <tr>
         <td>
@@ -52,6 +54,7 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
         <td>HTML-structuur bevat enkele fouten in semantiek of in het gebruik van formulieren (bv. ontbrekende labels).</td>
         <td>HTML is grotendeels niet-semantisch. Formulieren zijn slecht gestructureerd of niet toegankelijk.
         </td>
+        <td>De student kan geen vragen beantwoorden over de HTML-structuur en semantiek.</td>
     </tr>
     <tr>
         <td>
@@ -66,6 +69,7 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
         <td>Design bevat duidelijke fouten. Kleuren en lettertype wijken af van hoe ze in de deelopdracht 1 zijn gedefinieerd. Aspect ratio's van afbeeldingen niet gerespecteerd.
         </td>
         <td>Design is slordig of helemaal niet gevolgd.</td>
+        <td>De student kan geen vragen beantwoorden over de vormgeving en de gemaakte designkeuzes.</td>
     </tr>
     <tr>
         <td>
@@ -81,6 +85,7 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
         </td>
         <td>Website is beperkt responsive. Mobile First principe wordt onvoldoende toegepast of enkel gedeeltelijk.</td>
         <td>Website is niet responsive en Mobile First is genegeerd.</td>
+        <td>De student kan geen vragen beantwoorden over responsiviteit en het Mobile First principe.</td>
     </tr>
     <tr>
         <td>
@@ -96,6 +101,7 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
         </td>
         <td>Basisinteractiviteit is aanwezig, maar code bevat enkele fouten of inefficiënties.</td>
         <td>Interactiviteit is minimaal, grotendeels foutief of ontbreekt volledig.</td>
+        <td>De student kan geen vragen beantwoorden over de interactiviteit en de JavaScript-code.</td>
     </tr>
     <tr>
         <td>
@@ -111,19 +117,20 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
         </td>
         <td>Geen of foutief gebruik van dynamische content; de items zijn nog steeds hardcoded in de HTML.
         </td>
+        <td>De student kan geen vragen beantwoorden over de dynamische content en de datastructuur.</td>
     </tr>
     <tr>
         <td>
              <ol start="7">
-                 <li><strong>Projectwerk &#x26; features (50%)</strong></li>
+                 <li><strong>Projectwerk (50%)</strong></li>
              </ol>
          </td>
-        <td>Volledig, interactief webshopproject met alle gevraagde functionaliteit. Extra features en eigen inbreng zijn besproken en
-            tonen zelfstandige ontwikkeling.
+        <td>Volledig, interactief webshopproject waarin alle gevraagde functionaliteit foutloos werkt. Alle deelopdrachten zijn correct en volledig uitgewerkt en vormen een samenhangend geheel.
         </td>
-        <td>Volledig webshopproject met alle gevraagde functionaliteit. Extra features zijn afwezig.</td>
-        <td>Webshopproject bevat alle kernfunctionaliteit maar mist volledigheid of samenhang.</td>
+        <td>Volledig webshopproject met alle gevraagde functionaliteit. Enkele deelopdrachten bevatten kleine onvolkomenheden of missen afwerking.</td>
+        <td>Webshopproject bevat alle kernfunctionaliteit, maar mist volledigheid of samenhang tussen de deelopdrachten.</td>
         <td>Webshopproject is incompleet, bevat te veel fouten of ontbreekt volledig.</td>
+        <td>De student kan geen vragen beantwoorden over het projectwerk en de uitgewerkte deelopdrachten.</td>
     </tr>
     </tbody>
 </table>
@@ -158,20 +165,19 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
       <td>-2</td>
     </tr>
     <tr>
-      <td>Ontbrekend of onvolledig concept-document uit deelopdracht 1.</td>
-      <td>-1</td>
-    </tr>
-    <tr>
       <td><a href="../coding-guidelines.md">Coding guidelines</a> niet gevolgd</td>
-      <td>-1</td>
-    </tr>
-  <tr>
-      <td>Je project bevat features die niet besproken en goedgekeurd zijn tijdens de feedback sessies</td>
       <td>-1</td>
     </tr>
     <tr>
       <td>Code bevat overduidelijke copy-paste zonder integratie of begrip.</td>
       <td>-3</td>
+    </tr>
+    <tr>
+      <td>
+        Onverzorgde git-historiek. Er wordt een propere git-historiek verwacht
+        met minimaal &#xE9;&#xE9;n commit per deelopdracht.
+      </td>
+      <td>-1</td>
     </tr>
   </tbody>
 </table>
