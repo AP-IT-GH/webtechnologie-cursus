@@ -9,4 +9,4 @@ coverY: 0
 
 ## <img src="../../.gitbook/assets/github.png" alt="fork on github" data-size="line"> Oefeningen
 
-[Geïntegreerde oefening / voorbeeldexamen](https://classroom.github.com/a/HvKS8Kv9)
+[Geïntegreerde oefening / voorbeeldexamen](https://github.com/AP-IT-GH/labo-22-herhalingsoefening)
