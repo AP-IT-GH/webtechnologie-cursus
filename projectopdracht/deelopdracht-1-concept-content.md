@@ -1,6 +1,6 @@
 # Deelopdracht 1 - Webshop Concept & Content
 
-Begin met het lezen van de [algemene opzet](info.md) en de [praktische info](./praktisch.md).
+Begin met het lezen van de [Projectinformatie](info.md). Daar vind je de designs, de deadlines en de regels die voor je hele project gelden.
 
 Voor deelopdracht 1 doe je al het voorbereidende werk voor de ontwikkeling van je webshop. Dit betekent dat je werkt aan het concept, de huisstijl en alle nodige _content_ (teksten oftewel _copy_, en afbeeldingen) voordat je daadwerkelijk begint met programmeren. Hoe beter je voorbereid bent, hoe vlotter het programmeren zal verlopen. De content die je maakt, zal bepalend zijn voor je eindresultaat, dus neem hier zeker voldoende tijd voor.
 
@@ -95,7 +95,7 @@ Wil je werken met een tweede lettertype (bijvoorbeeld voor een ondertiteltje)? Z
 
 ## Deliverables
 
-Je moet deze deelopdracht plaatsen in je **GitHub Classroom repository**. Zorg ervoor dat je de volgende bestanden en mappen opneemt en correct structureert:
+Je moet deze deelopdracht plaatsen in je **private projectrepository** onder de GitHub-organisatie van dit vak (zie [Projectinformatie](info.md#zo-start-je)). Zorg ervoor dat je de volgende bestanden en mappen opneemt en correct structureert:
 
 - Een markdown document met de volgende secties:
     - **Situering** – de omschrijving van je webshop
