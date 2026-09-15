@@ -1,4 +1,4 @@
-# Deelopdracht 6 - Dynamische content (finale)
+# Deelopdracht 7 - Dynamische content (finale)
 
 In de echte wereld beheren webshop-eigenaars hun items niet via HTML. Nieuwe items toevoegen, de voorraad aanpassen, beschrijvingen wijzigen, promo’s toevoegen... zou te veel tijd in beslag nemen en vereist telkens een developer. In plaats daarvan gebruiken ze vaak een Content Management Systeem (_CMS_) waarmee ze met enkele kliks aanpassingen kunnen doen die opgeslagen worden in een database. De HTML wordt dan automatisch gegenereerd op basis van deze data.
 

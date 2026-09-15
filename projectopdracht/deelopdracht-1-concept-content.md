@@ -1,6 +1,6 @@
 # Deelopdracht 1 - Webshop Concept & Content
 
-Begin met het lezen van de [Projectinformatie](info.md). Daar vind je de designs, de deadlines en de regels die voor je hele project gelden.
+Begin met het lezen van de [Projectinformatie](info.md). Daar vind je de wireframes, de deadlines en de regels die voor je hele project gelden.
 
 Voor deelopdracht 1 doe je al het voorbereidende werk voor de ontwikkeling van je webshop. Dit betekent dat je werkt aan het concept, de huisstijl en alle nodige _content_ (teksten oftewel _copy_, en afbeeldingen) voordat je daadwerkelijk begint met programmeren. Hoe beter je voorbereid bent, hoe vlotter het programmeren zal verlopen. De content die je maakt, zal bepalend zijn voor je eindresultaat, dus neem hier zeker voldoende tijd voor.
 
@@ -27,7 +27,7 @@ Maak een nieuw hoofdstuk in je document met de titel **"Producten"**. Hier voeg 
 
 - **Titel van het product**
 - **Omschrijving:** Minimaal 1 paragraaf waarin je het product of de dienst beschrijft.
-- **Specificaties:** Een opsomming (minstens 5 puntjes) van de belangrijkste kenmerken van het product of de dienst.
+- **Specificaties:** 6 kenmerken van het product of de dienst, telkens met een label en een waarde (bv. _Materiaal: eikenhout_).
 
 > **Tip:** Denk goed na over de voordelen van je producten/diensten en probeer deze duidelijk te maken in je omschrijving. Maak het de bezoeker makkelijk om te begrijpen waarom ze jouw product moeten kiezen.
 

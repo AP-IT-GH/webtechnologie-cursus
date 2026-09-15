@@ -1,13 +1,8 @@
 # Deelopdracht 2 - Mobiele website met HTML en CSS
 
-<figure>
-  <img src="homepage-mobile.png" alt="homepage on mobile device" width="200"/>
-  <figcaption>Tijdens deze deelopdracht werk je je webshop uit op een mobiel apparaat</figcaption>
-</figure>
+Lees voor je begint zeker de [algemene info](info.md) door. Hier vind je alle informatie over de projectopdracht, de deelopdrachten en de wireframes.
 
-Lees voor je begint zeker de [algemene info](info.md) door. Hier vind je alle informatie over de projectopdracht, de deelopdrachten en de designs.
-
-In deze deelopdracht ga je de **mobiele** webpagina's van de webshop bouwen. Zorg ervoor dat je browservenster is ingesteld als een gangbaar smartphone scherm en voer de stappen in dit document uit. Volg hierbij altijd de [designs](info.md#designs), maar pas deze ontwerpen tijdens het implementeren aan op basis van de styleguide die je hebt geschreven tijdens [deelopdracht 1](deelopdracht-1-concept-content.md).
+In deze deelopdracht ga je de **mobiele** webpagina's van de webshop bouwen. Zorg ervoor dat je browservenster is ingesteld als een gangbaar smartphone scherm en voer de stappen in dit document uit. Volg hierbij altijd de [mobiele wireframes](info.md#wireframes): die tonen welke elementen er op elke pagina staan en in welke volgorde. Kleuren, lettertype en content haal je uit de styleguide die je hebt geschreven tijdens [deelopdracht 1](deelopdracht-1-concept-content.md).
 
 ---
 
@@ -62,8 +57,8 @@ Link elke HTML-pagina met de juiste CSS-bestanden. `index.html` heeft bijvoorbee
 Elke pagina moet dezelfde algemene elementen bevatten:
 
 - Typografie: lettertype, font-size, headings (h1, h2, h3, ...)
-- Een header met een logo
-- Navigatie in de header met links naar de andere pagina's
+- Een header met je logo in een `h1`. Het logo is de enige `h1` op elke pagina; de titel van de pagina zelf is telkens een `h2`.
+- Navigatie in de header met links naar de andere pagina's. Gebruik flexbox om het logo en de navigatie naast elkaar te plaatsen.
 - Een footer
 
 > **TIPS**:
@@ -76,33 +71,49 @@ Elke pagina moet dezelfde algemene elementen bevatten:
 
 ### `index.html` — de homepage
 
-- Naam van de webshop in een `h1`.
-- Algemene uitleg over je webshop, zoals beschreven in je styleguide uit deelopdracht 1.
-- Een CTA (call-to-action) knop die linkt naar de shop (tip: style de `a`-tag met CSS als een button).
-- Kaartjes met de 3 best verkochte producten (gebruik een `article` per kaartje):
-  - Gebruik de CSS-property `background-image` om de foto op de achtergrond te plaatsen.
-  - Voeg met flexbox een kadertje toe in het kaartje met de titel en de korte beschrijving.
-- Een "bio"-kaartje met:
-  - Een professionele foto van jezelf (gebruik negatieve padding of margin om de foto wat naar boven te duwen zodat deze bovenaan uitsteekt).
-  - Een korte uitleg of bio van jezelf.
+<figure><img src="wireframes/mobile-home.png" alt="Mobiele wireframe van de homepage" width="300"><figcaption>Mobiele wireframe van de homepage</figcaption></figure>
+
+- Een intro met:
+  - Een klein label (_eyebrow tag_) boven de titel, bv. een korte slogan of de categorie van je webshop.
+  - Een titel in een `h2`, bv. de slogan van je webshop.
+  - Algemene uitleg over je webshop, zoals beschreven in je styleguide uit deelopdracht 1.
+  - Een CTA (call-to-action) knop die linkt naar de shop (tip: style de `a`-tag met CSS als een button).
+- Een sectie met de 3 best verkochte producten:
+  - Een `h2` titel, met rechts ervan een korte voetnoot (bv. _meest verkocht deze maand_).
+  - Een kaartje per product (gebruik een `article` per kaartje), onder elkaar geplaatst.
+  - Links in het kaartje staat een vierkante productfoto. Gebruik de CSS-property `background-image` om de foto te plaatsen.
+  - Rechts van de foto staan de titel en de prijs naast elkaar, met daaronder een korte beschrijving. Gebruik flexbox om de foto en de tekst naast elkaar te zetten.
+  - Het kaartje linkt naar de detailpagina van het product.
+- Een "bio"-sectie met een eigen achtergrondkleur, met:
+  - Een ronde, professionele foto van jezelf, met ernaast je naam en een korte ondertitel (bv. je rol in de webshop). Gebruik flexbox om de foto en je naam naast elkaar te plaatsen.
+  - Daaronder een korte uitleg of bio van jezelf.
 
 ### `shop.html` — het overzicht van alle producten
 
-- Een `h2` titel.
-- Een `aside` voor de wishlist en voor de shopping cart. Deze mogen in deze fase nog leeg zijn.
-- 6 productkaartjes (gebruik een `article` per kaartje), onder elkaar geplaatst, met elk:
-  - Een titel (`h3`).
-  - Een korte beschrijving, gebaseerd op de productbeschrijving uit deelopdracht 1.
+<figure><img src="wireframes/mobile-shop.png" alt="Mobiele wireframe van de shoppagina" width="300"><figcaption>Mobiele wireframe van de shoppagina</figcaption></figure>
+
+- Een klein label (_eyebrow tag_) en een `h2` titel.
+- Een `aside` met het winkelmandje en de wishlist, elk met een `h3` titel. De inhoud mag in deze fase nog leeg zijn: de functionaliteit volgt in [deelopdracht 5](deelopdracht-5-winkelmandje-wishlist.md).
+- Een `h3` titel boven de productlijst, met daaronder 6 productkaartjes (gebruik een `article` per kaartje), onder elkaar geplaatst, met elk:
   - Een foto van het product (gebruik `background-image`).
-  - Een button om het product toe te voegen aan je winkelmandje (moet nog niet werken).
+  - Een titel (`h4`) met de prijs ernaast.
+  - Een korte beschrijving, gebaseerd op de productbeschrijving uit deelopdracht 1.
+  - Onderaan een button met een hartje om het product toe te voegen aan je wishlist, en een button om het product toe te voegen aan je winkelmandje (moeten nog niet werken).
 
 ### 6 detailpagina's — één per product
 
-- Een titel.
-- Een beschrijving.
-- Een afbeelding in een `figure`, met de bronvermelding in de `figcaption`.
-- Een opsomming met minstens 5 productspecificaties.
-- Een button om het product toe te voegen aan je wishlist.
+<figure><img src="wireframes/mobile-product-detail.png" alt="Mobiele wireframe van een productdetailpagina" width="300"><figcaption>Mobiele wireframe van een productdetailpagina</figcaption></figure>
+
+- Bovenaan een link terug naar de shop (bv. _← Terug naar de shop_).
+- Een klein label (_badge_), bv. de categorie van het product.
+- De titel van het product in een `h2`, met de prijs ernaast.
+- Een afbeelding in een `figure`, met de bronvermelding cursief in de `figcaption`.
+- Een `h3` titel (bv. _Het verhaal_) met daaronder een uitgebreide beschrijving van het product.
+- Een `h3` titel (bv. _Specificaties_) met daaronder een tabel (`table`) met 6 productspecificaties: één rij per specificatie, met links het label en rechts de waarde (bv. _Materiaal_ | _Eikenhout_).
+- Onderaan, naast elkaar:
+  - Een button met een hartje om het product toe te voegen aan je wishlist.
+  - Een button om het product toe te voegen aan je winkelmandje.
+  - Deze twee buttons hoeven niet te werken, ook niet in latere deelopdrachten.
 
 > **TIP**:
 > Werk 1 detailpagina volledig uit, en kopieer deze naar de andere 5 detailpagina's als je helemaal klaar bent. Pas enkel de content aan (titel, beschrijving, afbeelding, specificaties).

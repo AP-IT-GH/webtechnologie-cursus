@@ -9,13 +9,11 @@ Je bouwt dit semester een volledige, **responsieve webshop** voor een fictieve o
 
 Je doet dat niet in één keer. Het project is opgesplitst in **7 deelopdrachten** die op elkaar voortbouwen, verspreid over het semester. Je begint met een concept en wat teksten, en je eindigt met een webshop die echt werkt. Op het einde presenteer je je resultaat.
 
-<figure><img src="homepage-desktop.jpg" alt="De homepage van de webshop op een desktopscherm"><figcaption>Dit bouw je: de homepage van je eigen webshop</figcaption></figure>
-
 {% hint style="info" %}
 **In het kort**
 
 * Je werkt in een **private** repository onder de GitHub-organisatie van dit vak.
-* Je volgt de **Figma-designs**. Enkel kleuren, lettertype en content kies je zelf.
+* Je volgt de **wireframes** voor mobiel en desktop. Kleuren, lettertype en content kies je zelf.
 * Er zijn **drie harde deadlines**: deel 3 (12/03), deel 5 (06/05) en de finale inzending (24/05).
 * Je dient in via **Digitap**, met de link naar je repository.
 * Je **commit regelmatig**: minstens één commit per deelopdracht.
@@ -23,19 +21,63 @@ Je doet dat niet in één keer. Het project is opgesplitst in **7 deelopdrachten
 
 ***
 
-## Designs
+## Wireframes
 
-Wanneer je een website bouwt, vertrek je meestal vanaf een design. Vaak heeft een designer dat gemaakt in een tool zoals Figma of Adobe XD. Als developer zet jij dat design om naar een werkende website. Dat is precies wat je hier doet.
+Wanneer je een website bouwt, vertrek je meestal vanaf een design. Vaak begint dat met **wireframes**: eenvoudige schetsen die tonen welke elementen er op een pagina staan en hoe ze geordend zijn, zonder kleuren, lettertypes of echte content. Als developer zet jij die wireframes om naar een werkende website. Dat is precies wat je hier doet.
 
-De designs staan klaar voor je op deze [Figma Community Page](https://www.figma.com/community/file/1476954261247826487).
+Voor elke pagina van je webshop is er een **mobiele** en een **desktop**-wireframe. Zo lees je ze:
 
-* Klik op **"Open in Figma"** en maak een account aan.
-* De file bestaat uit 2 pagina's: de **mobile** en de **desktop** designs.
+* **Grijze balken** zijn tijdelijke tekst. Die vervang je door je eigen content uit [deelopdracht 1](deelopdracht-1-concept-content.md).
+* **Kaders met een kruis** zijn afbeeldingen.
+* **Blauwe elementen** zijn accenten, zoals tags, prijzen en de actieve link in de navigatie. Die krijgen de accentkleur uit je styleguide.
+* **Stippellijnen** tonen een alternatieve toestand, bv. de bevestiging die verschijnt nadat je een formulier hebt verstuurd.
+* **Kleine grijze notities** (bv. _↑ page H2_) zijn uitleg bij de wireframe en horen niet op je pagina.
+* Engelse labels zoals _Add to Cart_ zijn voorbeelden. Alle teksten op je webshop schrijf je [in het Nederlands](#copywriting-tips).
 
-Je past aan de designs **enkel** het kleurgebruik, het lettertype en de content aan, zoals je die vastlegt in [deelopdracht 1](deelopdracht-1-concept-content.md).
+### Mobiel
+
+{% tabs %}
+{% tab title="Home" %}
+<figure><img src="wireframes/mobile-home.png" alt="Mobiele wireframe van de homepage" width="300"><figcaption>Homepage: hero, bestsellers en bio</figcaption></figure>
+{% endtab %}
+
+{% tab title="Shop" %}
+<figure><img src="wireframes/mobile-shop.png" alt="Mobiele wireframe van de shoppagina" width="300"><figcaption>Shop: winkelmandje, wishlist en alle producten</figcaption></figure>
+{% endtab %}
+
+{% tab title="Productdetail" %}
+<figure><img src="wireframes/mobile-product-detail.png" alt="Mobiele wireframe van een productdetailpagina" width="300"><figcaption>Productdetail: foto, beschrijving, specificaties en knoppen</figcaption></figure>
+{% endtab %}
+
+{% tab title="Contact" %}
+<figure><img src="wireframes/mobile-contact.png" alt="Mobiele wireframe van de contactpagina" width="300"><figcaption>Contact: kaart, contactformulier en bevestiging</figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
+### Desktop
+
+{% tabs %}
+{% tab title="Home" %}
+<figure><img src="wireframes/desktop-home.png" alt="Desktop-wireframe van de homepage"><figcaption>Homepage: intro en bio links, bestsellers rechts</figcaption></figure>
+{% endtab %}
+
+{% tab title="Shop" %}
+<figure><img src="wireframes/desktop-shop.png" alt="Desktop-wireframe van de shoppagina"><figcaption>Shop: producten in een raster, winkelmandje en wishlist rechts</figcaption></figure>
+{% endtab %}
+
+{% tab title="Productdetail" %}
+<figure><img src="wireframes/desktop-product-detail.png" alt="Desktop-wireframe van een productdetailpagina"><figcaption>Productdetail: foto links, tekst en specificaties rechts</figcaption></figure>
+{% endtab %}
+
+{% tab title="Contact" %}
+<figure><img src="wireframes/desktop-contact.png" alt="Desktop-wireframe van de contactpagina"><figcaption>Contact: kaart links, contactformulier rechts</figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
+Je vindt elke wireframe ook terug bij de deelopdracht waarin je die pagina bouwt: de mobiele versies in [deelopdracht 2](deelopdracht-2-opbouw-html-css.md), de desktopversies in [deelopdracht 3](deelopdracht-3-development-responsive.md), en de contactpagina in [deelopdracht 4](deelopdracht-4-contact-page-formulier.md).
 
 {% hint style="warning" %}
-Hou je zo strikt mogelijk aan de afgeleverde designs (buiten kleuren, lettertype en content). Hoe goed jij de designs hebt omgezet naar HTML en CSS bepaalt een groot deel van je eindscore, zie [Evaluatie](evaluatie.md).
+Hou je zo strikt mogelijk aan de opbouw van de wireframes: welke elementen er op een pagina staan en in welke volgorde. Hoe goed jij de wireframes hebt omgezet naar HTML en CSS bepaalt een groot deel van je eindscore, zie [Evaluatie](evaluatie.md).
 {% endhint %}
 
 ### Mobile-first

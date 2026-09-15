@@ -1,35 +1,49 @@
 # Deelopdracht 3 - Development responsive webshop
 
-In deze deelopdracht werken we de desktopversie van het design in Figma – aangepast aan jouw styleguide uit opdracht 1 – uit. Gebruik "min-width" in je media-queries en behoud zo de _mobile-first_ aanpak. Zorg ervoor dat je jouw site minstens optimaliseert voor smartphones en desktops. Tablets zijn geen must.
+In deze deelopdracht werken we de desktopversie van je webshop uit. Volg daarbij de [desktop-wireframes](info.md#wireframes) die je hieronder per pagina vindt. Kleuren, lettertype en content blijven die uit je styleguide van deelopdracht 1. Gebruik "min-width" in je media-queries en behoud zo de _mobile-first_ aanpak. Zorg ervoor dat je jouw site minstens optimaliseert voor smartphones en desktops. Tablets zijn geen must.
 
 {% hint style="info" %}
 Indien je in opdracht 1 geen gebruik hebt gemaakt van flexbox of grid voor lay-out, zul je dit wat moeten herwerken. Zorg daarbij dat je site er nog steeds goed uitziet op mobiel.
 {% endhint %}
 
-Beperk de maximum breedte van de body tot 1440px en zorg ervoor dat deze gecentreerd staat op het scherm.
+Beperk de maximum breedte van de body tot 1280px en zorg ervoor dat deze gecentreerd staat op het scherm.
+
+{% hint style="warning" %}
+In de desktop-wireframes staan notities zoals _column sticks on scroll_. Die mag je negeren: niets op je webshop blijft vastplakken tijdens het scrollen. Gebruik nergens `position: sticky`.
+{% endhint %}
 
 Zorg ervoor dat je jouw webshop test op verschillende schermgroottes.
-
-## Overzicht van algemene veranderingen
-
-- Horizontale layout van de header: het logo, de navigatie en de zoekbalk komen horizontaal naast elkaar te staan. Gebruik hiervoor flexbox in combinatie met een media-query.
 
 ## Overzicht van veranderingen per pagina
 
 De volgende zaken zullen er anders uitzien op desktop ten opzichte van mobiel:
 
-* index.html:
-  - Plaats de 3 meest verkochte items in een grid zoals in het wireframe. Zorg ervoor dat op mobiel de 3 elementen onder elkaar komen.
-  - Het kaartje met de foto en uitleg van de auteur is nu horizontaal gepositioneerd.
-  - De algemene lay-out verandert: de meest verkochte items staan nu rechts van de introductie en het auteurkaartje.
+### `index.html`
 
-* shop.html:
-  - Zet de 6 producttegels in een flexbox. Zorg ervoor dat de beschikbare schermbreedte zo optimaal mogelijk benut wordt.
-  - Beperk het maximum aantal producttegels op 1 rij tot 3, zoals in het wireframe. Reken daarvoor de ideale flex-basis uit.
-  - Zet de productlijst en de shopping cart + wishlist in een flexbox. Deze mogen langs elkaar komen als er voldoende ruimte is.
+<figure><img src="wireframes/desktop-home.png" alt="Desktop-wireframe van de homepage"><figcaption>Desktop-wireframe van de homepage</figcaption></figure>
 
-* de 6 detailpagina's:
-  - De afbeelding en de tekst worden horizontaal naast elkaar geplaatst in plaats van onder elkaar. Gebruik daarvoor flexbox of grid in combinatie met een media-query.
+- De algemene lay-out verandert: de pagina bestaat nu uit twee kolommen. Links staan de introductie en het bio-kaartje, rechts de best verkochte producten.
+- Het bio-kaartje staat onder de introductie en krijgt een rand.
+- Plaats de 3 meest verkochte items in een grid: één breed kaartje bovenaan, en twee even brede kaartjes eronder. Zorg ervoor dat op mobiel de 3 elementen onder elkaar komen.
+- Op desktop staan de titel en de korte beschrijving over de foto van het kaartje, in plaats van ernaast. Het brede kaartje krijgt ook een klein label (_badge_).
 
-* contact.html:
-  - Deze pagina hoeft voorlopig nog niet uitgewerkt te worden. Dit volgt in de volgende deelopdracht.
+### `shop.html`
+
+<figure><img src="wireframes/desktop-shop.png" alt="Desktop-wireframe van de shoppagina"><figcaption>Desktop-wireframe van de shoppagina</figcaption></figure>
+
+- Zet de 6 producttegels in een flexbox. Zorg ervoor dat de beschikbare schermbreedte zo optimaal mogelijk benut wordt.
+- Beperk het maximum aantal producttegels op 1 rij tot 3. Reken daarvoor de ideale flex-basis uit.
+- Op desktop staat de foto boven de titel en de beschrijving, in plaats van ernaast.
+- Zet de productlijst en de shopping cart + wishlist in een flexbox. Het winkelmandje en de wishlist komen in een smallere kolom rechts van de productlijst te staan als er voldoende ruimte is.
+
+### De 6 detailpagina's
+
+<figure><img src="wireframes/desktop-product-detail.png" alt="Desktop-wireframe van een productdetailpagina"><figcaption>Desktop-wireframe van een productdetailpagina</figcaption></figure>
+
+- De afbeelding en de tekst worden horizontaal naast elkaar geplaatst in plaats van onder elkaar. Gebruik daarvoor flexbox of grid in combinatie met een media-query.
+- De link terug naar de shop blijft bovenaan staan, boven de twee kolommen.
+- Links staat de foto met het bijschrift. Rechts staan het label, de titel en de prijs, de beschrijving, de specificaties en de knoppen.
+
+### `contact.html`
+
+- Deze pagina hoeft voorlopig nog niet uitgewerkt te worden. Dit volgt in [deelopdracht 4](deelopdracht-4-contact-page-formulier.md).

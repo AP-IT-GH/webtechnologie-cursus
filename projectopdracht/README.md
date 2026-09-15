@@ -9,8 +9,6 @@ Doorheen dit semester bouw je je **eigen webshop**: een echte, responsieve websi
 
 Je hoeft dat niet in één keer te kunnen. Het project is opgedeeld in **7 deelopdrachten** die elk voortbouwen op de vorige, en die telkens aansluiten bij wat je op dat moment in de labo's hebt geleerd. Wat je in les leert, pas je meteen toe op je eigen shop.
 
-<figure><img src="homepage-desktop.jpg" alt="De homepage van de webshop op een desktopscherm"><figcaption>Het eindresultaat: jouw webshop, met je eigen kleuren, lettertype en producten</figcaption></figure>
-
 ## Waar begin je?
 
 1. Lees eerst de [**Projectinformatie**](info.md). Daar staat wat je bouwt, hoe je je GitHub-repository opzet, wanneer de deadlines vallen en welke regels gelden.
