@@ -1,4 +1,4 @@
-# Deelopdracht 6 - Contact page kaart
+# Deelopdracht 6 - Contact page kaart & bevestiging
 
 In deze deelopdracht werk je de contactpagina af: je vervangt de tijdelijke kaart uit [deelopdracht 4](deelopdracht-4-contact-page-formulier.md) door een echte kaart, en je toont een bevestiging wanneer iemand het contactformulier verstuurt.
 
@@ -9,7 +9,7 @@ In deze deelopdracht werk je de contactpagina af: je vervangt de tijdelijke kaar
 Om het gebruikers gemakkelijk te maken om de fysieke locatie van onze shop te vinden gaan we ook een kaartje insluiten. We gebruiken daarvoor Leaflet.
 Het kaartje moet aan de volgende zaken voldoen:
 
-* **2 locatie pointers** op 2 fictieve locaties naar keuze. Let op: de wireframe toont maar één pointer, maar jij voegt er **twee** toe.
+* **2 locatie pointers** op 2 fictieve locaties naar keuze.
 * Locatie pointers in de vorm van je webshop logo
 
 ## Bevestiging na verzenden

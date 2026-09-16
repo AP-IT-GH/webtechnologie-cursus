@@ -9,6 +9,18 @@ Je bouwt dit semester een volledige, **responsieve webshop** voor een fictieve o
 
 Je doet dat niet in één keer. Het project is opgesplitst in **7 deelopdrachten** die op elkaar voortbouwen, verspreid over het semester. Je begint met een concept en wat teksten, en je eindigt met een webshop die echt werkt. Op het einde presenteer je je resultaat.
 
+Zo kan het eruitzien. Hieronder zie je twee voorbeelden van dezelfde webshop op mobiel. Ze volgen allebei de [wireframes](#wireframes), maar elk met een eigen huisstijl. Zo zie je hoeveel ruimte je hebt met je eigen kleuren, lettertype en content.
+
+{% tabs %}
+{% tab title="Voorbeeld 1: perkament & inkt" %}
+<figure><img src="voorbeelden/voorbeeld-perkament-en-inkt.png" alt="Voorbeeldwebshop Meeple &#x26; Mist in een lichte huisstijl: homepage, shop, detailpagina en contactpagina op mobiel"><figcaption>Een lichte huisstijl met een papierwitte achtergrond, zwarte lijnen en rode accenten</figcaption></figure>
+{% endtab %}
+
+{% tab title="Voorbeeld 2: avondtafel" %}
+<figure><img src="voorbeelden/voorbeeld-avondtafel.png" alt="Voorbeeldwebshop Meeple &#x26; Mist in een donkere huisstijl: homepage, shop met open bestelpop-up, detailpagina en contactpagina op mobiel"><figcaption>Een donkere huisstijl met nachtblauw en gele accenten. Op de shoppagina staat de pop-up om de bestelling te bevestigen open.</figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
 {% hint style="info" %}
 **In het kort**
 
@@ -29,10 +41,10 @@ Voor elke pagina van je webshop is er een **mobiele** en een **desktop**-wirefra
 
 * **Grijze balken** zijn tijdelijke tekst. Die vervang je door je eigen content uit [deelopdracht 1](deelopdracht-1-concept-content.md).
 * **Kaders met een kruis** zijn afbeeldingen.
-* **Blauwe elementen** zijn accenten, zoals tags, prijzen en de actieve link in de navigatie. Die krijgen de accentkleur uit je styleguide.
+* **Blauwe elementen** zijn accenten, zoals labels, prijzen, de link terug naar de shop en de actieve link in de navigatie. Die krijgen de accentkleur uit je styleguide.
 * **Stippellijnen** tonen een alternatieve toestand, bv. de bevestiging die verschijnt nadat je een formulier hebt verstuurd.
-* **Kleine grijze notities** (bv. _↑ page H2_) zijn uitleg bij de wireframe en horen niet op je pagina.
-* Engelse labels zoals _Add to Cart_ zijn voorbeelden. Alle teksten op je webshop schrijf je [in het Nederlands](#copywriting-tips).
+* **Kleine grijze notities** (bv. _↑ H2 van de pagina_) zijn uitleg bij de wireframe en horen niet op je pagina.
+* Teksten zoals _In winkelmandje_ of _Afrekenen_ zijn voorbeelden: je mag ze aanpassen aan je eigen webshop. Alle teksten op je webshop schrijf je [in het Nederlands](#copywriting-tips).
 
 ### Mobiel
 
@@ -116,7 +128,7 @@ Weet je niet meer hoe je een repository lokaal cloont of hoe je commit vanuit Co
 | 3    | [Development responsive webshop](deelopdracht-3-development-responsive.md)       | LW5 · **12/03/2026**                | ✅                    | ✅                 |
 | 4    | [Contact page formulier](deelopdracht-4-contact-page-formulier.md)               | LW6 · 22/03/2026 (aanbevolen)       | ❌                    | ❌                 |
 | 5    | [Winkelmandje & wishlist](deelopdracht-5-winkelmandje-wishlist.md)               | LW10 · **06/05/2026**               | ✅                    | ✅                 |
-| 6    | [Contact page kaartje](deelopdracht-6-contact-page-kaart.md)                     | LW11 · 10/05/2026 (aanbevolen)      | ❌                    | ❌                 |
+| 6    | [Contact page kaart & bevestiging](deelopdracht-6-contact-page-kaart.md)         | LW11 · 10/05/2026 (aanbevolen)      | ❌                    | ❌                 |
 | 7    | [**Dynamische content (finale inzending)**](deelopdracht-7-dynamische-content.md) | LW11 · **24/05/2026**               | ✅                    | ❌                 |
 | 8    | Presentatie                                                                      | LW13 · tijdens de laatste 2 lessen  | ❌                    | ❌                 |
 

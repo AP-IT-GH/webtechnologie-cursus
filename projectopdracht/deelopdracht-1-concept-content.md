@@ -27,7 +27,10 @@ Maak een nieuw hoofdstuk in je document met de titel **"Producten"**. Hier voeg 
 
 - **Titel van het product**
 - **Omschrijving:** Minimaal 1 paragraaf waarin je het product of de dienst beschrijft.
+- **Prijs:** de prijs van het product of de dienst.
 - **Specificaties:** 6 kenmerken van het product of de dienst, telkens met een label en een waarde (bv. _Materiaal: eikenhout_).
+
+Kies daarnaast **één product of dienst** die je extra in de kijker wil zetten. Dat product krijgt op je webshop een klein label (_badge_) dat aangeeft wat er speciaal aan is, bijvoorbeeld _Verlaagde prijs_, _Uitgelicht_ of _Keuze van de redactie_. Noteer bij dat product welke tekst er op het label komt.
 
 > **Tip:** Denk goed na over de voordelen van je producten/diensten en probeer deze duidelijk te maken in je omschrijving. Maak het de bezoeker makkelijk om te begrijpen waarom ze jouw product moeten kiezen.
 
@@ -99,7 +102,7 @@ Je moet deze deelopdracht plaatsen in je **private projectrepository** onder de 
 
 - Een markdown document met de volgende secties:
     - **Situering** – de omschrijving van je webshop
-    - **Producten** – beschrijvingen van de producten of diensten + bronvermelding
+    - **Producten** – beschrijvingen, prijzen en specificaties van de producten of diensten, het label (_badge_) van het product dat je in de kijker zet + bronvermelding
     - **Auteur** – een korte professionele bio
     - **Styleguide** – het gekozen kleurenpalet en lettertype
 - Een **map** genaamd `assets/` met daarin de bijgesneden productafbeeldingen

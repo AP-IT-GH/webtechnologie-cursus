@@ -141,7 +141,7 @@
   * [3. Development responsive webshop](projectopdracht/deelopdracht-3-development-responsive.md)
   * [4. Contact page — contact formulier](projectopdracht/deelopdracht-4-contact-page-formulier.md)
   * [5. Winkelmandje & wishlist](projectopdracht/deelopdracht-5-winkelmandje-wishlist.md)
-  * [6. Contact page — kaartje](projectopdracht/deelopdracht-6-contact-page-kaart.md)
+  * [6. Contact page — kaart & bevestiging](projectopdracht/deelopdracht-6-contact-page-kaart.md)
   * [7. Dynamische content](projectopdracht/deelopdracht-7-dynamische-content.md)
 
 ## Bronnen

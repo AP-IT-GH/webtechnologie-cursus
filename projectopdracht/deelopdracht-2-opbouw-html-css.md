@@ -79,11 +79,12 @@ Elke pagina moet dezelfde algemene elementen bevatten:
   - Algemene uitleg over je webshop, zoals beschreven in je styleguide uit deelopdracht 1.
   - Een CTA (call-to-action) knop die linkt naar de shop (tip: style de `a`-tag met CSS als een button).
 - Een sectie met de 3 best verkochte producten:
-  - Een `h2` titel, met rechts ervan een korte voetnoot (bv. _meest verkocht deze maand_).
+  - Een `h2` titel.
   - Een kaartje per product (gebruik een `article` per kaartje), onder elkaar geplaatst.
   - Links in het kaartje staat een vierkante productfoto. Gebruik de CSS-property `background-image` om de foto te plaatsen.
   - Rechts van de foto staan de titel en de prijs naast elkaar, met daaronder een korte beschrijving. Gebruik flexbox om de foto en de tekst naast elkaar te zetten.
   - Het kaartje linkt naar de detailpagina van het product.
+  - Op mobiel krijgen deze kaartjes nog geen label (_badge_). Dat komt er pas bij in de desktopversie, zie [deelopdracht 3](deelopdracht-3-development-responsive.md).
 - Een "bio"-sectie met een eigen achtergrondkleur, met:
   - Een ronde, professionele foto van jezelf, met ernaast je naam en een korte ondertitel (bv. je rol in de webshop). Gebruik flexbox om de foto en je naam naast elkaar te plaatsen.
   - Daaronder een korte uitleg of bio van jezelf.
@@ -98,22 +99,19 @@ Elke pagina moet dezelfde algemene elementen bevatten:
   - Een foto van het product (gebruik `background-image`).
   - Een titel (`h4`) met de prijs ernaast.
   - Een korte beschrijving, gebaseerd op de productbeschrijving uit deelopdracht 1.
-  - Onderaan een button met een hartje om het product toe te voegen aan je wishlist, en een button om het product toe te voegen aan je winkelmandje (moeten nog niet werken).
+  - Onderaan een button met een hartje om het product toe te voegen aan je wishlist, en een button "In winkelmandje" om het product toe te voegen aan je winkelmandje (moeten nog niet werken).
 
 ### 6 detailpagina's — één per product
 
 <figure><img src="wireframes/mobile-product-detail.png" alt="Mobiele wireframe van een productdetailpagina" width="300"><figcaption>Mobiele wireframe van een productdetailpagina</figcaption></figure>
 
 - Bovenaan een link terug naar de shop (bv. _← Terug naar de shop_).
-- Een klein label (_badge_), bv. de categorie van het product.
+- Enkel op de detailpagina van het product dat je in [deelopdracht 1](deelopdracht-1-concept-content.md) in de kijker zette: een klein label (_badge_) met de tekst die je daar koos, bv. _Uitgelicht_.
 - De titel van het product in een `h2`, met de prijs ernaast.
 - Een afbeelding in een `figure`, met de bronvermelding cursief in de `figcaption`.
 - Een `h3` titel (bv. _Het verhaal_) met daaronder een uitgebreide beschrijving van het product.
 - Een `h3` titel (bv. _Specificaties_) met daaronder een tabel (`table`) met 6 productspecificaties: één rij per specificatie, met links het label en rechts de waarde (bv. _Materiaal_ | _Eikenhout_).
-- Onderaan, naast elkaar:
-  - Een button met een hartje om het product toe te voegen aan je wishlist.
-  - Een button om het product toe te voegen aan je winkelmandje.
-  - Deze twee buttons hoeven niet te werken, ook niet in latere deelopdrachten.
+- Op de detailpagina staan **geen** buttons voor de wishlist of het winkelmandje: producten toevoegen doe je enkel in de shop.
 
 > **TIP**:
 > Werk 1 detailpagina volledig uit, en kopieer deze naar de andere 5 detailpagina's als je helemaal klaar bent. Pas enkel de content aan (titel, beschrijving, afbeelding, specificaties).

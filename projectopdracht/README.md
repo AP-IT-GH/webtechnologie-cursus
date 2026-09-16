@@ -9,6 +9,10 @@ Doorheen dit semester bouw je je **eigen webshop**: een echte, responsieve websi
 
 Je hoeft dat niet in één keer te kunnen. Het project is opgedeeld in **7 deelopdrachten** die elk voortbouwen op de vorige, en die telkens aansluiten bij wat je op dat moment in de labo's hebt geleerd. Wat je in les leert, pas je meteen toe op je eigen shop.
 
+<figure><img src="voorbeelden/voorbeeld-perkament-en-inkt.png" alt="Voorbeeldwebshop Meeple &#x26; Mist op mobiel: homepage, shop, detailpagina en contactpagina"><figcaption>Zo kan jouw webshop eruitzien: een voorbeeld op mobiel, met een eigen huisstijl bovenop de wireframes</figcaption></figure>
+
+Een tweede voorbeeld, in een donkere huisstijl, vind je in de [Projectinformatie](info.md).
+
 ## Waar begin je?
 
 1. Lees eerst de [**Projectinformatie**](info.md). Daar staat wat je bouwt, hoe je je GitHub-repository opzet, wanneer de deadlines vallen en welke regels gelden.
@@ -24,7 +28,7 @@ Je hoeft dat niet in één keer te kunnen. Het project is opgedeeld in **7 deelo
 | 3    | [Development responsive webshop](deelopdracht-3-development-responsive.md)       | LW5 · **12/03/2026**           |
 | 4    | [Contact page — formulier](deelopdracht-4-contact-page-formulier.md)             | LW6 · 22/03/2026 (aanbevolen)  |
 | 5    | [Winkelmandje & wishlist](deelopdracht-5-winkelmandje-wishlist.md)               | LW10 · **06/05/2026**          |
-| 6    | [Contact page — kaartje](deelopdracht-6-contact-page-kaart.md)                   | LW11 · 10/05/2026 (aanbevolen) |
+| 6    | [Contact page — kaart & bevestiging](deelopdracht-6-contact-page-kaart.md)       | LW11 · 10/05/2026 (aanbevolen) |
 | 7    | [Dynamische content (finale inzending)](deelopdracht-7-dynamische-content.md)    | LW11 · **24/05/2026**          |
 
 De **vetgedrukte deadlines zijn hard** en moeten via Digitap ingediend worden. Het project wordt afgesloten met een presentatie in lesweek 13. Alle details vind je in de [Projectinformatie](info.md).

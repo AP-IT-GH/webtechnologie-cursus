@@ -9,7 +9,7 @@ Indien je in opdracht 1 geen gebruik hebt gemaakt van flexbox of grid voor lay-o
 Beperk de maximum breedte van de body tot 1280px en zorg ervoor dat deze gecentreerd staat op het scherm.
 
 {% hint style="warning" %}
-In de desktop-wireframes staan notities zoals _column sticks on scroll_. Die mag je negeren: niets op je webshop blijft vastplakken tijdens het scrollen. Gebruik nergens `position: sticky`.
+Niets op je webshop blijft vastplakken tijdens het scrollen: gebruik nergens `position: sticky`.
 {% endhint %}
 
 Zorg ervoor dat je jouw webshop test op verschillende schermgroottes.
@@ -25,7 +25,7 @@ De volgende zaken zullen er anders uitzien op desktop ten opzichte van mobiel:
 - De algemene lay-out verandert: de pagina bestaat nu uit twee kolommen. Links staan de introductie en het bio-kaartje, rechts de best verkochte producten.
 - Het bio-kaartje staat onder de introductie en krijgt een rand.
 - Plaats de 3 meest verkochte items in een grid: één breed kaartje bovenaan, en twee even brede kaartjes eronder. Zorg ervoor dat op mobiel de 3 elementen onder elkaar komen.
-- Op desktop staan de titel en de korte beschrijving over de foto van het kaartje, in plaats van ernaast. Het brede kaartje krijgt ook een klein label (_badge_).
+- Op desktop staan de titel en de korte beschrijving over de foto van het kaartje, in plaats van ernaast. Zet in het brede kaartje het product dat je in deelopdracht 1 in de kijker zette, met zijn label (_badge_) erbij.
 
 ### `shop.html`
 
@@ -42,7 +42,7 @@ De volgende zaken zullen er anders uitzien op desktop ten opzichte van mobiel:
 
 - De afbeelding en de tekst worden horizontaal naast elkaar geplaatst in plaats van onder elkaar. Gebruik daarvoor flexbox of grid in combinatie met een media-query.
 - De link terug naar de shop blijft bovenaan staan, boven de twee kolommen.
-- Links staat de foto met het bijschrift. Rechts staan het label, de titel en de prijs, de beschrijving, de specificaties en de knoppen.
+- Links staat de foto met het bijschrift. Rechts staan het label, de titel en de prijs, de beschrijving en de specificaties.
 
 ### `contact.html`
 

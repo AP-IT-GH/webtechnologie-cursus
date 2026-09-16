@@ -1,10 +1,10 @@
 # Deelopdracht 5 - Winkelmandje en Wishlist
 
-In deze opdracht ga je de functionaliteit van de knoppen "Add to Cart" (toevoegen aan winkelmandje) en "Wishlist" (hartje) implementeren, zodat gebruikers items kunnen toevoegen aan hun winkelmandje en verlanglijstje. Dit doe je enkel op de shoppagina: de knoppen op de detailpagina's hoeven niet te werken. Je webshop moet een interactief geheel worden waarin de geselecteerde items in de juiste lijsten worden opgeslagen en weergegeven.
+In deze opdracht ga je de functionaliteit van de knop "In winkelmandje" en van het hartje (wishlist) implementeren, zodat gebruikers items kunnen toevoegen aan hun winkelmandje en verlanglijstje. Dat gebeurt enkel op de shoppagina: op de detailpagina's staan geen knoppen om iets toe te voegen. Je webshop moet een interactief geheel worden waarin de geselecteerde items in de juiste lijsten worden opgeslagen en weergegeven.
 
 <figure><img src="wireframes/mobile-shop.png" alt="Mobiele wireframe van de shoppagina" width="300"><figcaption>Het winkelmandje en de wishlist staan bovenaan de shoppagina</figcaption></figure>
 
-![Productkaartje met een hartje en een "Add to Cart"-knop](wireframes/mobile-shop-product-card.png)
+![Productkaartje met een hartje en een teller voor het aantal](wireframes/mobile-shop-product-card.png)
 
 Zorg ervoor dat je eerst de basisfunctionaliteit opzet. Pas wanneer alles goed werkt, kun je de extra functies (bonus-features) toevoegen.
 
@@ -19,13 +19,14 @@ Zorg ervoor dat je eerst de basisfunctionaliteit opzet. Pas wanneer alles goed w
 Het winkelmandje is de lijst met producten die de gebruiker heeft toegevoegd om te kopen. Het staat bovenaan de shoppagina. Hier zijn de vereiste functionaliteiten:
 
 #### Must-have functionaliteiten:
-- **Product toevoegen aan winkelmandje**: Wanneer een gebruiker op de "Add to Cart" knop klikt, moet het desbetreffende product (met een kleine afbeelding, naam en prijs) worden toegevoegd aan het winkelmandje.
+- **Product toevoegen aan winkelmandje**: Wanneer een gebruiker op de knop "In winkelmandje" klikt, moet het desbetreffende product (met een kleine afbeelding, naam en prijs) worden toegevoegd aan het winkelmandje.
+- **Teller op het productkaartje**: Na het toevoegen verandert de knop "In winkelmandje" in een teller met een −-knop, het aantal en een +-knop. Met + voeg je nog een exemplaar toe, met − haal je er een weg. Zakt de teller naar 0, dan verdwijnt het product uit het winkelmandje en verschijnt de knop "In winkelmandje" opnieuw.
+- **Aantal per product**: In het winkelmandje staat elk product maar één keer, met het aantal exemplaren ernaast (bv. ×3). Het subtotaal houdt rekening met dat aantal.
 - **Aantal producten**: Naast de titel van het winkelmandje staat een bolletje met het aantal producten in het winkelmandje. Dit aantal moet automatisch worden bijgewerkt telkens wanneer er een item wordt toegevoegd of verwijderd.
-- **Subtotaal bijwerken**: Het subtotaal onderaan het winkelmandje moet automatisch worden geüpdatet telkens wanneer er een item wordt toegevoegd.
-- **Verwijderen van producten**: Naast elk item in het winkelmandje staat een klein ×-knopje. Dit stelt de gebruiker in staat om individuele items uit het winkelmandje te verwijderen. Ook hier moet het subtotaal automatisch worden aangepast.
-- **Aantal van hetzelfde product**: Als een gebruiker hetzelfde item meerdere keren toevoegt aan het winkelmandje, moeten de items worden samengevoegd. De naam van het product moet het aantal weergeven, bijvoorbeeld: "Wand Of Smiles (3)", en de prijs per stuk en het subtotaal moeten correct worden aangepast.
+- **Subtotaal bijwerken**: Het subtotaal onderaan het winkelmandje moet automatisch worden geüpdatet telkens wanneer er een item wordt toegevoegd of verwijderd.
+- **Verwijderen van producten**: Naast elk product in het winkelmandje staat een klein ×-knopje. Een klik erop verwijdert de volledige regel, met alle exemplaren van dat product, uit het winkelmandje. Het subtotaal wordt automatisch aangepast, en op het productkaartje verschijnt opnieuw de knop "In winkelmandje".
 - **Leeg winkelmandje**: Zit er niets in het winkelmandje? Toon dan in plaats van de items één regel tekst, bv. "Je winkelmandje is leeg."
-- **Checkout-knop**: Onder het subtotaal staat een checkout-knop. Die opent de checkout-pop-up, zie onderdeel 3 hieronder.
+- **Knop "Afrekenen"**: Onder het subtotaal staat een knop "Afrekenen". Die opent de pop-up om de bestelling te bevestigen, zie onderdeel 3 hieronder.
 
 #### Bonus-features:
 - **Opsplitsing van de totaalprijs**: Toon de netto-prijs, de BTW (21% van de netto-prijs) en de totaalprijs. De prijs per stuk moet inclusief BTW zijn.
@@ -50,14 +51,14 @@ De wishlist is een lijst van producten die de gebruiker graag zou willen kopen, 
 
 ---
 
-### 3. **Checkout (verplichte extra)**
+### 3. **Afrekenen (verplichte extra)**
 
-<figure><img src="wireframes/desktop-shop.png" alt="Desktop-wireframe van de shoppagina met de checkout-pop-up"><figcaption>De checkout-pop-up staat rechtsonder in de desktop-wireframe van de shoppagina</figcaption></figure>
+<figure><img src="wireframes/desktop-shop.png" alt="Desktop-wireframe van de shoppagina met de pop-up om de bestelling te bevestigen"><figcaption>De pop-up "Bestelling bevestigen" staat rechtsonder in de desktop-wireframe van de shoppagina</figcaption></figure>
 
 Dit onderdeel is een extra, maar het is **niet optioneel**: je moet het implementeren.
 
-- **Checkout-pop-up**: Een klik op de checkout-knop opent een pop-up (_modal_) met de titel "Bestelling bevestigen" en een ×-knopje om de pop-up te sluiten.
-- **Overzicht**: In de pop-up staat een overzicht van de producten in het winkelmandje (naam en prijs), met daaronder de totaalprijs.
+- **Pop-up**: Een klik op de knop "Afrekenen" opent een pop-up (_modal_) met de titel "Bestelling bevestigen" en een ×-knopje om de pop-up te sluiten.
+- **Overzicht**: In de pop-up staat een overzicht van de producten in het winkelmandje (naam, aantal en prijs), met daaronder de totaalprijs.
 - **Bestelling plaatsen**: Onderaan de pop-up staat een knop "Bestelling plaatsen". Na een klik verschijnt in de pop-up een bevestiging, bv. "✓ Bestelling bevestigd". Daarna sluit de pop-up na enkele seconden automatisch (tip: gebruik `setTimeout`).
 
 ---
