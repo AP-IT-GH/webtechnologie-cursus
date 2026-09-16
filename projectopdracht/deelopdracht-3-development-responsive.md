@@ -8,10 +8,6 @@ Indien je in opdracht 1 geen gebruik hebt gemaakt van flexbox of grid voor lay-o
 
 Beperk de maximum breedte van de body tot 1280px en zorg ervoor dat deze gecentreerd staat op het scherm.
 
-{% hint style="warning" %}
-Niets op je webshop blijft vastplakken tijdens het scrollen: gebruik nergens `position: sticky`.
-{% endhint %}
-
 Zorg ervoor dat je jouw webshop test op verschillende schermgroottes.
 
 ## Overzicht van veranderingen per pagina

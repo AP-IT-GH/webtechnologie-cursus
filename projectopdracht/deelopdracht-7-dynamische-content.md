@@ -82,18 +82,6 @@ button.addEventListener("click", (e) => {
 
 ---
 
-## Bonusopdrachten (voor gevorderden)
-
-Wil je jezelf extra uitdagen of indruk maken? Dan kun je deze extra features proberen:
-
-- **ShopItems opslaan in JSON**: sla je `shopItems` array op in een `.json`-bestand en importeer het in je JavaScript. Zo pas je _separation of concerns_ beter toe.
-- **ShopItems ophalen met `fetch`**: upload het JSON-bestand naar een publieke GitHub repository en haal het op via `fetch`. Zorg voor foutafhandeling.
-- **Detailpagina’s dynamisch opbouwen**: toon een detailpagina voor elk item door het ID in de URL mee te geven (`itemDetail.html?id=2`) en laad dan het juiste item in via JavaScript.
-
-Je mag ook altijd zelf bonusfunctionaliteit verzinnen!
-
----
-
 ## Tips
 
 - Zorg dat je project **werkt** bij het indienen. Een stabiel werkend project is beter dan een project met veel features dat crasht.
