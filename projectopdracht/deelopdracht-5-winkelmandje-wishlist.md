@@ -1,79 +1,76 @@
-# Deelopdracht 5 - Winkelmandje en Wishlist
+# Deelopdracht 5 - Winkelmandje en verlanglijst
 
-In deze opdracht ga je de functionaliteit van de knop "In winkelmandje" en van het hartje (wishlist) implementeren, zodat gebruikers items kunnen toevoegen aan hun winkelmandje en verlanglijstje. Dat gebeurt enkel op de shoppagina: op de detailpagina's staan geen knoppen om iets toe te voegen. Je webshop moet een interactief geheel worden waarin de geselecteerde items in de juiste lijsten worden opgeslagen en weergegeven.
+In deze opdracht maak je de shoppagina interactief. Gebruikers kunnen producten toevoegen aan hun winkelmandje, het aantal exemplaren aanpassen, producten bewaren in hun verlanglijst en een bestelling bevestigen. Dat gebeurt enkel op de shoppagina: op de detailpagina's staan geen knoppen om iets toe te voegen.
 
-<figure><img src="wireframes/mobile-shop.png" alt="Mobiele wireframe van de shoppagina" width="300"><figcaption>Het winkelmandje en de wishlist staan bovenaan de shoppagina</figcaption></figure>
+<figure><img src="wireframes/mobile-shop.png" alt="Mobiele wireframe van de shoppagina" width="300"><figcaption>Het winkelmandje, de bevestigingsdialoog en de verlanglijst staan boven de zes producten</figcaption></figure>
 
 ![Productkaartje met een hartje en een teller voor het aantal](wireframes/mobile-shop-product-card.png)
 
-Zorg ervoor dat je eerst de basisfunctionaliteit opzet. Pas wanneer alles goed werkt, kun je de extra functies (bonus-features) toevoegen.
+{% hint style="warning" %}
+Alle elementen, toestanden en interacties die je op de wireframes ziet, zijn **verplicht**. De kleine grijze notities leggen het gedrag uit en hoef je niet letterlijk op je webshop te plaatsen. Er zijn voor deze deelopdracht geen bonus-features.
+{% endhint %}
 
 ---
 
 ## Wat moet je doen?
 
-### 1. **Winkelmandje**
+### 1. Producten toevoegen en aantallen aanpassen
+
+Elk van de zes productkaartjes bevat een hartje en een knop **In winkelmandje**.
+
+- Wanneer de gebruiker op **In winkelmandje** klikt, voeg je één exemplaar van dat product toe aan het winkelmandje.
+- Daarna verandert de knop op het productkaartje in een teller met een **−-knop**, het huidige aantal en een **+-knop**.
+- Met **+** voeg je één exemplaar toe. Met **−** verwijder je één exemplaar.
+- Zakt de teller naar 0, dan verdwijnt het product uit het winkelmandje en verschijnt op het productkaartje opnieuw de knop **In winkelmandje**.
+- De teller op het productkaartje en het aantal in het winkelmandje blijven altijd gelijk.
+
+### 2. Winkelmandje
 
 ![Wireframe van het winkelmandje](wireframes/mobile-shop-cart.png)
 
-Het winkelmandje is de lijst met producten die de gebruiker heeft toegevoegd om te kopen. Het staat bovenaan de shoppagina. Hier zijn de vereiste functionaliteiten:
+Het winkelmandje staat bovenaan de mobiele shoppagina en rechts van de producten op desktop.
 
-#### Must-have functionaliteiten:
-- **Product toevoegen aan winkelmandje**: Wanneer een gebruiker op de knop "In winkelmandje" klikt, moet het desbetreffende product (met een kleine afbeelding, naam en prijs) worden toegevoegd aan het winkelmandje.
-- **Teller op het productkaartje**: Na het toevoegen verandert de knop "In winkelmandje" in een teller met een −-knop, het aantal en een +-knop. Met + voeg je nog een exemplaar toe, met − haal je er een weg. Zakt de teller naar 0, dan verdwijnt het product uit het winkelmandje en verschijnt de knop "In winkelmandje" opnieuw.
-- **Aantal per product**: In het winkelmandje staat elk product maar één keer, met het aantal exemplaren ernaast (bv. ×3). Het subtotaal houdt rekening met dat aantal.
-- **Aantal producten**: Naast de titel van het winkelmandje staat een bolletje met het aantal producten in het winkelmandje. Dit aantal moet automatisch worden bijgewerkt telkens wanneer er een item wordt toegevoegd of verwijderd.
-- **Subtotaal bijwerken**: Het subtotaal onderaan het winkelmandje moet automatisch worden geüpdatet telkens wanneer er een item wordt toegevoegd of verwijderd.
-- **Verwijderen van producten**: Naast elk product in het winkelmandje staat een klein ×-knopje. Een klik erop verwijdert de volledige regel, met alle exemplaren van dat product, uit het winkelmandje. Het subtotaal wordt automatisch aangepast, en op het productkaartje verschijnt opnieuw de knop "In winkelmandje".
-- **Leeg winkelmandje**: Zit er niets in het winkelmandje? Toon dan in plaats van de items één regel tekst, bv. "Je winkelmandje is leeg."
-- **Knop "Afrekenen"**: Onder het subtotaal staat een knop "Afrekenen". Die opent de pop-up om de bestelling te bevestigen, zie onderdeel 3 hieronder.
+- Elk gekozen product staat één keer in de lijst, met een kleine afbeelding, de naam, de prijs en het gekozen aantal, bijvoorbeeld ×3.
+- Het bolletje naast de titel toont het totale aantal exemplaren in het winkelmandje. Dit wordt automatisch bijgewerkt na elke wijziging.
+- Het **subtotaal** is de som van de prijs per stuk maal het gekozen aantal van elk product. Dit wordt automatisch opnieuw berekend.
+- Naast elke productregel staat een **×-knop**. Daarmee verwijder je meteen alle exemplaren van dat product. Op het bijbehorende productkaartje verschijnt opnieuw de knop **In winkelmandje**.
+- Is het winkelmandje leeg, dan vervang je de productregels door één korte melding, bijvoorbeeld "Je winkelmandje is leeg."
+- Onder het subtotaal staat de knop **Afrekenen**. Die opent de bevestigingsdialoog uit onderdeel 4.
 
-#### Bonus-features:
-- **Opsplitsing van de totaalprijs**: Toon de netto-prijs, de BTW (21% van de netto-prijs) en de totaalprijs. De prijs per stuk moet inclusief BTW zijn.
-- **Bevestigingsbericht op de shoppagina**: Wanneer een gebruiker op de shoppagina een product aan het winkelmandje toevoegt, moet er een kort bevestigingsbericht worden getoond. Dit kun je zelf ontwerpen, of gebruik maken van een externe bibliotheek zoals [Toastify](https://apvarun.github.io/toastify-js/#).
-- **Winkelmandje leegmaken**: Voeg een knop toe die de gebruiker in staat stelt om het volledige winkelmandje in één keer leeg te maken.
+### 3. Verlanglijst
 
----
+![Wireframe van de verlanglijst](wireframes/mobile-shop-wishlist.png)
 
-### 2. **Wishlist**
+De verlanglijst staat onder het winkelmandje.
 
-![Wireframe van de wishlist](wireframes/mobile-shop-wishlist.png)
+- Een klik op het hartje van een product voegt het product toe aan de verlanglijst en toont het hartje als actief of ingekleurd.
+- Het product verschijnt als een verwijderbare _chip_ met de productnaam in de verlanglijst.
+- Een tweede klik op hetzelfde hartje verwijdert het product uit de verlanglijst en maakt het hartje opnieuw leeg.
+- Elke chip heeft een **×-knop**. Daarmee verwijder je het product eveneens uit de verlanglijst en maak je het bijbehorende hartje opnieuw leeg.
+- De toestand van het hartje en de inhoud van de verlanglijst blijven altijd gelijk.
 
-De wishlist is een lijst van producten die de gebruiker graag zou willen kopen, maar nog niet aan het winkelmandje heeft toegevoegd. De wishlist is vooral handig voor gebruikers die willen rondkijken of later kopen. Het is ook waardevol voor marketingdoeleinden. De wishlist staat onder het winkelmandje op de shoppagina.
+### 4. Bestelling bevestigen
 
-#### Must-have functionaliteiten:
-- **Item toevoegen of verwijderen uit de wishlist**: Wanneer een gebruiker op het hartje-icoon klikt, moet het hartje ingekleurd worden (de toggle functionaliteit) en verschijnt het product als een _chip_ in de wishlist: een klein, afgerond label met de naam van het product. Klikt de gebruiker opnieuw, dan wordt het hartje weer leeg en verdwijnt de chip uit de wishlist.
-- **Verwijderen via de wishlist**: Elke chip heeft een klein ×-knopje. Klikt de gebruiker erop, dan verdwijnt het item uit de wishlist en wordt het hartje bij dat product weer leeg.
+<figure><img src="wireframes/desktop-shop.png" alt="Desktop-wireframe van de shoppagina met de dialoog om de bestelling te bevestigen"><figcaption>De dialoog "Bestelling bevestigen" staat rechts onderaan in de desktop-wireframe</figcaption></figure>
 
-#### Bonus-features:
-- **Bevestigingsbericht voor wishlist**: Toon een kort bevestigingsbericht wanneer een item wordt toegevoegd of verwijderd uit de wishlist.
-- **Verplaats items van wishlist naar winkelmandje**: Voeg een knop toe die alle producten in de wishlist in één keer toevoegt aan het winkelmandje.
+De knop **Afrekenen** opent een modale dialoog boven de pagina. De rest van de pagina krijgt daarbij een verduisterde achtergrond.
 
----
+- De dialoog heeft als titel **Bestelling bevestigen** en bevat een **×-knop** om hem zonder bestelling te sluiten.
+- Toon een overzicht van alle producten in het winkelmandje, met per product de naam, het aantal en de prijs.
+- Toon onder het overzicht de totale prijs van de bestelling.
+- Onderaan staat de knop **Bestelling plaatsen**.
+- Na een klik op die knop toon je in de dialoog een bevestiging, bijvoorbeeld "✓ Bestelling geplaatst".
+- Sluit de dialoog daarna automatisch. Hiervoor kun je `setTimeout` gebruiken.
 
-### 3. **Afrekenen (verplichte extra)**
+### 5. Mobiel en desktop
 
-<figure><img src="wireframes/desktop-shop.png" alt="Desktop-wireframe van de shoppagina met de pop-up om de bestelling te bevestigen"><figcaption>De pop-up "Bestelling bevestigen" staat rechtsonder in de desktop-wireframe van de shoppagina</figcaption></figure>
-
-Dit onderdeel is een extra, maar het is **niet optioneel**: je moet het implementeren.
-
-- **Pop-up**: Een klik op de knop "Afrekenen" opent een pop-up (_modal_) met de titel "Bestelling bevestigen" en een ×-knopje om de pop-up te sluiten.
-- **Overzicht**: In de pop-up staat een overzicht van de producten in het winkelmandje (naam, aantal en prijs), met daaronder de totaalprijs.
-- **Bestelling plaatsen**: Onderaan de pop-up staat een knop "Bestelling plaatsen". Na een klik verschijnt in de pop-up een bevestiging, bv. "✓ Bestelling bevestigd". Daarna sluit de pop-up na enkele seconden automatisch (tip: gebruik `setTimeout`).
+Alle functionaliteiten werken in beide lay-outs. De inhoud en werking blijven hetzelfde wanneer de pagina door een media-query van de mobiele naar de desktopopbouw overschakelt.
 
 ---
 
-### 4. **Algemene Bonus-features**
+## Tips
 
-Wil je jezelf extra uitdagen en indruk maken? Dan kun je de volgende bonus-features implementeren:
-- **Animaties bij toevoegen of verwijderen**: Voeg subtiele animaties toe bij het toevoegen of verwijderen van items in de wishlist of het winkelmandje om de interactie visueel aantrekkelijker te maken.
-
-Je mag ook altijd zelf extra bonus functionaliteiten verzinnen!
-
----
-
-## Tips:
-- Begin met de basisfunctionaliteit van het winkelmandje en de wishlist.
-- Gebruik een lijst (`ul`) voor de items in je winkelmandje en voor de chips in je wishlist.
-- Test uitgebreid en regelmatig om te zorgen dat alles goed werkt en de prijzen correct worden berekend.
-- Zorg ervoor dat je winkelmandje en wishlist werkt op mobiel én desktop.
+- Bouw de functionaliteit stap voor stap op en controleer na elke actie of alle bijbehorende aantallen, prijzen en knoppen mee veranderen.
+- Gebruik een lijst (`ul`) voor de productregels in het winkelmandje en voor de chips in de verlanglijst.
+- Bewaar per product één duidelijke toestand met minstens de identifier, prijs, het gekozen aantal en of het product in de verlanglijst staat.
+- Test ook de overgang naar een leeg winkelmandje, het verwijderen via een ×-knop en het opnieuw toevoegen van hetzelfde product.
