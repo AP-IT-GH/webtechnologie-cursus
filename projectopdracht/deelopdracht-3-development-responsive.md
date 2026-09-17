@@ -42,4 +42,5 @@ De volgende zaken zullen er anders uitzien op desktop ten opzichte van mobiel:
 
 ### `contact.html`
 
-- Deze pagina hoeft voorlopig nog niet uitgewerkt te worden. Dit volgt in [deelopdracht 4](deelopdracht-4-contact-page-formulier.md).
+- Deze pagina hoeft voorlopig nog niet volledig uitgewerkt te worden. Het contactformulier volgt in [deelopdracht 4](deelopdracht-4-contact-page-formulier.md).
+- Voorzie wel al het bevestigingsbericht dat na het verzenden van het formulier zal verschijnen en style het volgens je huisstijl. Neem hiervoor een titel (bv. "Bericht verzonden.") en een korte zin op, bv. dat je zo snel mogelijk antwoordt. In [deelopdracht 6](deelopdracht-6-contact-page-kaart.md) ga je dit bericht met JavaScript verbergen en tonen.
