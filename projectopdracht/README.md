@@ -23,15 +23,15 @@ Een tweede voorbeeld, in een donkere huisstijl, vind je in de [Projectinformatie
 
 | Deel | Onderdeel                                                                        | Deadline                       |
 | ---- | -------------------------------------------------------------------------------- | ------------------------------ |
-| 1    | [Concept & content](deelopdracht-1-concept-content.md)                           | LW1 · 08/02/2026 (aanbevolen)  |
-| 2    | [Development mobiele website met HTML en CSS](deelopdracht-2-opbouw-html-css.md) | LW2 · 22/02/2026 (aanbevolen)  |
-| 3    | [Development responsive webshop](deelopdracht-3-development-responsive.md)       | LW5 · **12/03/2026**           |
-| 4    | [Contact page — formulier](deelopdracht-4-contact-page-formulier.md)             | LW6 · 22/03/2026 (aanbevolen)  |
-| 5    | [Winkelmandje & wishlist](deelopdracht-5-winkelmandje-wishlist.md)               | LW10 · **06/05/2026**          |
-| 6    | [Contact page — kaart & bevestiging](deelopdracht-6-contact-page-kaart.md)       | LW11 · 10/05/2026 (aanbevolen) |
-| 7    | [Dynamische content (finale inzending)](deelopdracht-7-dynamische-content.md)    | LW11 · **24/05/2026**          |
+| 1    | [Concept & content](deelopdracht-1-concept-content.md)                           | LW1 · 27/09/2026 (aanbevolen)  |
+| 2    | [Development mobiele website met HTML en CSS](deelopdracht-2-opbouw-html-css.md) | LW3 · 11/10/2026 (aanbevolen)  |
+| 3    | [Development responsive webshop](deelopdracht-3-development-responsive.md)       | LW5 · **25/10/2026**           |
+| 4    | [Contact page — formulier](deelopdracht-4-contact-page-formulier.md)             | LW6 · 01/11/2026 (aanbevolen)  |
+| 5    | [Winkelmandje & wishlist](deelopdracht-5-winkelmandje-wishlist.md)               | LW10 · **29/11/2026**          |
+| 6    | [Contact page — kaart & bevestiging](deelopdracht-6-contact-page-kaart.md)       | LW11 · 06/12/2026 (aanbevolen) |
+| 7    | [Dynamische content (finale inzending)](deelopdracht-7-dynamische-content.md)    | LW13 · **20/12/2026**          |
 
-De **vetgedrukte deadlines zijn hard** en moeten via Digitap ingediend worden. Het project wordt afgesloten met een presentatie in lesweek 13. Alle details vind je in de [Projectinformatie](info.md).
+De deadlines van **deel 3** en **deel 5** gelden als je feedback wilt tijdens de twee feedbackrondes. De deadline van **deel 7** is de finale, harde deadline. Het project wordt afgesloten met presentaties in de week van **4 januari 2027**. Alle details vind je in de [Projectinformatie](info.md).
 
 {% hint style="info" %}
 Werk je project bij **na elke deelopdracht**, en niet pas de week voor de deadline. Elke deelopdracht bouwt voort op de vorige, dus achterstand loop je niet gemakkelijk meer in.

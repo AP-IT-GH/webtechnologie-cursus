@@ -38,7 +38,7 @@ In de video hieronder zie je **Squishboel**, een volledig werkende mobiele websh
 
 * Je werkt in een **private** repository onder de GitHub-organisatie van dit vak.
 * Je volgt de **wireframes** voor mobiel en desktop. Kleuren, lettertype en content kies je zelf.
-* Er zijn **drie harde deadlines**: deel 3 (12/03), deel 5 (06/05) en de finale inzending (24/05).
+* Er zijn **twee feedbackmomenten**: deel 3 (25/10) en deel 5 (29/11). De finale deadline is 20/12.
 * Je dient in via **Digitap**, met de link naar je repository.
 * Je **commit regelmatig**: minstens één commit per deelopdracht.
 {% endhint %}
@@ -135,16 +135,16 @@ Weet je niet meer hoe je een repository lokaal cloont of hoe je commit vanuit Co
 
 | Deel | Onderdeel                                                                        | Deadline                            | Indienen via Digitap | Feedback mogelijk |
 | ---- | -------------------------------------------------------------------------------- | ----------------------------------- | -------------------- | ----------------- |
-| 1    | [Concept & content](deelopdracht-1-concept-content.md)                           | LW1 · 08/02/2026 (aanbevolen)       | ❌                    | ❌                 |
-| 2    | [Development mobiele website met HTML en CSS](deelopdracht-2-opbouw-html-css.md) | LW2 · 22/02/2026 (aanbevolen)       | ❌                    | ❌                 |
-| 3    | [Development responsive webshop](deelopdracht-3-development-responsive.md)       | LW5 · **12/03/2026**                | ✅                    | ✅                 |
-| 4    | [Contact page formulier](deelopdracht-4-contact-page-formulier.md)               | LW6 · 22/03/2026 (aanbevolen)       | ❌                    | ❌                 |
-| 5    | [Winkelmandje & wishlist](deelopdracht-5-winkelmandje-wishlist.md)               | LW10 · **06/05/2026**               | ✅                    | ✅                 |
-| 6    | [Contact page kaart & bevestiging](deelopdracht-6-contact-page-kaart.md)         | LW11 · 10/05/2026 (aanbevolen)      | ❌                    | ❌                 |
-| 7    | [**Dynamische content (finale inzending)**](deelopdracht-7-dynamische-content.md) | LW11 · **24/05/2026**               | ✅                    | ❌                 |
-| 8    | Presentatie                                                                      | LW13 · tijdens de laatste 2 lessen  | ❌                    | ❌                 |
+| 1    | [Concept & content](deelopdracht-1-concept-content.md)                           | LW1 · 27/09/2026 (aanbevolen)       | ❌                    | ❌                 |
+| 2    | [Development mobiele website met HTML en CSS](deelopdracht-2-opbouw-html-css.md) | LW3 · 11/10/2026 (aanbevolen)       | ❌                    | ❌                 |
+| 3    | [Development responsive webshop](deelopdracht-3-development-responsive.md)       | LW5 · **25/10/2026**                | ✅                    | ✅                 |
+| 4    | [Contact page formulier](deelopdracht-4-contact-page-formulier.md)               | LW6 · 01/11/2026 (aanbevolen)       | ❌                    | ❌                 |
+| 5    | [Winkelmandje & wishlist](deelopdracht-5-winkelmandje-wishlist.md)               | LW10 · **29/11/2026**               | ✅                    | ✅                 |
+| 6    | [Contact page kaart & bevestiging](deelopdracht-6-contact-page-kaart.md)         | LW11 · 06/12/2026 (aanbevolen)      | ❌                    | ❌                 |
+| 7    | [**Dynamische content (finale inzending)**](deelopdracht-7-dynamische-content.md) | LW13 · **20/12/2026**               | ✅                    | ❌                 |
+| 8    | Presentatie                                                                      | Week van 04/01/2027                 | ❌                    | ❌                 |
 
-De **vetgedrukte deadlines zijn hard**: die inzendingen moeten via Digitap binnen zijn. De overige data zijn aanbevolen en helpen je om op schema te blijven. Elke deelopdracht bouwt voort op de vorige, dus zorg ervoor dat je elke deelopdracht grondig doorneemt en uitvoert. Achterstand loop je niet gemakkelijk meer in.
+De deadlines van **deel 3** en **deel 5** zijn de uiterste indienmomenten als je feedback wilt tijdens respectievelijk feedbackronde 1 en feedbackronde 2. De deadline van **deel 7** is de finale, harde deadline. De overige data zijn aanbevolen en helpen je om op schema te blijven. Elke deelopdracht bouwt voort op de vorige, dus zorg ervoor dat je elke deelopdracht grondig doorneemt en uitvoert. Achterstand loop je niet gemakkelijk meer in.
 
 ***
 
@@ -168,7 +168,7 @@ Die feedback is inhoudelijk en levert geen punten op. Het is je kans om te weten
 
 ### Presentatie en verdediging
 
-Na je finale inzending kom je tijdens de laatste lesweek je webshop presenteren. Daarna krijg je **technische vragen over je eigen werk**. Zorg dus dat je van elk stuk code kan uitleggen wat het doet en waarom je het zo hebt aangepakt.
+Na je finale inzending kom je in de week van **4 januari 2027** je webshop presenteren. Daarna krijg je **technische vragen over je eigen werk**. Zorg dus dat je van elk stuk code kan uitleggen wat het doet en waarom je het zo hebt aangepakt.
 
 Deelopdracht 7 is je finale inzending. Mis die inzending via Digitap zeker niet.
 
