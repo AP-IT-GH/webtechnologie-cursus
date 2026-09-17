@@ -21,6 +21,18 @@ Zo kan het eruitzien. Hieronder zie je twee voorbeelden van dezelfde webshop op 
 {% endtab %}
 {% endtabs %}
 
+### Werkend mobiel voorbeeld
+
+In de video hieronder zie je **Squishboel**, een volledig werkende mobiele webshop. Dit is één mogelijke interpretatie van de wireframes. Jouw webshop mag er anders uitzien, zolang je de gevraagde inhoud, opbouw en functionaliteiten respecteert.
+
+<figure>
+  <video controls playsinline width="372">
+    <source src="voorbeelden/squishboel-mobile.mp4" type="video/mp4">
+    Je browser kan deze video niet afspelen. <a href="voorbeelden/squishboel-mobile.mp4">Bekijk of download de video.</a>
+  </video>
+  <figcaption>Squishboel: een mogelijke mobiele uitwerking van de wireframes</figcaption>
+</figure>
+
 {% hint style="info" %}
 **In het kort**
 
