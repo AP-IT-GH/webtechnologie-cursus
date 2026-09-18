@@ -98,7 +98,7 @@ Wil je werken met een tweede lettertype (bijvoorbeeld voor een ondertiteltje)? Z
 
 ## Deliverables
 
-Je moet deze deelopdracht plaatsen in je **private projectrepository** onder de GitHub-organisatie van dit vak (zie [Projectinformatie](info.md#zo-start-je)). Zorg ervoor dat je de volgende bestanden en mappen opneemt en correct structureert:
+Je moet deze deelopdracht plaatsen in je **private projectrepository** onder de GitHub-organisatie van dit vak (zie [Projectinformatie](info.md#je-repository-aanmaken)). Zorg ervoor dat je de volgende bestanden en mappen opneemt en correct structureert:
 
 - Een markdown document met de volgende secties:
     - **Situering** – de omschrijving van je webshop

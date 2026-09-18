@@ -1,5 +1,5 @@
 ---
-description: Wat je bouwt, hoe je start en wanneer je indient.
+description: Wat je bouwt, hoe je je repository aanmaakt en wanneer je indient.
 icon: circle-info
 ---
 
@@ -7,7 +7,7 @@ icon: circle-info
 
 Je bouwt dit semester een **responsieve webshop** voor een fictieve organisatie die je zelf bedenkt. Je werkt in **7 deelopdrachten**, van concept tot werkende webshop. Daarna presenteer je je werk en beantwoord je vragen over je code.
 
-Op deze pagina vind je [wat je bouwt](#wat-bouw-je), [hoe je start](#zo-start-je), de [planning](#planning-and-indienen), de [regels](#regels-and-richtlijnen) en de [wireframes](#wireframes).
+Op deze pagina vind je [wat je bouwt](#wat-bouw-je), [hoe je je repository aanmaakt](#je-repository-aanmaken), de [planning](#planning-and-indienen), de [regels](#regels-and-richtlijnen) en de [wireframes](#wireframes).
 
 ## Wat bouw je?
 
@@ -24,13 +24,7 @@ Je volgt de opbouw van de [wireframes](#wireframes). Je kiest zelf de kleuren, h
 
 Je werkt **mobile-first**: in [deelopdracht 2](deelopdracht-2-opbouw-html-css.md) bouw je de website voor smartphones. In [deelopdracht 3](deelopdracht-3-development-responsive.md) pas je de lay-out aan grotere schermen aan.
 
-## Zo start je
-
-1. Lees deze projectinformatie en de [evaluatiecriteria](evaluatie.md).
-2. Maak je private GitHub-repository aan met de stappen hieronder.
-3. Start met [deelopdracht 1: concept en content](deelopdracht-1-concept-content.md).
-
-### Je repository aanmaken
+## Je repository aanmaken
 
 Je gebruikt **één private repository onder de GitHub-organisatie van dit vak** voor het hele project.
 
@@ -46,23 +40,27 @@ Hoe je de repository lokaal cloont en vanuit Codium commits maakt, lees je in de
 
 ## Planning & indienen
 
-Werk de deelopdrachten in volgorde af: elke opdracht bouwt voort op de vorige. **LW** staat voor lesweek.
+Werk de deelopdrachten in volgorde af: elke opdracht bouwt voort op de vorige. De planning heeft drie soorten data:
 
-| Deel | Onderdeel | Wanneer? | Wat doe je? |
-| ---- | --------- | -------- | ----------- |
-| 1 | [Concept en content](deelopdracht-1-concept-content.md) | LW1 · 27/09/2026 | Aanbevolen af te werken |
-| 2 | [Mobiele website met HTML en CSS](deelopdracht-2-opbouw-html-css.md) | LW3 · 11/10/2026 | Aanbevolen af te werken |
-| 3 | [Responsive webshop](deelopdracht-3-development-responsive.md) | LW5 · **25/10/2026** | Indienen voor feedbackronde 1 |
-| 4 | [Contactformulier](deelopdracht-4-contact-page-formulier.md) | LW6 · 01/11/2026 | Aanbevolen af te werken |
-| 5 | [Winkelmandje en wishlist](deelopdracht-5-winkelmandje-wishlist.md) | LW10 · **29/11/2026** | Indienen voor feedbackronde 2 |
-| 6 | [Kaart en bevestiging](deelopdracht-6-contact-page-kaart.md) | LW11 · 06/12/2026 | Aanbevolen af te werken |
-| 7 | [Dynamische content](deelopdracht-7-dynamische-content.md) | LW13 · **20/12/2026** | Finale versie indienen |
-| | Presentatie en verdediging | Week van **04/01/2027** | Je webshop presenteren en vragen beantwoorden |
+* **Aanbevolen**: je dient niets in. Heb je de deelopdracht op die datum af, dan zit je op schema.
+* **Feedbackdeadline**: dien je werk in als je feedback wilt. Dat is optioneel. Zie [Feedback](#feedback).
+* **Finale deadline**: je dient je volledige webshop in. Dat is verplicht.
 
-Op de **aanbevolen data** hoef je niets in te dienen. Ze helpen je om op schema te blijven. De twee **feedbackdeadlines** gelden als je feedback wilt krijgen.
+**LW** staat voor lesweek.
+
+| Deel | Onderdeel | Datum | Soort |
+| ---- | --------- | ----- | ----- |
+| 1 | [Concept en content](deelopdracht-1-concept-content.md) | LW1 · 27/09/2026 | Aanbevolen |
+| 2 | [Mobiele website met HTML en CSS](deelopdracht-2-opbouw-html-css.md) | LW3 · 11/10/2026 | Aanbevolen |
+| 3 | [Responsive webshop](deelopdracht-3-development-responsive.md) | LW5 · **25/10/2026** | **Feedbackdeadline 1** |
+| 4 | [Contactformulier](deelopdracht-4-contact-page-formulier.md) | LW6 · 01/11/2026 | Aanbevolen |
+| 5 | [Winkelmandje en wishlist](deelopdracht-5-winkelmandje-wishlist.md) | LW10 · **29/11/2026** | **Feedbackdeadline 2** |
+| 6 | [Kaart en bevestiging](deelopdracht-6-contact-page-kaart.md) | LW11 · 06/12/2026 | Aanbevolen |
+| 7 | [Dynamische content](deelopdracht-7-dynamische-content.md) | LW13 · **20/12/2026** | **Finale deadline** |
+| | [Presentatie en verdediging](#presentatie-and-verdediging) | Week van **04/01/2027** | Verplicht |
 
 {% hint style="warning" %}
-**De finale deadline is 20 december 2026.** Te late inzendingen worden niet aanvaard. Na deze deadline wordt je repository afgesloten en kan je niets meer wijzigen. Er volgt geen feedbackronde meer.
+**De finale deadline is 20 december 2026.** Te late inzendingen worden niet aanvaard. Na deze deadline wordt je repository afgesloten en kan je niets meer wijzigen.
 {% endhint %}
 
 ### Indienen
@@ -85,7 +83,7 @@ Feedback levert geen punten op. Ze helpt je om je werk te verbeteren vóór de f
 
 ### Presentatie & verdediging
 
-In de week van **4 januari 2027** presenteer je je webshop en beantwoord je technische vragen over je eigen code. Je moet kunnen uitleggen **wat je code doet en waarom je die zo hebt geschreven**.
+Na de finale deadline presenteer je je webshop en beantwoord je technische vragen over je eigen code. Je moet kunnen uitleggen **wat je code doet en waarom je die zo hebt geschreven**.
 
 ## Regels & richtlijnen
 
