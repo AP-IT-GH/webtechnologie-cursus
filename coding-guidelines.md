@@ -2,7 +2,7 @@
 
 ## Algemeen
 
-- Gebruik altijd **relatieve paden** (_paths_) om te linken naar bestanden en afbeeldingen. Hou er rekening mee dat je website gehost (en beoordeeld) zal worden op UNIX-gebaseerde systemen. Als je je path met een ```/``` laat beginnen zal dit niet werken op Linux of Mac.
+- Gebruik altijd **relatieve paden** (_paths_) om te linken naar bestanden en afbeeldingen. Hou er rekening mee dat je website gehost (en beoordeeld) zal worden op UNIX-gebaseerde systemen. Als je je path met een ```/``` laat beginnen zal dit niet werken op Linux of Mac. Meer uitleg over paden vind je in de cursus IT Essentials bij [Absolute en relatieve paden](https://it-essentials.apload.be/linux/bestandssysteem#absolute-en-relatieve-paden).
 - Gebruik een overzichtelijke **mappenstructuur** voor je project. Plaats al je CSS-bestanden in een map genaamd `css`, al je JavaScript-bestanden in een map genaamd `js`, en al je afbeeldingen in een map genaamd `assets`. Dit maakt het makkelijker om bestanden terug te vinden en te onderhouden. Steek je HTML files in de root van je project en noem je index.html bestand altijd `index.html`. Dit is de standaard bestandsnaam die een webserver zal gebruiken als startpagina.
 - Zorg er voor dat er **geen ongebruikte bestanden** en geen **dode code** in je project aanwezig zijn. Verwijder alle bestanden die niet gebruikt worden in je project. Zorg dat er geen code in commentaar staat (hiervoor gebruik je git).
 - **Correcte Indentatie**: Stuur enkel code in die correct uitgelijnd is. Foutieve indentatie maakt je code moeilijker te lezen en te onderhouden.

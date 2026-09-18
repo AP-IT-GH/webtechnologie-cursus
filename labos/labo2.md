@@ -13,7 +13,7 @@ coverY: 0
 
 ## 💻 Theorie
 
-Vanaf dit labo zullen we regelmatig gebruik maken van file paths. Dit wordt uitgebreid behandeld in de les [IT Essentials](https://apwt.gitbook.io/it-essentials/folderstructuur-en-terminal). Zorg dat je dit goed snapt en kunt toepassen!
+Vanaf dit labo zullen we regelmatig gebruik maken van file paths. Dit wordt uitgebreid behandeld in de les [IT Essentials](https://it-essentials.apload.be/linux/bestandssysteem#absolute-en-relatieve-paden). Zorg dat je dit goed snapt en kunt toepassen!
 
 * [Verwijzingen](../html/verwijzingen.md)
 * [Lists](../html/lijsten.md)

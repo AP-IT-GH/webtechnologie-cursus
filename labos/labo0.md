@@ -49,7 +49,7 @@ Je hebt nu je eigen kopie van de repository op je GitHub-account.
 * Kies de map die je eerder aangemaakt hebt voor het vak Webtechnologie.
 * Kies om de geclonede repository te openen in een nieuw venster
 
-> 💡 **Tip:** In de cursus IT Essentials vind je meer uitleg bij [Git > Remote Repositories en Samenwerken](https://apwt.gitbook.io/it-essentials/git/collaborating).
+> 💡 **Tip:** In de cursus IT Essentials vind je meer uitleg bij [Git > Remote repositories](https://it-essentials.apload.be/git/remote).
 
 ***
 

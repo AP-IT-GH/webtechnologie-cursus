@@ -18,6 +18,8 @@ Wanneer je wil verwijzen naar een webpagina die bij een andere website hoort, ga
 
 Wanneer we echter gaan verwijzen naar pagina's van dezelfde website, hoeven we hiervoor de domeinnaam niet mee te geven. De browser weet namelijk al op welke website we aan het surfen zijn.
 
+> 💡 **Tip:** Hoe relatieve paden werken (bv. `./`, `../` en submappen) wordt uitgelegd in de cursus IT Essentials bij [Absolute en relatieve paden](https://it-essentials.apload.be/linux/bestandssysteem#absolute-en-relatieve-paden).
+
 ```html
 <p>Je kan ons <a href="contact.html">hier</a> contacteren.</p>
 ```

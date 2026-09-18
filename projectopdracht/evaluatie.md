@@ -148,10 +148,6 @@ We raden je dan ook aan om tijdens je project regelmatig na te kijken of je vold
   </thead>
   <tbody>
     <tr>
-      <td>Code bevat overduidelijke copy-paste zonder integratie of begrip.</td>
-      <td>-3</td>
-    </tr>
-    <tr>
       <td>
         HTML bevat te weinig inhoud om de structuur/semantiek zinvol te
         beoordelen.
