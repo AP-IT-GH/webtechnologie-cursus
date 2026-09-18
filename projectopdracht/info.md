@@ -80,15 +80,15 @@ Zo kan het eruitzien. Hieronder zie je dezelfde webshop op mobiel en desktop. He
 
 In de video hieronder zie je **Squishboel**, een volledig werkende mobiele webshop. Dit is één mogelijke interpretatie van de wireframes. Jouw webshop mag er anders uitzien, zolang je de gevraagde inhoud, opbouw en functionaliteiten respecteert.
 
-{% file src="voorbeelden/squishboel-mobile.mp4" %}
-Squishboel: een mogelijke mobiele uitwerking van de wireframes
-{% endfile %}
+{% embed url="https://3533814547-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FmRXarEZCtx30bQroTgyM%2Fuploads%2Fgit-blob-f89f843e09539173947ead70a5814c93252570da%2Fsquishboel-mobile.mp4?alt=media" %}
+
+*Squishboel: een mogelijke mobiele uitwerking van de wireframes*
 
 Hieronder zie je dezelfde webshop op desktop. De inhoud en functionaliteiten blijven hetzelfde, maar de lay-out past zich aan de grotere schermbreedte aan.
 
-{% file src="voorbeelden/squishboel-desktop.mp4" %}
-Squishboel: een mogelijke desktopuitwerking van de wireframes
-{% endfile %}
+{% embed url="https://3533814547-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FmRXarEZCtx30bQroTgyM%2Fuploads%2Fgit-blob-7e26eec8c1ab082651524091c1918d4d6f09ff45%2Fsquishboel-desktop.mp4?alt=media" %}
+
+*Squishboel: een mogelijke desktopuitwerking van de wireframes*
 
 {% hint style="info" %}
 **In het kort**
