@@ -103,7 +103,8 @@ Je vindt elke wireframe ook terug bij de deelopdracht waarin je die pagina bouwt
 
 {% tabs %}
 {% tab title="Mobiel" %}
-{% embed url="https://3533814547-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FmRXarEZCtx30bQroTgyM%2Fuploads%2Fgit-blob-c560203ff6d7ff27626983b3cbbc058f41e82c1b%2Fsquishee-mobile.mp4?alt=media" %}
+{% file src="voorbeelden/squishee-mobile.mp4" %}
+{% endfile %}
 
 *Squishboel: een mogelijke mobiele uitwerking van de wireframes*
 {% endtab %}
