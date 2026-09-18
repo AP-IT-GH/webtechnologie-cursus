@@ -74,8 +74,8 @@ Enkel **private repositories onder de GitHub-organisatie van dit vak** worden aa
 
 Na deelopdracht 3 en deelopdracht 5 kan je feedback krijgen van de lector. Daarvoor moet je aan **beide voorwaarden** voldoen:
 
-* Je hebt je werk uiterlijk op de feedbackdeadline ingediend via Digitap.
-* Je bent aanwezig in de eerstvolgende les.
+* Je hebt je werk uiterlijk op de feedbackdeadline correct ingediend op Digitap.
+* Je bent aanwezig in de eerstvolgende les / lessen.
 
 Feedback levert geen punten op. Ze helpt je om je werk te verbeteren vóór de finale inzending.
 
@@ -87,6 +87,7 @@ Na de finale deadline presenteer je je webshop en beantwoord je technische vrage
 
 ### Git-historiek
 
+In het vak IT-Essentials leer je vanaf lesweek 4 werken met git. Vanaf dan verwachten we dat je ook je projectopdracht op GitHub zet. 
 Je git-historiek telt mee in de [evaluatie](evaluatie.md). Ze moet tonen dat je regelmatig en zelfstandig aan je project werkt.
 
 * Maak een commit na elk afgerond stuk werk, met **minstens één commit per deelopdracht**.
