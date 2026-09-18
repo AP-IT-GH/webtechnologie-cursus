@@ -1,112 +1,110 @@
 # Deelopdracht 1 - Webshop Concept & Content
 
-Begin met het lezen van de [Projectinformatie](info.md). Daar vind je de wireframes, de deadlines en de regels die voor je hele project gelden.
+Lees eerst de [Projectinformatie](info.md). Daar vind je de wireframes, de deadlines en de regels voor het hele project.
 
-Voor deelopdracht 1 doe je al het voorbereidende werk voor de ontwikkeling van je webshop. Dit betekent dat je werkt aan het concept, de huisstijl en alle nodige _content_ (teksten oftewel _copy_, en afbeeldingen) voordat je daadwerkelijk begint met programmeren. Hoe beter je voorbereid bent, hoe vlotter het programmeren zal verlopen. De content die je maakt, zal bepalend zijn voor je eindresultaat, dus neem hier zeker voldoende tijd voor.
+In deze deelopdracht bereid je je webshop voor: je bepaalt het concept, de huisstijl en alle _content_ (teksten en afbeeldingen). Je programmeert nog niets. Neem hier voldoende tijd voor: hoe beter je content, hoe vlotter het programmeren later verloopt.
 
-## 1. Webshopconcept
+Alles wat je schrijft, komt in één Markdown-document `styleguide.md` met vier secties: **Situering**, **Producten**, **Auteur** en **Styleguide**.
 
-Kies een onderwerp dat jou interesseert en waar je voldoende over kunt vertellen. Zorg ervoor dat je minstens **6 verschillende producten of diensten** kunt bedenken die je in je webshop wilt aanbieden. Als je moeite hebt om 6 producten te bedenken, kies dan een ander onderwerp.
-
-- Maak een Word of Markdown document aan genaamd "Styleguide".
-- Voorzie een titeltje **“Situering”**.
-- **Verzin een naam** voor je webshop.
-- Schrijf een **beknopte, wervende omschrijving** van je webshop. Deze tekst moet bezoekers informeren over het doel van je website en hen overtuigen om bij jou iets te kopen.
-
-> **Tip:** Dit is je kans om creatief te zijn! Zorg ervoor dat je omschrijving de toon en sfeer van je webshop goed weergeeft.
-
-De tekst die je schrijft, zal later op de **homepage** van je webshop worden geplaatst.
-
-**Let op:** Zorg ervoor dat je rekening houdt met de [copywriting tips](info.md#teksten) voor het schrijven van heldere en overtuigende teksten!
+Houd bij alle teksten rekening met de [copywriting tips](info.md#teksten) en bij alle afbeeldingen met de [afbeeldingstips](info.md#afbeeldingen).
 
 ---
 
-## 2. Kies je producten of diensten
+## 1. Situering
 
-Maak een nieuw hoofdstuk in je document met de titel **"Producten"**. Hier voeg je de beschrijvingen van je **6 producten of diensten** toe. Maak voor elk product of elke dienst een subtitel en voeg de volgende informatie toe:
+Kies een onderwerp dat je interesseert en waarvoor je minstens **6 verschillende producten of diensten** kunt bedenken. Lukt dat niet, kies dan een ander onderwerp.
 
-- **Titel van het product**
-- **Omschrijving:** Minimaal 1 paragraaf waarin je het product of de dienst beschrijft.
-- **Prijs:** de prijs van het product of de dienst.
-- **Specificaties:** 6 kenmerken van het product of de dienst, telkens met een label en een waarde (bv. _Materiaal: eikenhout_).
+Schrijf onder de titel **Situering**:
 
-Kies daarnaast **één product of dienst** die je extra in de kijker wil zetten. Dat product krijgt op je webshop een klein label (_badge_) dat aangeeft wat er speciaal aan is, bijvoorbeeld _Verlaagde prijs_, _Uitgelicht_ of _Keuze van de redactie_. Noteer bij dat product welke tekst er op het label komt.
+- de **naam** van je webshop;
+- een **korte, wervende omschrijving**: wat is het doel van je webshop en waarom zou een bezoeker bij jou kopen?
 
-> **Tip:** Denk goed na over de voordelen van je producten/diensten en probeer deze duidelijk te maken in je omschrijving. Maak het de bezoeker makkelijk om te begrijpen waarom ze jouw product moeten kiezen.
+Deze tekst komt later op de **homepage**.
 
-**Let op:** Zorg ervoor dat je rekening houdt met de [copywriting tips](info.md#teksten) voor het schrijven van heldere en overtuigende teksten!
+> **Tip:** Laat je omschrijving de toon en sfeer van je webshop uitstralen.
 
 ---
 
-## 3. Verzamel afbeeldingen voor deze producten of diensten
+## 2. Producten
 
-Verzamel afbeeldingen voor je 6 producten of diensten. Zorg ervoor dat:
+Beschrijf onder de titel **Producten** je 6 producten of diensten. Geef elk een eigen subtitel met:
 
-- Alle productafbeeldingen dezelfde formaatverhouding hebben (aspect-ratio).
-- Je de afbeelding bijsnijdt tot 500x500 pixels.
-- Je de bron (link) van elke afbeelding noteert, zodat je die later gemakkelijk kunt refereren. Voeg deze informatie toe in je document onder de betreffende productomschrijving.
+- **Titel**
+- **Omschrijving:** minstens 1 paragraaf
+- **Prijs**
+- **Specificaties:** 6 kenmerken, telkens met een label en een waarde (bv. _Materiaal: eikenhout_)
+- **Bron** van de afbeelding (zie stap 3)
 
-> **Tip:** Consistentie in de grootte en verhoudingen van je productafbeeldingen zorgt voor een nette en professionele uitstraling op je webshop.
+Kies ook **één product** dat je in de kijker zet. Dat product krijgt op je webshop een label (_badge_), bv. _Verlaagde prijs_, _Uitgelicht_ of _Keuze van de redactie_. Noteer bij dat product de tekst van het label.
 
-Bekijk zeker de [afbeeldingstips](info.md#afbeeldingen).
-
----
-
-## 4. Ontwerp een logo
-
-Ontwerp een eenvoudig logo dat goed past bij je webshop. Gebruik een tool zoals [FreeLogoDesign.org](https://nl.freelogodesign.org/) om je logo te maken. Zorg ervoor dat het logo eenvoudig, herkenbaar en passend is bij je webshop.
-
-> **Tip:** Denk bij het ontwerpen van je logo aan de identiteit van je webshop. Moet het bijvoorbeeld speels, strak, modern of klassiek zijn? Kies een stijl die aansluit bij het product dat je verkoopt.
-
-Denk aan de [afbeeldingstips](info.md#afbeeldingen) bij het ontwerp van je logo.
+> **Tip:** Maak in je omschrijving duidelijk wat de voordelen zijn. Waarom zou een bezoeker net dit product kiezen?
 
 ---
 
-## 5. Voeg een professionele foto van jezelf toe en schrijf een korte bio
+## 3. Productafbeeldingen
 
-Je foto hoeft niet in een formele setting te worden genomen, maar moet wel duidelijk, goed belicht en professioneel overkomen. Vermijd selfies en drukke achtergronden. Voeg daarnaast een korte bio van jezelf toe waarin je iets vertelt over wie je bent en je professionele achtergrond. Zet deze informatie in je document onder de titel **"Auteur"**.
+Zoek voor elk product een afbeelding en zorg dat:
 
-> **Tip:** Een foto in een rustige, nette omgeving zorgt ervoor dat je profiel professioneler oogt.
+- alle afbeeldingen bijgesneden zijn tot **500x500 pixels**;
+- je de **bron (link)** noteert onder de juiste productomschrijving.
+
+> **Tip:** Afbeeldingen met dezelfde afmetingen geven je webshop een nette, professionele uitstraling.
 
 ---
 
-## 6. Kies een kleurenpalet en lettertype voor je webshop
+## 4. Logo
 
-Kies een kleurenpalet en lettertype voor je webshop en beschrijf deze in je document onder een titel "styleguide".
+Ontwerp een eenvoudig, herkenbaar logo dat past bij je webshop, bijvoorbeeld met [FreeLogoDesign.org](https://nl.freelogodesign.org/).
 
-### Kleurpalet
+> **Tip:** Denk aan de identiteit van je webshop. Past een speelse, strakke, moderne of klassieke stijl het best bij wat je verkoopt?
 
-- Een achtergrondkleur ("background-color")
-- De kleur van de tekst ("text-color")
-- De primaire kleur voor knoppen ("primary-color")
-- Een secundaire kleur voor accenten ("secondary-color")
+---
 
-> **Tips:** 
-> - Beslis eerst of je voor een light theme (lichte achtergrond met donkere tekst) of dark theme (donkere achtergrond met lichte tekst) wilt gaan. Dit bepaalt deels het gevoel van je webshop.
-> - Voorzie voor elke kleur 3 tinten: een iets lichtere, normale en donkerdere variant zodat je zeker voldoende kleurtjes ter beschikking hebt in je ontwerp.
-> - Gebruik websites zoals [Happy Hues](https://www.happyhues.co), [Coolors](https://coolors.co/palettes/trending) of [Adobe Colors](https://color.adobe.com/nl/trends) om een mooi kleurenpalet te vinden. Je kleuren passen dan altijd mooi bij elkaar.
-> - Zorg dat de tekstkleur duidelijk leesbaar is op de achtergrond. Zorg voor voldoende contrast.
+## 5. Auteur
+
+Schrijf onder de titel **Auteur** een korte bio: wie ben je en wat is je professionele achtergrond?
+
+Voeg ook een **professionele foto** van jezelf toe. Die hoeft niet formeel te zijn, maar wel scherp en goed belicht. Vermijd selfies en drukke achtergronden.
+
+---
+
+## 6. Styleguide
+
+Beschrijf onder de titel **Styleguide** je kleurenpalet en lettertype(s).
+
+### Kleurenpalet
+
+Kies deze 4 kleuren:
+
+- `background-color`: achtergrondkleur
+- `text-color`: tekstkleur
+- `primary-color`: kleur voor knoppen
+- `secondary-color`: kleur voor accenten
+
+> **Tips:**
+> - Kies eerst tussen een light theme (lichte achtergrond, donkere tekst) of een dark theme (donkere achtergrond, lichte tekst).
+> - Voorzie per kleur 3 tinten: lichter, normaal en donkerder. Zo heb je genoeg variatie in je ontwerp.
+> - Gebruik [Happy Hues](https://www.happyhues.co), [Coolors](https://coolors.co/palettes/trending) of [Adobe Colors](https://color.adobe.com/nl/trends) om kleuren te vinden die goed bij elkaar passen.
+> - Zorg voor voldoende contrast tussen tekst en achtergrond.
 
 ### Lettertype
 
-Selecteer één of twee lettertypes op [Google Fonts](https://fonts.google.com/).
-Wil je werken met een tweede lettertype (bijvoorbeeld voor een ondertiteltje)? Zorg dan dat deze visueel mooi past bij het eerste. Met [FontPair](https://www.fontpair.co/all) kun je mooie combinaties terugvinden.
+Kies één of twee lettertypes op [Google Fonts](https://fonts.google.com/). Gebruik je een tweede lettertype (bv. voor titels), zoek dan een combinatie die goed samengaat via [FontPair](https://www.fontpair.co/all).
 
-> **Tip:** Kies lettertypes die goed leesbaar zijn. Houd het simpel, vooral voor langere teksten.
+> **Tip:** Kies goed leesbare lettertypes, zeker voor langere teksten.
 
 ---
 
 ## Deliverables
 
-Je moet deze deelopdracht plaatsen in je **private projectrepository** onder de GitHub-organisatie van dit vak (zie [Projectinformatie](info.md#je-repository-aanmaken)). Zorg ervoor dat je de volgende bestanden en mappen opneemt en correct structureert:
+Plaats alles in je **private projectrepository** onder de GitHub-organisatie van dit vak (zie [Projectinformatie](info.md#je-repository-aanmaken)):
 
-- Een markdown document met de volgende secties:
-    - **Situering** – de omschrijving van je webshop
-    - **Producten** – beschrijvingen, prijzen en specificaties van de producten of diensten, het label (_badge_) van het product dat je in de kijker zet + bronvermelding
-    - **Auteur** – een korte professionele bio
-    - **Styleguide** – het gekozen kleurenpalet en lettertype
-- Een **map** genaamd `assets/` met daarin de bijgesneden productafbeeldingen
-- Een **logo** voor je webshop
-- Een **professionele foto van jezelf** (voor op de homepage)
-
----
+- `styleguide.md` met de secties:
+    - **Situering:** naam en omschrijving van je webshop
+    - **Producten:** titel, omschrijving, prijs, 6 specificaties en afbeeldingsbron per product, plus de badge-tekst van je uitgelicht product
+    - **Auteur:** korte professionele bio
+    - **Styleguide:** kleurenpalet en lettertype(s)
+- Een map `assets/` met:
+    - de 6 bijgesneden productafbeeldingen
+    - je logo
+    - een professionele foto van jezelf
