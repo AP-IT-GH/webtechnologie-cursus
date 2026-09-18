@@ -1,46 +1,61 @@
 # Deelopdracht 3 - Development responsive webshop
 
-In deze deelopdracht werken we de desktopversie van je webshop uit. Volg daarbij de [desktop-wireframes](info.md#wireframes) die je hieronder per pagina vindt. Kleuren, lettertype en content blijven die uit je styleguide van deelopdracht 1. Gebruik "min-width" in je media-queries en behoud zo de _mobile-first_ aanpak. Zorg ervoor dat je jouw site minstens optimaliseert voor smartphones en desktops. Tablets zijn geen must.
+Lees eerst de [Projectinformatie](info.md). Daar vind je de wireframes, de deadlines en de regels voor het hele project.
+
+In deze deelopdracht maak je je webshop responsive: je voegt een desktopversie toe aan de mobiele versie uit [deelopdracht 2](deelopdracht-2-opbouw-html-css.md).
+
+- De [desktop-wireframes](info.md#desktop) bepalen hoe elke pagina eruitziet op een groot scherm. Je vindt ze hieronder ook per pagina.
+- Kleuren, lettertypes en content blijven die uit je `styleguide.md` uit [deelopdracht 1](deelopdracht-1-concept-content.md).
+
+---
+
+## Algemene regels
+
+- Werk _mobile first_: je mobiele CSS is de basis, en je past die aan voor grotere schermen met media queries met `min-width`.
+- Je site moet goed werken op smartphone en desktop. Tablet is niet verplicht.
+- De `body` is maximaal 1280px breed en staat gecentreerd op het scherm.
+- Test je webshop op verschillende schermbreedtes.
 
 {% hint style="info" %}
-Indien je in opdracht 1 geen gebruik hebt gemaakt van flexbox of grid voor lay-out, zul je dit wat moeten herwerken. Zorg daarbij dat je site er nog steeds goed uitziet op mobiel.
+Gebruikte je in deelopdracht 2 geen flexbox of grid voor de lay-out? Dan moet je dat nu herwerken. Controleer daarna of je site er op mobiel nog steeds goed uitziet.
 {% endhint %}
 
-Beperk de maximum breedte van de body tot 1280px en zorg ervoor dat deze gecentreerd staat op het scherm.
+---
 
-Zorg ervoor dat je jouw webshop test op verschillende schermgroottes.
+## Wat verandert er op desktop?
 
-## Overzicht van veranderingen per pagina
-
-De volgende zaken zullen er anders uitzien op desktop ten opzichte van mobiel:
-
-### `index.html`
+### Homepage (`index.html`)
 
 <figure><img src="wireframes/desktop-home.png" alt="Desktop-wireframe van de homepage"><figcaption>Desktop-wireframe van de homepage</figcaption></figure>
 
-- De algemene lay-out verandert: de pagina bestaat nu uit twee kolommen. Links staan de introductie en het bio-kaartje, rechts de best verkochte producten.
-- Het bio-kaartje staat onder de introductie en krijgt een rand.
-- Plaats de 3 meest verkochte items in een grid: één breed kaartje bovenaan, en twee even brede kaartjes eronder. Zorg ervoor dat op mobiel de 3 elementen onder elkaar komen.
-- Op desktop staan de titel en de korte beschrijving over de foto van het kaartje, in plaats van ernaast. Zet in het brede kaartje het product dat je in deelopdracht 1 in de kijker zette, met zijn label (_badge_) erbij.
+- De pagina bestaat uit twee kolommen: links de intro met daaronder de bio, rechts de best verkochte producten.
+- De bio krijgt een rand.
+- Zet de 3 productkaartjes in een grid: één breed kaartje bovenaan en twee even brede kaartjes eronder. Op mobiel blijven ze onder elkaar staan.
+- In het brede kaartje staat het product dat je in de kijker zet, met zijn _badge_.
+- De titel en de korte beschrijving staan over de foto in plaats van ernaast.
 
-### `shop.html`
+### Shop (`shop.html`)
 
 <figure><img src="wireframes/desktop-shop.png" alt="Desktop-wireframe van de shoppagina"><figcaption>Desktop-wireframe van de shoppagina</figcaption></figure>
 
-- Zet de 6 producttegels in een flexbox. Zorg ervoor dat de beschikbare schermbreedte zo optimaal mogelijk benut wordt.
-- Beperk het maximum aantal producttegels op 1 rij tot 3. Reken daarvoor de ideale flex-basis uit.
-- Op desktop staat de foto boven de titel en de beschrijving, in plaats van ernaast.
-- Zet de productlijst en de shopping cart + wishlist in een flexbox. Het winkelmandje en de wishlist komen in een smallere kolom rechts van de productlijst te staan als er voldoende ruimte is.
+- De productlijst en de `aside` met winkelmandje en wishlist staan naast elkaar in een flexbox. De `aside` is een smallere kolom rechts.
+- De 6 productkaartjes staan in een flexbox en vullen de beschikbare breedte zo goed mogelijk. Er staan maximaal 3 kaartjes op één rij: reken daarvoor zelf de juiste `flex-basis` uit.
+- In elk kaartje staat de foto boven de titel en beschrijving in plaats van ernaast.
 
-### De 6 detailpagina's
+### Detailpagina's (`product-<naam>.html`)
 
 <figure><img src="wireframes/desktop-product-detail.png" alt="Desktop-wireframe van een productdetailpagina"><figcaption>Desktop-wireframe van een productdetailpagina</figcaption></figure>
 
-- De afbeelding en de tekst worden horizontaal naast elkaar geplaatst in plaats van onder elkaar. Gebruik daarvoor flexbox of grid in combinatie met een media-query.
-- De link terug naar de shop blijft bovenaan staan, boven de twee kolommen.
-- Links staat de foto met het bijschrift. Rechts staan het label, de titel en de prijs, de beschrijving en de specificaties.
+- De link terug naar de shop blijft bovenaan staan, over de volledige breedte.
+- Daaronder staan twee kolommen naast elkaar (flexbox of grid):
+  - links de foto met bijschrift;
+  - rechts de _badge_, de titel en prijs, de beschrijving en de specificaties.
 
-### `contact.html`
+### Contact (`contact.html`)
 
-- Deze pagina hoeft voorlopig nog niet volledig uitgewerkt te worden. Het contactformulier volgt in [deelopdracht 4](deelopdracht-4-contact-page-formulier.md).
-- Voorzie wel al het bevestigingsbericht dat na het verzenden van het formulier zal verschijnen en style het volgens je huisstijl. Neem hiervoor een titel (bv. "Bericht verzonden.") en een korte zin op, bv. dat je zo snel mogelijk antwoordt. In [deelopdracht 6](deelopdracht-6-contact-page-kaart.md) ga je dit bericht met JavaScript verbergen en tonen.
+Het contactformulier volgt pas in [deelopdracht 4](deelopdracht-4-contact-page-formulier.md). Maak nu wel al het **bevestigingsbericht** dat verschijnt na het verzenden van het formulier:
+
+- een titel, bv. _Bericht verzonden_;
+- een korte zin, bv. dat je zo snel mogelijk antwoordt.
+
+Style het bericht volgens je huisstijl. In [deelopdracht 6](deelopdracht-6-contact-page-kaart.md) verberg en toon je het met JavaScript.

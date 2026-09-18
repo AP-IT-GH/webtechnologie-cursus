@@ -1,27 +1,26 @@
 # Deelopdracht 7 - Dynamische content (finale)
 
-In de echte wereld beheren webshop-eigenaars hun items niet via HTML. Nieuwe items toevoegen, de voorraad aanpassen, beschrijvingen wijzigen, promo’s toevoegen... zou te veel tijd in beslag nemen en vereist telkens een developer. In plaats daarvan gebruiken ze vaak een Content Management Systeem (_CMS_) waarmee ze met enkele kliks aanpassingen kunnen doen die opgeslagen worden in een database. De HTML wordt dan automatisch gegenereerd op basis van deze data.
+Lees eerst de [Projectinformatie](info.md). Daar vind je de wireframes, de deadlines en de regels voor het hele project.
 
-In deze laatste opdracht ga je de bestaande _hardcoded_ shopitems vervangen door items die in JavaScript worden beheerd en dynamisch weergegeven worden.  
-Deze opdracht vereist enige herwerking (_refactoring_) van je bestaande project. Commit je werk voor je begint, zodat je altijd terug kunt naar een werkende versie als er iets misgaat.
+Echte webshops schrijven hun producten niet met de hand in HTML. Eigenaars beheren ze in een _Content Management System_ (CMS) dat de data in een database bewaart, en de HTML wordt automatisch gegenereerd op basis van die data.
+
+In deze laatste deelopdracht doe je iets gelijkaardigs: je vervangt de _hardcoded_ productkaartjes op de shoppagina door kaartjes die JavaScript genereert uit data.
+
+{% hint style="info" %}
+Hiervoor moet je je bestaande code herwerken (_refactoring_). Maak eerst een commit, zodat je altijd terug kunt naar een werkende versie.
+{% endhint %}
 
 ---
 
-## Wat moet je doen?
+## 1. Zet je producten om naar een array van objecten
 
-### 1. **Zet de shop items om in een array van objecten**
-
-Overloop je shopitems. Elk item heeft een foto, titel, beschrijving, enkele productspecifieke eigenschappen en een prijs.
-
-Bouw een array van objecten waarbij de data van elk item in een object wordt bijgehouden. Geef elk item een unieke ID: dat maakt het straks gemakkelijker om specifieke items op te zoeken.
-
-Voorbeeld:
+Maak een array met één object per product. Elk object bevat de gegevens van het product: een unieke `id`, afbeelding, naam, beschrijving, prijs en productspecifieke eigenschappen. Met de `id` kun je straks een product gemakkelijk terugvinden.
 
 ```javascript
 const shopItems = [
   {
     id: 1,
-    image: "../assets/shopItems/blue_alchemy_jug.jpg",
+    image: "assets/blue-alchemy-jug.jpg",
     name: "Blue Alchemy Jug",
     description:
       "The Magical Blue Alchemy Jug is a rare and enchanting artifact, shimmering with an ethereal, deep sapphire glow.",
@@ -31,7 +30,7 @@ const shopItems = [
   },
   {
     id: 2,
-    image: "../assets/shopItems/wand_of_smiles.jpg",
+    image: "assets/wand-of-smiles.jpg",
     name: "Wand Of Smiles",
     description: "A magical wand, ideal companion for the mage.",
     material: "Wood",
@@ -43,46 +42,34 @@ const shopItems = [
 
 ---
 
-### 2. **HTML voor shopitems opbouwen**
+## 2. Genereer de productkaartjes
 
-Loop over de array van objecten en bouw voor elk item de HTML op. Je kunt hiervoor de HTML uit deelopdracht 2 hergebruiken.  
-In plaats van de gegevens _hardcoded_ in de HTML te zetten, bouw je nu dynamisch HTML op met JavaScript.
+Loop over de array en bouw voor elk product de HTML van het kaartje op met JavaScript. Hergebruik daarvoor de HTML-structuur uit [deelopdracht 2](deelopdracht-2-opbouw-html-css.md).
 
----
-
-### 3. **Shopitems toevoegen aan de DOM**
-
-Voeg de gegenereerde HTML van stap 2 toe aan het juiste DOM-element (bijvoorbeeld de `article-section`).
+Voeg de kaartjes toe aan het element dat de productlijst bevat. Verwijder daarna de _hardcoded_ kaartjes uit `shop.html`.
 
 ---
 
-### 4. **Zorg dat het winkelmandje en de wishlist opnieuw werken**
+## 3. Laat het winkelmandje en de verlanglijst opnieuw werken
 
-De knoppen "voeg toe aan winkelmand" en "wishlist" zullen waarschijnlijk niet meer werken.  
-Update de eventhandling zodat deze opnieuw functioneren.
+De knoppen **In winkelmandje** en het hartje werken waarschijnlijk niet meer. Pas je event handling aan zodat alles uit [deelopdracht 5](deelopdracht-5-winkelmandje-wishlist.md) opnieuw werkt. Er zijn twee manieren:
 
-**Aanpakoptie 1**:  
-Haal in één keer alle buttons op via JavaScript, loop erover, en gebruik hun positie in de array om het juiste item op te zoeken in de `shopItems` array.
-
-**Aanpakoptie 2 (aanbevolen)**:  
-Voeg de item-ID toe aan de HTML via een [data-attribuut](https://developer.mozilla.org/en-US/docs/Web/HTML/How_to/Use_data_attributes).  
-Dat maakt je code robuuster, omdat de volgorde in de array dan geen invloed heeft op de logica.
-
-Voorbeeld:
+- **Via de positie:** haal alle knoppen op, loop erover en gebruik hun positie om het juiste product in `shopItems` te vinden.
+- **Via een data-attribuut (aanbevolen):** zet de `id` van het product in de HTML met een [data-attribuut](https://developer.mozilla.org/en-US/docs/Web/HTML/How_to/Use_data_attributes), bv. `data-id="1"`. Je code hangt dan niet af van de volgorde in de array.
 
 ```javascript
-button.addEventListener("click", (e) => {
-  const id = parseInt(e.target.dataset.id);
+button.addEventListener("click", () => {
+  const id = Number(button.dataset.id);
   const item = shopItems.find((item) => item.id === id);
   // Voeg toe aan winkelmandje
 });
 ```
 
-> ⚠️ Volg de [coding guidelines](./../coding-guidelines.md): gebruik **geen `onClick`-attributen** in de HTML.
+> ⚠️ Volg de [coding guidelines](../coding-guidelines.md): gebruik **geen `onclick`-attributen** in de HTML.
 
 ---
 
 ## Tips
 
-- Zorg dat je project **werkt** bij het indienen. Een stabiel werkend project is beter dan een project met veel features dat crasht.
-- Dien je project **tijdig** in. Je zal het eindresultaat moeten presenteren op het einde van het semester.
+- Zorg dat je project **werkt** wanneer je het indient. Een stabiel project is beter dan een project met veel features dat crasht.
+- Dien **tijdig** in. Je presenteert het eindresultaat op het einde van het semester.
