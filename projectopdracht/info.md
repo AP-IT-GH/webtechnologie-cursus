@@ -9,42 +9,6 @@ Je bouwt dit semester een volledige, **responsieve webshop** voor een fictieve o
 
 Je doet dat niet in één keer. Het project is opgesplitst in **7 deelopdrachten** die op elkaar voortbouwen, verspreid over het semester. Je begint met een concept en wat teksten, en je eindigt met een webshop die echt werkt. Op het einde presenteer je je resultaat.
 
-Zo kan het eruitzien. Hieronder zie je twee voorbeelden van dezelfde webshop op mobiel. Ze volgen allebei de [wireframes](#wireframes), maar elk met een eigen huisstijl. Zo zie je hoeveel ruimte je hebt met je eigen kleuren, lettertype en content.
-
-{% tabs %}
-{% tab title="Voorbeeld 1: perkament & inkt" %}
-<figure><img src="voorbeelden/voorbeeld-perkament-en-inkt.png" alt="Voorbeeldwebshop Meeple &#x26; Mist in een lichte huisstijl: homepage, shop, detailpagina en contactpagina op mobiel"><figcaption>Een lichte huisstijl met een papierwitte achtergrond, zwarte lijnen en rode accenten</figcaption></figure>
-{% endtab %}
-
-{% tab title="Voorbeeld 2: avondtafel" %}
-<figure><img src="voorbeelden/voorbeeld-avondtafel.png" alt="Voorbeeldwebshop Meeple &#x26; Mist in een donkere huisstijl: homepage, shop met open bestelpop-up, detailpagina en contactpagina op mobiel"><figcaption>Een donkere huisstijl met nachtblauw en gele accenten. Op de shoppagina staat de pop-up om de bestelling te bevestigen open.</figcaption></figure>
-{% endtab %}
-{% endtabs %}
-
-### Werkend mobiel voorbeeld
-
-In de video hieronder zie je **Squishboel**, een volledig werkende mobiele webshop. Dit is één mogelijke interpretatie van de wireframes. Jouw webshop mag er anders uitzien, zolang je de gevraagde inhoud, opbouw en functionaliteiten respecteert.
-
-<figure>
-  <video controls playsinline width="372">
-    <source src="voorbeelden/squishboel-mobile.mp4" type="video/mp4">
-    Je browser kan deze video niet afspelen. <a href="voorbeelden/squishboel-mobile.mp4">Bekijk of download de video.</a>
-  </video>
-  <figcaption>Squishboel: een mogelijke mobiele uitwerking van de wireframes</figcaption>
-</figure>
-
-{% hint style="info" %}
-**In het kort**
-
-* Je werkt in een **private** repository onder de GitHub-organisatie van dit vak.
-* Je volgt de **wireframes** voor mobiel en desktop. Kleuren, lettertype en content kies je zelf.
-* Er zijn **twee feedbackmomenten**: deel 3 (25/10) en deel 5 (29/11). De finale deadline is 20/12.
-* Je dient in via **Digitap**, met de link naar je repository.
-* Je **commit regelmatig**: minstens één commit per deelopdracht.
-{% endhint %}
-
-***
-
 ## Wireframes
 
 Wanneer je een website bouwt, vertrek je meestal vanaf een design. Vaak begint dat met **wireframes**: eenvoudige schetsen die tonen welke elementen er op een pagina staan en hoe ze geordend zijn, zonder kleuren, lettertypes of echte content. Als developer zet jij die wireframes om naar een werkende website. Dat is precies wat je hier doet.
@@ -107,6 +71,42 @@ Hou je zo strikt mogelijk aan de opbouw van de wireframes: welke elementen er op
 ### Mobile-first
 
 We werken volgens het **mobile-first** principe: je optimaliseert je website eerst voor **smartphones**. Pas in deelopdracht 3 voeg je optimalisaties toe voor **tablets, laptops en desktops**.
+
+***
+
+Zo kan het eruitzien. Hieronder zie je dezelfde webshop op mobiel en desktop. Het voorbeeld volgt de [wireframes](#wireframes), met een eigen huisstijl, kleuren, lettertype en content.
+
+## Voorbeeld
+
+In de video hieronder zie je **Squishboel**, een volledig werkende mobiele webshop. Dit is één mogelijke interpretatie van de wireframes. Jouw webshop mag er anders uitzien, zolang je de gevraagde inhoud, opbouw en functionaliteiten respecteert.
+
+<figure>
+  <video controls playsinline width="372">
+    <source src="voorbeelden/squishboel-mobile.mp4" type="video/mp4">
+    Je browser kan deze video niet afspelen. <a href="voorbeelden/squishboel-mobile.mp4">Bekijk of download de video.</a>
+  </video>
+  <figcaption>Squishboel: een mogelijke mobiele uitwerking van de wireframes</figcaption>
+</figure>
+
+Hieronder zie je dezelfde webshop op desktop. De inhoud en functionaliteiten blijven hetzelfde, maar de lay-out past zich aan de grotere schermbreedte aan.
+
+<figure>
+  <video controls playsinline width="1110">
+    <source src="voorbeelden/squishboel-desktop.mp4" type="video/mp4">
+    Je browser kan deze video niet afspelen. <a href="voorbeelden/squishboel-desktop.mp4">Bekijk of download de video.</a>
+  </video>
+  <figcaption>Squishboel: een mogelijke desktopuitwerking van de wireframes</figcaption>
+</figure>
+
+{% hint style="info" %}
+**In het kort**
+
+* Je werkt in een **private** repository onder de GitHub-organisatie van dit vak.
+* Je volgt de **wireframes** voor mobiel en desktop. Kleuren, lettertype en content kies je zelf.
+* Er zijn **twee feedbackmomenten**: deel 3 (25/10) en deel 5 (29/11). De finale deadline is 20/12.
+* Je dient in via **Digitap**, met de link naar je repository.
+* Je **commit regelmatig**: minstens één commit per deelopdracht.
+{% endhint %}
 
 ***
 
