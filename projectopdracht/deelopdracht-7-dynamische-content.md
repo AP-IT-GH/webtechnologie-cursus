@@ -14,7 +14,7 @@ Hiervoor moet je je bestaande code herwerken (_refactoring_). Maak eerst een com
 
 ## 1. Zet je producten om naar een array van objecten
 
-Maak een array met één object per product. Elk object bevat de gegevens van het product: een unieke `id`, afbeelding, naam, beschrijving, prijs en productspecifieke eigenschappen. Met de `id` kun je straks een product gemakkelijk terugvinden.
+Maak een array met één object per product. Elk object bevat de gegevens van het product: een unieke `id`, afbeelding, naam, beschrijving, prijs en de 6 specificaties uit deelopdracht 1. Met de `id` kun je straks een product gemakkelijk terugvinden.
 
 ```javascript
 const shopItems = [
@@ -23,22 +23,33 @@ const shopItems = [
     image: "assets/blue-alchemy-jug.jpg",
     name: "Blue Alchemy Jug",
     description:
-      "The Magical Blue Alchemy Jug is a rare and enchanting artifact, shimmering with an ethereal, deep sapphire glow.",
-    material: "Enchanted crystal, reinforced with rare alchemical alloys",
-    dimensions: "10 inches tall, 5 inches in diameter at its widest point",
+      "Een zeldzame, betoverende kan die zacht oplicht in een diep saffierblauw.",
     price: 13,
+    specs: [
+      { label: "Materiaal", value: "Betoverd kristal" },
+      { label: "Hoogte", value: "25 cm" },
+      { label: "Diameter", value: "12 cm" },
+      { label: "Inhoud", value: "1 liter" },
+      { label: "Gewicht", value: "800 g" },
+      { label: "Herkomst", value: "Alchemistengilde van Antwerpen" },
+    ],
   },
   {
     id: 2,
     image: "assets/wand-of-smiles.jpg",
     name: "Wand Of Smiles",
-    description: "A magical wand, ideal companion for the mage.",
-    material: "Wood",
-    dimensions: "20 inches tall",
+    description: "Een magische toverstaf, de ideale metgezel voor elke tovenaar.",
     price: 130,
+    specs: [
+      { label: "Materiaal", value: "Eikenhout" },
+      // ... de andere 5 specificaties
+    ],
   },
+  // ... de andere 4 producten
 ];
 ```
+
+De 6 specificaties staan in een aparte array `specs`, met per specificatie een `label` en een `value`. Dat komt overeen met de rijen van de specificatietabel op je detailpagina's.
 
 ---
 
