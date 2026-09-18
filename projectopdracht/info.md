@@ -1,57 +1,154 @@
 ---
-description: Alles wat je moet weten om aan de projectopdracht te beginnen.
+description: Wat je bouwt, hoe je start en wanneer je indient.
 icon: circle-info
 ---
 
 # Projectinformatie
 
-Dit semester bouw je een volledige, **responsieve webshop** voor een fictieve organisatie die je zelf verzint. Je doet dat in **7 deelopdrachten** die op elkaar voortbouwen: je start met een concept en je teksten, en je eindigt met een webshop die echt werkt. Na de laatste deadline presenteer je je resultaat.
+Je bouwt dit semester een **responsieve webshop** voor een fictieve organisatie die je zelf bedenkt. Je werkt in **7 deelopdrachten**, van concept tot werkende webshop. Daarna presenteer je je werk en beantwoord je vragen over je code.
 
-{% hint style="info" %}
-**In het kort**
-
-* Je bouwt een webshop volgens de [**wireframes**](#wireframes). Kleuren, lettertype en content kies je zelf.
-* Je werkt in een **private** repository onder de GitHub-organisatie van dit vak. [Zo start je](#zo-start-je).
-* Je **commit regelmatig**, minstens één keer per deelopdracht.
-* Er zijn **twee feedbackmomenten** (25/10 en 29/11) en één **finale deadline** (20/12). Je dient telkens in via **Digitap**. Zie [planning & indienen](#planning-and-indienen).
-* Je schrijft alle teksten in het **Nederlands** en gebruikt enkel **rechtenvrije afbeeldingen**. Zie [regels & richtlijnen](#regels-and-richtlijnen).
-{% endhint %}
+Op deze pagina vind je [wat je bouwt](#wat-bouw-je), [hoe je start](#zo-start-je), de [planning](#planning-and-indienen), de [regels](#regels-and-richtlijnen) en de [wireframes](#wireframes).
 
 ## Wat bouw je?
 
-Je webshop bestaat uit **9 pagina's**:
+Je webshop heeft **9 pagina's**:
 
-| Pagina              | Aantal | Inhoud                                       |
-| ------------------- | ------ | -------------------------------------------- |
-| Homepage            | 1      | Hero, bestsellers en bio                     |
-| Shoppagina          | 1      | Alle producten, winkelmandje en wishlist     |
-| Productdetailpagina | 6      | Foto, beschrijving, specificaties en knoppen |
-| Contactpagina       | 1      | Kaart, contactformulier en bevestiging       |
+| Pagina | Aantal | Inhoud |
+| ------ | ------ | ------ |
+| Homepage | 1 | Hero (introductie bovenaan), bestsellers en bio |
+| Shoppagina | 1 | Alle producten, winkelmandje en wishlist |
+| Productdetailpagina | 6 | Foto, beschrijving, specificaties en knoppen |
+| Contactpagina | 1 | Kaart, contactformulier en bevestiging |
 
-Je werkt **mobile-first**. In [deelopdracht 2](deelopdracht-2-opbouw-html-css.md) bouw je de website eerst voor **smartphones**. Pas in [deelopdracht 3](deelopdracht-3-development-responsive.md) maak je ze geschikt voor **tablets, laptops en desktops**.
+Je volgt de opbouw van de [wireframes](#wireframes). Je kiest zelf de kleuren, het lettertype en de inhoud in je styleguide van [deelopdracht 1](deelopdracht-1-concept-content.md).
 
-***
+Je werkt **mobile-first**: in [deelopdracht 2](deelopdracht-2-opbouw-html-css.md) bouw je de website voor smartphones. In [deelopdracht 3](deelopdracht-3-development-responsive.md) pas je de lay-out aan grotere schermen aan.
+
+## Zo start je
+
+1. Lees deze projectinformatie en de [evaluatiecriteria](evaluatie.md).
+2. Maak je private GitHub-repository aan met de stappen hieronder.
+3. Start met [deelopdracht 1: concept en content](deelopdracht-1-concept-content.md).
+
+### Je repository aanmaken
+
+Je gebruikt **één private repository onder de GitHub-organisatie van dit vak** voor het hele project.
+
+1. Maak een GitHub-account aan met je AP-e-mailadres of log in op je bestaande account. Gebruik je een persoonlijk e-mailadres? Voeg je AP-e-mailadres dan toe als secundair adres in je accountinstellingen.
+2. Open de [uitnodigingslink](https://github-inviter.vercel.app?key=i-love-html-12345), vul je `ap.student.be`-e-mailadres in en klik op **Request invite**.
+3. Open de uitnodigingsmail van GitHub en klik op **Join**.
+4. Klik op GitHub op je profielfoto en kies **Your organizations**. Open **`webtechnologie-<academiejaar>`**. Het academiejaar heeft de vorm `jjjj-jjjj`.
+5. Ga naar **Repositories** en klik op **New repository**.
+6. Geef je repository de naam `projectopdracht-webtechnologie-<je naam>`. Vervang `<je naam>` door je eigen naam.
+7. Kies **Private**, laat de overige instellingen staan en klik op **Create repository**.
+
+Hoe je de repository lokaal cloont en vanuit Codium commits maakt, lees je in de [Startgids labo's](../labos/labo0.md).
+
+## Planning & indienen
+
+Werk de deelopdrachten in volgorde af: elke opdracht bouwt voort op de vorige. **LW** staat voor lesweek.
+
+| Deel | Onderdeel | Wanneer? | Wat doe je? |
+| ---- | --------- | -------- | ----------- |
+| 1 | [Concept en content](deelopdracht-1-concept-content.md) | LW1 · 27/09/2026 | Aanbevolen af te werken |
+| 2 | [Mobiele website met HTML en CSS](deelopdracht-2-opbouw-html-css.md) | LW3 · 11/10/2026 | Aanbevolen af te werken |
+| 3 | [Responsive webshop](deelopdracht-3-development-responsive.md) | LW5 · **25/10/2026** | Indienen voor feedbackronde 1 |
+| 4 | [Contactformulier](deelopdracht-4-contact-page-formulier.md) | LW6 · 01/11/2026 | Aanbevolen af te werken |
+| 5 | [Winkelmandje en wishlist](deelopdracht-5-winkelmandje-wishlist.md) | LW10 · **29/11/2026** | Indienen voor feedbackronde 2 |
+| 6 | [Kaart en bevestiging](deelopdracht-6-contact-page-kaart.md) | LW11 · 06/12/2026 | Aanbevolen af te werken |
+| 7 | [Dynamische content](deelopdracht-7-dynamische-content.md) | LW13 · **20/12/2026** | Finale versie indienen |
+| | Presentatie en verdediging | Week van **04/01/2027** | Je webshop presenteren en vragen beantwoorden |
+
+Op de **aanbevolen data** hoef je niets in te dienen. Ze helpen je om op schema te blijven. De twee **feedbackdeadlines** gelden als je feedback wilt krijgen.
+
+{% hint style="warning" %}
+**De finale deadline is 20 december 2026.** Te late inzendingen worden niet aanvaard. Na deze deadline wordt je repository afgesloten en kan je niets meer wijzigen. Er volgt geen feedbackronde meer.
+{% endhint %}
+
+### Indienen
+
+Dien bij elke feedbackronde waaraan je deelneemt en bij de finale deadline als volgt in:
+
+1. Push je laatste wijzigingen naar GitHub.
+2. Dien de **link naar je repository** in via [Digitap](https://learning.ap.be).
+
+Enkel **private repositories onder de GitHub-organisatie van dit vak** worden aanvaard.
+
+### Feedback
+
+Na deelopdracht 3 en deelopdracht 5 kan je feedback krijgen van de lector. Daarvoor moet je aan **beide voorwaarden** voldoen:
+
+* Je hebt je werk uiterlijk op de feedbackdeadline ingediend via Digitap.
+* Je bent aanwezig in de eerstvolgende les.
+
+Feedback levert geen punten op. Ze helpt je om je werk te verbeteren vóór de finale inzending.
+
+### Presentatie & verdediging
+
+In de week van **4 januari 2027** presenteer je je webshop en beantwoord je technische vragen over je eigen code. Je moet kunnen uitleggen **wat je code doet en waarom je die zo hebt geschreven**.
+
+## Regels & richtlijnen
+
+### Git-historiek
+
+Je git-historiek telt mee in de [evaluatie](evaluatie.md). Ze moet tonen dat je regelmatig en zelfstandig aan je project werkt.
+
+* Maak een commit na elk afgerond stuk werk, met **minstens één commit per deelopdracht**.
+* Schrijf duidelijk wat je hebt aangepast, bv. `Validatie contactformulier toegevoegd` in plaats van `update`.
+* Push regelmatig naar GitHub.
+* Gebruik een `.gitignore` om overbodige bestanden uit je repository te houden, zoals `.DS_Store`, `node_modules` en editorconfiguratie.
+
+### Coding guidelines
+
+Volg de [Coding Guidelines](../coding-guidelines.md) voor al je code. Wie ze niet volgt, verliest punten.
+
+### Teksten
+
+* Schrijf alle teksten **in het Nederlands**.
+* Schrijf originele teksten. Kopieer geen teksten van het internet waarop copyright rust.
+* Je mag AI-tools zoals ChatGPT gebruiken voor inspiratie of om teksten te genereren.
+* Hou je teksten kort en duidelijk. Gebruik spellingscorrectie en laat iemand je teksten nalezen.
+
+### Afbeeldingen
+
+* Gebruik **enkel rechtenvrije afbeeldingen**: eigen foto's of foto's met een vrije licentie, bijvoorbeeld van [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) of [Pixabay](https://pixabay.com/). AI-afbeeldingen mogen ook. Probeer origineel te zijn.
+* Voeg bij elke afbeelding een **bronvermelding in de `figcaption`** toe. Zo geef je de maker krediet en kan de lector de bron controleren.
+* Maak productfoto's **vierkant: 500 × 500 pixels**.
+* Gebruik duidelijke bestandsnamen, bv. `product-zaadjes-lavendel.jpg`, en een logische mappenstructuur.
+
+Vind je geen geschikte productfoto? Kies dan een algemene afbeelding die je product goed weergeeft, zoals een rechtenvrije foto van voetbalschoenen voor een shop met voetbalschoenen.
+
+<details>
+
+<summary>Tools om afbeeldingen bij te snijden</summary>
+
+Met deze tools kan je afbeeldingen bijsnijden tot de juiste afmetingen en beeldverhouding:
+
+* [Photopea](https://www.photopea.com/)
+* [Affinity](https://www.affinity.studio/photo-editing-software)
+* [Adobe Express](https://www.adobe.com/express/feature/image/resize)
+* [Imagy.app](https://imagy.app/)
+
+</details>
 
 ## Wireframes
 
-Een website begint meestal met **wireframes**: eenvoudige schetsen die tonen welke elementen er op een pagina staan en hoe ze geordend zijn, zonder kleuren, lettertypes of echte content. In de praktijk werkt een designer die wireframes vaak eerst uit tot een volledig design (een _high fidelity_ versie), en pas daarna gaat de developer aan de slag.
-
-In dit project slaan we die designstap over. Jij gaat rechtstreeks van de wireframes naar een werkende website, met de kleuren, het lettertype en de content uit je styleguide van [deelopdracht 1](deelopdracht-1-concept-content.md).
+Wireframes zijn eenvoudige schetsen van je pagina's. Ze tonen **welke elementen je nodig hebt en waar ze staan**. Kleuren, lettertype en inhoud haal je uit je styleguide van [deelopdracht 1](deelopdracht-1-concept-content.md). Je hoeft geen apart, volledig design te maken voor je begint te bouwen.
 
 {% hint style="warning" %}
-Volg de opbouw van de wireframes zo strikt mogelijk: welke elementen er op een pagina staan en in welke volgorde. Hoe goed je de wireframes omzet naar HTML en CSS bepaalt een groot deel van je eindscore. Zie [Evaluatie](evaluatie.md).
+**Volg de opbouw en volgorde van de wireframes zo nauwkeurig mogelijk.** Hoe je ze omzet naar HTML en CSS bepaalt een groot deel van je eindscore. Bekijk de [evaluatiecriteria](evaluatie.md).
 {% endhint %}
 
 ### Zo lees je de wireframes
 
-| Wat zie je?                                           | Wat betekent het?                                                                                                                     |
-| ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **Grijze balken**                                     | Tijdelijke tekst. Vervang die door je eigen content uit [deelopdracht 1](deelopdracht-1-concept-content.md).                          |
-| **Kaders met een kruis**                              | Afbeeldingen.                                                                                                                         |
-| **Blauwe elementen**                                  | Accenten, zoals labels, prijzen, de link terug naar de shop en de actieve link in de navigatie. Die krijgen de accentkleur uit je styleguide. |
-| **Stippellijnen**                                     | Een alternatieve toestand, bv. de bevestiging die verschijnt nadat je een formulier hebt verstuurd.                                   |
-| **Kleine grijze notities** (bv. _↑ H2 van de pagina_) | Uitleg bij de wireframe. Die komen niet op je pagina.                                                                                 |
-| **Teksten** zoals _In winkelmandje_ of _Afrekenen_    | Voorbeelden. Je mag ze aanpassen aan je eigen webshop, zolang ze [in het Nederlands](#teksten) zijn.                                  |
+| Wat zie je? | Wat doe je ermee? |
+| ----------- | ---------------- |
+| Grijze balken | Vervang ze door je eigen teksten uit deelopdracht 1. |
+| Kaders met een kruis | Plaats hier afbeeldingen. |
+| Blauwe elementen | Gebruik hiervoor de accentkleur uit je styleguide. |
+| Stippellijnen | Ze tonen een andere toestand, zoals een bevestiging na het versturen van een formulier. |
+| Kleine grijze notities, bv. *↑ H2 van de pagina* | Dit is uitleg. Neem die niet over op je website. |
+| Teksten zoals *In winkelmandje* of *Afrekenen* | Je mag deze voorbeelden aanpassen aan je webshop. Hou ze in het Nederlands. |
 
 ### Mobiel
 
@@ -93,13 +190,12 @@ Volg de opbouw van de wireframes zo strikt mogelijk: welke elementen er op een p
 {% endtab %}
 {% endtabs %}
 
-Je vindt elke wireframe ook terug bij de deelopdracht waarin je die pagina bouwt: de mobiele versies in [deelopdracht 2](deelopdracht-2-opbouw-html-css.md), de desktopversies in [deelopdracht 3](deelopdracht-3-development-responsive.md) en de contactpagina in [deelopdracht 4](deelopdracht-4-contact-page-formulier.md).
 
-***
+De wireframes staan ook bij de bijbehorende opdrachten: mobiel bij [deelopdracht 2](deelopdracht-2-opbouw-html-css.md), desktop bij [deelopdracht 3](deelopdracht-3-development-responsive.md) en de contactpagina bij [deelopdracht 4](deelopdracht-4-contact-page-formulier.md).
 
 ## Voorbeeld
 
-**Squishboel** is een volledig werkende webshop die de wireframes volgt, met een eigen huisstijl, kleuren, lettertype en content. Het is één mogelijke interpretatie: jouw webshop mag er anders uitzien, zolang je de gevraagde inhoud, opbouw en functionaliteiten respecteert.
+**Squishboel** toont hoe een werkende webshop volgens de wireframes eruit kan zien. Je eigen webshop mag een andere huisstijl hebben, zolang je de gevraagde inhoud, opbouw en functies behoudt.
 
 {% tabs %}
 {% tab title="Mobiel" %}
@@ -116,118 +212,3 @@ Dezelfde inhoud en functionaliteiten, maar de lay-out past zich aan de grotere s
 *Squishboel: een mogelijke desktopuitwerking van de wireframes*
 {% endtab %}
 {% endtabs %}
-
-***
-
-## Zo start je
-
-Voor je aan deelopdracht 1 begint, maak je één keer je GitHub-repository aan. Daar push je je werk naartoe tot de finale deadline. Daarna wordt de repository afgesloten en kan je niets meer wijzigen.
-
-### <img src="./../.gitbook/assets/github.png" alt="GitHub logo" data-size="line"> Je repository aanmaken
-
-1. Maak een GitHub-account aan met je AP e-mailadres, of log in op je bestaande account. Heb je al een account met een persoonlijk e-mailadres? Voeg dan je AP e-mailadres toe als secundair adres in de instellingen.
-2. Ga naar de [uitnodigingslink](https://github-inviter.vercel.app?key=i-love-html-12345) van onze GitHub-organisatie.
-3. Vul je `ap.student.be` e-mailadres in en klik op **Request invite**.
-4. Je krijgt een e-mail van GitHub met een uitnodiging voor de organisatie. Klik op **Join**.
-5. Klik op GitHub op je profielfoto rechtsboven en kies **Your organizations**. Open de organisatie van dit vak: **`webtechnologie-<academiejaar>`**, met het lopende academiejaar in de vorm `jjjj-jjjj`.
-6. Open de tab **Repositories** en klik op **New repository**.
-7. Noem je repository `projectopdracht-webtechnologie-<je naam>`. Vervang `<je naam>` door je eigen naam.
-8. Kies voor een **Private** repository, laat de rest op de standaardwaarden staan en klik op **Create repository**.
-
-{% hint style="info" %}
-Weet je niet meer hoe je een repository lokaal cloont of hoe je commit vanuit Codium? Dat staat stap voor stap in de [Startgids labo's](../labos/labo0.md).
-{% endhint %}
-
-***
-
-## Planning & indienen
-
-| Deel | Onderdeel                                                                        | Deadline              | Soort deadline                                          |
-| ---- | -------------------------------------------------------------------------------- | --------------------- | ------------------------------------------------------- |
-| 1    | [Concept & content](deelopdracht-1-concept-content.md)                           | LW1 · 27/09/2026      | Aanbevolen                                              |
-| 2    | [Development mobiele website met HTML en CSS](deelopdracht-2-opbouw-html-css.md) | LW3 · 11/10/2026      | Aanbevolen                                              |
-| 3    | [Development responsive webshop](deelopdracht-3-development-responsive.md)       | LW5 · **25/10/2026**  | 📥 **Indienen voor feedback**                           |
-| 4    | [Contact page formulier](deelopdracht-4-contact-page-formulier.md)               | LW6 · 01/11/2026      | Aanbevolen                                              |
-| 5    | [Winkelmandje & wishlist](deelopdracht-5-winkelmandje-wishlist.md)               | LW10 · **29/11/2026** | 📥 **Indienen voor feedback**                           |
-| 6    | [Contact page kaart & bevestiging](deelopdracht-6-contact-page-kaart.md)         | LW11 · 06/12/2026     | Aanbevolen                                              |
-| 7    | [Dynamische content](deelopdracht-7-dynamische-content.md)                       | LW13 · **20/12/2026** | 📥 **Finale inzending** (harde deadline, geen feedback) |
-| 8    | Presentatie & verdediging                                                        | Week van 04/01/2027   | 🎤 Presentatie                                          |
-
-* **Aanbevolen**: je dient niets in. Deze data helpen je om op schema te blijven.
-* **Indienen voor feedback**: de uiterste datum om in te dienen als je wilt deelnemen aan feedbackronde 1 (deel 3) of feedbackronde 2 (deel 5).
-* **Finale inzending**: de harde deadline van het project. Mis die zeker niet.
-
-{% hint style="warning" %}
-Elke deelopdracht bouwt voort op de vorige. Werk je project dus bij na elke deelopdracht, en niet pas de week voor de deadline. Achterstand loop je niet gemakkelijk meer in.
-{% endhint %}
-
-### Indienen
-
-Je dient in door de link naar je GitHub-repository in te zenden via [Digitap](https://learning.ap.be). Enkel **private** repositories onder de GitHub-organisatie van dit vak worden aanvaard. Te late inzendingen worden niet aanvaard.
-
-### Feedback
-
-Na **deel 3** (responsive webshop) en na **deel 5** (winkelmandje & wishlist) kan je feedback krijgen van de lector. Daarvoor moet je:
-
-* je werk **tijdig** hebben ingediend via Digitap, **én**
-* **aanwezig** zijn in de eerstvolgende les.
-
-Feedback levert geen punten op, maar het is je kans om te weten waar je staat vóór de finale inzending. Maak er gebruik van.
-
-### Presentatie & verdediging
-
-In de week van **4 januari 2027** presenteer je je webshop. Daarna krijg je **technische vragen over je eigen code**. Zorg dus dat je van elk stuk code kan uitleggen wat het doet en waarom je het zo hebt aangepakt.
-
-***
-
-## Regels & richtlijnen
-
-Deze regels gelden voor je hele project. Lees ze nu één keer door en kom terug wanneer je ze nodig hebt.
-
-### Git-historiek
-
-Een propere git-historiek toont dat je gespreid en zelfstandig aan je project hebt gewerkt. Ze telt mee in de [evaluatie](evaluatie.md).
-
-* Werk **incrementeel**: commit telkens je een afgerond stuk werk hebt, in plaats van alles in één grote commit op het einde.
-* Voorzie **minstens één commit per deelopdracht**. Meerdere kleinere commits zijn beter.
-* Schrijf **duidelijke commit messages** die zeggen wat je hebt aangepast, bv. `Contactformulier validatie toegevoegd` in plaats van `update` of `fix`.
-* **Push regelmatig** naar GitHub, niet enkel vlak voor de deadline.
-* Commit **geen overbodige bestanden** (bv. `.DS_Store`, `node_modules`, editor-config). Gebruik een `.gitignore`.
-
-### Coding guidelines
-
-Al je code volgt de [Coding Guidelines](../coding-guidelines.md). Ze zorgen voor consistente, professionele code, en wie ze niet volgt, verliest punten.
-
-### Teksten
-
-Content is een belangrijk onderdeel van je webshop. Neem er voldoende tijd voor.
-
-* Schrijf **alle teksten in het Nederlands**.
-* Schrijf **originele teksten**. Kopieer geen teksten van het internet waar copyright op rust.
-* Je mag **AI-tools** zoals ChatGPT gebruiken om teksten te genereren of inspiratie op te doen.
-* Hou je teksten **beknopt en helder**.
-* Vermijd schrijffouten: gebruik spellingscorrectie en laat je teksten op het einde nalezen door iemand anders.
-
-### Afbeeldingen
-
-* Gebruik **enkel rechtenvrije afbeeldingen**: foto's die je zelf maakt, of foto's van platformen met een vrije licentie zoals [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/) of [Pixabay](https://pixabay.com/). AI-gegenereerde afbeeldingen mogen ook, maar probeer origineel te zijn.
-* Voeg altijd een **bronvermelding** toe in de `figcaption` van de afbeelding. Zo geef je de fotograaf krediet, en kan de lector controleren waar je afbeeldingen vandaan komen.
-* Productfoto's zijn **vierkant, 500x500px**.
-* Geef elke afbeelding een **duidelijke bestandsnaam**, bv. `product-zaadjes-lavendel.jpg`, en orden je afbeeldingen in een logische mappenstructuur.
-
-{% hint style="info" %}
-**Geen perfecte foto voor je product?** Kies dan een meer generieke afbeelding die het idee goed weergeeft. Verkoop je voetbalschoenen, zoek dan naar generieke, rechtenvrije foto's van voetbalschoenen.
-{% endhint %}
-
-<details>
-
-<summary>Tools om afbeeldingen bij te snijden</summary>
-
-Met deze gratis tools snijd je je afbeeldingen bij tot de juiste afmetingen en **aspect ratio**:
-
-* [⭐️ Photopea](https://www.photopea.com/)
-* [Affinity](https://www.affinity.studio/photo-editing-software)
-* [Adobe Express](https://www.adobe.com/express/feature/image/resize)
-* [Imagy.app](https://imagy.app/)
-
-</details>
