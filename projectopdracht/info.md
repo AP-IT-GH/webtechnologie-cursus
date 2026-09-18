@@ -46,17 +46,15 @@ Werk de deelopdrachten in volgorde af: elke opdracht bouwt voort op de vorige. D
 * **Feedbackdeadline**: dien je werk in als je feedback wilt. Dat is optioneel. Zie [Feedback](#feedback).
 * **Finale deadline**: je dient je volledige webshop in. Dat is verplicht.
 
-**LW** staat voor lesweek.
-
 | Deel | Onderdeel | Datum | Soort |
 | ---- | --------- | ----- | ----- |
-| 1 | [Concept en content](deelopdracht-1-concept-content.md) | LW1 · 27/09/2026 | Aanbevolen |
-| 2 | [Mobiele website met HTML en CSS](deelopdracht-2-opbouw-html-css.md) | LW3 · 11/10/2026 | Aanbevolen |
-| 3 | [Responsive webshop](deelopdracht-3-development-responsive.md) | LW5 · **25/10/2026** | **Feedbackdeadline 1** |
-| 4 | [Contactformulier](deelopdracht-4-contact-page-formulier.md) | LW6 · 01/11/2026 | Aanbevolen |
-| 5 | [Winkelmandje en wishlist](deelopdracht-5-winkelmandje-wishlist.md) | LW10 · **29/11/2026** | **Feedbackdeadline 2** |
-| 6 | [Kaart en bevestiging](deelopdracht-6-contact-page-kaart.md) | LW11 · 06/12/2026 | Aanbevolen |
-| 7 | [Dynamische content](deelopdracht-7-dynamische-content.md) | LW13 · **20/12/2026** | **Finale deadline** |
+| 1 | [Concept en content](deelopdracht-1-concept-content.md) | 27/09/2026 | Aanbevolen |
+| 2 | [Mobiele website met HTML en CSS](deelopdracht-2-opbouw-html-css.md) | 11/10/2026 | Aanbevolen |
+| 3 | [Responsive webshop](deelopdracht-3-development-responsive.md) | **25/10/2026** | **Feedbackdeadline 1** |
+| 4 | [Contactformulier](deelopdracht-4-contact-page-formulier.md) | 01/11/2026 | Aanbevolen |
+| 5 | [Winkelmandje en wishlist](deelopdracht-5-winkelmandje-wishlist.md) | **29/11/2026** | **Feedbackdeadline 2** |
+| 6 | [Kaart en bevestiging](deelopdracht-6-contact-page-kaart.md) | 06/12/2026 | Aanbevolen |
+| 7 | [Dynamische content](deelopdracht-7-dynamische-content.md) | **20/12/2026** | **Finale deadline** |
 | | [Presentatie en verdediging](#presentatie-and-verdediging) | Week van **04/01/2027** | Verplicht |
 
 {% hint style="warning" %}
