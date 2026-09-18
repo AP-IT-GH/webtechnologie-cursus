@@ -3,7 +3,7 @@
 ## Alle theorie
 
 * Aan de slag
-  * [Inleiding](README.md)
+  * [Inleiding](start.md)
   * [IDE](ide.md)
   * [Coding guidelines](coding-guidelines.md)
 * HTML
