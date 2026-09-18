@@ -11,7 +11,7 @@ Je hoeft dat niet in één keer te kunnen. Het project is opgedeeld in **7 deelo
 
 <figure><img src="voorbeelden/voorbeeld-perkament-en-inkt.png" alt="Voorbeeldwebshop Meeple &#x26; Mist op mobiel: homepage, shop, detailpagina en contactpagina"><figcaption>Zo kan jouw webshop eruitzien: een voorbeeld op mobiel, met een eigen huisstijl bovenop de wireframes</figcaption></figure>
 
-Een tweede voorbeeld, in een donkere huisstijl, vind je in de [Projectinformatie](info.md).
+Een tweede voorbeeld, **Squishboel**, zie je in actie op mobiel en desktop in de [Projectinformatie](info.md#voorbeeld).
 
 ## Waar begin je?
 

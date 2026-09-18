@@ -99,7 +99,9 @@ In de week van **4 januari 2027** presenteer je je webshop. Daarna krijg je **te
 
 ## Wireframes
 
-Als developer vertrek je meestal van een design. Vaak begint dat met **wireframes**: eenvoudige schetsen die tonen welke elementen er op een pagina staan en hoe ze geordend zijn, zonder kleuren, lettertypes of echte content. Jij zet die wireframes om naar een werkende website.
+Een website begint meestal met **wireframes**: eenvoudige schetsen die tonen welke elementen er op een pagina staan en hoe ze geordend zijn, zonder kleuren, lettertypes of echte content. Soms gaan die wireframes eerst naar een designer, die er een uitgewerkt design (een _high fidelity_ versie) van maakt. Pas daarna gaat dat design naar de developer.
+
+In dit project slaan we de designstap over om het simpel te houden: jij gaat rechtstreeks van de wireframes naar een werkende website. Kleuren, lettertype en content kies je zelf in je styleguide uit [deelopdracht 1](deelopdracht-1-concept-content.md).
 
 Voor elke pagina is er een **mobiele** en een **desktop**-wireframe. Zo lees je ze:
 
