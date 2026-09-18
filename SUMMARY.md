@@ -1,6 +1,6 @@
 # Table of contents
 
-## Theorie
+## Alle theorie
 
 * Aan de slag
   * [Inleiding](README.md)
@@ -84,17 +84,16 @@
     * [event binding](javascript/events/binding.md)
     * [event flow](javascript/events/flow.md)
   * [JS bibliotheken](javascript/wat-is-js/bibliotheken.md)
-* Asynchroon programmeren
-  * [Promises](javascript/asynchroon-programmeren/promises/README.md)
-    * [async/await](javascript/asynchroon-programmeren/promises/async-await.md)
-  * [HTTP request methoden](javascript/asynchroon-programmeren/intro/README.md)
-    * [POST](javascript/asynchroon-programmeren/intro/post.md)
-    * [GET](javascript/asynchroon-programmeren/intro/get.md)
-  * [API's](javascript/asynchroon-programmeren/wat-is-een-api/README.md)
-    * [wat is een API](javascript/asynchroon-programmeren/wat-is-een-api/README.md)
-    * [Postman](javascript/asynchroon-programmeren/wat-is-een-api/postman.md)
-    * [API aanroepen](javascript/asynchroon-programmeren/wat-is-een-api/api-aanroepen.md)
-* [Bronnen](javascript/asynchroon-programmeren/bronnen.md)
+  * Asynchroon programmeren
+    * [Promises](javascript/asynchroon-programmeren/promises/README.md)
+      * [async/await](javascript/asynchroon-programmeren/promises/async-await.md)
+    * [HTTP request methoden](javascript/asynchroon-programmeren/intro/README.md)
+      * [POST](javascript/asynchroon-programmeren/intro/post.md)
+      * [GET](javascript/asynchroon-programmeren/intro/get.md)
+    * [API's](javascript/asynchroon-programmeren/wat-is-een-api/README.md)
+      * [wat is een API](javascript/asynchroon-programmeren/wat-is-een-api/README.md)
+      * [Postman](javascript/asynchroon-programmeren/wat-is-een-api/postman.md)
+      * [API aanroepen](javascript/asynchroon-programmeren/wat-is-een-api/api-aanroepen.md)
 
 ## Labo's
 

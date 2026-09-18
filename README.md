@@ -1,4 +1,5 @@
 ---
+hidden: true
 description: >-
   Je leert interactieve websites bouwen met HTML, CSS en JavaScript en legt de
   basis voor dynamische webapplicaties.
