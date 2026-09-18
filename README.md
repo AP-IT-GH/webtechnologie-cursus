@@ -8,7 +8,7 @@ description: >-
 
 In dit vak leer je **websites bouwen met de actuele webstandaarden**: HTML voor de structuur, CSS voor de vormgeving en JavaScript voor de interactie. Je start met statische pagina's, maakt ze responsief en interactief, en eindigt met data uit een API.
 
-Op deze pagina vind je [hoe je start](#zo-start-je), [hoe de cursus is opgebouwd](#opbouw-van-de-cursus) en [wat je per deel leert](#wat-leer-je).
+Op deze pagina vind je [hoe je start](#zo-start-je), [hoe je deze cursus studeert](#zo-studeer-je-deze-cursus) en [wat je per deel leert](#wat-leer-je).
 
 ## Zo start je
 
@@ -17,18 +17,15 @@ Op deze pagina vind je [hoe je start](#zo-start-je), [hoe de cursus is opgebouwd
 3. Volg de [Startgids labo's](labos/labo0.md) en maak het eerste labo.
 4. Lees de [projectinformatie](projectopdracht/info.md) zodat je weet waar je naartoe werkt.
 
-## Opbouw van de cursus
+## Zo studeer je deze cursus
 
-De cursus bestaat uit **4 delen**. Elk deel bouwt voort op het vorige.
+Werk **per labo**, niet per theoriehoofdstuk. In het [overzicht van de labo's](labos/README.md) zie je welke labo's we in welke lesweek maken. Open telkens de pagina van het labo dat aan de beurt is. Daar vind je onder **Theorie** precies welke hoofdstukken bij dat labo horen. Lees die, en maak daarna de oefeningen.
 
-| Deel | Je leert | Labo's |
-| ---- | -------- | ------ |
-| 1. [HTML](html/structuur.md) | Webpagina's structureren | 1, 2, 6, 9 |
-| 2. [CSS](css/intro.md) | Webpagina's vormgeven en responsief maken | 3 tot 11 |
-| 3. [JavaScript](javascript/wat-is-js/README.md) | Programmeren en pagina's interactief maken | 12 tot 19 |
-| 4. [Asynchroon programmeren](javascript/asynchroon-programmeren/promises/README.md) | Werken met promises en API's | 20, 21 |
+{% hint style="warning" %}
+Ga niet alle theorie in het menu van begin tot einde doorlopen. Dat is te veel in één keer en je raakt overweldigd. De labopagina's geven aan wat je wanneer nodig hebt.
+{% endhint %}
 
-In [labo 22](labos/labo22.md) breng je alles samen in één oefening. Doorheen het semester pas je wat je leert toe in de [projectopdracht](projectopdracht/README.md): een responsieve webshop.
+Doorheen het semester pas je wat je leert toe in de [projectopdracht](projectopdracht/README.md): een responsieve webshop.
 
 ## Wat leer je?
 
