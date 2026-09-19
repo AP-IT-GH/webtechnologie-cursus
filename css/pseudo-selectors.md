@@ -29,48 +29,13 @@ element:pseudoclass-naam {
 }
 ```
 
-### locatie pseudo-classes
+### interactie pseudo-classes
 
-Elk van de volgende selectoren is een pseudo-classe die je meestal met het `<a>`-element gebruikt. De **volgorde** waarin ze worden toegepast **speelt een rol**.
-
-```css
-a:link {  
-  color: #0000FF; 
-}
-a:visited { 
-  color: #FF00FF;
-}
-a:hover {
-  color: #00CCFF;
-}
-a:active {
-  color: #FF0000;
-}
-```
-
-**:link**
-
-De [:link](https://developer.mozilla.org/en-US/docs/Web/CSS/:link) CSS-pseudo-classe geldt voor niet-bezochte links en is standaard blauw en onderlijnd.
-
-```css
-a:link {
-  color: #0000FF;
-}
-```
-
-**:visited**
-
-De [:visited](https://developer.mozilla.org/en-US/docs/Web/CSS/:visited) CSS-pseudo-classe geldt voor bezochte links en is standaard magenta.
-
-```css
-a:visited {
-  color: #FF00FF;
-}
-```
+Deze pseudo-classes reageren op wat de gebruiker doet met een element: er met de muis over gaan, erop klikken of er met het toetsenbord naartoe navigeren.
 
 **:hover**
 
-De [:hover](https://github.com/barbaralettany/webtech-js/blob/main/css/2-selectors/css-pseudoklassen.md#definitie) CSS-pseudo-classe is de meest bekende pseudo-class die ervoor zorgt dat de weergave van een element wijzigt wanneer er met een muis wordt over gegaan.
+De [:hover](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover) CSS-pseudo-classe is de meest bekende pseudo-class die ervoor zorgt dat de weergave van een element wijzigt wanneer er met een muis wordt over gegaan.
 
 ```css
 a:hover {
@@ -80,32 +45,31 @@ a:hover {
 
 **:active**
 
-De [:active](https://developer.mozilla.org/en-US/docs/Web/CSS/:active) CSS-pseudo-classe maakt in bovenstaand voorbeeld de koppelingen rood als erop geklikt wordt. Omdat `:active` als laatste gedefineerd is, overschrijft deze de eerste drie pseudo-classes. Dit wordt bijvoorbeeld gebruikt bij navigatie, zodat je in de menu weet welke pagina je aan het bekijken bent.
+De [:active](https://developer.mozilla.org/en-US/docs/Web/CSS/:active) CSS-pseudo-classe geldt zolang er op een element geklikt wordt, dus zolang de muisknop ingedrukt is. Zo kan je een knop bijvoorbeeld "ingedrukt" laten lijken.
 
 ```css
-a:active {
-  color: #FF0000;
+button:active {
+  transform: translateY(2px);
 }
 ```
+
+**:focus**
+
+De [:focus](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus) CSS-pseudo-classe geldt voor het element dat op dat moment de focus heeft, bijvoorbeeld een invoerveld waarin je aan het typen bent of een knop waar je met de `Tab`-toets naartoe navigeerde. Zo zie je als gebruiker altijd welk element actief is.
+
+```css
+input:focus {
+  outline: 3px solid #6a5acd;
+}
+```
+
+{% hint style="warning" %}
+Verwijder de focus-stijl nooit zonder er iets anders in de plaats te zetten. Gebruikers die met het toetsenbord navigeren zien anders niet meer waar ze zich op de pagina bevinden.
+{% endhint %}
 
 ### input pseudo-klassen
 
 De volgende pseudo-classes zijn gekoppeld aan formulieren en geven de mogelijkheid om elementen uit een formulier te selecteren op basis van de toestand van het form-element.
-
-**:checked**
-
-De [:checked](https://developer.mozilla.org/en-US/docs/Web/CSS/:checked) CSS-pseudo-classe vertegenwoordigt een radio-button, een checkbox of option, waarbij dat element is aangevinkt of status is geschakeld.
-
-```css
-input:checked{
-  accent-color: red;
-}
-option:checked {
-  accent-color: red;
-}
-```
-
-> TIP: De `accent-color` eigenschap stelt de kleur in van de accentuering van een formulier element, zoals de kleur van een geselecteerde checkbox of radio button.
 
 **:required**
 
@@ -168,10 +132,6 @@ ul li:last-child {
 }
 ```
 
-**:only-child**
-
-[:only-child](https://developer.mozilla.org/en-US/docs/Web/CSS/:only-child) komt overeen met een element als dit het enige onderliggende element van het ouderelement is, het 'enige kind' als het ware ([voorbeeld](https://developer.mozilla.org/en-US/docs/Web/CSS/:only-child)).
-
 **:nth-child(N)**
 
 De [:nth-child(N)](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child) CSS-pseudo-class selecteert elementen op basis van hun positie in een groep van broers en zussen binnen één ouderelement ([voorbeeld](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)).
@@ -192,28 +152,6 @@ table tbody tr:nth-child(even) td{
 /* Selecteert de oneven rijen (odd) in tbody van tabel met class="spreadsheet" */
 .spreadsheet tbody tr:nth-child(odd) {
 	background-color: #ffffff;
-}
-```
-
-**:nth-last-child(N)**
-
-De [:nth-last-child(N)](http://www.sitepoint.com/web-foundations/81298/) CSS-pseudo-classe selecteert het N laatste element in de lijst van elementen in een ouderelement ([voorbeeld](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-child)).
-
-```css
-table {
-  border: 1px solid blue;
-}
-/* Selecteert de laatste drie elementen */
-tr:nth-last-child(-n+3) {
-  background-color: pink;
-}
-/* Selecteert elk element vanaf het tweede tot het laatste element */
-tr:nth-last-child(n+2) {
-  color: blue;
-}
-/* Selecteert enkel het voorlaatste element */
-tr:nth-last-child(2) {
-  font-weight: 600;
 }
 ```
 
@@ -258,21 +196,42 @@ Er bestaan nog meer véél meer pseudo-classes. Bekijk ze [hier](https://develop
 
 ## pseudo-elementen
 
-Met pseudo-elementen kunnen we een specifiek onderdeel van een element gaan beïnvloeden. Denk hierbij bijvoorbeeld aan de eerste lijn van een paragraaf. We zouden die lijn dan in een `span`-element kunnen steken of we kunnen met een pseudo-element-selector die lijn specifieke stijleigenschappen geven.
+Met pseudo-elementen kunnen we een specifiek onderdeel van een element gaan beïnvloeden. Denk hierbij bijvoorbeeld aan extra inhoud vóór of na een element. We zouden daarvoor een `span`-element in de HTML kunnen steken, of we kunnen met een pseudo-element-selector dat onderdeel rechtstreeks vanuit CSS toevoegen en stijlen.
 
-**::first-letter**
+**::before en ::after**
+
+Met [::before](https://developer.mozilla.org/en-US/docs/Web/CSS/::before) en [::after](https://developer.mozilla.org/en-US/docs/Web/CSS/::after) voeg je een extra, onzichtbaar element toe als eerste of laatste kind van een element. Zo kan je decoratie toevoegen zonder extra HTML te schrijven.
+
+Deze pseudo-elementen verschijnen **enkel** als je de eigenschap `content` instelt. Dat mag ook een lege string zijn.
 
 ```css
-p::first-letter {
-  font-size: 250%;
+/* Zet een rood sterretje achter het label */
+label.verplicht::after {
+  content: " *";
+  color: red;
 }
 ```
 
-**::first-line**
+Met een lege `content` kan je `::before` en `::after` gebruiken als een vorm die je volledig met CSS opmaakt, bijvoorbeeld een lijn die onder een link verschijnt:
 
 ```css
-p::first-line {
-  color: red;
+a {
+  position: relative;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: #6a5acd;
+  transition: width 0.3s ease;
+}
+
+a:hover::after {
+  width: 100%;
 }
 ```
 

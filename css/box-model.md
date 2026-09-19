@@ -48,5 +48,5 @@ Deze is de meest intuïtieve manier om met boxen te werken.*/
 Het is een industrie-standaard om altijd met border-box te werken! 
 
 Een goede CSS Reset of Normalize CSS file zet standaard alle boxen op `border-box`. Dit is de aanbevolen instelling voor moderne webontwikkeling.
-Voor meer informatie zie hoofdstuk [CSS Resets](reset.md).
+Voor meer informatie zie hoofdstuk [reset vs normalize](reset.md).
  {% endhint %}

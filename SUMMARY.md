@@ -38,7 +38,7 @@
     * [media queries](css/media-queries.md)
   * [Animaties](css/animations.md)
     * [transities](css/transities.md)
-  * [reset.css](css/reset.md)
+  * [reset vs normalize](css/reset.md)
   * [variabelen](css/variabelen.md)
 * JavaScript
   * [Wat is JavaScript](javascript/wat-is-js/README.md)

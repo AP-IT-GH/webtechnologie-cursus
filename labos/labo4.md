@@ -18,7 +18,7 @@ coverY: 0
 * [Randen en spaties](../css/randen-en-spaties.md) (Outline niet)
 * [Units](../css/units.md)
 * [⭐️ Pseudo Selectors](../css/pseudo-selectors.md) (behalve die voor [formulieren](https://apwt.gitbook.io/webtechnologie/css/intro-1/pseudo-selectors#input-pseudo-klassen))
-* [CSS Reset](../css/reset.md)
+* [Reset vs normalize](../css/reset.md)
 
 ## 🔗 Aanvullende bronnen
 
