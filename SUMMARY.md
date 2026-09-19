@@ -83,6 +83,7 @@
     * [event types](javascript/events/types.md)
     * [event binding](javascript/events/binding.md)
     * [event flow](javascript/events/flow.md)
+    * [dialog](javascript/events/dialog.md)
   * [JS bibliotheken](javascript/wat-is-js/bibliotheken.md)
   * Asynchroon programmeren
     * [Promises](javascript/asynchroon-programmeren/promises/README.md)

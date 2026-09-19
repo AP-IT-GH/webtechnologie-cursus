@@ -67,7 +67,7 @@ De verlanglijst staat onder het winkelmandje.
 
 <figure><img src="wireframes/desktop-shop.png" alt="Desktop-wireframe van de shoppagina met de dialoog om de bestelling te bevestigen"><figcaption>De dialoog "Bestelling bevestigen" staat rechts onderaan in de desktop-wireframe</figcaption></figure>
 
-**Afrekenen** opent een modale dialoog. De rest van de pagina wordt verduisterd.
+**Afrekenen** opent een modale dialoog. De rest van de pagina wordt verduisterd. Gebruik hiervoor het [dialog-element](../javascript/events/dialog.md).
 
 - De dialoog heeft de titel **Bestelling bevestigen** en een **×-knop** om hem te sluiten zonder te bestellen.
 - Toon alle producten uit het winkelmandje met naam, aantal en prijs, en daaronder de totale prijs.
@@ -86,5 +86,6 @@ Alles werkt op mobiel en op desktop. Wisselt de pagina via een media query van l
 
 - Bouw alles stap voor stap op. Controleer na elke actie of alle aantallen, prijzen en knoppen mee veranderen.
 - Gebruik een `ul` voor de productregels in het winkelmandje en voor de chips in de verlanglijst.
+- Voor de dialoog volstaan `showModal()` en `close()`. Zie [dialog](../javascript/events/dialog.md).
 - Houd per product één duidelijke toestand bij: minstens een id, de prijs, het aantal en of het in de verlanglijst staat.
 - Test ook randgevallen: een leeg winkelmandje, verwijderen via een ×-knop en daarna hetzelfde product opnieuw toevoegen.
