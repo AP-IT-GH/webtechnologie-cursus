@@ -10,7 +10,7 @@ Veel stijlen hebben logische standaardwaarden die voor alle of de meeste child-e
 
 - Meestal geërfde eigenschappen: typografische en tekst-gerelateerde eigenschappen zoals:
   - `color`
-  - `font-family`, `font-size`, `font-style`, `font-weight`, `line-height`
+  - `font-family`, `font-size`, `font-style`, `font-weight`
   - `text-align`, `text-transform`, `letter-spacing`
   - `visibility`
 
