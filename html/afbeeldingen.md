@@ -40,20 +40,10 @@ Voordelen:
 </figure>
 ```
 
-## `srcset` en `sizes`
+## Responsieve afbeeldingen
 
-Om responsieve afbeeldingen mogelijk te maken, introduceert HTML5 de `srcset`- en `sizes`- attributen voor het `<img>`-element. Deze attributen stellen browsers in staat om de juiste afbeelding op basis van het schermformaat te selecteren.
+Met de attributen `srcset` en `sizes` (en het `<picture>`-element) kan de browser zelf een afbeelding kiezen die past bij de schermgrootte. Een gsm laadt dan bijvoorbeeld een kleinere versie van de afbeelding dan een desktop.
 
-* Het `srcset`-attribuut bevat een lijst van afbeeldingsbestanden met bijbehorende breedtes. Bijvoorbeeld:
-
-```html
-<img srcset="afbeelding-1.jpg 600w, afbeelding-2.jpg 900w, afbeelding-3.jpg 1200w" sizes="(max-width: 600px) 90vw, (max-width: 900px) 60vw, 40vw" src="afbeelding-1.jpg" alt="Een responsieve afbeelding">
-```
-
-In dit voorbeeld zal de browser de juiste afbeelding kiezen op basis van het schermformaat.
-
-* Het `sizes`-attribuut bepaalt hoeveel ruimte de afbeelding inneemt op het scherm, afhankelijk van de viewport grootte.
-
-Met deze toevoegingen kun je de prestaties van jouw website verbeteren en tegelijkertijd een goede gebruikerservaring bieden op verschillende apparaten.
-
-Meer informatie over [responsive afbeeldingen](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images).
+{% hint style="info" %}
+Responsieve afbeeldingen vallen buiten de scope van deze cursus. Wil je er toch meer over weten, lees dan het artikel [Responsive images](https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images) op MDN.
+{% endhint %}
