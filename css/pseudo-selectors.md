@@ -188,6 +188,35 @@ article:first-of-type {
 }
 ```
 
+### de ouder selecteren met :has()
+
+Met gewone selectoren kan je enkel "naar beneden" of "naar rechts" kijken in de HTML: je selecteert kinderen, afstammelingen of broers en zussen die **na** een element komen. De [:has()](https://developer.mozilla.org/en-US/docs/Web/CSS/:has) CSS-pseudo-classe draait dat om: je selecteert een element op basis van wat het **bevat**.
+
+```css
+/* Selecteert elk artikel dat een afbeelding bevat */
+article:has(img) {
+  display: flex;
+  gap: 1rem;
+}
+```
+
+Dat is handig bij formulieren, waar het label meestal **voor** het invoerveld staat. Met `:required` alleen kan je het label dan niet bereiken, maar via de ouder wel:
+
+```html
+<div class="form-group">
+  <label for="email">E-mailadres</label>
+  <input type="email" id="email" required>
+</div>
+```
+
+```css
+/* Zet een rood sterretje achter het label van elk verplicht veld */
+.form-group:has(:required) > label::after {
+  content: " *";
+  color: red;
+}
+```
+
 {% hint style="info" %}
 Er bestaan nog meer véél meer pseudo-classes. Bekijk ze [hier](https://developer.mozilla.org/en-US/docs/Web/CSS/pseudo-classes) allemaal!
 {% endhint %}
