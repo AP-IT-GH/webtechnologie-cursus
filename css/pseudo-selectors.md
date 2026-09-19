@@ -176,6 +176,8 @@ p:nth-of-type(1) {
 }
 ```
 
+<figure><img src="../.gitbook/assets/image%20(36).png" alt=""><figcaption><p>Het verschil tussen nth-child en nth-of-type pseudo class selectors gevisualiseerd</p></figcaption></figure>
+
 **:first-of-type**
 
 De [:first-of-type](https://developer.mozilla.org/en-US/docs/Web/CSS/:first-of-type) CSS-pseudo-classe selecteert het eerste element van zijn type binnen een groep van broers / zussen.
@@ -220,8 +222,6 @@ Dat is handig bij formulieren, waar het label meestal **voor** het invoerveld st
 {% hint style="info" %}
 Er bestaan nog meer véél meer pseudo-classes. Bekijk ze [hier](https://developer.mozilla.org/en-US/docs/Web/CSS/pseudo-classes) allemaal!
 {% endhint %}
-
-<figure><img src="../.gitbook/assets/image%20(36).png" alt=""><figcaption><p>Het verschil tussen nth-child en nth-of-type pseudo class selectors gevisualiseerd</p></figcaption></figure>
 
 ## pseudo-elementen
 
