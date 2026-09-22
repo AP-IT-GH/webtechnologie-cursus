@@ -54,6 +54,29 @@ Boven- en onderschrift zijn tekens die boven of onder de normale schrijfhoogte w
 <p>In deze paragraaf komt een formule: a<sup>2</sup> = b<sup>2</sup> + c<sup>2</sup></p>
 ```
 
+## nadruk en belang
+
+Binnen een paragraaf wil je soms een woord of een stuk zin laten opvallen. HTML heeft daar twee elementen voor, en het verschil zit in de **betekenis** die je aan die tekst geeft, niet in hoe het eruitziet.
+
+Met het `<strong>`-element duid je aan dat een stuk tekst **belangrijk** is, of ernstig of dringend. Browsers tonen dit standaard vetgedrukt.
+
+Met het `<em>`-element (van *emphasis*) leg je de **klemtoon** op een stuk tekst, zoals je dat ook met je stem zou doen wanneer je de zin voorleest. Browsers tonen dit standaard schuin.
+
+```html
+<p>Deze oefening is <strong>verplicht</strong>.</p>
+<p>Ik zei dat je <em>nu</em> moest vertrekken.</p>
+```
+
+Beide elementen mag je in elkaar nesten wanneer een stuk tekst zowel belangrijk is als klemtoon krijgt. Let er dan op dat je de elementen in de juiste volgorde opent en sluit.
+
+```html
+<p>Een paragraaf tekst <strong><em>kan</em></strong> soms gewoon zinloos zijn.</p>
+```
+
+{% hint style="info" %}
+Je komt op het internet ook nog het `<b>`-element (bold) en het `<i>`-element (italic) tegen. Die zeggen enkel iets over de weergave en niets over de betekenis. Voorleessoftware en zoekmachines kunnen daar dus niets mee. Gebruik daarom `<strong>` en `<em>`.
+{% endhint %}
+
 ## citaten
 
 We gaan vaak verwijzen naar werk van anderen. Hiervoor bestaan er verschillende mogelijkheden in HTML. Elk van deze mogelijkheden heeft een specifieke juiste toepassing. Het is belangrijk om de verschillende HTML-elementen dus goed uit elkaar te houden.
