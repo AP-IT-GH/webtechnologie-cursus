@@ -14,6 +14,13 @@ Codium (ook wel VSCodium genoemd) is een populaire, privacygerichte build van Vi
 * Download de versie die compatibel is met je besturingssysteem.
 * Volg de installatie-instructies.
 
+{% hint style="warning" %}
+Kies niet zomaar de eerste download in de lijst, maar kijk goed welk bestand je nodig hebt:
+
+* **Windows**: in de meeste gevallen de **x86 64 bit** versie van de **System Installer**. Kijk dus of er `x64` en `System Installer` bij staat. Enkel bij een toestel met een ARM-processor (bv. een Snapdragon-laptop) kies je de `arm64` versie.
+* **macOS**: heb je een Mac met Apple Silicon (M1 en later), dan kies je de **arm64** `.dmg`. Op een oudere Mac met Intel-processor neem je de **x86 64 bit** `.dmg`.
+{% endhint %}
+
 ### Projectmappen in Codium
 
 * Open een map of project in Codium met behulp van `File > Open Folder`.
