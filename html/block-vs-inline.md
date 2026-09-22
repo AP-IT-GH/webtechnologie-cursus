@@ -20,21 +20,65 @@ Voorbeelden van inline-elementen:
 * `<em>`
 * `<br>`
 
-## elementen in blok groeperen
+## `<div>` en `<span>`
 
-Het is mogelijk om meerdere elementen te groeperen in 1 block-element. Deze elementen kunnen we dus als een container gebruiken om meerder elementen in te steken en deze dan later te manipuleren als zijnde 1 blok.
+De meeste HTML-elementen vertellen iets over hun inhoud: een `<p>` bevat een paragraaf, een `<nav>` bevat navigatie, een `<strong>` duidt belangrijke tekst aan. Soms wil je echter gewoon een stuk van je pagina kunnen vastnemen om het op te maken met CSS of aan te spreken vanuit JavaScript, zonder dat die inhoud een eigen betekenis heeft. Daarvoor bestaan er twee betekenisloze containers:
 
-```html
-<article class="post">
-    <h1>Titel van de post</h1>
-    <p>Tekst van de post</p>
-</article>
-```
+* `<div>` is een **block**-element en groepeert inhoud in een blok.
+* `<span>` is een **inline**-element en groepeert inhoud binnen een tekstregel.
 
-## elementen inline groeperen
+Beide elementen voegen zelf geen enkele betekenis en geen zichtbare opmaak toe. Ze zijn puur een haakje om `class`- of `id`-attributen aan te hangen.
 
-Het is ook mogelijk om elementen `inline` te groeperen. Hiervoor wordt gebruik gemaakt van het `<span>`-element.
+### elementen in blok groeperen
+
+Met een `<div>` steek je meerdere elementen in 1 blok, zodat je ze daarna als een geheel kan manipuleren. Dat is handig om bijvoorbeeld een kaartje of een kolom te maken:
 
 ```html
-<p>We gaan hier <em>tekst</em> inline <strong>manipuleren</strong>.</p>
+<div class="kaart">
+    <h2>Titel van de kaart</h2>
+    <p>Tekst van de kaart</p>
+</div>
 ```
+
+```css
+.kaart {
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+```
+
+Omdat een `<div>` een block-element is, komt het onder de voorgaande inhoud te staan en neemt het standaard de volledige beschikbare breedte in.
+
+### elementen inline groeperen
+
+Met een `<span>` doe je hetzelfde binnen een lopende tekst. De tekst blijft gewoon doorlopen, er komt geen regeleinde bij:
+
+```html
+<p>Deze cursus kost <span class="prijs">45 euro</span> per student.</p>
+```
+
+```css
+.prijs {
+    font-weight: bold;
+    color: darkgreen;
+}
+```
+
+### wanneer gebruik je ze?
+
+`<div>` en `<span>` zijn je **laatste keuze**, niet je eerste. Kijk altijd eerst of er een element bestaat dat wel de juiste betekenis heeft:
+
+| In plaats van | Gebruik je beter |
+| ------------- | ---------------- |
+| `<div class="header">` | `<header>` |
+| `<div class="menu">` | `<nav>` |
+| `<div class="artikel">` | `<article>` |
+| `<div class="voettekst">` | `<footer>` |
+| `<span class="belangrijk">` | `<strong>` |
+| `<span class="nadruk">` | `<em>` |
+
+Pas als geen enkel semantisch element past, grijp je naar een `<div>` of een `<span>`. Een typisch geldig gebruik is een puur visuele wrapper, bijvoorbeeld een element dat enkel bestaat om een grid of een flexbox op te zetten.
+
+{% hint style="warning" %}
+Een pagina volstoppen met `<div>`'s wordt _divitis_ genoemd. Zo'n pagina werkt wel, maar zoekmachines en voorleessoftware kunnen er geen structuur meer uit afleiden, en voor jezelf wordt de code veel moeilijker leesbaar. Lees zeker het hoofdstuk over [semantiek](semantiek.md).
+{% endhint %}
