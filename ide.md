@@ -21,25 +21,6 @@ Kies niet zomaar de eerste download in de lijst, maar kijk goed welk bestand je 
 * **macOS**: heb je een Mac met Apple Silicon (M1 en later), dan kies je de **arm64** `.dmg`. Op een oudere Mac met Intel-processor neem je de **x86 64 bit** `.dmg`.
 {% endhint %}
 
-### Projectmappen in Codium
-
-* Open een map of project in Codium met behulp van `File > Open Folder`.
-* Gebruik de zijbalk (Explorer) om door je projectbestanden te navigeren.
-* Werk met meerdere projecten tegelijkertijd door ze in **verschillende** vensters te openen.
-  * In 1 Codium-venster heb je dus maximaal 1 project/oefening gelijktijdig openstaan.
-
-{% hint style="info" %}
-* In Windows kan je een map openen met Codium via rechtermuisklik.
-* In MacOS kan je de map naar het symbool van Codium in jouw dock slepen.
-{% endhint %}
-
-### Emmet: snel HTML en CSS typen
-
-* Emmet is een krachtige toolkit voor webontwikkelaars waarmee je sneller HTML en CSS kunt typen. Deze zit standaard geintegreerd in Codium.
-* Typ een eenvoudige HTML-structuur zoals `div>ul>li*3` en druk op `Tab` om het uit te vouwen naar een volledige structuur.
-* Een nieuw HTML-bestand `scaffolden` kan je doen door `!` te typen en op `Tab` te drukken.
-* Hier vind je een uitgebreide [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/).
-
 ## Configuratie Codium
 
 In Codium worden instellingen bewaard in een `settings.json` bestand. We gaan enkele instellingen toevoegen die het werken met webtechnologie aangenamer maken. Voel je vrij om deze instellingen op termijn aan te passen naar jouw voorkeur.
@@ -100,3 +81,24 @@ In Codium heb je de mogelijkheid om je editor uit te breiden door extensies of p
 ### [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
 * Installeer de CSS Peek extensie in Codium.
 * Met deze plugin kun je direct naar de CSS-definities van je HTML-elementen springen, waardoor het gemakkelijker wordt om de styling van je website te beheren en te begrijpen.
+
+## Tips
+
+{% hint style="success" %}
+**Projectmappen in Codium**
+
+* Open een map of project in Codium met behulp van `File > Open Folder`.
+* Gebruik de zijbalk (Explorer) om door je projectbestanden te navigeren.
+* Werk met meerdere projecten tegelijkertijd door ze in **verschillende** vensters te openen. In 1 Codium-venster heb je dus maximaal 1 project/oefening gelijktijdig openstaan.
+* In Windows kan je een map openen met Codium via rechtermuisklik.
+* In MacOS kan je de map naar het symbool van Codium in jouw dock slepen.
+{% endhint %}
+
+{% hint style="success" %}
+**Emmet: snel HTML en CSS typen**
+
+* Emmet is een krachtige toolkit voor webontwikkelaars waarmee je sneller HTML en CSS kunt typen. Deze zit standaard geintegreerd in Codium.
+* Typ een eenvoudige HTML-structuur zoals `div>ul>li*3` en druk op `Tab` om het uit te vouwen naar een volledige structuur.
+* Een nieuw HTML-bestand `scaffolden` kan je doen door `!` te typen en op `Tab` te drukken.
+* Hier vind je een uitgebreide [Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/).
+{% endhint %}
