@@ -26,7 +26,7 @@ Kies niet zomaar de eerste download in de lijst, maar kijk goed welk bestand je 
 In Codium worden instellingen bewaard in een `settings.json` bestand. We gaan enkele instellingen toevoegen die het werken met webtechnologie aangenamer maken. Voel je vrij om deze instellingen op termijn aan te passen naar jouw voorkeur.
 
 * Druk op `Ctrl+Shift+P` (of `Cmd+Shift+P` op macOS) om het Command Palette te openen.
-* Typ `Preferences: Open Settings (JSON)` en selecteer deze optie om de instellingen in JSON-formaat te openen.
+* Typ `Preferences: Open User Settings (JSON)` en selecteer deze optie om de instellingen in JSON-formaat te openen.
 * Alternatief: Je kunt ook naar de instellingen navigeren via `File > Preferences > Settings` (of `Codium > Settings > Settings` op macOS), en daar de JSON-instellingen openen door op het `Open Settings (JSON)` icoon in de rechterbovenhoek van het instellingenvenster te klikken.
 * Voeg de volgende configuraties toe aan je settings.json:
 

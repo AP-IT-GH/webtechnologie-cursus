@@ -11,6 +11,10 @@ Inhoud
 - [Kort voorbeeldformulier](#kort-voorbeeldformulier)
 
 
+## [Structuur van een formulier](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
+
+Een formulier begint altijd met een `<form>`-element. Met `action` geef je aan naar welke URL de data verstuurd wordt en met `method` hoe dat gebeurt (`GET` of `POST`).
+
 Standaard is `method="GET"` en `action` is de huidige pagina als je het niet instelt.
 
 Let op: het daadwerkelijk verwerken van formulierdata op de server valt buiten deze cursus.

@@ -24,4 +24,4 @@ Vanaf dit labo zullen we regelmatig gebruik maken van file paths. Dit wordt uitg
 
 * [Browser Market Share](https://gs.statcounter.com/browser-market-share) - laat zien welke webbrowsers het populairst zijn
 * [Can I Use...](https://caniuse.com/) - Zoek op welke nieuwe features ondersteund worden door welke browser.
-* [MDN Web docs](https://app.gitbook.com/u/ZirE2v7NWHgKIS4XzbuueUVaYVm2) - uitgebreide documentatie over webtechnologieën zoals HTML, CSS, JavaScript en Web APIs
+* [MDN Web docs](https://developer.mozilla.org/en-US/) - uitgebreide documentatie over webtechnologieën zoals HTML, CSS, JavaScript en Web APIs
