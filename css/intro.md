@@ -35,7 +35,7 @@ Een stijldeclaratie bestaat uit een eigenschap en een waarde voor die eigenschap
 
 De CSS-declaratie van bovenstaand voorbeeld in detail bekeken en benoemd:
 
-* **h1, h2, h3** = type selector
+* **h1, h2, h3** = drie type-selectoren, gescheiden door een komma (een selectorlijst)
 * **{** = codeblok tussen {}
 * **font-family** = eigenschap (property)
 * **:** = toekenning (assignment)

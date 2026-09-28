@@ -20,7 +20,32 @@ p.note {
 }
 ```
 
-### id-selector
+### class combineren met een andere selector
+
+`p.note` is een **combinatie** van twee selectoren: een type-selector en een class-selector, zonder spatie aan elkaar geplakt. Het element moet dan aan beide voorwaarden voldoen: het moet een `<p>`-element zijn **en** de klasse `note` hebben.
+
+Die spatie maakt een groot verschil:
+
+```css
+/* een <p>-element dat zelf de klasse 'note' heeft */
+p.note {
+    /* ... */
+}
+
+/* een element met de klasse 'note' binnen een <p>-element (descendant-selector) */
+p .note {
+    /* ... */
+}
+```
+
+```html
+<p class="note">Deze paragraaf wordt geselecteerd door p.note</p>
+<p>Deze <span class="note">span</span> wordt geselecteerd door p .note</p>
+```
+
+Op dezelfde manier kan je ook twee klassen aan elkaar plakken. `.note.belangrijk` selecteert enkel de elementen die beide klassen hebben, dus `class="note belangrijk"`.
+
+## id-selector
 
 De id-selector heeft betrekking op een element met een id-attribuut, waarvan de waarde overeen komt met datgene dat beschreven staat achter # .
 

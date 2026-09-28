@@ -30,6 +30,34 @@ a {
 }
 ```
 
+## selectoren groeperen
+
+Willen we dezelfde stijlregels toepassen op verschillende selectoren, dan moeten we die regels niet herhalen. We schrijven de selectoren dan na elkaar, gescheiden door een komma. Zo'n opsomming noemen we een **selectorlijst**.
+
+```css
+h1,
+h2,
+h3 {
+    font-family: Arial, sans-serif;
+}
+```
+
+Dit is exact hetzelfde als drie afzonderlijke stijlregels schrijven:
+
+```css
+h1 {
+    font-family: Arial, sans-serif;
+}
+h2 {
+    font-family: Arial, sans-serif;
+}
+h3 {
+    font-family: Arial, sans-serif;
+}
+```
+
+Elk onderdeel van de lijst is een volwaardige selector op zich. Je mag dus ook verschillende soorten selectoren in één lijst combineren, bijvoorbeeld `h1, nav a`.
+
 ## child-selector
 
 Met de child-selector kunnen we een element selecteren dat een direct kind is van een ander element. We kunnen hiermee eenvoudig onze HTML-structuur mee gaan doorlopen.
