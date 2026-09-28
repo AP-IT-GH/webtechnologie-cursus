@@ -1,4 +1,4 @@
-# 9: objecten
+# Objecten
 
 [MDN: Object - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)
 

@@ -12,7 +12,7 @@ coverY: 0
 [Oefeningen van labo 7 op Github](https://github.com/AP-IT-GH/webtechnologie-labo-07)
 
 ## 💻 Theorie
-* [⭐️ Display property: grid](../css/grid.md)
+* [⭐️ Display property: grid](../css/lay-out/grid.md)
 
 ## 🔗 Aanvullende bronnen
 

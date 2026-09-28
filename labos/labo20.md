@@ -13,4 +13,4 @@ coverY: 0
 
 ## 💻 Theorie
 
-* [Promises](https://apwt.gitbook.io/webtechnologie/asynchroon-programmeren/promises)
+* [Promises](../javascript/async/promises/README.md)

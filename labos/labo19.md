@@ -13,4 +13,4 @@ coverY: 0
 
 ## 💻 Theorie
 
-* [Libraries](https://apwt.gitbook.io/webtechnologie/javascript/wat-is-js/bibliotheken)
+* [Libraries](../javascript/bibliotheken.md)

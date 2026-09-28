@@ -13,6 +13,6 @@ coverY: 0
 
 ## 💻 Theorie
 
-* [JSON](https://apwt.gitbook.io/webtechnologie/javascript/objecten/json)
-* [HTTP request methoden](https://apwt.gitbook.io/webtechnologie/asynchroon-programmeren/intro)
-* [API's](https://apwt.gitbook.io/webtechnologie/javascript/wat-is-een-api)
+* [JSON](../javascript/objecten/json.md)
+* [HTTP request methoden](../javascript/async/http-methoden/README.md)
+* [API's](../javascript/async/apis/README.md)

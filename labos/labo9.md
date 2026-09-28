@@ -14,4 +14,4 @@ coverY: 0
 ## 💻 Theorie
 
 * [⭐️ Formulieren en invoervelden](../html/forms.md)
-* [Pseudo-selectors voor formulieren](../css/pseudo-selectors.md#input-pseudo-klassen)
+* [Pseudo-selectors voor formulieren](../css/selectors/pseudo-selectors.md#input-pseudo-klassen)

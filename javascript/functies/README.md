@@ -1,4 +1,4 @@
-# 8: functies
+# Functies
 
 [MDN: Functions - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 

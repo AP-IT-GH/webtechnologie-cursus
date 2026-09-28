@@ -14,11 +14,11 @@ coverY: 0
 ## 💻 Theorie
 
 * [Block vs. inline](../html/block-vs-inline.md)
-* [⭐️ Box Model](../css/box-model.md)
-* [Randen en spaties](../css/randen-en-spaties.md) (Outline niet)
-* [Units](../css/units.md)
-* [⭐️ Pseudo Selectors](../css/pseudo-selectors.md) (behalve die voor [formulieren](https://apwt.gitbook.io/webtechnologie/css/intro-1/pseudo-selectors#input-pseudo-klassen))
-* [Reset vs normalize](../css/reset.md)
+* [⭐️ Box Model](../css/box-model/README.md)
+* [Randen en spaties](../css/box-model/randen-en-spaties.md) (Outline niet)
+* [Units](../css/box-model/units.md)
+* [⭐️ Pseudo Selectors](../css/selectors/pseudo-selectors.md) (behalve die voor [formulieren](../css/selectors/pseudo-selectors.md#input-pseudo-klassen))
+* [Reset vs normalize](../css/box-model/reset.md)
 
 ## 🔗 Aanvullende bronnen
 

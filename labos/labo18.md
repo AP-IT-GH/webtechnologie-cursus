@@ -13,5 +13,5 @@ coverY: 0
 
 ## 💻 Theorie
 
-* [Events](https://apwt.gitbook.io/webtechnologie/javascript/events)
-* [dialog](https://apwt.gitbook.io/webtechnologie/javascript/events/dialog)
+* [Events](../javascript/events/README.md)
+* [dialog](../javascript/events/dialog.md)

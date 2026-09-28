@@ -13,7 +13,7 @@ coverY: 0
 
 ## 💻 Theorie
 
-* [⭐️ Display property: flex](../css/flex.md)
+* [⭐️ Display property: flex](../css/lay-out/flex.md)
 
 ## 🔗 Aanvullende bronnen
 

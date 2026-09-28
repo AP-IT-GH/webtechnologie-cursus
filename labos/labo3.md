@@ -13,13 +13,13 @@ coverY: 0
 
 ## 💻 Theorie
 
-* [CSS introductie](../css/intro.md)
-* [⭐️ Selectors](../css/selectors.md)
-  * [Class & ID](../css/class-en-id.md)
-  * [Attributen](../css/attributen.md)
-* [Kleuren](../css/kleur.md)
-* [Lettertypen](../css/lettertype.md)
-* [Lijsten](../css/lijsten.md)
+* [CSS introductie](../css/basis/README.md)
+* [⭐️ Selectors](../css/selectors/README.md)
+  * [Class & ID](../css/selectors/class-en-id.md)
+  * [Attributen](../css/selectors/attributen.md)
+* [Kleuren](../css/basis/kleur.md)
+* [Lettertypen](../css/basis/lettertype.md)
+* [Lijsten](../css/basis/lijsten.md)
 
 ## 🔗 Aanvullende bronnen
 

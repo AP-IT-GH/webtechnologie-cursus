@@ -1,0 +1,40 @@
+root: ./
+
+redirects:
+  css/animations: css/animaties/README.md
+  css/attributen: css/selectors/attributen.md
+  css/class-en-id: css/selectors/class-en-id.md
+  css/flex: css/lay-out/flex.md
+  css/grid: css/lay-out/grid.md
+  css/inheritance: css/cascade/inheritance.md
+  css/intro: css/basis/README.md
+  css/kleur: css/basis/kleur.md
+  css/lettertype: css/basis/lettertype.md
+  css/lijsten: css/basis/lijsten.md
+  css/media-queries: css/lay-out/media-queries.md
+  css/pseudo-selectors: css/selectors/pseudo-selectors.md
+  css/randen-en-spaties: css/box-model/randen-en-spaties.md
+  css/reset: css/box-model/reset.md
+  css/transities: css/animaties/transities.md
+  css/units: css/box-model/units.md
+  css/voorrangsregels: css/cascade/README.md
+  javascript/asynchroon-programmeren/intro: javascript/async/http-methoden/README.md
+  javascript/asynchroon-programmeren/intro/get: javascript/async/http-methoden/get.md
+  javascript/asynchroon-programmeren/intro/post: javascript/async/http-methoden/post.md
+  javascript/asynchroon-programmeren/promises: javascript/async/promises/README.md
+  javascript/asynchroon-programmeren/promises/async-await: javascript/async/promises/async-await.md
+  javascript/asynchroon-programmeren/wat-is-een-api: javascript/async/apis/README.md
+  javascript/asynchroon-programmeren/wat-is-een-api/api-aanroepen: javascript/async/apis/api-aanroepen.md
+  javascript/asynchroon-programmeren/wat-is-een-api/postman: javascript/async/apis/postman.md
+  javascript/basisconcepten/start: javascript/basisconcepten/js-linken.md
+  javascript/for: javascript/lussen/README.md
+  javascript/for/while: javascript/lussen/while.md
+  javascript/intro: javascript/dom/README.md
+  javascript/intro/css-aanpassen: javascript/dom/css-aanpassen.md
+  javascript/intro/html-aanpassen: javascript/dom/html-aanpassen.md
+  javascript/intro/werken-met-dom: javascript/dom/werken-met-dom.md
+  javascript/spreads: javascript/functies/spread-operator.md
+  javascript/vergelijkingsoperatoren: javascript/beslissingen/README.md
+  javascript/vergelijkingsoperatoren/if-switch: javascript/beslissingen/if-switch.md
+  javascript/vergelijkingsoperatoren/logische-operatoren: javascript/beslissingen/logische-operatoren.md
+  javascript/wat-is-js/bibliotheken: javascript/bibliotheken.md

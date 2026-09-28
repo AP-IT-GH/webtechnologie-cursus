@@ -13,7 +13,7 @@ coverY: 0
 
 ## 💻 Theorie
 
-* [⭐️ Media Queries](../css/media-queries.md)
+* [⭐️ Media Queries](../css/lay-out/media-queries.md)
 
 ## 🔗 Aanvullende bronnen
 

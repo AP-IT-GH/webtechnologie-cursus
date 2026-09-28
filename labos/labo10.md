@@ -13,8 +13,8 @@ coverY: 0
 
 ## 💻 Theorie
 
-* [CSS Animations](../css/animations.md)
-* [Transitions](../css/transities.md)
+* [CSS Animations](../css/animaties/README.md)
+* [Transitions](../css/animaties/transities.md)
 
 ## 🔗 Aanvullende bronnen
 

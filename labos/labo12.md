@@ -13,5 +13,5 @@ coverY: 0
 
 ## 💻 Theorie
 
-* [JavaScript intro](https://apwt.gitbook.io/webtechnologie/javascript/wat-is-js)
-* [⭐ JavaScript basisconcepten](https://apwt.gitbook.io/webtechnologie/javascript/basisconcepten)
+* [JavaScript intro](../javascript/wat-is-js/README.md)
+* [⭐ JavaScript basisconcepten](../javascript/basisconcepten/README.md)
