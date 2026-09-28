@@ -25,6 +25,7 @@ coverY: 0
 
 * [CSS nesting](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting)
 * [CSS Dinner](https://flukeout.github.io/) (level 1 t/m 11)
+* [Color Picker uit Microsoft PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/color-picker): handige tool om de kleurcode van eender welke pixel op je scherm te kopiëren
 * Er bestaan veel verschillende manieren om CSS te schrijven en organiseren. Wil je graag meer structuur in je code brengen, dan kan je een van deze methodes overwegen:
   * [BEM (Block Element Modifier)](https://en.bem.info/methodology/)
   * [Cube CSS](https://cube.fyi/)
