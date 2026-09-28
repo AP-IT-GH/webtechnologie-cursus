@@ -15,6 +15,8 @@ coverY: 0
 
 * [Tabellen](../html/tabellen.md)
 * [CSS Variabelen](../css/variabelen.md)
+* [⭐️ Voorrangsregels](../css/voorrangsregels.md)
+* [Inheritance](../css/inheritance.md)
 
 ## 🔗 Aanvullende bronnen
 

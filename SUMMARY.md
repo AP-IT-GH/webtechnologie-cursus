@@ -104,7 +104,7 @@
   * [Labo 3 — CSS: introductie & syntax](labos/labo3.md)
   * [Labo 4 — CSS: selectors & block/inline](labos/labo4.md)
   * [Labo 5 — CSS: flexbox](labos/labo5.md)
-  * [Labo 6 — HTML: tabellen](labos/labo6.md)
+  * [Labo 6 — HTML: tabellen & CSS: cascade](labos/labo6.md)
   * [Labo 7 — CSS: grid](labos/labo7.md)
   * [Labo 8 — CSS: media queries & responsive design](labos/labo8.md)
   * [Labo 9 — HTML: formulieren & invoervelden](labos/labo9.md)
