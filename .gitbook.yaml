@@ -3,10 +3,15 @@ root: ./
 # Deze GitBook is gearchiveerd. De cursus staat nu op
 # https://webtechnologie.apload.be/
 #
-# Alle oude pagina's sturen door naar README.md, de enige pagina die overblijft.
-# Die pagina linkt naar de nieuwe cursus. GitBook kan in .gitbook.yaml niet naar
-# een externe URL doorsturen: een redirect moet naar een pagina in deze space
-# wijzen. Vandaar de tussenstap via de landingspagina.
+# Alle oude pagina's sturen door naar de landingspagina README.md, die naar de
+# nieuwe cursus linkt. GitBook kan in .gitbook.yaml niet naar een externe URL
+# doorsturen: een redirect moet naar een pagina in deze space wijzen. Vandaar de
+# tussenstap via die landingspagina.
+#
+# /labos en /projectopdracht staan niet in deze lijst: GitBook blijft die twee
+# paden zelf afhandelen omdat het mappen met onderliggende pagina's waren, zodat
+# een redirect er niet op aanslaat. Die twee hebben daarom hun eigen pagina die
+# naar de nieuwe site verwijst.
 #
 # De lijst bevat elk pad dat ooit bestaan heeft: de structuur van vlak voor de
 # archivering en de oudere paden van voor de herstructurering van de
@@ -136,7 +141,6 @@ redirects:
   javascript/wat-is-js/bibliotheken: README.md
   javascript/wat-is-js/geschiedenis: README.md
   javascript/wat-is-js/interpreter: README.md
-  labos: README.md
   labos/labo0: README.md
   labos/labo1: README.md
   labos/labo10: README.md
@@ -161,7 +165,6 @@ redirects:
   labos/labo8: README.md
   labos/labo9: README.md
   labos/oplossingen: README.md
-  projectopdracht: README.md
   projectopdracht/deelopdracht-1-concept-content: README.md
   projectopdracht/deelopdracht-2-opbouw-html-css: README.md
   projectopdracht/deelopdracht-3-development-responsive: README.md
