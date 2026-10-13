@@ -22,7 +22,7 @@ Kwam je hier via een oude link naar een specifieke pagina? Elke oude link stuurt
 ## Snel naar de juiste plek
 
 * [Inleiding en startgids](https://webtechnologie.apload.be/)
-* [IDE installeren](https://webtechnologie.apload.be/ide)
+* [IDE installeren](https://webtechnologie.apload.be/tooling)
 * [Coding guidelines](https://webtechnologie.apload.be/coding-guidelines)
 * [Overzicht labo's](https://webtechnologie.apload.be/labos)
 * [Projectopdracht](https://webtechnologie.apload.be/projectopdracht)
