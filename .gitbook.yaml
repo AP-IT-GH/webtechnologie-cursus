@@ -1,7 +1,7 @@
 root: ./
 
 # Deze GitBook is gearchiveerd. De cursus staat nu op
-# https://webtechnologie.apload.be/
+# https://ap-it-gh.github.io/webtechnologie-docusaurus/
 #
 # Alle oude pagina's sturen door naar de landingspagina README.md, die naar de
 # nieuwe cursus linkt. GitBook kan in .gitbook.yaml niet naar een externe URL
